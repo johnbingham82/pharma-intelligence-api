@@ -555,17 +555,3 @@ async def get_country_detail(country_code: str):
             status_code=500,
             detail=f"Failed to fetch country data: {str(e)}"
         )
-
-
-# Exception handlers
-@router.exception_handler(HTTPException)
-async def http_exception_handler(request, exc):
-    """Custom HTTP exception handler"""
-    return JSONResponse(
-        status_code=exc.status_code,
-        content=ErrorResponse(
-            error=exc.detail,
-            detail=None,
-            timestamp=datetime.now()
-        ).dict()
-    )
