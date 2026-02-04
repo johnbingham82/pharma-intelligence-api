@@ -9,8 +9,8 @@ from fastapi.responses import JSONResponse
 from datetime import datetime
 import time
 
-from api.routes import router
-from api.models import ErrorResponse
+from routes import router
+from models import ErrorResponse
 
 # ============================================================================
 # APPLICATION SETUP
