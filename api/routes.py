@@ -384,6 +384,8 @@ async def get_country_detail(country_code: str):
                 
             except Exception as e:
                 print(f"Error loading PBS data: {e}")
+                import traceback
+                traceback.print_exc()
                 # Fallback to generated data
                 states = ['NSW', 'VIC', 'QLD', 'SA', 'WA', 'TAS', 'NT', 'ACT']
                 for state in states:
@@ -395,6 +397,25 @@ async def get_country_detail(country_code: str):
                         'cost': prescriptions * random.uniform(15, 35),
                         'prescribers': int(prescriptions / 120)
                     })
+                
+                # Generate monthly trend data
+                import random
+                from datetime import datetime, timedelta
+                base_date = datetime(2024, 7, 1)
+                for i in range(12):
+                    month_date = base_date + timedelta(days=30*i)
+                    monthly_data.append({
+                        'month': month_date.strftime('%Y-%m'),
+                        'prescriptions': random.randint(600000, 900000),
+                        'cost': random.randint(18000000, 25000000)
+                    })
+                
+                # Top drugs
+                top_drugs = [
+                    {'name': 'Metformin', 'prescriptions': 9800000, 'cost': 320000000},
+                    {'name': 'Atorvastatin', 'prescriptions': 8500000, 'cost': 280000000},
+                    {'name': 'Rosuvastatin', 'prescriptions': 7200000, 'cost': 250000000}
+                ]
         
         elif country == 'UK':
             # UK - Generate sample regional data (NHS regions)
@@ -415,6 +436,17 @@ async def get_country_detail(country_code: str):
                     'prescriptions': prescriptions,
                     'cost': prescriptions * random.uniform(8, 25),
                     'prescribers': int(prescriptions / 150)
+                })
+            
+            # Monthly trend data
+            from datetime import datetime, timedelta
+            base_date = datetime(2024, 7, 1)
+            for i in range(12):
+                month_date = base_date + timedelta(days=30*i)
+                monthly_data.append({
+                    'month': month_date.strftime('%Y-%m'),
+                    'prescriptions': random.randint(1800000, 2500000),
+                    'cost': random.randint(40000000, 60000000)
                 })
             
             # Top drugs
@@ -442,6 +474,17 @@ async def get_country_detail(country_code: str):
                     'prescribers': int(prescriptions / 200)
                 })
             
+            # Monthly trend data (quarterly updates for Medicare)
+            from datetime import datetime, timedelta
+            base_date = datetime(2024, 1, 1)
+            for i in range(4):  # 4 quarters
+                quarter_date = base_date + timedelta(days=90*i)
+                monthly_data.append({
+                    'month': quarter_date.strftime('%Y-Q') + str(i+1),
+                    'prescriptions': random.randint(18000000, 25000000),
+                    'cost': random.randint(1800000000, 2500000000)
+                })
+            
             # Top drugs
             top_drugs = [
                 {'name': 'Lisinopril', 'prescriptions': 8500000, 'cost': 950000000},
@@ -462,6 +505,17 @@ async def get_country_detail(country_code: str):
                     'prescriptions': prescriptions,
                     'cost': prescriptions * random.uniform(20, 60),
                     'prescribers': int(prescriptions / 100)
+                })
+            
+            # Monthly trend data
+            from datetime import datetime, timedelta
+            base_date = datetime(2024, 7, 1)
+            for i in range(12):
+                month_date = base_date + timedelta(days=30*i)
+                monthly_data.append({
+                    'month': month_date.strftime('%Y-%m'),
+                    'prescriptions': random.randint(800000, 1500000),
+                    'cost': random.randint(15000000, 30000000)
                 })
             
             # Top drugs (generic EU list)
