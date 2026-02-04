@@ -26,6 +26,7 @@ from data_sources_uk import UKDataSource
 from data_sources_us import USDataSource
 from data_sources_eu import EUDataSource
 from data_sources_au import AustraliaDataSource
+from common_drugs import COMMON_DRUGS, get_drug_info, search_drugs as search_common_drugs
 
 router = APIRouter()
 
@@ -140,6 +141,33 @@ async def list_countries():
         )
     ]
     return countries
+
+
+@router.get("/drugs/list", tags=["Drugs"])
+async def list_drugs():
+    """
+    List all available drugs in the common drugs database
+    
+    Returns comprehensive list of supported drugs with metadata
+    """
+    drugs_list = []
+    for key, drug in COMMON_DRUGS.items():
+        drugs_list.append({
+            'id': key,
+            'name': drug['generic_name'],
+            'brand_names': drug['brand_names'],
+            'class': drug['class'],
+            'indications': drug['indications'],
+            'available_countries': list(drug['typical_volumes'].keys())
+        })
+    
+    # Sort by name
+    drugs_list.sort(key=lambda x: x['name'])
+    
+    return {
+        'drugs': drugs_list,
+        'count': len(drugs_list)
+    }
 
 
 @router.post("/drugs/search", response_model=DrugSearchResponse, tags=["Drugs"])
@@ -410,12 +438,18 @@ async def get_country_detail(country_code: str):
                         'cost': random.randint(18000000, 25000000)
                     })
                 
-                # Top drugs
-                top_drugs = [
-                    {'name': 'Metformin', 'prescriptions': 9800000, 'cost': 320000000},
-                    {'name': 'Atorvastatin', 'prescriptions': 8500000, 'cost': 280000000},
-                    {'name': 'Rosuvastatin', 'prescriptions': 7200000, 'cost': 250000000}
-                ]
+                # Top drugs - get from common drugs database
+                country_key = 'AU'
+                top_drug_keys = ['metformin', 'atorvastatin', 'rosuvastatin', 'amlodipine', 'omeprazole', 'ramipril', 'levothyroxine', 'salbutamol', 'perindopril', 'lansoprazole']
+                for drug_key in top_drug_keys[:10]:
+                    drug_data = COMMON_DRUGS.get(drug_key)
+                    if drug_data and country_key in drug_data['typical_volumes']:
+                        volumes = drug_data['typical_volumes'][country_key]
+                        top_drugs.append({
+                            'name': drug_data['generic_name'],
+                            'prescriptions': volumes['prescriptions'],
+                            'cost': volumes['cost']
+                        })
         
         elif country == 'UK':
             # UK - Generate sample regional data (NHS regions)
@@ -449,12 +483,18 @@ async def get_country_detail(country_code: str):
                     'cost': random.randint(40000000, 60000000)
                 })
             
-            # Top drugs
-            top_drugs = [
-                {'name': 'Atorvastatin', 'prescriptions': 2500000, 'cost': 45000000},
-                {'name': 'Metformin', 'prescriptions': 2200000, 'cost': 38000000},
-                {'name': 'Amlodipine', 'prescriptions': 2100000, 'cost': 35000000}
-            ]
+            # Top drugs - get from common drugs database
+            country_key = 'UK'
+            top_drug_keys = ['atorvastatin', 'metformin', 'amlodipine', 'omeprazole', 'simvastatin', 'ramipril', 'levothyroxine', 'salbutamol', 'lansoprazole', 'paracetamol']
+            for drug_key in top_drug_keys[:10]:
+                drug_data = COMMON_DRUGS.get(drug_key)
+                if drug_data and country_key in drug_data['typical_volumes']:
+                    volumes = drug_data['typical_volumes'][country_key]
+                    top_drugs.append({
+                        'name': drug_data['generic_name'],
+                        'prescriptions': volumes['prescriptions'],
+                        'cost': volumes['cost']
+                    })
         
         elif country == 'US':
             # US - State-level data
@@ -485,12 +525,18 @@ async def get_country_detail(country_code: str):
                     'cost': random.randint(1800000000, 2500000000)
                 })
             
-            # Top drugs
-            top_drugs = [
-                {'name': 'Lisinopril', 'prescriptions': 8500000, 'cost': 950000000},
-                {'name': 'Metformin', 'prescriptions': 7800000, 'cost': 880000000},
-                {'name': 'Atorvastatin', 'prescriptions': 7200000, 'cost': 1100000000}
-            ]
+            # Top drugs - get from common drugs database
+            country_key = 'US'
+            top_drug_keys = ['lisinopril', 'metformin', 'atorvastatin', 'levothyroxine', 'amlodipine', 'omeprazole', 'simvastatin', 'salbutamol', 'losartan', 'sertraline']
+            for drug_key in top_drug_keys[:10]:
+                drug_data = COMMON_DRUGS.get(drug_key)
+                if drug_data and country_key in drug_data['typical_volumes']:
+                    volumes = drug_data['typical_volumes'][country_key]
+                    top_drugs.append({
+                        'name': drug_data['generic_name'],
+                        'prescriptions': volumes['prescriptions'],
+                        'cost': volumes['cost']
+                    })
         
         else:
             # EU countries - Generate sample regional data
@@ -518,12 +564,19 @@ async def get_country_detail(country_code: str):
                     'cost': random.randint(15000000, 30000000)
                 })
             
-            # Top drugs (generic EU list)
-            top_drugs = [
-                {'name': 'Metformin', 'prescriptions': 800000, 'cost': 15000000},
-                {'name': 'Atorvastatin', 'prescriptions': 750000, 'cost': 18000000},
-                {'name': 'Amlodipine', 'prescriptions': 700000, 'cost': 12000000}
-            ]
+            # Top drugs - get from common drugs database
+            country_map = {'FR': 'FR', 'DE': 'DE', 'IT': 'IT', 'ES': 'ES', 'NL': 'NL'}
+            country_key = country_map.get(country, 'FR')
+            top_drug_keys = ['metformin', 'atorvastatin', 'amlodipine', 'omeprazole', 'simvastatin', 'ramipril', 'levothyroxine', 'salbutamol', 'lansoprazole', 'rosuvastatin']
+            for drug_key in top_drug_keys[:10]:
+                drug_data = COMMON_DRUGS.get(drug_key)
+                if drug_data and country_key in drug_data['typical_volumes']:
+                    volumes = drug_data['typical_volumes'][country_key]
+                    top_drugs.append({
+                        'name': drug_data['generic_name'],
+                        'prescriptions': volumes['prescriptions'],
+                        'cost': volumes['cost']
+                    })
         
         # Country metadata
         country_info = {
