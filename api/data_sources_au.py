@@ -28,6 +28,7 @@ class AustraliaDataSource(DataSource):
     
     def __init__(self):
         self.pbs_data_cache = {}
+        self.pbs_data = None  # Initialize to None, will be set when data is loaded
         self.cache = {}
         
         # Available drugs with real PBS data
@@ -65,6 +66,10 @@ class AustraliaDataSource(DataSource):
             
             # Cache it
             self.pbs_data_cache[drug_name] = pbs_data
+            
+            # Also set self.pbs_data for first drug loaded (for get_latest_data_date)
+            if self.pbs_data is None:
+                self.pbs_data = pbs_data
             
             print(f"✓ Loaded real PBS data for {pbs_data['metadata']['drug']}")
             print(f"  Period: {pbs_data['metadata']['period_start']} to {pbs_data['metadata']['period_end']}")
