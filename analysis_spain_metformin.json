@@ -1,0 +1,151 @@
+{
+  "country": "Spain",
+  "country_code": "ES",
+  "drug": "metformin",
+  "drug_code": "A10BA02",
+  "period": "2022",
+  "summary": {
+    "total_regions": 17,
+    "total_prescriptions": 1101000,
+    "total_cost_eur": 46360000,
+    "avg_per_region": 64764
+  },
+  "regions": [
+    {
+      "code": "ES-AN",
+      "name": "Comunidad Andaluc\u00eda",
+      "location": "Andaluc\u00eda, Spain",
+      "prescriptions": 165000,
+      "cost_eur": 6950000,
+      "market_share_pct": 14.99
+    },
+    {
+      "code": "ES-CT",
+      "name": "Comunidad Catalu\u00f1a",
+      "location": "Catalu\u00f1a, Spain",
+      "prescriptions": 148000,
+      "cost_eur": 6230000,
+      "market_share_pct": 13.44
+    },
+    {
+      "code": "ES-MD",
+      "name": "Comunidad Comunidad de Madrid",
+      "location": "Comunidad de Madrid, Spain",
+      "prescriptions": 132000,
+      "cost_eur": 5560000,
+      "market_share_pct": 11.99
+    },
+    {
+      "code": "ES-VC",
+      "name": "Comunidad Comunidad Valenciana",
+      "location": "Comunidad Valenciana, Spain",
+      "prescriptions": 98000,
+      "cost_eur": 4130000,
+      "market_share_pct": 8.9
+    },
+    {
+      "code": "ES-GA",
+      "name": "Comunidad Galicia",
+      "location": "Galicia, Spain",
+      "prescriptions": 82000,
+      "cost_eur": 3450000,
+      "market_share_pct": 7.45
+    },
+    {
+      "code": "ES-CL",
+      "name": "Comunidad Castilla y Le\u00f3n",
+      "location": "Castilla y Le\u00f3n, Spain",
+      "prescriptions": 75000,
+      "cost_eur": 3160000,
+      "market_share_pct": 6.81
+    },
+    {
+      "code": "ES-PV",
+      "name": "Comunidad Pa\u00eds Vasco",
+      "location": "Pa\u00eds Vasco, Spain",
+      "prescriptions": 68000,
+      "cost_eur": 2860000,
+      "market_share_pct": 6.18
+    },
+    {
+      "code": "ES-CM",
+      "name": "Comunidad Castilla-La Mancha",
+      "location": "Castilla-La Mancha, Spain",
+      "prescriptions": 62000,
+      "cost_eur": 2610000,
+      "market_share_pct": 5.63
+    },
+    {
+      "code": "ES-MU",
+      "name": "Comunidad Regi\u00f3n de Murcia",
+      "location": "Regi\u00f3n de Murcia, Spain",
+      "prescriptions": 47000,
+      "cost_eur": 1980000,
+      "market_share_pct": 4.27
+    },
+    {
+      "code": "ES-AR",
+      "name": "Comunidad Arag\u00f3n",
+      "location": "Arag\u00f3n, Spain",
+      "prescriptions": 42000,
+      "cost_eur": 1770000,
+      "market_share_pct": 3.81
+    },
+    {
+      "code": "ES-IB",
+      "name": "Comunidad Islas Baleares",
+      "location": "Islas Baleares, Spain",
+      "prescriptions": 38000,
+      "cost_eur": 1600000,
+      "market_share_pct": 3.45
+    },
+    {
+      "code": "ES-EX",
+      "name": "Comunidad Extremadura",
+      "location": "Extremadura, Spain",
+      "prescriptions": 35000,
+      "cost_eur": 1470000,
+      "market_share_pct": 3.18
+    },
+    {
+      "code": "ES-AS",
+      "name": "Comunidad Principado de Asturias",
+      "location": "Principado de Asturias, Spain",
+      "prescriptions": 32000,
+      "cost_eur": 1350000,
+      "market_share_pct": 2.91
+    },
+    {
+      "code": "ES-NC",
+      "name": "Comunidad Comunidad Foral de Navarra",
+      "location": "Comunidad Foral de Navarra, Spain",
+      "prescriptions": 21000,
+      "cost_eur": 880000,
+      "market_share_pct": 1.91
+    },
+    {
+      "code": "ES-CN",
+      "name": "Comunidad Islas Canarias",
+      "location": "Islas Canarias, Spain",
+      "prescriptions": 28000,
+      "cost_eur": 1180000,
+      "market_share_pct": 2.54
+    },
+    {
+      "code": "ES-CB",
+      "name": "Comunidad Cantabria",
+      "location": "Cantabria, Spain",
+      "prescriptions": 18000,
+      "cost_eur": 760000,
+      "market_share_pct": 1.63
+    },
+    {
+      "code": "ES-RI",
+      "name": "Comunidad La Rioja",
+      "location": "La Rioja, Spain",
+      "prescriptions": 10000,
+      "cost_eur": 420000,
+      "market_share_pct": 0.91
+    }
+  ]
+}

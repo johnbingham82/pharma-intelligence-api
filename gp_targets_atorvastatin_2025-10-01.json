@@ -1,0 +1,413 @@
+{
+  "drug": "atorvastatin",
+  "bnf_code": "0212000B0",
+  "date": "2025-10-01",
+  "region": null,
+  "top_targets": [
+    {
+      "code": "F85002",
+      "name": "MEDICUS HEALTH PARTNERS",
+      "items": 10664,
+      "quantity": 302764.0,
+      "cost": 6988.0,
+      "score": 10664.0
+    },
+    {
+      "code": "A84036",
+      "name": "VALENS MEDICAL PARTNERSHIP",
+      "items": 9400,
+      "quantity": 224566.0,
+      "cost": 7886.42,
+      "score": 9400.0
+    },
+    {
+      "code": "B83033",
+      "name": "MODALITY PARTNERSHIP (AWC)",
+      "items": 9363,
+      "quantity": 307545.0,
+      "cost": 7410.12,
+      "score": 9363.0
+    },
+    {
+      "code": "D81043",
+      "name": "GRANTA MEDICAL PRACTICES",
+      "items": 7871,
+      "quantity": 217514.0,
+      "cost": 5087.84,
+      "score": 7871.0
+    },
+    {
+      "code": "B81061",
+      "name": "THE RIDINGS MEDICAL GROUP",
+      "items": 7850,
+      "quantity": 207648.0,
+      "cost": 5181.83,
+      "score": 7850.0
+    },
+    {
+      "code": "G85034",
+      "name": "NEXUS HEALTH GROUP",
+      "items": 6800,
+      "quantity": 213254.0,
+      "cost": 5305.42,
+      "score": 6800.0
+    },
+    {
+      "code": "Y01008",
+      "name": "BAY MEDICAL GROUP",
+      "items": 6731,
+      "quantity": 227322.0,
+      "cost": 4785.92,
+      "score": 6731.0
+    },
+    {
+      "code": "B81048",
+      "name": "MODALITY PARTNERSHIP (HULL)",
+      "items": 6399,
+      "quantity": 196489.0,
+      "cost": 5160.52,
+      "score": 6399.0
+    },
+    {
+      "code": "C83019",
+      "name": "BEACON MEDICAL PRACTICE",
+      "items": 6245,
+      "quantity": 150992.0,
+      "cost": 3688.46,
+      "score": 6245.0
+    },
+    {
+      "code": "B81025",
+      "name": "HOLDERNESS HEALTH",
+      "items": 6127,
+      "quantity": 171948.0,
+      "cost": 3852.86,
+      "score": 6127.0
+    },
+    {
+      "code": "B81069",
+      "name": "DRS REDDY AND NUNN",
+      "items": 6121,
+      "quantity": 171898.0,
+      "cost": 3778.64,
+      "score": 6121.0
+    },
+    {
+      "code": "D82044",
+      "name": "VIDA HEALTHCARE",
+      "items": 6002,
+      "quantity": 163693.0,
+      "cost": 3296.23,
+      "score": 6002.0
+    },
+    {
+      "code": "E82005",
+      "name": "STANMORE MEDICAL GROUP",
+      "items": 5715,
+      "quantity": 181038.0,
+      "cost": 3742.9,
+      "score": 5715.0
+    },
+    {
+      "code": "B81008",
+      "name": "HULL FAMILY PRACTICE",
+      "items": 5711,
+      "quantity": 140091.0,
+      "cost": 5049.86,
+      "score": 5711.0
+    },
+    {
+      "code": "K83002",
+      "name": "LAKESIDE HEALTHCARE",
+      "items": 5681,
+      "quantity": 155491.0,
+      "cost": 3448.94,
+      "score": 5681.0
+    },
+    {
+      "code": "P81002",
+      "name": "LANCASTER MEDICAL PRACTICE",
+      "items": 5647,
+      "quantity": 181511.0,
+      "cost": 3777.04,
+      "score": 5647.0
+    },
+    {
+      "code": "P88026",
+      "name": "HEATON MOOR MEDICAL GROUP",
+      "items": 5625,
+      "quantity": 184000.0,
+      "cost": 4150.59,
+      "score": 5625.0
+    },
+    {
+      "code": "D81026",
+      "name": "BOROUGHBURY MEDICAL CENTRE",
+      "items": 5585,
+      "quantity": 158879.0,
+      "cost": 3278.86,
+      "score": 5585.0
+    },
+    {
+      "code": "L81086",
+      "name": "MENDIP VALE MEDICAL PRACTICE",
+      "items": 5440,
+      "quantity": 199257.0,
+      "cost": 4534.18,
+      "score": 5440.0
+    },
+    {
+      "code": "F81042",
+      "name": "COLCHESTER MEDICAL PRACTICE",
+      "items": 5303,
+      "quantity": 145418.0,
+      "cost": 3193.23,
+      "score": 5303.0
+    },
+    {
+      "code": "J82155",
+      "name": "PORTSDOWN GROUP PRACTICE",
+      "items": 5255,
+      "quantity": 196545.0,
+      "cost": 4224.62,
+      "score": 5255.0
+    },
+    {
+      "code": "A82047",
+      "name": "JAMES STREET GROUP PRACT",
+      "items": 5251,
+      "quantity": 149839.0,
+      "cost": 3183.13,
+      "score": 5251.0
+    },
+    {
+      "code": "M92612",
+      "name": "HEALTH AND BEYOND",
+      "items": 5202,
+      "quantity": 157181.0,
+      "cost": 4350.82,
+      "score": 5202.0
+    },
+    {
+      "code": "C83064",
+      "name": "MARISCO MEDICAL PRACTICE",
+      "items": 5112,
+      "quantity": 110738.0,
+      "cost": 3572.05,
+      "score": 5112.0
+    },
+    {
+      "code": "P83012",
+      "name": "TOWER FAMILY HEALTHCARE",
+      "items": 5063,
+      "quantity": 193823.0,
+      "cost": 4184.27,
+      "score": 5063.0
+    },
+    {
+      "code": "J83002",
+      "name": "WESTROP MEDICAL PRACTICE",
+      "items": 5043,
+      "quantity": 151389.0,
+      "cost": 6918.54,
+      "score": 5043.0
+    },
+    {
+      "code": "M85063",
+      "name": "MIDLANDS MEDICAL PARTNERSHIP",
+      "items": 4983,
+      "quantity": 176151.0,
+      "cost": 6410.38,
+      "score": 4983.0
+    },
+    {
+      "code": "C84001",
+      "name": "LARWOOD SURGERY",
+      "items": 4948,
+      "quantity": 129779.0,
+      "cost": 2751.94,
+      "score": 4948.0
+    },
+    {
+      "code": "B81039",
+      "name": "THE ROXTON PRACTICE",
+      "items": 4926,
+      "quantity": 134007.0,
+      "cost": 3683.3,
+      "score": 4926.0
+    },
+    {
+      "code": "E82001",
+      "name": "ROTHSCHILD HOUSE GROUP",
+      "items": 4767,
+      "quantity": 143313.0,
+      "cost": 3094.66,
+      "score": 4767.0
+    },
+    {
+      "code": "A83022",
+      "name": "THE MEDICAL GROUP",
+      "items": 4673,
+      "quantity": 129894.0,
+      "cost": 2899.65,
+      "score": 4673.0
+    },
+    {
+      "code": "B82005",
+      "name": "PRIORY MEDICAL GROUP",
+      "items": 4668,
+      "quantity": 143022.0,
+      "cost": 6218.0,
+      "score": 4668.0
+    },
+    {
+      "code": "B87016",
+      "name": "WHITE ROSE SURGERY",
+      "items": 4613,
+      "quantity": 117156.0,
+      "cost": 3106.45,
+      "score": 4613.0
+    },
+    {
+      "code": "C84024",
+      "name": "NEWGATE MEDICAL GROUP",
+      "items": 4552,
+      "quantity": 123350.0,
+      "cost": 3341.77,
+      "score": 4552.0
+    },
+    {
+      "code": "B87030",
+      "name": "HEALTH CARE FIRST PARTNERSHIP",
+      "items": 4494,
+      "quantity": 121856.0,
+      "cost": 3121.04,
+      "score": 4494.0
+    },
+    {
+      "code": "A84009",
+      "name": "RAILWAY MEDICAL GROUP",
+      "items": 4490,
+      "quantity": 136913.0,
+      "cost": 4110.1,
+      "score": 4490.0
+    },
+    {
+      "code": "J81012",
+      "name": "SHORE MEDICAL",
+      "items": 4490,
+      "quantity": 185887.0,
+      "cost": 3826.06,
+      "score": 4490.0
+    },
+    {
+      "code": "J81620",
+      "name": "BLACKMORE VALE PARTNERSHIP",
+      "items": 4477,
+      "quantity": 125766.0,
+      "cost": 2521.94,
+      "score": 4477.0
+    },
+    {
+      "code": "Y00137",
+      "name": "WILLOWS HEALTH",
+      "items": 4403,
+      "quantity": 124913.0,
+      "cost": 2806.75,
+      "score": 4403.0
+    },
+    {
+      "code": "L83006",
+      "name": "MAYFLOWER MEDICAL GROUP",
+      "items": 4389,
+      "quantity": 143439.0,
+      "cost": 4439.92,
+      "score": 4389.0
+    },
+    {
+      "code": "J82083",
+      "name": "THE WILLOW GROUP",
+      "items": 4375,
+      "quantity": 169918.0,
+      "cost": 3693.56,
+      "score": 4375.0
+    },
+    {
+      "code": "D83050",
+      "name": "CARDINAL MEDICAL PRACTICE",
+      "items": 4366,
+      "quantity": 111816.0,
+      "cost": 2246.43,
+      "score": 4366.0
+    },
+    {
+      "code": "K81075",
+      "name": "FARNHAM ROAD PRACTICE",
+      "items": 4263,
+      "quantity": 120554.0,
+      "cost": 2590.49,
+      "score": 4263.0
+    },
+    {
+      "code": "F81681",
+      "name": "CLACTON COMMUNITY PRACTICES",
+      "items": 4245,
+      "quantity": 109793.0,
+      "cost": 2505.16,
+      "score": 4245.0
+    },
+    {
+      "code": "A82016",
+      "name": "CARLISLE HEALTHCARE",
+      "items": 4197,
+      "quantity": 162119.0,
+      "cost": 3393.87,
+      "score": 4197.0
+    },
+    {
+      "code": "J82007",
+      "name": "COASTAL MEDICAL PARTNERSHIP",
+      "items": 4192,
+      "quantity": 152009.0,
+      "cost": 3624.43,
+      "score": 4192.0
+    },
+    {
+      "code": "B82050",
+      "name": "MOWBRAY HOUSE SURGERY",
+      "items": 4180,
+      "quantity": 116427.0,
+      "cost": 2608.43,
+      "score": 4180.0
+    },
+    {
+      "code": "A81021",
+      "name": "NORMANBY MEDICAL CENTRE",
+      "items": 4179,
+      "quantity": 103907.0,
+      "cost": 2430.46,
+      "score": 4179.0
+    },
+    {
+      "code": "C82009",
+      "name": "MARKET HARBOROUGH MED.CTR",
+      "items": 4177,
+      "quantity": 105338.0,
+      "cost": 2550.76,
+      "score": 4177.0
+    },
+    {
+      "code": "B83055",
+      "name": "THE RIDGE MEDICAL PRACT.",
+      "items": 4138,
+      "quantity": 110788.0,
+      "cost": 2810.0,
+      "score": 4138.0
+    }
+  ],
+  "summary": {
+    "total_practices": 6699,
+    "total_items": 6750037,
+    "total_cost": 5293024.57
+  }
+}

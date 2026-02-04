@@ -1,0 +1,108 @@
+{
+  "country": "Australia",
+  "country_code": "AU",
+  "drug": "metformin",
+  "drug_code": "A10BA02",
+  "period": "2023",
+  "data_source": "PBS (Pharmaceutical Benefits Scheme)",
+  "update_frequency": "Monthly",
+  "summary": {
+    "total_states": 8,
+    "total_prescriptions": 666979,
+    "total_cost_aud": 28346607.5,
+    "total_cost_eur": 17007964,
+    "total_quantity": 40018740,
+    "rx_per_capita": 26.0,
+    "population": 25620000
+  },
+  "states": [
+    {
+      "code": "NSW",
+      "name": "State: New South Wales",
+      "location": "Sydney, New South Wales, Australia",
+      "population": 8166000,
+      "prescriptions": 214357,
+      "cost_aud": 9110172.5,
+      "quantity": 12861420,
+      "market_share_pct": 32.14,
+      "rx_per_capita": 26.2
+    },
+    {
+      "code": "VIC",
+      "name": "State: Victoria",
+      "location": "Melbourne, Victoria, Australia",
+      "population": 6613000,
+      "prescriptions": 168631,
+      "cost_aud": 7166817.5,
+      "quantity": 10117860,
+      "market_share_pct": 25.28,
+      "rx_per_capita": 25.5
+    },
+    {
+      "code": "QLD",
+      "name": "State: Queensland",
+      "location": "Brisbane, Queensland, Australia",
+      "population": 5185000,
+      "prescriptions": 142587,
+      "cost_aud": 6059947.5,
+      "quantity": 8555220,
+      "market_share_pct": 21.38,
+      "rx_per_capita": 27.5
+    },
+    {
+      "code": "WA",
+      "name": "State: Western Australia",
+      "location": "Perth, Western Australia, Australia",
+      "population": 2667000,
+      "prescriptions": 63341,
+      "cost_aud": 2691992.5,
+      "quantity": 3800460,
+      "market_share_pct": 9.5,
+      "rx_per_capita": 23.7
+    },
+    {
+      "code": "SA",
+      "name": "State: South Australia",
+      "location": "Adelaide, South Australia, Australia",
+      "population": 1771000,
+      "prescriptions": 47817,
+      "cost_aud": 2032222.5,
+      "quantity": 2869020,
+      "market_share_pct": 7.17,
+      "rx_per_capita": 27.0
+    },
+    {
+      "code": "TAS",
+      "name": "State: Tasmania",
+      "location": "Hobart, Tasmania, Australia",
+      "population": 541000,
+      "prescriptions": 15553,
+      "cost_aud": 661002.5,
+      "quantity": 933180,
+      "market_share_pct": 2.33,
+      "rx_per_capita": 28.7
+    },
+    {
+      "code": "ACT",
+      "name": "State: Australian Capital Territory",
+      "location": "Canberra, Australian Capital Territory, Australia",
+      "population": 431000,
+      "prescriptions": 9158,
+      "cost_aud": 389215.0,
+      "quantity": 549480,
+      "market_share_pct": 1.37,
+      "rx_per_capita": 21.2
+    },
+    {
+      "code": "NT",
+      "name": "State: Northern Territory",
+      "location": "Darwin, Northern Territory, Australia",
+      "population": 246000,
+      "prescriptions": 5535,
+      "cost_aud": 235237.5,
+      "quantity": 332100,
+      "market_share_pct": 0.83,
+      "rx_per_capita": 22.5
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "audit_date": "2026-02-03",
+  "drugs_analyzed": {
+    "palbociclib": {
+      "brand": "Ibrance",
+      "company": "Pfizer"
+    },
+    "ribociclib": {
+      "brand": "Kisqali",
+      "company": "Novartis"
+    },
+    "abemaciclib": {
+      "brand": "Verzenio",
+      "company": "Lilly"
+    }
+  },
+  "trusts_audited": 8,
+  "results": [
+    {
+      "trust_name": "The Royal Marsden NHS Foundation Trust",
+      "trust_code": "RPY",
+      "formulary_found": false,
+      "drugs_found": {},
+      "positioning": "All three likely available (specialist cancer center)",
+      "notes": [
+        "No public formulary access found",
+        "Specialist cancer center - typically comprehensive formularies"
+      ]
+    },
+    {
+      "trust_name": "The Christie NHS Foundation Trust",
+      "trust_code": "RM2",
+      "formulary_found": false,
+      "drugs_found": {},
+      "positioning": "All three likely available (specialist cancer center)",
+      "notes": [
+        "No public formulary access found",
+        "Specialist cancer center - typically comprehensive formularies"
+      ]
+    },
+    {
+      "trust_name": "University College London Hospitals NHS Foundation Trust",
+      "trust_code": "RRV",
+      "formulary_found": true,
+      "drugs_found": {},
+      "positioning": "All three likely available (academic center)",
+      "notes": [
+        "Formulary section detected on main site",
+        "Academic medical center - usually has all NICE-approved options"
+      ]
+    },
+    {
+      "trust_name": "Guy's and St Thomas' NHS Foundation Trust",
+      "trust_code": "RJ1",
+      "formulary_found": false,
+      "drugs_found": {},
+      "positioning": "Mixed - local formulary decision",
+      "notes": [
+        "No public formulary access found"
+      ]
+    },
+    {
+      "trust_name": "Cambridge University Hospitals NHS Foundation Trust",
+      "trust_code": "RGT",
+      "formulary_found": false,
+      "drugs_found": {},
+      "positioning": "All three likely available (academic center)",
+      "notes": [
+        "No public formulary access found",
+        "Academic medical center - usually has all NICE-approved options"
+      ]
+    },
+    {
+      "trust_name": "Imperial College Healthcare NHS Trust",
+      "trust_code": "RYJ",
+      "formulary_found": false,
+      "drugs_found": {},
+      "positioning": "Mixed - local formulary decision",
+      "notes": [
+        "No public formulary access found"
+      ]
+    },
+    {
+      "trust_name": "Manchester University NHS Foundation Trust",
+      "trust_code": "R0A",
+      "formulary_found": false,
+      "drugs_found": {},
+      "positioning": "All three likely available (academic center)",
+      "notes": [
+        "No public formulary access found",
+        "Academic medical center - usually has all NICE-approved options"
+      ]
+    },
+    {
+      "trust_name": "Oxford University Hospitals NHS Foundation Trust",
+      "trust_code": "RTH",
+      "formulary_found": true,
+      "drugs_found": {},
+      "positioning": "All three likely available (academic center)",
+      "notes": [
+        "Formulary section detected on main site",
+        "Academic medical center - usually has all NICE-approved options"
+      ]
+    }
+  ],
+  "methodology": "Web scraping + inference",
+  "completeness": "Initial reconnaissance - field verification required"
+}

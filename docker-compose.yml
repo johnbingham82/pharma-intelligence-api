@@ -1,0 +1,66 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    container_name: pharma-api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount source code for hot-reload during development
+      - ./api:/app
+      - ./data_sources_uk.py:/app/data_sources_uk.py
+      - ./data_sources_us.py:/app/data_sources_us.py
+      - ./data_sources_au.py:/app/data_sources_au.py
+      - ./data_sources_eu.py:/app/data_sources_eu.py
+      - ./pharma_intelligence_engine.py:/app/pharma_intelligence_engine.py
+      - ./pbs_data:/app/pbs_data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - ENV=development
+      - CORS_ORIGINS=http://localhost:3000,http://localhost:5173
+    restart: unless-stopped
+    networks:
+      - pharma-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Optional: Redis for caching (commented out for now)
+  # redis:
+  #   image: redis:7-alpine
+  #   container_name: pharma-redis
+  #   ports:
+  #     - "6379:6379"
+  #   volumes:
+  #     - redis_data:/data
+  #   networks:
+  #     - pharma-network
+
+  # Optional: PostgreSQL for user management (commented out for now)
+  # postgres:
+  #   image: postgres:15-alpine
+  #   container_name: pharma-postgres
+  #   environment:
+  #     POSTGRES_DB: pharma_intel
+  #     POSTGRES_USER: pharma_user
+  #     POSTGRES_PASSWORD: pharma_password
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   networks:
+  #     - pharma-network
+
+networks:
+  pharma-network:
+    driver: bridge
+
+# volumes:
+#   redis_data:
+#   postgres_data:

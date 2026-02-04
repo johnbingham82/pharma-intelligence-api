@@ -1,0 +1,465 @@
+{
+  "metadata": {
+    "source": "PBS (Pharmaceutical Benefits Scheme)",
+    "source_url": "https://www.pbs.gov.au/statistics/dos-and-dop/",
+    "data_type": "Real national data with demographic state distribution",
+    "drug": "Rosuvastatin",
+    "atc_code": "C10AA07",
+    "period_start": "2024-07",
+    "period_end": "2025-06",
+    "update_frequency": "Monthly",
+    "created": "2026-02-04"
+  },
+  "state_model": {
+    "NSW": {
+      "name": "New South Wales",
+      "population": 8166000,
+      "demographic_factor": 1.05,
+      "weighted_share": 0.3214
+    },
+    "VIC": {
+      "name": "Victoria",
+      "population": 6613000,
+      "demographic_factor": 1.02,
+      "weighted_share": 0.2528
+    },
+    "QLD": {
+      "name": "Queensland",
+      "population": 5185000,
+      "demographic_factor": 1.1,
+      "weighted_share": 0.2138
+    },
+    "WA": {
+      "name": "Western Australia",
+      "population": 2667000,
+      "demographic_factor": 0.95,
+      "weighted_share": 0.095
+    },
+    "SA": {
+      "name": "South Australia",
+      "population": 1771000,
+      "demographic_factor": 1.08,
+      "weighted_share": 0.0717
+    },
+    "TAS": {
+      "name": "Tasmania",
+      "population": 541000,
+      "demographic_factor": 1.15,
+      "weighted_share": 0.0233
+    },
+    "ACT": {
+      "name": "Australian Capital Territory",
+      "population": 431000,
+      "demographic_factor": 0.85,
+      "weighted_share": 0.0137
+    },
+    "NT": {
+      "name": "Northern Territory",
+      "population": 246000,
+      "demographic_factor": 0.9,
+      "weighted_share": 0.0083
+    }
+  },
+  "monthly_data": {
+    "NSW": {
+      "202407": {
+        "prescriptions": 453757,
+        "cost": 8052890.663505997
+      },
+      "202408": {
+        "prescriptions": 446221,
+        "cost": 7939902.573856004
+      },
+      "202409": {
+        "prescriptions": 425968,
+        "cost": 7597602.921768002
+      },
+      "202410": {
+        "prescriptions": 453017,
+        "cost": 8092326.999527999
+      },
+      "202411": {
+        "prescriptions": 436869,
+        "cost": 7814945.696050003
+      },
+      "202412": {
+        "prescriptions": 475350,
+        "cost": 8519937.968428005
+      },
+      "202501": {
+        "prescriptions": 406071,
+        "cost": 7302649.645382003
+      },
+      "202502": {
+        "prescriptions": 397217,
+        "cost": 7149198.227792004
+      },
+      "202503": {
+        "prescriptions": 434898,
+        "cost": 7831888.615236004
+      },
+      "202504": {
+        "prescriptions": 431729,
+        "cost": 7780537.534468005
+      },
+      "202505": {
+        "prescriptions": 452794,
+        "cost": 8161099.9144080095
+      },
+      "202506": {
+        "prescriptions": 429024,
+        "cost": 7747950.013894007
+      }
+    },
+    "VIC": {
+      "202407": {
+        "prescriptions": 356907,
+        "cost": 6334072.058911998
+      },
+      "202408": {
+        "prescriptions": 350979,
+        "cost": 6245200.282112003
+      },
+      "202409": {
+        "prescriptions": 335049,
+        "cost": 5975961.476736002
+      },
+      "202410": {
+        "prescriptions": 356325,
+        "cost": 6365091.056256
+      },
+      "202411": {
+        "prescriptions": 343623,
+        "cost": 6146914.349600002
+      },
+      "202412": {
+        "prescriptions": 373891,
+        "cost": 6701432.2290560035
+      },
+      "202501": {
+        "prescriptions": 319399,
+        "cost": 5743963.380064002
+      },
+      "202502": {
+        "prescriptions": 312435,
+        "cost": 5623264.8163840035
+      },
+      "202503": {
+        "prescriptions": 342073,
+        "cost": 6160240.951872003
+      },
+      "202504": {
+        "prescriptions": 339580,
+        "cost": 6119850.307136005
+      },
+      "202505": {
+        "prescriptions": 356149,
+        "cost": 6419184.998016008
+      },
+      "202506": {
+        "prescriptions": 337452,
+        "cost": 6094218.3058880055
+      }
+    },
+    "QLD": {
+      "202407": {
+        "prescriptions": 301846,
+        "cost": 5356901.132101997
+      },
+      "202408": {
+        "prescriptions": 296832,
+        "cost": 5281739.795552002
+      },
+      "202409": {
+        "prescriptions": 283360,
+        "cost": 5054037.040056
+      },
+      "202410": {
+        "prescriptions": 301354,
+        "cost": 5383134.761975999
+      },
+      "202411": {
+        "prescriptions": 290611,
+        "cost": 5198616.645350002
+      },
+      "202412": {
+        "prescriptions": 316210,
+        "cost": 5667587.858276002
+      },
+      "202501": {
+        "prescriptions": 270124,
+        "cost": 4857829.788994001
+      },
+      "202502": {
+        "prescriptions": 264234,
+        "cost": 4755751.652464002
+      },
+      "202503": {
+        "prescriptions": 289300,
+        "cost": 5209887.324012002
+      },
+      "202504": {
+        "prescriptions": 287192,
+        "cost": 5175727.830956004
+      },
+      "202505": {
+        "prescriptions": 301205,
+        "cost": 5428883.514936006
+      },
+      "202506": {
+        "prescriptions": 285393,
+        "cost": 5154050.133698004
+      }
+    },
+    "WA": {
+      "202407": {
+        "prescriptions": 134122,
+        "cost": 2380288.155049999
+      },
+      "202408": {
+        "prescriptions": 131894,
+        "cost": 2346890.928800001
+      },
+      "202409": {
+        "prescriptions": 125908,
+        "cost": 2245713.3714000005
+      },
+      "202410": {
+        "prescriptions": 133903,
+        "cost": 2391944.8193999995
+      },
+      "202411": {
+        "prescriptions": 129130,
+        "cost": 2309955.9462500005
+      },
+      "202412": {
+        "prescriptions": 140505,
+        "cost": 2518338.851900001
+      },
+      "202501": {
+        "prescriptions": 120027,
+        "cost": 2158530.5423500007
+      },
+      "202502": {
+        "prescriptions": 117410,
+        "cost": 2113173.0916000013
+      },
+      "202503": {
+        "prescriptions": 128548,
+        "cost": 2314963.9653000007
+      },
+      "202504": {
+        "prescriptions": 127611,
+        "cost": 2299785.5189000014
+      },
+      "202505": {
+        "prescriptions": 133837,
+        "cost": 2412272.843400003
+      },
+      "202506": {
+        "prescriptions": 126811,
+        "cost": 2290153.2399500017
+      }
+    },
+    "SA": {
+      "202407": {
+        "prescriptions": 101227,
+        "cost": 1796491.1654429992
+      },
+      "202408": {
+        "prescriptions": 99545,
+        "cost": 1771285.0483680007
+      },
+      "202409": {
+        "prescriptions": 95027,
+        "cost": 1694922.6182040004
+      },
+      "202410": {
+        "prescriptions": 101062,
+        "cost": 1805288.8794839997
+      },
+      "202411": {
+        "prescriptions": 97459,
+        "cost": 1743408.8562750006
+      },
+      "202412": {
+        "prescriptions": 106044,
+        "cost": 1900683.1124340007
+      },
+      "202501": {
+        "prescriptions": 90589,
+        "cost": 1629122.5251210004
+      },
+      "202502": {
+        "prescriptions": 88613,
+        "cost": 1594889.5859760009
+      },
+      "202503": {
+        "prescriptions": 97019,
+        "cost": 1747188.5927580006
+      },
+      "202504": {
+        "prescriptions": 96312,
+        "cost": 1735732.8600540012
+      },
+      "202505": {
+        "prescriptions": 101012,
+        "cost": 1820631.188124002
+      },
+      "202506": {
+        "prescriptions": 95709,
+        "cost": 1728463.0242570015
+      }
+    },
+    "TAS": {
+      "202407": {
+        "prescriptions": 32895,
+        "cost": 583796.9896069998
+      },
+      "202408": {
+        "prescriptions": 32348,
+        "cost": 575605.8804320003
+      },
+      "202409": {
+        "prescriptions": 30880,
+        "cost": 550790.7531960001
+      },
+      "202410": {
+        "prescriptions": 32841,
+        "cost": 586655.9399159999
+      },
+      "202411": {
+        "prescriptions": 31670,
+        "cost": 566547.0899750002
+      },
+      "202412": {
+        "prescriptions": 34460,
+        "cost": 617655.7394660002
+      },
+      "202501": {
+        "prescriptions": 29438,
+        "cost": 529408.0172290002
+      },
+      "202502": {
+        "prescriptions": 28796,
+        "cost": 518283.50562400033
+      },
+      "202503": {
+        "prescriptions": 31528,
+        "cost": 567775.3725420003
+      },
+      "202504": {
+        "prescriptions": 31298,
+        "cost": 564052.6588460004
+      },
+      "202505": {
+        "prescriptions": 32825,
+        "cost": 591641.6552760007
+      },
+      "202506": {
+        "prescriptions": 31102,
+        "cost": 561690.2156930005
+      }
+    },
+    "ACT": {
+      "202407": {
+        "prescriptions": 19341,
+        "cost": 343262.6076229999
+      },
+      "202408": {
+        "prescriptions": 19020,
+        "cost": 338446.3760480001
+      },
+      "202409": {
+        "prescriptions": 18157,
+        "cost": 323855.5072440001
+      },
+      "202410": {
+        "prescriptions": 19310,
+        "cost": 344943.62132399995
+      },
+      "202411": {
+        "prescriptions": 18621,
+        "cost": 333119.96277500014
+      },
+      "202412": {
+        "prescriptions": 20262,
+        "cost": 363170.9712740002
+      },
+      "202501": {
+        "prescriptions": 17309,
+        "cost": 311282.82558100007
+      },
+      "202502": {
+        "prescriptions": 16931,
+        "cost": 304741.8037360002
+      },
+      "202503": {
+        "prescriptions": 18537,
+        "cost": 333842.1718380001
+      },
+      "202504": {
+        "prescriptions": 18402,
+        "cost": 331653.2800940002
+      },
+      "202505": {
+        "prescriptions": 19300,
+        "cost": 347875.1363640004
+      },
+      "202506": {
+        "prescriptions": 18287,
+        "cost": 330264.20407700026
+      }
+    },
+    "NT": {
+      "202407": {
+        "prescriptions": 11718,
+        "cost": 207962.0177569999
+      },
+      "202408": {
+        "prescriptions": 11523,
+        "cost": 205044.1548320001
+      },
+      "202409": {
+        "prescriptions": 11000,
+        "cost": 196204.43139600003
+      },
+      "202410": {
+        "prescriptions": 11698,
+        "cost": 208980.44211599996
+      },
+      "202411": {
+        "prescriptions": 11281,
+        "cost": 201817.20372500006
+      },
+      "202412": {
+        "prescriptions": 12275,
+        "cost": 220023.2891660001
+      },
+      "202501": {
+        "prescriptions": 10486,
+        "cost": 188587.40527900006
+      },
+      "202502": {
+        "prescriptions": 10257,
+        "cost": 184624.5964240001
+      },
+      "202503": {
+        "prescriptions": 11231,
+        "cost": 202254.7464420001
+      },
+      "202504": {
+        "prescriptions": 11149,
+        "cost": 200928.62954600013
+      },
+      "202505": {
+        "prescriptions": 11693,
+        "cost": 210756.46947600023
+      },
+      "202506": {
+        "prescriptions": 11079,
+        "cost": 200087.07254300016
+      }
+    }
+  }
+}

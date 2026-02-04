@@ -1,0 +1,154 @@
+{
+  "drug": {
+    "name": "metformin",
+    "generic_name": "metformin",
+    "therapeutic_area": "Type 2 Diabetes",
+    "company": "Test Pharma"
+  },
+  "analysis_date": "2026-02-04T11:43:17.873828",
+  "country": "IT",
+  "region": null,
+  "period": "2022",
+  "market_summary": {
+    "total_prescribers": 10,
+    "total_prescriptions": 1119000,
+    "total_cost": 47140000,
+    "avg_prescriptions_per_prescriber": 111900.0
+  },
+  "top_opportunities": [
+    {
+      "rank": 1,
+      "prescriber_id": "IT-LOM",
+      "prescriber_name": "Regione Lombardia",
+      "location": "Lombardia, Italy",
+      "current_volume": 185000,
+      "opportunity_score": 185000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    },
+    {
+      "rank": 2,
+      "prescriber_id": "IT-LAZ",
+      "prescriber_name": "Regione Lazio",
+      "location": "Lazio, Italy",
+      "current_volume": 142000,
+      "opportunity_score": 142000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    },
+    {
+      "rank": 3,
+      "prescriber_id": "IT-CAM",
+      "prescriber_name": "Regione Campania",
+      "location": "Campania, Italy",
+      "current_volume": 135000,
+      "opportunity_score": 135000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    },
+    {
+      "rank": 4,
+      "prescriber_id": "IT-SIC",
+      "prescriber_name": "Regione Sicilia",
+      "location": "Sicilia, Italy",
+      "current_volume": 118000,
+      "opportunity_score": 118000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    },
+    {
+      "rank": 5,
+      "prescriber_id": "IT-VEN",
+      "prescriber_name": "Regione Veneto",
+      "location": "Veneto, Italy",
+      "current_volume": 112000,
+      "opportunity_score": 112000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    },
+    {
+      "rank": 6,
+      "prescriber_id": "IT-EMR",
+      "prescriber_name": "Regione Emilia-Romagna",
+      "location": "Emilia-Romagna, Italy",
+      "current_volume": 105000,
+      "opportunity_score": 105000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    },
+    {
+      "rank": 7,
+      "prescriber_id": "IT-PIE",
+      "prescriber_name": "Regione Piemonte",
+      "location": "Piemonte, Italy",
+      "current_volume": 98000,
+      "opportunity_score": 98000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    },
+    {
+      "rank": 8,
+      "prescriber_id": "IT-PUG",
+      "prescriber_name": "Regione Puglia",
+      "location": "Puglia, Italy",
+      "current_volume": 92000,
+      "opportunity_score": 92000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    },
+    {
+      "rank": 9,
+      "prescriber_id": "IT-TOS",
+      "prescriber_name": "Regione Toscana",
+      "location": "Toscana, Italy",
+      "current_volume": 87000,
+      "opportunity_score": 87000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    },
+    {
+      "rank": 10,
+      "prescriber_id": "IT-CAL",
+      "prescriber_name": "Regione Calabria",
+      "location": "Calabria, Italy",
+      "current_volume": 45000,
+      "opportunity_score": 45000,
+      "recommendations": [
+        "\u2b50 KEY ACCOUNT: Maintain strong relationship",
+        "\ud83c\udf93 Invite to advisory board or speaker program"
+      ]
+    }
+  ],
+  "segments": {
+    "by_volume": {
+      "High Prescribers": 0,
+      "Medium Prescribers": 9,
+      "Low Prescribers": 1,
+      "Non-Prescribers": 0
+    },
+    "by_opportunity": {
+      "Quick Wins": 10,
+      "Strategic Growth": 0,
+      "New Business": 0,
+      "Defend": 0
+    }
+  }
+}

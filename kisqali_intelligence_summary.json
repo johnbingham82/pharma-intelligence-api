@@ -1,0 +1,105 @@
+{
+  "drug": "Kisqali (ribociclib)",
+  "therapeutic_area": "Breast Cancer (HR+/HER2-)",
+  "setting": "Secondary Care (Oncology)",
+  "competitors": [
+    "Ibrance (palbociclib)",
+    "Verzenio (abemaciclib)"
+  ],
+  "priority_trusts": [
+    {
+      "name": "The Royal Marsden NHS Foundation Trust",
+      "code": "RPY",
+      "type": "Specialist Cancer Center",
+      "reputation": "World-leading breast cancer research",
+      "annual_patients": "High",
+      "priority": "Critical"
+    },
+    {
+      "name": "The Christie NHS Foundation Trust",
+      "code": "RM2",
+      "type": "Specialist Cancer Center",
+      "reputation": "Largest single-site cancer center in Europe",
+      "annual_patients": "Very High",
+      "priority": "Critical"
+    },
+    {
+      "name": "University College London Hospitals NHS Foundation Trust",
+      "code": "RRV",
+      "type": "Academic Medical Center",
+      "reputation": "Leading research trials",
+      "annual_patients": "High",
+      "priority": "High"
+    },
+    {
+      "name": "Guy's and St Thomas' NHS Foundation Trust",
+      "code": "RJ1",
+      "type": "Academic Medical Center",
+      "reputation": "Major breast unit",
+      "annual_patients": "High",
+      "priority": "High"
+    },
+    {
+      "name": "Cambridge University Hospitals NHS Foundation Trust",
+      "code": "RGT",
+      "type": "Academic Medical Center",
+      "reputation": "Cambridge Breast Unit",
+      "annual_patients": "Medium-High",
+      "priority": "High"
+    },
+    {
+      "name": "Imperial College Healthcare NHS Trust",
+      "code": "RYJ",
+      "type": "Academic Medical Center",
+      "reputation": "Breast cancer research",
+      "annual_patients": "High",
+      "priority": "High"
+    },
+    {
+      "name": "Manchester University NHS Foundation Trust",
+      "code": "R0A",
+      "type": "Academic Medical Center",
+      "reputation": "The Christie collaboration",
+      "annual_patients": "Very High",
+      "priority": "Critical"
+    },
+    {
+      "name": "Oxford University Hospitals NHS Foundation Trust",
+      "code": "RTH",
+      "type": "Academic Medical Center",
+      "reputation": "Oxford Cancer Centre",
+      "annual_patients": "Medium-High",
+      "priority": "High"
+    },
+    {
+      "name": "Royal Free London NHS Foundation Trust",
+      "code": "RAL",
+      "type": "Teaching Hospital",
+      "reputation": "North London breast services",
+      "annual_patients": "Medium",
+      "priority": "Medium"
+    },
+    {
+      "name": "King's College Hospital NHS Foundation Trust",
+      "code": "RJZ",
+      "type": "Academic Medical Center",
+      "reputation": "Princess Royal Breast Unit",
+      "annual_patients": "Medium-High",
+      "priority": "High"
+    }
+  ],
+  "nice_status": "Approved (TA495, TA563, TA612, TA725)",
+  "key_differentiation": "Overall survival benefit (MONALEESA trials)",
+  "strategic_focus": [
+    "Specialist breast cancer centers",
+    "KOL engagement",
+    "Formulary parity with Ibrance",
+    "OS data leverage"
+  ],
+  "immediate_actions": [
+    "MSL engagement at Royal Marsden, Christie, UCLH",
+    "KOL database build (30 targets)",
+    "Formulary status audit (50 trusts)",
+    "MONALEESA trial site mapping"
+  ]
+}

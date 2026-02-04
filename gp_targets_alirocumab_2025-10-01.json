@@ -1,0 +1,413 @@
+{
+  "drug": "alirocumab",
+  "bnf_code": "0212000AI",
+  "date": "2025-10-01",
+  "region": null,
+  "top_targets": [
+    {
+      "code": "L83006",
+      "name": "MAYFLOWER MEDICAL GROUP",
+      "items": 12,
+      "quantity": 26.0,
+      "cost": 4368.15,
+      "score": 12.0
+    },
+    {
+      "code": "L83008",
+      "name": "PATHFIELDS MEDICAL GROUP",
+      "items": 7,
+      "quantity": 16.0,
+      "cost": 2688.09,
+      "score": 7.0
+    },
+    {
+      "code": "L83046",
+      "name": "DEVON SQUARE SURGERY",
+      "items": 5,
+      "quantity": 12.0,
+      "cost": 2016.06,
+      "score": 5.0
+    },
+    {
+      "code": "L83089",
+      "name": "KNOWLE HOUSE SURGERY",
+      "items": 5,
+      "quantity": 10.0,
+      "cost": 1680.06,
+      "score": 5.0
+    },
+    {
+      "code": "L83101",
+      "name": "ABBEY SURGERY",
+      "items": 5,
+      "quantity": 18.0,
+      "cost": 3024.06,
+      "score": 5.0
+    },
+    {
+      "code": "L83131",
+      "name": "PEMBROKE MEDICAL GROUP",
+      "items": 5,
+      "quantity": 10.0,
+      "cost": 1680.06,
+      "score": 5.0
+    },
+    {
+      "code": "L82022",
+      "name": "OLD BRIDGE SURGERY",
+      "items": 4,
+      "quantity": 8.0,
+      "cost": 1344.04,
+      "score": 4.0
+    },
+    {
+      "code": "L83048",
+      "name": "ROBOROUGH SURGERY",
+      "items": 4,
+      "quantity": 8.0,
+      "cost": 1344.05,
+      "score": 4.0
+    },
+    {
+      "code": "L83100",
+      "name": "BEACON MEDICAL GROUP",
+      "items": 4,
+      "quantity": 10.0,
+      "cost": 1680.04,
+      "score": 4.0
+    },
+    {
+      "code": "L83147",
+      "name": "LISSON GROVE MEDICAL CTR.",
+      "items": 4,
+      "quantity": 10.0,
+      "cost": 1680.05,
+      "score": 4.0
+    },
+    {
+      "code": "L82016",
+      "name": "OAK TREE SURGERY",
+      "items": 3,
+      "quantity": 6.0,
+      "cost": 932.97,
+      "score": 3.0
+    },
+    {
+      "code": "L83043",
+      "name": "LEATSIDE SURGERY",
+      "items": 3,
+      "quantity": 12.0,
+      "cost": 2016.03,
+      "score": 3.0
+    },
+    {
+      "code": "L83051",
+      "name": "CRICKETFIELD SURGERY",
+      "items": 3,
+      "quantity": 6.0,
+      "cost": 1008.03,
+      "score": 3.0
+    },
+    {
+      "code": "L83059",
+      "name": "NORTON BROOK MEDICAL CENTRE",
+      "items": 3,
+      "quantity": 8.0,
+      "cost": 1344.04,
+      "score": 3.0
+    },
+    {
+      "code": "A82025",
+      "name": "CAPTAIN FRENCH SURGERY",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L82046",
+      "name": "SALTASH HEALTH CENTRE",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L82050",
+      "name": "ROSEDEAN SURGERY",
+      "items": 2,
+      "quantity": 3.0,
+      "cost": 634.49,
+      "score": 2.0
+    },
+    {
+      "code": "L82066",
+      "name": "PORT VIEW SURGERY",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83004",
+      "name": "KINGSTEIGNTON MEDICAL PRACTICE",
+      "items": 2,
+      "quantity": 8.0,
+      "cost": 1344.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83007",
+      "name": "SEATON & COLYTON MEDICAL PRACTICE",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83014",
+      "name": "MAYFIELD MEDICAL CENTRE",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83027",
+      "name": "CROFT HALL MEDICAL PRACTICE",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83028",
+      "name": "ST NEOTS SURGERY",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83031",
+      "name": "KINGSKERSWELL & IPPLEPEN MED PRACTICE",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83038",
+      "name": "TAVYSIDE HEALTH CENTRE",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 634.49,
+      "score": 2.0
+    },
+    {
+      "code": "L83055",
+      "name": "COMPASS HOUSE MEDICAL CENTRES",
+      "items": 2,
+      "quantity": 6.0,
+      "cost": 1008.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83056",
+      "name": "ROLLE MEDICAL PARTNERSHIP",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83088",
+      "name": "REDFERN HEALTH CENTRE",
+      "items": 2,
+      "quantity": 10.0,
+      "cost": 1680.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83111",
+      "name": "CHILCOTE PRACTICE",
+      "items": 2,
+      "quantity": 6.0,
+      "cost": 1008.02,
+      "score": 2.0
+    },
+    {
+      "code": "L83120",
+      "name": "CHANNEL VIEW MEDICAL GROUP",
+      "items": 2,
+      "quantity": 6.0,
+      "cost": 1008.02,
+      "score": 2.0
+    },
+    {
+      "code": "L85015",
+      "name": "PRESTON GROVE MEDICAL CENTRE, YEOVIL",
+      "items": 2,
+      "quantity": 6.0,
+      "cost": 1008.02,
+      "score": 2.0
+    },
+    {
+      "code": "L85032",
+      "name": "BRUTON SURGERY",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L85064",
+      "name": "OAKLANDS SURGERY",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "L85065",
+      "name": "DUNSTER & PORLOCK SURGERIES",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "Y00969",
+      "name": "RAME GROUP PRACTICE",
+      "items": 2,
+      "quantity": 4.0,
+      "cost": 672.02,
+      "score": 2.0
+    },
+    {
+      "code": "Y02423",
+      "name": "GRAFTON MEDICAL PARTNERS",
+      "items": 2,
+      "quantity": 2.0,
+      "cost": 336.22,
+      "score": 2.0
+    },
+    {
+      "code": "E82094",
+      "name": "THE MANOR STREET SURGERY",
+      "items": 1,
+      "quantity": 1.0,
+      "cost": 168.11,
+      "score": 1.0
+    },
+    {
+      "code": "L82012",
+      "name": "TAMAR VALLEY HEALTH",
+      "items": 1,
+      "quantity": 2.0,
+      "cost": 298.48,
+      "score": 1.0
+    },
+    {
+      "code": "L82030",
+      "name": "LAUNCESTON MEDICAL CENTRE",
+      "items": 1,
+      "quantity": 2.0,
+      "cost": 336.01,
+      "score": 1.0
+    },
+    {
+      "code": "L83005",
+      "name": "BARTON SURGERY",
+      "items": 1,
+      "quantity": 4.0,
+      "cost": 672.01,
+      "score": 1.0
+    },
+    {
+      "code": "L83015",
+      "name": "OAKSIDE SURGERY",
+      "items": 1,
+      "quantity": 4.0,
+      "cost": 672.01,
+      "score": 1.0
+    },
+    {
+      "code": "L83041",
+      "name": "WESTBANK PRACTICE",
+      "items": 1,
+      "quantity": 2.0,
+      "cost": 336.01,
+      "score": 1.0
+    },
+    {
+      "code": "L83064",
+      "name": "CHURCH VIEW SURGERY",
+      "items": 1,
+      "quantity": 4.0,
+      "cost": 672.01,
+      "score": 1.0
+    },
+    {
+      "code": "L83071",
+      "name": "STOKE SURGERY",
+      "items": 1,
+      "quantity": 4.0,
+      "cost": 672.01,
+      "score": 1.0
+    },
+    {
+      "code": "L83081",
+      "name": "YEALM MEDICAL CENTRE",
+      "items": 1,
+      "quantity": 2.0,
+      "cost": 298.48,
+      "score": 1.0
+    },
+    {
+      "code": "L83094",
+      "name": "DARTMOUTH MEDICAL PRACTICE",
+      "items": 1,
+      "quantity": 2.0,
+      "cost": 336.01,
+      "score": 1.0
+    },
+    {
+      "code": "L83095",
+      "name": "COLERIDGE MEDICAL CENTRE",
+      "items": 1,
+      "quantity": 4.0,
+      "cost": 672.01,
+      "score": 1.0
+    },
+    {
+      "code": "L83098",
+      "name": "CHERITON BISHOP SURGERY",
+      "items": 1,
+      "quantity": 2.0,
+      "cost": 298.48,
+      "score": 1.0
+    },
+    {
+      "code": "L83102",
+      "name": "YELVERTON SURGERY",
+      "items": 1,
+      "quantity": 2.0,
+      "cost": 336.01,
+      "score": 1.0
+    },
+    {
+      "code": "L83103",
+      "name": "CORNER PLACE SURGERY",
+      "items": 1,
+      "quantity": 2.0,
+      "cost": 336.01,
+      "score": 1.0
+    }
+  ],
+  "summary": {
+    "total_practices": 55,
+    "total_items": 130,
+    "total_cost": 52247.95
+  }
+}
