@@ -316,143 +316,22 @@ async def get_analysis_status(analysis_id: str):
 @router.get("/country/{country_code}", tags=["Reference"])
 async def get_country_detail(country_code: str):
     """
-    Get detailed country information including regional breakdowns
+    Get detailed country information and metadata
     
-    Returns comprehensive data for a specific country including:
-    - Regional prescription and cost data
-    - Monthly trends (where available)
-    - Top prescribed drugs
-    - Data source metadata
+    Returns country metadata including:
+    - Population and market size
+    - Data source information
+    - Currency and update frequency
     """
     country = country_code.upper()
     
     try:
-        data_source = get_data_source(country)
-        
-        # Get regional data
-        regional_data = []
-        monthly_data = []
-        top_drugs = []
-        
-        # Get data based on country
-        if country == 'UK':
-            # UK has CCG-level data - aggregate by region
-            regions = data_source.get_ccgs()
-            for region in regions[:20]:  # Top 20 CCGs as "regions"
-                prescriptions = data_source.get_prescriptions(region_code=region)
-                region_name = data_source.ccg_to_region.get(region, region)
-                total_rx = sum(p['quantity'] for p in prescriptions)
-                total_cost = sum(p['actual_cost'] for p in prescriptions)
-                
-                regional_data.append({
-                    'region': region_name,
-                    'prescriptions': total_rx,
-                    'cost': total_cost,
-                    'prescribers': len(set(p['bnf_code'] for p in prescriptions))
-                })
-            
-            # Top drugs
-            all_prescriptions = data_source.get_prescriptions()
-            drug_totals = {}
-            for p in all_prescriptions:
-                drug = p.get('bnf_name', 'Unknown')
-                if drug not in drug_totals:
-                    drug_totals[drug] = {'prescriptions': 0, 'cost': 0}
-                drug_totals[drug]['prescriptions'] += p['quantity']
-                drug_totals[drug]['cost'] += p['actual_cost']
-            
-            top_drugs = [
-                {'name': drug, **data}
-                for drug, data in sorted(drug_totals.items(), key=lambda x: x[1]['prescriptions'], reverse=True)[:10]
-            ]
-            
-        elif country == 'US':
-            # US has state-level data
-            states = ['CA', 'TX', 'FL', 'NY', 'PA', 'IL', 'OH', 'GA', 'NC', 'MI']
-            for state in states:
-                prescriptions = data_source.get_prescriptions(state=state)
-                total_rx = sum(p['total_claim_count'] for p in prescriptions)
-                total_cost = sum(p['total_drug_cost'] for p in prescriptions)
-                
-                regional_data.append({
-                    'region': state,
-                    'prescriptions': total_rx,
-                    'cost': total_cost,
-                    'prescribers': len(set(p['npi'] for p in prescriptions))
-                })
-            
-        elif country == 'AU':
-            # Australia has state/territory data with monthly trends
-            try:
-                import json
-                pbs_data_path = os.path.join(os.path.dirname(__file__), '..', 'pbs_data', 'pbs_metformin_real_data.json')
-                with open(pbs_data_path, 'r') as f:
-                    pbs_data = json.load(f)
-                
-                # Regional data from states
-                for state_code, state_data in pbs_data['data_by_state'].items():
-                    total_rx = sum(m['prescriptions'] for m in state_data['monthly'])
-                    total_cost = sum(m['cost'] for m in state_data['monthly'])
-                    
-                    regional_data.append({
-                        'region': state_code,
-                        'prescriptions': total_rx,
-                        'cost': total_cost,
-                        'prescribers': int(total_rx / 120)  # Estimate based on avg prescriptions
-                    })
-                
-                # Monthly aggregated data
-                monthly_totals = {}
-                for state_data in pbs_data['data_by_state'].values():
-                    for month_data in state_data['monthly']:
-                        month = month_data['month']
-                        if month not in monthly_totals:
-                            monthly_totals[month] = {'prescriptions': 0, 'cost': 0}
-                        monthly_totals[month]['prescriptions'] += month_data['prescriptions']
-                        monthly_totals[month]['cost'] += month_data['cost']
-                
-                monthly_data = [
-                    {'month': month, **data}
-                    for month, data in sorted(monthly_totals.items())
-                ]
-                
-                # Top drug for PBS (we have metformin data)
-                top_drugs = [{
-                    'name': 'Metformin',
-                    'prescriptions': pbs_data['national_total']['total_prescriptions'],
-                    'cost': pbs_data['national_total']['total_cost']
-                }]
-                
-            except Exception as e:
-                print(f"Error loading PBS data: {e}")
-                # Fall back to generated data
-                states = ['NSW', 'VIC', 'QLD', 'SA', 'WA', 'TAS', 'NT', 'ACT']
-                for state in states:
-                    prescriptions = data_source.get_prescriptions(state=state)
-                    total_rx = sum(p['quantity'] for p in prescriptions)
-                    total_cost = sum(p['cost'] for p in prescriptions)
-                    
-                    regional_data.append({
-                        'region': state,
-                        'prescriptions': total_rx,
-                        'cost': total_cost,
-                        'prescribers': len(set(p['pharmacy_id'] for p in prescriptions))
-                    })
-        
-        else:
-            # EU countries - use framework regional data
-            regions = data_source.get_regions()
-            for region in regions:
-                prescriptions = data_source.get_prescriptions(region_code=region)
-                total_rx = sum(p['quantity'] for p in prescriptions)
-                total_cost = sum(p['cost'] for p in prescriptions)
-                
-                regional_data.append({
-                    'region': region,
-                    'prescriptions': total_rx,
-                    'cost': total_cost,
-                    'prescribers': int(total_rx / 100)  # Estimate
-                })
+        # Verify country is supported
+        if country not in DATA_SOURCES:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Country '{country}' not supported"
+            )
         
         # Country metadata
         country_info = {
@@ -541,9 +420,9 @@ async def get_country_detail(country_code: str):
             'data_source': info.get('data_source'),
             'update_frequency': info.get('update_frequency'),
             'currency': info.get('currency', 'USD'),
-            'regions': regional_data,
-            'monthly_data': monthly_data if monthly_data else None,
-            'top_drugs': top_drugs if top_drugs else None
+            'regions': [],  # TODO: Implement regional data fetching
+            'monthly_data': None,
+            'top_drugs': None
         }
         
     except HTTPException:

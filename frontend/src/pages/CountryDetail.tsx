@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { ArrowLeft, TrendingUp, DollarSign, Users, MapPin, Calendar, AlertCircle, BarChart3, Map } from 'lucide-react'
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import RegionalHeatMap from '../components/RegionalHeatMap'
+import { API_BASE_URL } from '../config'
 
 interface RegionalData {
   region: string
@@ -58,7 +59,7 @@ export default function CountryDetail() {
     setError(null)
     
     try {
-      const response = await fetch(`http://localhost:8000/api/country/${countryCode}`)
+      const response = await fetch(`${API_BASE_URL}/country/${countryCode}`)
       
       if (!response.ok) {
         throw new Error(`Failed to fetch data: ${response.statusText}`)

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { Building2, Pill, Globe, ArrowRight, Check, Zap, Database, Search } from 'lucide-react'
 import axios from 'axios'
+import { API_BASE_URL } from '../config'
 
 const COUNTRIES = [
   { 
@@ -110,7 +111,7 @@ export default function Home() {
     setLoading(true)
     
     try {
-      const response = await axios.post('http://localhost:8000/analyze', {
+      const response = await axios.post(`${API_BASE_URL}/analyze`, {
         company: formData.company,
         drug_name: formData.drugName,
         country: formData.country,
@@ -122,7 +123,7 @@ export default function Home() {
       navigate('/results', { state: { data: response.data, formData } })
     } catch (error) {
       console.error('Analysis failed:', error)
-      alert('Analysis failed. Please check if the API is running on http://localhost:8000')
+      alert(`Analysis failed. Please check the API connection.`)
     } finally {
       setLoading(false)
     }
