@@ -104,7 +104,7 @@ async def not_found_handler(request: Request, exc):
             error="Not Found",
             detail=f"The requested path '{request.url.path}' does not exist",
             timestamp=datetime.now()
-        ).dict()
+        ).model_dump(mode='json')
     )
 
 
@@ -117,7 +117,7 @@ async def internal_error_handler(request: Request, exc):
             error="Internal Server Error",
             detail="An unexpected error occurred. Please try again.",
             timestamp=datetime.now()
-        ).dict()
+        ).model_dump(mode='json')
     )
 
 
