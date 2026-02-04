@@ -12,7 +12,7 @@ import os
 # Add parent directory to path to import engine
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
-from api.models import (
+from models import (
     AnalysisRequest, AnalysisResponse, DrugSearchRequest, DrugSearchResponse,
     DrugSearchResultResponse, CountryResponse, HealthResponse, ErrorResponse,
     OpportunityResponse, MarketSummaryResponse, SegmentationResponse, DrugInfoResponse
