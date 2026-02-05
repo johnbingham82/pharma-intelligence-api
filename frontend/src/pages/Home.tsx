@@ -87,11 +87,11 @@ const COUNTRIES = [
     name: 'Spain', 
     flag: '🇪🇸', 
     status: 'live', 
-    dataQuality: 'real',
+    dataQuality: 'framework',
     coverage: '47M', 
     type: 'Regional',
     updateFreq: 'Annual',
-    source: 'Ministry of Health - BIFAP'
+    source: 'Framework (Mock Data)'
   },
   { 
     code: 'NL', 

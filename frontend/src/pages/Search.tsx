@@ -44,7 +44,7 @@ const COUNTRIES = [
   { code: 'FR', name: 'France', flag: '🇫🇷', hasRealData: false },
   { code: 'DE', name: 'Germany', flag: '🇩🇪', hasRealData: false },
   { code: 'IT', name: 'Italy', flag: '🇮🇹', hasRealData: false },
-  { code: 'ES', name: 'Spain', flag: '🇪🇸', hasRealData: true },
+  { code: 'ES', name: 'Spain', flag: '🇪🇸', hasRealData: false },
   { code: 'NL', name: 'Netherlands', flag: '🇳🇱', hasRealData: false }
 ]
 
