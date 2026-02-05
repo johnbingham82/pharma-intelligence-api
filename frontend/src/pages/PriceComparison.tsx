@@ -32,7 +32,7 @@ const COUNTRIES = [
   { code: 'fr', name: 'France', flag: '🇫🇷', currency: '€', has_real_data: false },
   { code: 'de', name: 'Germany', flag: '🇩🇪', currency: '€', has_real_data: false },
   { code: 'it', name: 'Italy', flag: '🇮🇹', currency: '€', has_real_data: false },
-  { code: 'es', name: 'Spain', flag: '🇪🇸', currency: '€', has_real_data: false },
+  { code: 'es', name: 'Spain', flag: '🇪🇸', currency: '€', has_real_data: true },
   { code: 'nl', name: 'Netherlands', flag: '🇳🇱', currency: '€', has_real_data: false },
 ]
 
