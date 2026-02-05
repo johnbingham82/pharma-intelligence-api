@@ -53,12 +53,12 @@ const COUNTRIES = [
     code: 'FR', 
     name: 'France', 
     flag: '🇫🇷', 
-    status: 'framework', 
-    dataQuality: 'framework',
+    status: 'live', 
+    dataQuality: 'real',
     coverage: '67M', 
-    type: 'Regional',
+    type: 'Région-level',
     updateFreq: 'Annual',
-    source: 'Framework Ready'
+    source: 'Open Medic / SNDS'
   },
   { 
     code: 'DE', 

@@ -27,6 +27,7 @@ from data_sources_us import USDataSource
 from data_sources_eu import EUDataSource
 from data_sources_au import AustraliaDataSource
 from data_sources_japan import JapanDataSource
+from data_sources_france import FranceDataSource
 from common_drugs import COMMON_DRUGS, get_drug_info, search_drugs as search_common_drugs
 
 router = APIRouter()
@@ -35,7 +36,7 @@ router = APIRouter()
 DATA_SOURCES = {
     'UK': UKDataSource(),
     'US': USDataSource(),
-    'FR': EUDataSource('FR'),
+    'FR': FranceDataSource(),  # Real Open Medic data
     'DE': EUDataSource('DE'),
     'NL': EUDataSource('NL'),
     'IT': EUDataSource('IT'),
@@ -108,7 +109,7 @@ async def list_countries():
         CountryResponse(
             code="FR",
             name="France",
-            data_source="Open Data Assurance Maladie (Regional/Aggregate)",
+            data_source="Open Medic / SNDS (Regional - REAL DATA)",
             available=True
         ),
         CountryResponse(
@@ -612,9 +613,9 @@ async def get_country_detail(country_code: str):
             'FR': {
                 'name': 'France',
                 'population': '67M',
-                'market_value': '€37B',
-                'has_real_data': False,
-                'data_source': 'Framework (Open Data Assurance Maladie planned)',
+                'market_value': '€28.5B',
+                'has_real_data': True,
+                'data_source': 'Open Medic / SNDS',
                 'update_frequency': 'Annual',
                 'currency': 'EUR'
             },
