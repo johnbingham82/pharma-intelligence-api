@@ -36,6 +36,7 @@ const COUNTRY_INFO: Record<string, { name: string; flag: string; currency: strin
   uk: { name: 'United Kingdom', flag: '🇬🇧', currency: '£' },
   us: { name: 'United States', flag: '🇺🇸', currency: '$' },
   au: { name: 'Australia', flag: '🇦🇺', currency: 'A$' },
+  jp: { name: 'Japan', flag: '🇯🇵', currency: '¥' },
   fr: { name: 'France', flag: '🇫🇷', currency: '€' },
   de: { name: 'Germany', flag: '🇩🇪', currency: '€' },
   it: { name: 'Italy', flag: '🇮🇹', currency: '€' },

@@ -39,6 +39,17 @@ const COUNTRIES = [
     source: 'PBS (Real Data)'
   },
   { 
+    code: 'JP', 
+    name: 'Japan', 
+    flag: '🇯🇵', 
+    status: 'live', 
+    dataQuality: 'real',
+    coverage: '125M', 
+    type: 'Prefecture-level',
+    updateFreq: 'Annual',
+    source: 'NDB Open Data (MHLW)'
+  },
+  { 
     code: 'FR', 
     name: 'France', 
     flag: '🇫🇷', 
@@ -156,7 +167,7 @@ export default function Home() {
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-6">
             Real prescribing data from {realDataCountries} countries. Analyze any drug across {totalCountries} markets 
-            covering {Math.round(totalCoverage)}M+ population.
+            covering {Math.round(totalCoverage)}M+ population. 🏆 6 of Top 10 global pharma markets!
           </p>
           
           {/* Stats Bar */}
@@ -191,7 +202,7 @@ export default function Home() {
             <div className="flex-1">
               <h2 className="text-2xl font-bold mb-2">📊 View Global Dashboard</h2>
               <p className="text-primary-100 mb-4">
-                Explore comprehensive analytics across all 8 countries with interactive charts, 
+                Explore comprehensive analytics across all 9 countries with interactive charts, 
                 heat maps, and real-time insights.
               </p>
               <div className="flex items-center space-x-6 text-sm">
@@ -211,7 +222,7 @@ export default function Home() {
             </div>
             <div className="ml-8">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center border border-white/20">
-                <div className="text-4xl font-bold mb-1">8</div>
+                <div className="text-4xl font-bold mb-1">{totalCountries}</div>
                 <div className="text-sm text-primary-100">Countries</div>
               </div>
             </div>

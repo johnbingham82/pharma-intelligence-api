@@ -28,6 +28,7 @@ const COUNTRIES = [
   { code: 'uk', name: 'United Kingdom', flag: '🇬🇧', currency: '£', has_real_data: true },
   { code: 'us', name: 'United States', flag: '🇺🇸', currency: '$', has_real_data: true },
   { code: 'au', name: 'Australia', flag: '🇦🇺', currency: 'A$', has_real_data: true },
+  { code: 'jp', name: 'Japan', flag: '🇯🇵', currency: '¥', has_real_data: true },
   { code: 'fr', name: 'France', flag: '🇫🇷', currency: '€', has_real_data: false },
   { code: 'de', name: 'Germany', flag: '🇩🇪', currency: '€', has_real_data: false },
   { code: 'it', name: 'Italy', flag: '🇮🇹', currency: '€', has_real_data: false },

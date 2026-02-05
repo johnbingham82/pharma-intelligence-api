@@ -26,6 +26,7 @@ from data_sources_uk import UKDataSource
 from data_sources_us import USDataSource
 from data_sources_eu import EUDataSource
 from data_sources_au import AustraliaDataSource
+from data_sources_japan import JapanDataSource
 from common_drugs import COMMON_DRUGS, get_drug_info, search_drugs as search_common_drugs
 
 router = APIRouter()
@@ -39,7 +40,8 @@ DATA_SOURCES = {
     'NL': EUDataSource('NL'),
     'IT': EUDataSource('IT'),
     'ES': EUDataSource('ES'),
-    'AU': AustraliaDataSource()
+    'AU': AustraliaDataSource(),
+    'JP': JapanDataSource()
 }
 
 

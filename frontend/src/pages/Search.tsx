@@ -40,6 +40,7 @@ const COUNTRIES = [
   { code: 'UK', name: 'United Kingdom', flag: '🇬🇧', hasRealData: true },
   { code: 'US', name: 'United States', flag: '🇺🇸', hasRealData: true },
   { code: 'AU', name: 'Australia', flag: '🇦🇺', hasRealData: true },
+  { code: 'JP', name: 'Japan', flag: '🇯🇵', hasRealData: true },
   { code: 'FR', name: 'France', flag: '🇫🇷', hasRealData: false },
   { code: 'DE', name: 'Germany', flag: '🇩🇪', hasRealData: false },
   { code: 'IT', name: 'Italy', flag: '🇮🇹', hasRealData: false },
@@ -63,7 +64,7 @@ const THERAPEUTIC_AREAS = [
 const QUICK_FILTERS = [
   { name: 'High Growth Drugs', icon: TrendingUp, filter: { growthRate: 'high' as const } },
   { name: 'Real Data Only', icon: Tag, filter: { dataQuality: 'real' as const } },
-  { name: 'Top Markets', icon: MapPin, filter: { countries: ['UK', 'US', 'AU'] } },
+  { name: 'Top Markets', icon: MapPin, filter: { countries: ['UK', 'US', 'AU', 'JP'] } },
   { name: 'High Value', icon: DollarSign, filter: { minValue: 1000000 } }
 ]
 
