@@ -57,7 +57,7 @@ export default function Dashboard() {
     totalPrescriptions: 45678900,
     totalValue: 8920000000,
     totalPrescribers: 234567,
-    countries: 8,
+    countries: 9,
     growth: 12.4,
     topDrug: 'Metformin'
   }
@@ -80,12 +80,13 @@ export default function Dashboard() {
   
   // Market share by country
   const marketShareData = [
-    { country: 'US', value: 35, color: COLORS.primary[0] },
-    { country: 'UK', value: 18, color: COLORS.primary[1] },
-    { country: 'Germany', value: 15, color: COLORS.primary[2] },
-    { country: 'France', value: 12, color: COLORS.primary[3] },
-    { country: 'Australia', value: 8, color: COLORS.accent[0] },
-    { country: 'Others', value: 12, color: COLORS.cool[2] }
+    { country: 'US', value: 32, color: COLORS.primary[0] },
+    { country: 'Japan', value: 20, color: COLORS.accent[1] },
+    { country: 'UK', value: 15, color: COLORS.primary[1] },
+    { country: 'Germany', value: 12, color: COLORS.primary[2] },
+    { country: 'France', value: 10, color: COLORS.primary[3] },
+    { country: 'Australia', value: 6, color: COLORS.accent[0] },
+    { country: 'Others', value: 5, color: COLORS.cool[2] }
   ]
   
   // Therapeutic area distribution
@@ -124,7 +125,7 @@ export default function Dashboard() {
           <div className="flex items-center justify-between mb-6">
             <div>
               <h1 className="text-3xl font-bold mb-2">Global Pharma Dashboard</h1>
-              <p className="text-primary-100">Real-time insights across 8 countries</p>
+              <p className="text-primary-100">Real-time insights across 9 countries</p>
             </div>
             
             <div className="flex items-center space-x-3">
