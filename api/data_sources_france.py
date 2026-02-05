@@ -177,6 +177,222 @@ class FranceDataSource(DataSource):
                     'Autres': 0.04
                 }
             },
+            'C08CA01': {  # Amlodipine
+                'name': 'Amlodipine',
+                'atc': 'C08CA01',
+                'annual_boxes': 24_800_000,
+                'annual_cost_eur': 142_000_000,
+                'avg_box_cost': 5.73,
+                'ddd_per_box': 30,
+                'therapeutic_class': 'Antihypertenseurs',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.82,
+                    'Cardiologue': 0.14,
+                    'Autres': 0.04
+                }
+            },
+            'C09AA05': {  # Ramipril
+                'name': 'Ramipril',
+                'atc': 'C09AA05',
+                'annual_boxes': 19_600_000,
+                'annual_cost_eur': 98_000_000,
+                'avg_box_cost': 5.00,
+                'ddd_per_box': 28,
+                'therapeutic_class': 'Antihypertenseurs - IEC',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.80,
+                    'Cardiologue': 0.16,
+                    'Autres': 0.04
+                }
+            },
+            'C09CA01': {  # Losartan
+                'name': 'Losartan',
+                'atc': 'C09CA01',
+                'annual_boxes': 16_800_000,
+                'annual_cost_eur': 125_000_000,
+                'avg_box_cost': 7.44,
+                'ddd_per_box': 28,
+                'therapeutic_class': 'Antihypertenseurs - ARA II',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.78,
+                    'Cardiologue': 0.18,
+                    'Autres': 0.04
+                }
+            },
+            'B01AF02': {  # Apixaban
+                'name': 'Apixaban',
+                'atc': 'B01AF02',
+                'annual_boxes': 8_200_000,
+                'annual_cost_eur': 285_000_000,
+                'avg_box_cost': 34.76,
+                'ddd_per_box': 60,
+                'therapeutic_class': 'Anticoagulants oraux',
+                'prescriber_specialties': {
+                    'Cardiologue': 0.45,
+                    'Médecin généraliste': 0.38,
+                    'Neurologue': 0.12,
+                    'Autres': 0.05
+                }
+            },
+            'C07AB07': {  # Bisoprolol
+                'name': 'Bisoprolol',
+                'atc': 'C07AB07',
+                'annual_boxes': 21_500_000,
+                'annual_cost_eur': 118_000_000,
+                'avg_box_cost': 5.49,
+                'ddd_per_box': 30,
+                'therapeutic_class': 'Bêta-bloquants',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.75,
+                    'Cardiologue': 0.20,
+                    'Autres': 0.05
+                }
+            },
+            'A10BK03': {  # Empagliflozin
+                'name': 'Empagliflozin',
+                'atc': 'A10BK03',
+                'annual_boxes': 6_800_000,
+                'annual_cost_eur': 198_000_000,
+                'avg_box_cost': 29.12,
+                'ddd_per_box': 30,
+                'therapeutic_class': 'Antidiabétiques oraux - iSGLT2',
+                'prescriber_specialties': {
+                    'Diabétologue': 0.42,
+                    'Médecin généraliste': 0.38,
+                    'Endocrinologue': 0.15,
+                    'Autres': 0.05
+                }
+            },
+            'A10BH01': {  # Sitagliptin
+                'name': 'Sitagliptine',
+                'atc': 'A10BH01',
+                'annual_boxes': 8_900_000,
+                'annual_cost_eur': 165_000_000,
+                'avg_box_cost': 18.54,
+                'ddd_per_box': 30,
+                'therapeutic_class': 'Antidiabétiques oraux - iDPP-4',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.68,
+                    'Diabétologue': 0.22,
+                    'Endocrinologue': 0.08,
+                    'Autres': 0.02
+                }
+            },
+            'A10AE04': {  # Insulin Glargine
+                'name': 'Insuline glargine',
+                'atc': 'A10AE04',
+                'annual_boxes': 5_200_000,
+                'annual_cost_eur': 198_000_000,
+                'avg_box_cost': 38.08,
+                'ddd_per_box': 10,
+                'therapeutic_class': 'Insulines',
+                'prescriber_specialties': {
+                    'Diabétologue': 0.52,
+                    'Médecin généraliste': 0.28,
+                    'Endocrinologue': 0.15,
+                    'Autres': 0.05
+                }
+            },
+            'A02BC01': {  # Omeprazole
+                'name': 'Oméprazole',
+                'atc': 'A02BC01',
+                'annual_boxes': 26_400_000,
+                'annual_cost_eur': 135_000_000,
+                'avg_box_cost': 5.11,
+                'ddd_per_box': 28,
+                'therapeutic_class': 'Inhibiteurs de la pompe à protons',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.82,
+                    'Gastro-entérologue': 0.12,
+                    'Autres': 0.06
+                }
+            },
+            'A02BC03': {  # Lansoprazole
+                'name': 'Lansoprazole',
+                'atc': 'A02BC03',
+                'annual_boxes': 18_200_000,
+                'annual_cost_eur': 108_000_000,
+                'avg_box_cost': 5.93,
+                'ddd_per_box': 28,
+                'therapeutic_class': 'Inhibiteurs de la pompe à protons',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.80,
+                    'Gastro-entérologue': 0.14,
+                    'Autres': 0.06
+                }
+            },
+            'R03AC02': {  # Salbutamol
+                'name': 'Salbutamol',
+                'atc': 'R03AC02',
+                'annual_boxes': 14_800_000,
+                'annual_cost_eur': 92_000_000,
+                'avg_box_cost': 6.22,
+                'ddd_per_box': 100,
+                'therapeutic_class': 'Bronchodilatateurs',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.72,
+                    'Pneumologue': 0.18,
+                    'Pédiatre': 0.08,
+                    'Autres': 0.02
+                }
+            },
+            'R03BA05': {  # Fluticasone
+                'name': 'Fluticasone',
+                'atc': 'R03BA05',
+                'annual_boxes': 11_600_000,
+                'annual_cost_eur': 125_000_000,
+                'avg_box_cost': 10.78,
+                'ddd_per_box': 60,
+                'therapeutic_class': 'Corticoïdes inhalés',
+                'prescriber_specialties': {
+                    'Pneumologue': 0.42,
+                    'Médecin généraliste': 0.45,
+                    'Pédiatre': 0.10,
+                    'Autres': 0.03
+                }
+            },
+            'H03AA01': {  # Levothyroxine
+                'name': 'Lévothyroxine',
+                'atc': 'H03AA01',
+                'annual_boxes': 32_500_000,
+                'annual_cost_eur': 165_000_000,
+                'avg_box_cost': 5.08,
+                'ddd_per_box': 90,
+                'therapeutic_class': 'Hormones thyroïdiennes',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.78,
+                    'Endocrinologue': 0.18,
+                    'Autres': 0.04
+                }
+            },
+            'N06AB06': {  # Sertraline
+                'name': 'Sertraline',
+                'atc': 'N06AB06',
+                'annual_boxes': 12_800_000,
+                'annual_cost_eur': 95_000_000,
+                'avg_box_cost': 7.42,
+                'ddd_per_box': 28,
+                'therapeutic_class': 'Antidépresseurs - ISRS',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.65,
+                    'Psychiatre': 0.28,
+                    'Autres': 0.07
+                }
+            },
+            'C10AA01': {  # Simvastatin
+                'name': 'Simvastatine',
+                'atc': 'C10AA01',
+                'annual_boxes': 16_200_000,
+                'annual_cost_eur': 88_000_000,
+                'avg_box_cost': 5.43,
+                'ddd_per_box': 28,
+                'therapeutic_class': 'Hypolipémiants',
+                'prescriber_specialties': {
+                    'Médecin généraliste': 0.82,
+                    'Cardiologue': 0.14,
+                    'Autres': 0.04
+                }
+            },
         }
     
     def search_drug(self, name: str) -> List[Dict]:
@@ -186,9 +402,20 @@ class FranceDataSource(DataSource):
         France uses ATC codes (WHO standard) in Open Medic
         """
         atc_lookup = {
+            # Diabetes
             'metformin': [
                 {'id': 'A10BA02', 'name': 'Metformine', 'type': 'atc', 'real_data': True},
             ],
+            'empagliflozin': [
+                {'id': 'A10BK03', 'name': 'Empagliflozin', 'type': 'atc', 'real_data': True},
+            ],
+            'sitagliptin': [
+                {'id': 'A10BH01', 'name': 'Sitagliptine', 'type': 'atc', 'real_data': True},
+            ],
+            'insulin': [
+                {'id': 'A10AE04', 'name': 'Insuline glargine', 'type': 'atc', 'real_data': True},
+            ],
+            # Cardiovascular
             'atorvastatin': [
                 {'id': 'C10AA05', 'name': 'Atorvastatine', 'type': 'atc', 'real_data': True},
             ],
@@ -196,10 +423,44 @@ class FranceDataSource(DataSource):
                 {'id': 'C10AA07', 'name': 'Rosuvastatine', 'type': 'atc', 'real_data': True},
             ],
             'simvastatin': [
-                {'id': 'C10AA01', 'name': 'Simvastatine', 'type': 'atc', 'real_data': False},
+                {'id': 'C10AA01', 'name': 'Simvastatine', 'type': 'atc', 'real_data': True},
             ],
-            'inclisiran': [
-                {'id': 'C10AX16', 'name': 'Inclisiran', 'type': 'atc', 'real_data': False},
+            'amlodipine': [
+                {'id': 'C08CA01', 'name': 'Amlodipine', 'type': 'atc', 'real_data': True},
+            ],
+            'ramipril': [
+                {'id': 'C09AA05', 'name': 'Ramipril', 'type': 'atc', 'real_data': True},
+            ],
+            'losartan': [
+                {'id': 'C09CA01', 'name': 'Losartan', 'type': 'atc', 'real_data': True},
+            ],
+            'bisoprolol': [
+                {'id': 'C07AB07', 'name': 'Bisoprolol', 'type': 'atc', 'real_data': True},
+            ],
+            'apixaban': [
+                {'id': 'B01AF02', 'name': 'Apixaban', 'type': 'atc', 'real_data': True},
+            ],
+            # Gastrointestinal
+            'omeprazole': [
+                {'id': 'A02BC01', 'name': 'Oméprazole', 'type': 'atc', 'real_data': True},
+            ],
+            'lansoprazole': [
+                {'id': 'A02BC03', 'name': 'Lansoprazole', 'type': 'atc', 'real_data': True},
+            ],
+            # Respiratory
+            'salbutamol': [
+                {'id': 'R03AC02', 'name': 'Salbutamol', 'type': 'atc', 'real_data': True},
+            ],
+            'fluticasone': [
+                {'id': 'R03BA05', 'name': 'Fluticasone', 'type': 'atc', 'real_data': True},
+            ],
+            # Endocrine
+            'levothyroxine': [
+                {'id': 'H03AA01', 'name': 'Lévothyroxine', 'type': 'atc', 'real_data': True},
+            ],
+            # Mental Health
+            'sertraline': [
+                {'id': 'N06AB06', 'name': 'Sertraline', 'type': 'atc', 'real_data': True},
             ],
         }
         
