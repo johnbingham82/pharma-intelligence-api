@@ -1,0 +1,39 @@
+{
+  "drug_name": "Ciprofloxacin",
+  "generated_at": "2026-02-06T16:18:00.195484",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 54,
+    "total_cost": 12925,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "KY": {
+      "prescriptions": 16,
+      "cost": 2617,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 2631,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 13,
+      "cost": 5649,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 12,
+      "cost": 2028,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

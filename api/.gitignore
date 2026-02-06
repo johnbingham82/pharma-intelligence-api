@@ -1,10 +1,9 @@
 # Cache files (generated from live data sources)
 # Allow specific pre-aggregated cache files for Heroku deployment
 cache/*.json
-!cache/uk_country_data.json
-!cache/uk_local_authority_data.json
-!cache/uk_practice_locations.json
-!cache/au_country_data.json
+!cache/uk_*.json
+!cache/au_*.json
+!cache/us_*.json
 !cache/postcode_cache.json
 
 # Python
