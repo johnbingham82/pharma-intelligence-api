@@ -1,0 +1,1810 @@
+{
+  "country": "UK",
+  "granularity": "local_authority",
+  "last_updated": "2026-02-06T12:21:19.171179",
+  "period": "2025-10-01",
+  "local_authorities": [
+    {
+      "local_authority": "Birmingham",
+      "prescriptions": 217765,
+      "cost": 313457,
+      "prescribers": 180
+    },
+    {
+      "local_authority": "County Durham",
+      "prescriptions": 189498,
+      "cost": 141566,
+      "prescribers": 71
+    },
+    {
+      "local_authority": "Leeds",
+      "prescriptions": 178634,
+      "cost": 188492,
+      "prescribers": 98
+    },
+    {
+      "local_authority": "North Yorkshire",
+      "prescriptions": 153991,
+      "cost": 136381,
+      "prescribers": 70
+    },
+    {
+      "local_authority": "Sheffield",
+      "prescriptions": 148601,
+      "cost": 127760,
+      "prescribers": 82
+    },
+    {
+      "local_authority": "Cornwall",
+      "prescriptions": 145926,
+      "cost": 142158,
+      "prescribers": 61
+    },
+    {
+      "local_authority": "Bradford",
+      "prescriptions": 145739,
+      "cost": 142112,
+      "prescribers": 64
+    },
+    {
+      "local_authority": "Manchester",
+      "prescriptions": 136541,
+      "cost": 137586,
+      "prescribers": 91
+    },
+    {
+      "local_authority": "Newham",
+      "prescriptions": 114132,
+      "cost": 97745,
+      "prescribers": 48
+    },
+    {
+      "local_authority": "West Northamptonshire",
+      "prescriptions": 111813,
+      "cost": 81452,
+      "prescribers": 40
+    },
+    {
+      "local_authority": "Wiltshire",
+      "prescriptions": 110423,
+      "cost": 103208,
+      "prescribers": 47
+    },
+    {
+      "local_authority": "Somerset",
+      "prescriptions": 110353,
+      "cost": 115221,
+      "prescribers": 68
+    },
+    {
+      "local_authority": "Liverpool",
+      "prescriptions": 110178,
+      "cost": 104149,
+      "prescribers": 92
+    },
+    {
+      "local_authority": "North Northamptonshire",
+      "prescriptions": 105669,
+      "cost": 80794,
+      "prescribers": 34
+    },
+    {
+      "local_authority": "Northumberland",
+      "prescriptions": 105180,
+      "cost": 88479,
+      "prescribers": 37
+    },
+    {
+      "local_authority": "Kirklees",
+      "prescriptions": 104104,
+      "cost": 111158,
+      "prescribers": 79
+    },
+    {
+      "local_authority": "Leicester",
+      "prescriptions": 103735,
+      "cost": 110686,
+      "prescribers": 63
+    },
+    {
+      "local_authority": "Sunderland",
+      "prescriptions": 99266,
+      "cost": 79058,
+      "prescribers": 46
+    },
+    {
+      "local_authority": "Ealing",
+      "prescriptions": 98182,
+      "cost": 101340,
+      "prescribers": 75
+    },
+    {
+      "local_authority": "East Riding of Yorkshire",
+      "prescriptions": 94877,
+      "cost": 84144,
+      "prescribers": 32
+    },
+    {
+      "local_authority": "Buckinghamshire",
+      "prescriptions": 94670,
+      "cost": 115721,
+      "prescribers": 49
+    },
+    {
+      "local_authority": "Dorset",
+      "prescriptions": 90861,
+      "cost": 79805,
+      "prescribers": 38
+    },
+    {
+      "local_authority": "Brent",
+      "prescriptions": 90114,
+      "cost": 96577,
+      "prescribers": 61
+    },
+    {
+      "local_authority": "Coventry",
+      "prescriptions": 89803,
+      "cost": 79128,
+      "prescribers": 63
+    },
+    {
+      "local_authority": "Doncaster",
+      "prescriptions": 89322,
+      "cost": 76703,
+      "prescribers": 47
+    },
+    {
+      "local_authority": "Cheshire East",
+      "prescriptions": 88933,
+      "cost": 84460,
+      "prescribers": 43
+    },
+    {
+      "local_authority": "Tower Hamlets",
+      "prescriptions": 87942,
+      "cost": 68622,
+      "prescribers": 35
+    },
+    {
+      "local_authority": "Cheshire West and Chester",
+      "prescriptions": 87041,
+      "cost": 81044,
+      "prescribers": 45
+    },
+    {
+      "local_authority": "Newcastle upon Tyne",
+      "prescriptions": 85650,
+      "cost": 65455,
+      "prescribers": 34
+    },
+    {
+      "local_authority": "Barnsley",
+      "prescriptions": 81789,
+      "cost": 66739,
+      "prescribers": 33
+    },
+    {
+      "local_authority": "Wakefield",
+      "prescriptions": 81559,
+      "cost": 83253,
+      "prescribers": 39
+    },
+    {
+      "local_authority": "Enfield",
+      "prescriptions": 79817,
+      "cost": 76142,
+      "prescribers": 32
+    },
+    {
+      "local_authority": "Kingston upon Hull, City of",
+      "prescriptions": 79547,
+      "cost": 78261,
+      "prescribers": 31
+    },
+    {
+      "local_authority": "Cumberland",
+      "prescriptions": 77386,
+      "cost": 64476,
+      "prescribers": 27
+    },
+    {
+      "local_authority": "Sandwell",
+      "prescriptions": 77090,
+      "cost": 97801,
+      "prescribers": 48
+    },
+    {
+      "local_authority": "Rotherham",
+      "prescriptions": 75162,
+      "cost": 64091,
+      "prescribers": 40
+    },
+    {
+      "local_authority": "Bristol, City of",
+      "prescriptions": 71902,
+      "cost": 80548,
+      "prescribers": 44
+    },
+    {
+      "local_authority": "Shropshire",
+      "prescriptions": 71646,
+      "cost": 82850,
+      "prescribers": 42
+    },
+    {
+      "local_authority": "Wigan",
+      "prescriptions": 71101,
+      "cost": 80264,
+      "prescribers": 71
+    },
+    {
+      "local_authority": "Stockport",
+      "prescriptions": 69516,
+      "cost": 68444,
+      "prescribers": 34
+    },
+    {
+      "local_authority": "Lambeth",
+      "prescriptions": 68951,
+      "cost": 62643,
+      "prescribers": 49
+    },
+    {
+      "local_authority": "Redbridge",
+      "prescriptions": 68669,
+      "cost": 81895,
+      "prescribers": 50
+    },
+    {
+      "local_authority": "Sefton",
+      "prescriptions": 68560,
+      "cost": 59609,
+      "prescribers": 43
+    },
+    {
+      "local_authority": "Croydon",
+      "prescriptions": 68329,
+      "cost": 75721,
+      "prescribers": 51
+    },
+    {
+      "local_authority": "Barnet",
+      "prescriptions": 67930,
+      "cost": 86931,
+      "prescribers": 55
+    },
+    {
+      "local_authority": "Stoke-on-Trent",
+      "prescriptions": 67902,
+      "cost": 69751,
+      "prescribers": 42
+    },
+    {
+      "local_authority": "Bournemouth, Christchurch and Poole",
+      "prescriptions": 66193,
+      "cost": 73418,
+      "prescribers": 32
+    },
+    {
+      "local_authority": "Wirral",
+      "prescriptions": 65268,
+      "cost": 69049,
+      "prescribers": 47
+    },
+    {
+      "local_authority": "Gateshead",
+      "prescriptions": 64541,
+      "cost": 51096,
+      "prescribers": 27
+    },
+    {
+      "local_authority": "Salford",
+      "prescriptions": 63941,
+      "cost": 53988,
+      "prescribers": 43
+    },
+    {
+      "local_authority": "Wolverhampton",
+      "prescriptions": 63903,
+      "cost": 77005,
+      "prescribers": 36
+    },
+    {
+      "local_authority": "East Lindsey",
+      "prescriptions": 63838,
+      "cost": 55447,
+      "prescribers": 22
+    },
+    {
+      "local_authority": "Bolton",
+      "prescriptions": 63210,
+      "cost": 67999,
+      "prescribers": 54
+    },
+    {
+      "local_authority": "Nottingham",
+      "prescriptions": 62996,
+      "cost": 68544,
+      "prescribers": 50
+    },
+    {
+      "local_authority": "Hillingdon",
+      "prescriptions": 62884,
+      "cost": 66234,
+      "prescribers": 48
+    },
+    {
+      "local_authority": "Medway",
+      "prescriptions": 62138,
+      "cost": 65513,
+      "prescribers": 35
+    },
+    {
+      "local_authority": "East Suffolk",
+      "prescriptions": 60901,
+      "cost": 60726,
+      "prescribers": 26
+    },
+    {
+      "local_authority": "Barking and Dagenham",
+      "prescriptions": 60715,
+      "cost": 58959,
+      "prescribers": 41
+    },
+    {
+      "local_authority": "Hounslow",
+      "prescriptions": 59895,
+      "cost": 64103,
+      "prescribers": 46
+    },
+    {
+      "local_authority": "North Lincolnshire",
+      "prescriptions": 59713,
+      "cost": 54685,
+      "prescribers": 26
+    },
+    {
+      "local_authority": "Dudley",
+      "prescriptions": 59136,
+      "cost": 76312,
+      "prescribers": 48
+    },
+    {
+      "local_authority": "Walsall",
+      "prescriptions": 59097,
+      "cost": 79688,
+      "prescribers": 55
+    },
+    {
+      "local_authority": "Southwark",
+      "prescriptions": 58767,
+      "cost": 56033,
+      "prescribers": 37
+    },
+    {
+      "local_authority": "Central Bedfordshire",
+      "prescriptions": 58724,
+      "cost": 58129,
+      "prescribers": 24
+    },
+    {
+      "local_authority": "Wandsworth",
+      "prescriptions": 58311,
+      "cost": 50494,
+      "prescribers": 41
+    },
+    {
+      "local_authority": "Haringey",
+      "prescriptions": 58247,
+      "cost": 54635,
+      "prescribers": 35
+    },
+    {
+      "local_authority": "Stockton-on-Tees",
+      "prescriptions": 57955,
+      "cost": 47796,
+      "prescribers": 23
+    },
+    {
+      "local_authority": "Calderdale",
+      "prescriptions": 57575,
+      "cost": 51512,
+      "prescribers": 23
+    },
+    {
+      "local_authority": "Westmorland and Furness",
+      "prescriptions": 56890,
+      "cost": 51136,
+      "prescribers": 39
+    },
+    {
+      "local_authority": "Oldham",
+      "prescriptions": 56724,
+      "cost": 56875,
+      "prescribers": 35
+    },
+    {
+      "local_authority": "Harrow",
+      "prescriptions": 56185,
+      "cost": 66007,
+      "prescribers": 31
+    },
+    {
+      "local_authority": "West Suffolk",
+      "prescriptions": 56125,
+      "cost": 54316,
+      "prescribers": 20
+    },
+    {
+      "local_authority": "North Tyneside",
+      "prescriptions": 54957,
+      "cost": 48650,
+      "prescribers": 24
+    },
+    {
+      "local_authority": "Swindon",
+      "prescriptions": 54065,
+      "cost": 57326,
+      "prescribers": 19
+    },
+    {
+      "local_authority": "Waltham Forest",
+      "prescriptions": 53745,
+      "cost": 62051,
+      "prescribers": 45
+    },
+    {
+      "local_authority": "Hackney",
+      "prescriptions": 53660,
+      "cost": 55131,
+      "prescribers": 40
+    },
+    {
+      "local_authority": "Tameside",
+      "prescriptions": 53287,
+      "cost": 62752,
+      "prescribers": 37
+    },
+    {
+      "local_authority": "Peterborough",
+      "prescriptions": 53097,
+      "cost": 52589,
+      "prescribers": 20
+    },
+    {
+      "local_authority": "Tendring",
+      "prescriptions": 52826,
+      "cost": 48955,
+      "prescribers": 19
+    },
+    {
+      "local_authority": "Plymouth",
+      "prescriptions": 52487,
+      "cost": 60474,
+      "prescribers": 24
+    },
+    {
+      "local_authority": "Trafford",
+      "prescriptions": 51889,
+      "cost": 47730,
+      "prescribers": 28
+    },
+    {
+      "local_authority": "Huntingdonshire",
+      "prescriptions": 50698,
+      "cost": 45506,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Blackpool",
+      "prescriptions": 50354,
+      "cost": 40052,
+      "prescribers": 22
+    },
+    {
+      "local_authority": "Havering",
+      "prescriptions": 50244,
+      "cost": 54752,
+      "prescribers": 40
+    },
+    {
+      "local_authority": "South Kesteven",
+      "prescriptions": 50176,
+      "cost": 43169,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "Rochdale",
+      "prescriptions": 49828,
+      "cost": 57671,
+      "prescribers": 42
+    },
+    {
+      "local_authority": "Redcar and Cleveland",
+      "prescriptions": 48654,
+      "cost": 38915,
+      "prescribers": 19
+    },
+    {
+      "local_authority": "King's Lynn and West Norfolk",
+      "prescriptions": 48500,
+      "cost": 38630,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Greenwich",
+      "prescriptions": 48475,
+      "cost": 61421,
+      "prescribers": 31
+    },
+    {
+      "local_authority": "Bexley",
+      "prescriptions": 47155,
+      "cost": 58418,
+      "prescribers": 23
+    },
+    {
+      "local_authority": "Colchester",
+      "prescriptions": 46986,
+      "cost": 40396,
+      "prescribers": 19
+    },
+    {
+      "local_authority": "St. Helens",
+      "prescriptions": 46841,
+      "cost": 46847,
+      "prescribers": 35
+    },
+    {
+      "local_authority": "South Tyneside",
+      "prescriptions": 46230,
+      "cost": 39374,
+      "prescribers": 22
+    },
+    {
+      "local_authority": "Sutton",
+      "prescriptions": 45488,
+      "cost": 41487,
+      "prescribers": 26
+    },
+    {
+      "local_authority": "Chelmsford",
+      "prescriptions": 44239,
+      "cost": 41599,
+      "prescribers": 19
+    },
+    {
+      "local_authority": "Milton Keynes",
+      "prescriptions": 43927,
+      "cost": 61040,
+      "prescribers": 24
+    },
+    {
+      "local_authority": "Bromley",
+      "prescriptions": 43904,
+      "cost": 62941,
+      "prescribers": 54
+    },
+    {
+      "local_authority": "Derby",
+      "prescriptions": 43258,
+      "cost": 55324,
+      "prescribers": 28
+    },
+    {
+      "local_authority": "North East Lincolnshire",
+      "prescriptions": 43112,
+      "cost": 42439,
+      "prescribers": 25
+    },
+    {
+      "local_authority": "Luton",
+      "prescriptions": 42691,
+      "cost": 53549,
+      "prescribers": 33
+    },
+    {
+      "local_authority": "Herefordshire, County of",
+      "prescriptions": 42581,
+      "cost": 44299,
+      "prescribers": 22
+    },
+    {
+      "local_authority": "Middlesbrough",
+      "prescriptions": 42343,
+      "cost": 35921,
+      "prescribers": 22
+    },
+    {
+      "local_authority": "Charnwood",
+      "prescriptions": 42160,
+      "cost": 42043,
+      "prescribers": 26
+    },
+    {
+      "local_authority": "Brighton and Hove",
+      "prescriptions": 41944,
+      "cost": 48672,
+      "prescribers": 34
+    },
+    {
+      "local_authority": "Solihull",
+      "prescriptions": 41707,
+      "cost": 56093,
+      "prescribers": 23
+    },
+    {
+      "local_authority": "Warrington",
+      "prescriptions": 41466,
+      "cost": 43166,
+      "prescribers": 33
+    },
+    {
+      "local_authority": "Thurrock",
+      "prescriptions": 41345,
+      "cost": 43173,
+      "prescribers": 30
+    },
+    {
+      "local_authority": "Islington",
+      "prescriptions": 41134,
+      "cost": 38299,
+      "prescribers": 35
+    },
+    {
+      "local_authority": "Knowsley",
+      "prescriptions": 41108,
+      "cost": 40047,
+      "prescribers": 25
+    },
+    {
+      "local_authority": "North Somerset",
+      "prescriptions": 40836,
+      "cost": 45872,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Blackburn with Darwen",
+      "prescriptions": 40231,
+      "cost": 37677,
+      "prescribers": 26
+    },
+    {
+      "local_authority": "Southampton",
+      "prescriptions": 40206,
+      "cost": 53137,
+      "prescribers": 30
+    },
+    {
+      "local_authority": "Bury",
+      "prescriptions": 40159,
+      "cost": 44592,
+      "prescribers": 31
+    },
+    {
+      "local_authority": "Merton",
+      "prescriptions": 39964,
+      "cost": 40079,
+      "prescribers": 26
+    },
+    {
+      "local_authority": "Breckland",
+      "prescriptions": 38942,
+      "cost": 29864,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Braintree",
+      "prescriptions": 38502,
+      "cost": 34603,
+      "prescribers": 19
+    },
+    {
+      "local_authority": "South Gloucestershire",
+      "prescriptions": 38191,
+      "cost": 47986,
+      "prescribers": 21
+    },
+    {
+      "local_authority": "New Forest",
+      "prescriptions": 37763,
+      "cost": 41405,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Maidstone",
+      "prescriptions": 37619,
+      "cost": 34130,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "York",
+      "prescriptions": 37538,
+      "cost": 37778,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Bath and North East Somerset",
+      "prescriptions": 37537,
+      "cost": 35391,
+      "prescribers": 22
+    },
+    {
+      "local_authority": "Basildon",
+      "prescriptions": 37193,
+      "cost": 47357,
+      "prescribers": 33
+    },
+    {
+      "local_authority": "Westminster",
+      "prescriptions": 37160,
+      "cost": 35170,
+      "prescribers": 38
+    },
+    {
+      "local_authority": "Stratford-on-Avon",
+      "prescriptions": 36958,
+      "cost": 28647,
+      "prescribers": 18
+    },
+    {
+      "local_authority": "Hammersmith and Fulham",
+      "prescriptions": 36751,
+      "cost": 31499,
+      "prescribers": 31
+    },
+    {
+      "local_authority": "Newcastle-under-Lyme",
+      "prescriptions": 36089,
+      "cost": 35450,
+      "prescribers": 18
+    },
+    {
+      "local_authority": "Telford and Wrekin",
+      "prescriptions": 35668,
+      "cost": 48139,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Arun",
+      "prescriptions": 35282,
+      "cost": 41302,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Bassetlaw",
+      "prescriptions": 34843,
+      "cost": 27446,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Lewisham",
+      "prescriptions": 34826,
+      "cost": 55249,
+      "prescribers": 33
+    },
+    {
+      "local_authority": "Ipswich",
+      "prescriptions": 34613,
+      "cost": 37095,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "Nuneaton and Bedworth",
+      "prescriptions": 34612,
+      "cost": 27042,
+      "prescribers": 20
+    },
+    {
+      "local_authority": "Cherwell",
+      "prescriptions": 34564,
+      "cost": 32386,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Newark and Sherwood",
+      "prescriptions": 34260,
+      "cost": 26217,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Fenland",
+      "prescriptions": 34254,
+      "cost": 30997,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "South Cambridgeshire",
+      "prescriptions": 34163,
+      "cost": 29906,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Ashfield",
+      "prescriptions": 34106,
+      "cost": 27785,
+      "prescribers": 18
+    },
+    {
+      "local_authority": "South Holland",
+      "prescriptions": 34022,
+      "cost": 60199,
+      "prescribers": 8
+    },
+    {
+      "local_authority": "East Devon",
+      "prescriptions": 33912,
+      "cost": 29860,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Preston",
+      "prescriptions": 33877,
+      "cost": 31250,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Slough",
+      "prescriptions": 33817,
+      "cost": 36798,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Torbay",
+      "prescriptions": 33665,
+      "cost": 33399,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "North Norfolk",
+      "prescriptions": 33563,
+      "cost": 26711,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Wychavon",
+      "prescriptions": 33254,
+      "cost": 28107,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Hinckley and Bosworth",
+      "prescriptions": 33231,
+      "cost": 33305,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Bedford",
+      "prescriptions": 32974,
+      "cost": 38927,
+      "prescribers": 19
+    },
+    {
+      "local_authority": "Mansfield",
+      "prescriptions": 32644,
+      "cost": 27040,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Wyre",
+      "prescriptions": 32612,
+      "cost": 25958,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Reading",
+      "prescriptions": 32542,
+      "cost": 45830,
+      "prescribers": 20
+    },
+    {
+      "local_authority": "Richmond upon Thames",
+      "prescriptions": 32449,
+      "cost": 29151,
+      "prescribers": 29
+    },
+    {
+      "local_authority": "Lancaster",
+      "prescriptions": 32304,
+      "cost": 28630,
+      "prescribers": 5
+    },
+    {
+      "local_authority": "Dacorum",
+      "prescriptions": 32246,
+      "cost": 31348,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Southend-on-Sea",
+      "prescriptions": 31919,
+      "cost": 39794,
+      "prescribers": 29
+    },
+    {
+      "local_authority": "Isle of Wight",
+      "prescriptions": 31911,
+      "cost": 32024,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Basingstoke and Deane",
+      "prescriptions": 31707,
+      "cost": 34825,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "South Norfolk",
+      "prescriptions": 31611,
+      "cost": 25915,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "West Berkshire",
+      "prescriptions": 31361,
+      "cost": 52439,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "East Hertfordshire",
+      "prescriptions": 30807,
+      "cost": 26850,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "North Kesteven",
+      "prescriptions": 30672,
+      "cost": 24233,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Camden",
+      "prescriptions": 30507,
+      "cost": 34235,
+      "prescribers": 33
+    },
+    {
+      "local_authority": "Wealden",
+      "prescriptions": 30496,
+      "cost": 31735,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Darlington",
+      "prescriptions": 30227,
+      "cost": 26365,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "East Staffordshire",
+      "prescriptions": 30153,
+      "cost": 34638,
+      "prescribers": 18
+    },
+    {
+      "local_authority": "Bolsover",
+      "prescriptions": 29789,
+      "cost": 24385,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Portsmouth",
+      "prescriptions": 29727,
+      "cost": 37924,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Kingston upon Thames",
+      "prescriptions": 29605,
+      "cost": 30533,
+      "prescribers": 22
+    },
+    {
+      "local_authority": "Thanet",
+      "prescriptions": 29409,
+      "cost": 30789,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Gloucester",
+      "prescriptions": 29188,
+      "cost": 27866,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Stafford",
+      "prescriptions": 28644,
+      "cost": 31410,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Kensington and Chelsea",
+      "prescriptions": 28484,
+      "cost": 27865,
+      "prescribers": 38
+    },
+    {
+      "local_authority": "Tonbridge and Malling",
+      "prescriptions": 28339,
+      "cost": 26699,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "North West Leicestershire",
+      "prescriptions": 28297,
+      "cost": 23857,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Halton",
+      "prescriptions": 28263,
+      "cost": 29596,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Hartlepool",
+      "prescriptions": 28064,
+      "cost": 30445,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Exeter",
+      "prescriptions": 27978,
+      "cost": 23544,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Swale",
+      "prescriptions": 27949,
+      "cost": 33932,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "South Oxfordshire",
+      "prescriptions": 27835,
+      "cost": 30566,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Chichester",
+      "prescriptions": 27774,
+      "cost": 26728,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "West Oxfordshire",
+      "prescriptions": 27701,
+      "cost": 23580,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Canterbury",
+      "prescriptions": 27642,
+      "cost": 34189,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Welwyn Hatfield",
+      "prescriptions": 27548,
+      "cost": 24356,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Rushcliffe",
+      "prescriptions": 27420,
+      "cost": 24348,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Lincoln",
+      "prescriptions": 27362,
+      "cost": 23043,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "Mid Suffolk",
+      "prescriptions": 27235,
+      "cost": 21250,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "West Lindsey",
+      "prescriptions": 26895,
+      "cost": 21974,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Hertsmere",
+      "prescriptions": 26784,
+      "cost": 34115,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Forest of Dean",
+      "prescriptions": 26617,
+      "cost": 18726,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Stroud",
+      "prescriptions": 26528,
+      "cost": 23090,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "North Hertfordshire",
+      "prescriptions": 26508,
+      "cost": 25626,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Broadland",
+      "prescriptions": 26487,
+      "cost": 22285,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Ashford",
+      "prescriptions": 26073,
+      "cost": 29055,
+      "prescribers": 23
+    },
+    {
+      "local_authority": "Amber Valley",
+      "prescriptions": 25699,
+      "cost": 31090,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Oxford",
+      "prescriptions": 25624,
+      "cost": 32037,
+      "prescribers": 19
+    },
+    {
+      "local_authority": "Norwich",
+      "prescriptions": 25339,
+      "cost": 26233,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "Waverley",
+      "prescriptions": 25322,
+      "cost": 25484,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Cotswold",
+      "prescriptions": 25254,
+      "cost": 18313,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Horsham",
+      "prescriptions": 25152,
+      "cost": 32401,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "North Devon",
+      "prescriptions": 25108,
+      "cost": 22892,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Chesterfield",
+      "prescriptions": 25059,
+      "cost": 26017,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Harborough",
+      "prescriptions": 25003,
+      "cost": 21650,
+      "prescribers": 7
+    },
+    {
+      "local_authority": "Broxbourne",
+      "prescriptions": 24826,
+      "cost": 20037,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Windsor and Maidenhead",
+      "prescriptions": 24507,
+      "cost": 29869,
+      "prescribers": 21
+    },
+    {
+      "local_authority": "North East Derbyshire",
+      "prescriptions": 24451,
+      "cost": 19623,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Teignbridge",
+      "prescriptions": 24411,
+      "cost": 27564,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Burnley",
+      "prescriptions": 24340,
+      "cost": 21205,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Stevenage",
+      "prescriptions": 24216,
+      "cost": 21264,
+      "prescribers": 6
+    },
+    {
+      "local_authority": "Crawley",
+      "prescriptions": 24150,
+      "cost": 29641,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "South Ribble",
+      "prescriptions": 24133,
+      "cost": 23290,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "Harlow",
+      "prescriptions": 24127,
+      "cost": 19939,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Boston",
+      "prescriptions": 24050,
+      "cost": 26239,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Cambridge",
+      "prescriptions": 24040,
+      "cost": 24327,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Worthing",
+      "prescriptions": 23986,
+      "cost": 25080,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "West Lancashire",
+      "prescriptions": 23983,
+      "cost": 25836,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Warwick",
+      "prescriptions": 23928,
+      "cost": 25512,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Winchester",
+      "prescriptions": 23877,
+      "cost": 23218,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Cannock Chase",
+      "prescriptions": 23780,
+      "cost": 26345,
+      "prescribers": 18
+    },
+    {
+      "local_authority": "Wokingham",
+      "prescriptions": 23576,
+      "cost": 29859,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Great Yarmouth",
+      "prescriptions": 23539,
+      "cost": 26843,
+      "prescribers": 7
+    },
+    {
+      "local_authority": "North Warwickshire",
+      "prescriptions": 23489,
+      "cost": 18502,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Epping Forest",
+      "prescriptions": 23395,
+      "cost": 25744,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "East Cambridgeshire",
+      "prescriptions": 23335,
+      "cost": 18922,
+      "prescribers": 8
+    },
+    {
+      "local_authority": "St Albans",
+      "prescriptions": 23046,
+      "cost": 25647,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "Staffordshire Moorlands",
+      "prescriptions": 22897,
+      "cost": 26346,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "East Hampshire",
+      "prescriptions": 22807,
+      "cost": 24886,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Chorley",
+      "prescriptions": 22672,
+      "cost": 23852,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "Mid Sussex",
+      "prescriptions": 22528,
+      "cost": 30319,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Tunbridge Wells",
+      "prescriptions": 22482,
+      "cost": 21494,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "Rother",
+      "prescriptions": 22224,
+      "cost": 33251,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Hastings",
+      "prescriptions": 22204,
+      "cost": 20076,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Rugby",
+      "prescriptions": 22113,
+      "cost": 22073,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Gedling",
+      "prescriptions": 21911,
+      "cost": 24164,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Cheltenham",
+      "prescriptions": 21855,
+      "cost": 21848,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Blaby",
+      "prescriptions": 21848,
+      "cost": 21710,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Mid Devon",
+      "prescriptions": 21747,
+      "cost": 18152,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Babergh",
+      "prescriptions": 21638,
+      "cost": 32074,
+      "prescribers": 8
+    },
+    {
+      "local_authority": "Dartford",
+      "prescriptions": 21524,
+      "cost": 24020,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Eastbourne",
+      "prescriptions": 21413,
+      "cost": 21802,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Gravesham",
+      "prescriptions": 21386,
+      "cost": 22379,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Folkestone and Hythe",
+      "prescriptions": 21187,
+      "cost": 25609,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Havant",
+      "prescriptions": 21112,
+      "cost": 26629,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Pendle",
+      "prescriptions": 21065,
+      "cost": 21571,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Uttlesford",
+      "prescriptions": 20812,
+      "cost": 16610,
+      "prescribers": 8
+    },
+    {
+      "local_authority": "Lewes",
+      "prescriptions": 20769,
+      "cost": 26033,
+      "prescribers": 7
+    },
+    {
+      "local_authority": "Dover",
+      "prescriptions": 20428,
+      "cost": 26359,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Fylde",
+      "prescriptions": 20361,
+      "cost": 17651,
+      "prescribers": 8
+    },
+    {
+      "local_authority": "Hyndburn",
+      "prescriptions": 20227,
+      "cost": 16920,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Rushmoor",
+      "prescriptions": 19755,
+      "cost": 23828,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Wyre Forest",
+      "prescriptions": 19660,
+      "cost": 24415,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Torridge",
+      "prescriptions": 19648,
+      "cost": 16832,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Vale of White Horse",
+      "prescriptions": 19555,
+      "cost": 21891,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Broxtowe",
+      "prescriptions": 19006,
+      "cost": 23197,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Test Valley",
+      "prescriptions": 19002,
+      "cost": 22858,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Sevenoaks",
+      "prescriptions": 18863,
+      "cost": 19590,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Surrey Heath",
+      "prescriptions": 18802,
+      "cost": 21287,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Tewkesbury",
+      "prescriptions": 18585,
+      "cost": 18705,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Reigate and Banstead",
+      "prescriptions": 18538,
+      "cost": 24165,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Erewash",
+      "prescriptions": 18331,
+      "cost": 23250,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Tamworth",
+      "prescriptions": 18280,
+      "cost": 20885,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "South Staffordshire",
+      "prescriptions": 18259,
+      "cost": 23069,
+      "prescribers": 18
+    },
+    {
+      "local_authority": "Derbyshire Dales",
+      "prescriptions": 18214,
+      "cost": 15879,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Worcester",
+      "prescriptions": 17790,
+      "cost": 22741,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "High Peak",
+      "prescriptions": 17776,
+      "cost": 21872,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Maldon",
+      "prescriptions": 17665,
+      "cost": 14203,
+      "prescribers": 8
+    },
+    {
+      "local_authority": "Bracknell Forest",
+      "prescriptions": 17442,
+      "cost": 22307,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Castle Point",
+      "prescriptions": 17415,
+      "cost": 19694,
+      "prescribers": 16
+    },
+    {
+      "local_authority": "Lichfield",
+      "prescriptions": 17313,
+      "cost": 18937,
+      "prescribers": 6
+    },
+    {
+      "local_authority": "Spelthorne",
+      "prescriptions": 16998,
+      "cost": 24776,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Fareham",
+      "prescriptions": 16889,
+      "cost": 21831,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Malvern Hills",
+      "prescriptions": 16769,
+      "cost": 15385,
+      "prescribers": 8
+    },
+    {
+      "local_authority": "Rossendale",
+      "prescriptions": 16758,
+      "cost": 15206,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Elmbridge",
+      "prescriptions": 16705,
+      "cost": 22574,
+      "prescribers": 17
+    },
+    {
+      "local_authority": "Mole Valley",
+      "prescriptions": 15852,
+      "cost": 19310,
+      "prescribers": 15
+    },
+    {
+      "local_authority": "Rochford",
+      "prescriptions": 15819,
+      "cost": 20315,
+      "prescribers": 14
+    },
+    {
+      "local_authority": "Tandridge",
+      "prescriptions": 15728,
+      "cost": 20518,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Hart",
+      "prescriptions": 15602,
+      "cost": 18961,
+      "prescribers": 8
+    },
+    {
+      "local_authority": "Gosport",
+      "prescriptions": 15561,
+      "cost": 18123,
+      "prescribers": 5
+    },
+    {
+      "local_authority": "Eastleigh",
+      "prescriptions": 15301,
+      "cost": 23088,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Ribble Valley",
+      "prescriptions": 15294,
+      "cost": 12283,
+      "prescribers": 6
+    },
+    {
+      "local_authority": "Woking",
+      "prescriptions": 15044,
+      "cost": 24567,
+      "prescribers": 13
+    },
+    {
+      "local_authority": "Watford",
+      "prescriptions": 14886,
+      "cost": 13755,
+      "prescribers": 6
+    },
+    {
+      "local_authority": "South Hams",
+      "prescriptions": 14383,
+      "cost": 15325,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Bromsgrove",
+      "prescriptions": 14167,
+      "cost": 18912,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "South Derbyshire",
+      "prescriptions": 14072,
+      "cost": 18585,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "West Devon",
+      "prescriptions": 13892,
+      "cost": 12731,
+      "prescribers": 5
+    },
+    {
+      "local_authority": "Guildford",
+      "prescriptions": 13887,
+      "cost": 16865,
+      "prescribers": 11
+    },
+    {
+      "local_authority": "Oadby and Wigston",
+      "prescriptions": 13548,
+      "cost": 15661,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Redditch",
+      "prescriptions": 13061,
+      "cost": 17126,
+      "prescribers": 12
+    },
+    {
+      "local_authority": "Three Rivers",
+      "prescriptions": 13000,
+      "cost": 15061,
+      "prescribers": 8
+    },
+    {
+      "local_authority": "Runnymede",
+      "prescriptions": 12978,
+      "cost": 17742,
+      "prescribers": 9
+    },
+    {
+      "local_authority": "Rutland",
+      "prescriptions": 12364,
+      "cost": 9050,
+      "prescribers": 5
+    },
+    {
+      "local_authority": "Brentwood",
+      "prescriptions": 11212,
+      "cost": 16765,
+      "prescribers": 10
+    },
+    {
+      "local_authority": "Melton",
+      "prescriptions": 10892,
+      "cost": 11232,
+      "prescribers": 3
+    },
+    {
+      "local_authority": "Adur",
+      "prescriptions": 10292,
+      "cost": 13507,
+      "prescribers": 4
+    },
+    {
+      "local_authority": "Epsom and Ewell",
+      "prescriptions": 10258,
+      "cost": 14998,
+      "prescribers": 7
+    },
+    {
+      "local_authority": "City of London",
+      "prescriptions": 1161,
+      "cost": 1501,
+      "prescribers": 1
+    },
+    {
+      "local_authority": "Isles of Scilly",
+      "prescriptions": 557,
+      "cost": 420,
+      "prescribers": 1
+    }
+  ],
+  "top_drugs": [
+    {
+      "name": "Atorvastatin",
+      "prescriptions": 6750037,
+      "cost": 5293024
+    },
+    {
+      "name": "Amlodipine",
+      "prescriptions": 3537668,
+      "cost": 2558232
+    },
+    {
+      "name": "Metformin",
+      "prescriptions": 2366780,
+      "cost": 4981151
+    }
+  ],
+  "metadata": {
+    "source": "NHS OpenPrescribing + postcodes.io",
+    "update_frequency": "Daily",
+    "total_practices": 6819,
+    "mapped_practices": 6815,
+    "unmapped_practices": 4,
+    "mapping_accuracy": "99.9%",
+    "geocoded_practices": 7041
+  }
+}

@@ -10,7 +10,8 @@ import { MapPin, Layers, Activity } from 'lucide-react'
 import { API_BASE_URL } from '../config'
 
 interface RegionData {
-  region: string
+  region?: string
+  local_authority?: string
   prescriptions: number
   cost: number
   prescribers: number
@@ -23,6 +24,8 @@ interface GeographicHeatMapProps {
   title?: string
   countryCode?: string
   drug?: string
+  granularity?: 'region' | 'local-authority'
+  onGranularityChange?: (granularity: 'region' | 'local-authority') => void
 }
 
 interface PracticeData {
@@ -168,10 +171,13 @@ export default function GeographicHeatMap({
   metric = 'prescriptions',
   title = 'Geographic Distribution',
   countryCode = 'uk',
-  drug = 'atorvastatin'
+  drug = 'atorvastatin',
+  granularity = 'region',
+  onGranularityChange
 }: GeographicHeatMapProps) {
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null)
   const [currentMetric, setCurrentMetric] = useState(metric)
+  const [currentGranularity, setCurrentGranularity] = useState(granularity)
   const [geoJsonData, setGeoJsonData] = useState<any>(null)
   const [loading, setLoading] = useState(true)
   const [bounds, setBounds] = useState<L.LatLngBounds | null>(null)
@@ -248,24 +254,37 @@ export default function GeographicHeatMap({
         const country = countryCode.toUpperCase()
         
         if (country === 'UK') {
-          // UK NHS regions - use local simplified GeoJSON with exact name matches
-          try {
-            const response = await fetch('/geojson/uk-nhs-regions-simple.json')
-            if (response.ok) {
-              geojson = await response.json()
-              console.log('✓ Loaded local UK NHS regions GeoJSON')
-            }
-          } catch (e) {
-            console.warn('Failed to load local UK GeoJSON, trying external source', e)
-            
-            // Fallback: external source
+          if (currentGranularity === 'local-authority') {
+            // UK Local Authorities (~150 areas)
             try {
-              const response = await fetch('https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/electoral/eng/eer.json')
+              const response = await fetch('/geojson/uk-local-authorities.json')
               if (response.ok) {
                 geojson = await response.json()
+                console.log('✓ Loaded UK Local Authorities GeoJSON')
               }
-            } catch (e2) {
-              console.error('All UK GeoJSON sources failed', e2)
+            } catch (e) {
+              console.error('Failed to load UK LA GeoJSON', e)
+            }
+          } else {
+            // UK NHS regions - use local simplified GeoJSON with exact name matches
+            try {
+              const response = await fetch('/geojson/uk-nhs-regions-simple.json')
+              if (response.ok) {
+                geojson = await response.json()
+                console.log('✓ Loaded local UK NHS regions GeoJSON')
+              }
+            } catch (e) {
+              console.warn('Failed to load local UK GeoJSON, trying external source', e)
+              
+              // Fallback: external source
+              try {
+                const response = await fetch('https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/electoral/eng/eer.json')
+                if (response.ok) {
+                  geojson = await response.json()
+                }
+              } catch (e2) {
+                console.error('All UK GeoJSON sources failed', e2)
+              }
             }
           }
         } else if (country === 'AU') {
@@ -317,7 +336,7 @@ export default function GeographicHeatMap({
     }
     
     loadGeoJSON()
-  }, [countryCode])
+  }, [countryCode, currentGranularity])
   
   // Region name mapping for better matching between GeoJSON and API names
   const regionMappings: Record<string, string[]> = {
@@ -355,45 +374,62 @@ export default function GeographicHeatMap({
   
   // Match region data to GeoJSON feature
   const getRegionDataForFeature = (feature: any): RegionData | null => {
+    // Extract feature name from various possible properties
     const featureName = (feature.properties?.name || feature.properties?.NAME || 
                         feature.properties?.admin || feature.properties?.ADMIN ||
                         feature.properties?.region || feature.properties?.EER13NM ||
+                        feature.properties?.LAD13NM || feature.properties?.LAD21NM ||
+                        feature.properties?.lad21nm || feature.properties?.lad13nm ||
                         '').toLowerCase().trim()
     
     if (!featureName) return null
     
-    // Try direct mapping first
-    const mappings = regionMappings[featureName] || []
-    
-    for (const mapping of mappings) {
-      const match = data.find(d => {
-        const regionName = d.region.toLowerCase()
-        return regionName.includes(mapping) || mapping.includes(regionName)
+    // Match based on granularity
+    if (currentGranularity === 'local-authority') {
+      // Direct match for Local Authorities
+      const directMatch = data.find(d => {
+        const laName = (d.local_authority || '').toLowerCase().trim()
+        return laName === featureName || 
+               featureName.includes(laName) || 
+               laName.includes(featureName)
       })
-      if (match) return match
-    }
-    
-    // Fallback: fuzzy matching
-    return data.find(d => {
-      const regionName = d.region.toLowerCase()
-      const cleanRegion = regionName.replace(/nhs england\s*/i, '').trim()
-      const cleanFeature = featureName.replace(/nhs england\s*/i, '').trim()
+      if (directMatch) return directMatch
+    } else {
+      // Try direct mapping first for regions
+      const mappings = regionMappings[featureName] || []
       
-      // Check if one contains the other
-      if (cleanRegion.includes(cleanFeature) || cleanFeature.includes(cleanRegion)) {
-        return true
+      for (const mapping of mappings) {
+        const match = data.find(d => {
+          const regionName = (d.region || '').toLowerCase()
+          return regionName.includes(mapping) || mapping.includes(regionName)
+        })
+        if (match) return match
       }
       
-      // Check word-by-word overlap (e.g., "North East" matches "North East and Yorkshire")
-      const regionWords = cleanRegion.split(/\s+/)
-      const featureWords = cleanFeature.split(/\s+/)
-      
-      const overlap = regionWords.filter(word => 
-        word.length > 3 && featureWords.includes(word)
-      ).length
-      
-      return overlap >= 2 || (overlap >= 1 && regionWords.length === 1)
-    }) || null
+      // Fallback: fuzzy matching for regions
+      return data.find(d => {
+        const regionName = (d.region || '').toLowerCase()
+        const cleanRegion = regionName.replace(/nhs england\s*/i, '').trim()
+        const cleanFeature = featureName.replace(/nhs england\s*/i, '').trim()
+        
+        // Check if one contains the other
+        if (cleanRegion.includes(cleanFeature) || cleanFeature.includes(cleanRegion)) {
+          return true
+        }
+        
+        // Check word-by-word overlap
+        const regionWords = cleanRegion.split(/\s+/)
+        const featureWords = cleanFeature.split(/\s+/)
+        
+        const overlap = regionWords.filter(word => 
+          word.length > 3 && featureWords.includes(word)
+        ).length
+        
+        return overlap >= 2 || (overlap >= 1 && regionWords.length === 1)
+      }) || null
+    }
+    
+    return null
   }
   
   // Style function for GeoJSON features
@@ -467,7 +503,9 @@ export default function GeographicHeatMap({
     }
   }
   
-  const selectedData = selectedRegion ? data.find(d => d.region === selectedRegion) : null
+  const selectedData = selectedRegion 
+    ? data.find(d => d.region === selectedRegion || d.local_authority === selectedRegion) 
+    : null
   
   const formatValue = (value: number, type: string) => {
     if (type === 'cost') return `$${(value / 1000000).toFixed(1)}M`
@@ -482,6 +520,41 @@ export default function GeographicHeatMap({
         <h3 className="text-lg font-bold text-gray-900">{title}</h3>
         
         <div className="flex items-center space-x-4">
+          {/* Granularity selector (UK only) */}
+          {countryCode.toUpperCase() === 'UK' && (
+            <div className="flex items-center space-x-2">
+              <span className="text-sm text-gray-600">Detail:</span>
+              <div className="flex bg-gray-100 rounded-lg p-1">
+                <button
+                  onClick={() => {
+                    setCurrentGranularity('region')
+                    if (onGranularityChange) onGranularityChange('region')
+                  }}
+                  className={`px-3 py-1 text-xs font-medium rounded transition-colors ${
+                    currentGranularity === 'region'
+                      ? 'bg-white text-primary-600 shadow-sm'
+                      : 'text-gray-600 hover:text-gray-900'
+                  }`}
+                >
+                  Regions (7)
+                </button>
+                <button
+                  onClick={() => {
+                    setCurrentGranularity('local-authority')
+                    if (onGranularityChange) onGranularityChange('local-authority')
+                  }}
+                  className={`px-3 py-1 text-xs font-medium rounded transition-colors ${
+                    currentGranularity === 'local-authority'
+                      ? 'bg-white text-primary-600 shadow-sm'
+                      : 'text-gray-600 hover:text-gray-900'
+                  }`}
+                >
+                  Local Auth. (150+)
+                </button>
+              </div>
+            </div>
+          )}
+          
           {/* Metric selector */}
           <div className="flex items-center space-x-2">
             <span className="text-sm text-gray-600">View by:</span>
@@ -661,7 +734,9 @@ export default function GeographicHeatMap({
               <div className="card">
                 <div className="flex items-center space-x-2 mb-4">
                   <MapPin className="h-5 w-5 text-primary-600" />
-                  <h4 className="font-bold text-gray-900">{selectedData.region}</h4>
+                  <h4 className="font-bold text-gray-900">
+                    {selectedData.local_authority || selectedData.region}
+                  </h4>
                 </div>
                 
                 <div className="space-y-3">

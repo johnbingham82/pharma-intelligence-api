@@ -23,6 +23,7 @@ from data_sources_au import AustraliaDataSource
 from data_sources_france import FranceDataSource
 from data_sources_japan import JapanDataSource
 from common_drugs import COMMON_DRUGS
+from postcode_geocoding import PostcodeGeocoder
 
 
 # Top drugs to query for each country
@@ -256,6 +257,148 @@ def aggregate_uk(cache_dir):
     print(f"  ✓ {len(regions)} regions, {len(drugs_data)} drugs")
 
 
+def aggregate_uk_local_authorities(cache_dir):
+    """Aggregate UK NHS data by Local Authority (granular ~150 areas)"""
+    print("\n🏘️ Aggregating UK by Local Authority (using postcodes)...")
+    
+    data_source = UKDataSource()
+    geocoder = PostcodeGeocoder()
+    
+    # Get latest period
+    period = data_source.get_latest_period()
+    print(f"  Period: {period}")
+    
+    # Aggregate by Local Authority
+    la_data = defaultdict(lambda: {'prescriptions': 0, 'cost': 0, 'prescribers': set(), 'practices': []})
+    drugs_data = []
+    unmapped_count = 0
+    total_practices = 0
+    
+    # Also collect practice locations for point markers
+    practice_locations = {}
+    
+    top_drugs = TOP_DRUGS['UK'][:3]  # Use top 3 drugs for LA aggregation
+    
+    for drug_name in top_drugs:
+        print(f"  → Querying {drug_name}...")
+        
+        drug_code = data_source.find_drug_code(drug_name)
+        if not drug_code:
+            print(f"    ⚠️  No code found for {drug_name}")
+            continue
+        
+        # Get practice-level prescribing data
+        prescribing_data = data_source.get_prescribing_data(drug_code, period)
+        
+        if not prescribing_data:
+            print(f"    ⚠️  No data returned")
+            continue
+        
+        print(f"    → Geocoding {len(prescribing_data)} practices...")
+        total_practices = len(prescribing_data)
+        
+        # Geocode practices and map to LAs
+        for i, p in enumerate(prescribing_data):
+            if i % 100 == 0 and i > 0:
+                print(f"      Progress: {i}/{len(prescribing_data)}")
+                geocoder._save_cache()  # Save periodically
+            
+            # Get practice location and LA
+            location = geocoder.get_practice_location_and_la(p.prescriber.id)
+            
+            if location and location.get('la_name'):
+                la_name = location['la_name']
+                
+                # Aggregate to LA
+                la_data[la_name]['prescriptions'] += p.prescriptions
+                la_data[la_name]['cost'] += p.cost
+                la_data[la_name]['prescribers'].add(p.prescriber.id)
+                
+                # Store practice location for point markers (first drug only)
+                if p.prescriber.id not in practice_locations:
+                    practice_locations[p.prescriber.id] = {
+                        'name': p.prescriber.name,
+                        'lat': location['lat'],
+                        'lng': location['lng'],
+                        'postcode': location['postcode'],
+                        'la': la_name,
+                        'prescriptions': p.prescriptions,
+                        'cost': p.cost
+                    }
+                else:
+                    # Update totals
+                    practice_locations[p.prescriber.id]['prescriptions'] += p.prescriptions
+                    practice_locations[p.prescriber.id]['cost'] += p.cost
+            else:
+                unmapped_count += 1
+        
+        # Calculate totals for this drug
+        total_rx = sum(p.prescriptions for p in prescribing_data)
+        total_cost = sum(p.cost for p in prescribing_data)
+        
+        drugs_data.append({
+            'name': drug_name.title(),
+            'prescriptions': total_rx,
+            'cost': int(total_cost)
+        })
+        
+        print(f"    ✓ {total_rx:,} prescriptions across {len(la_data)} LAs")
+        print(f"    ✓ Geocoded {len(practice_locations)} practice locations")
+    
+    # Save final cache
+    geocoder._save_cache()
+    
+    # Convert to list
+    local_authorities = [
+        {
+            'local_authority': la_name,
+            'prescriptions': int(data['prescriptions']),
+            'cost': int(data['cost']),
+            'prescribers': len(data['prescribers'])
+        }
+        for la_name, data in la_data.items()
+    ]
+    
+    # Sort by prescriptions
+    local_authorities.sort(key=lambda x: x['prescriptions'], reverse=True)
+    drugs_data.sort(key=lambda x: x['prescriptions'], reverse=True)
+    
+    # Create LA aggregates cache
+    cache_data = {
+        'country': 'UK',
+        'granularity': 'local_authority',
+        'last_updated': datetime.now().isoformat(),
+        'period': period,
+        'local_authorities': local_authorities,
+        'top_drugs': drugs_data,
+        'metadata': {
+            'source': 'NHS OpenPrescribing + postcodes.io',
+            'update_frequency': 'Daily',
+            'total_practices': total_practices,
+            'mapped_practices': total_practices - unmapped_count,
+            'unmapped_practices': unmapped_count,
+            'mapping_accuracy': f"{((total_practices - unmapped_count) / total_practices * 100):.1f}%" if total_practices > 0 else "0%",
+            'geocoded_practices': len(practice_locations)
+        }
+    }
+    
+    # Write LA aggregates to cache
+    cache_path = os.path.join(cache_dir, 'uk_local_authority_data.json')
+    with open(cache_path, 'w') as f:
+        json.dump(cache_data, f, indent=2)
+    
+    print(f"  ✓ Cached LA aggregates to {cache_path}")
+    print(f"  ✓ {len(local_authorities)} Local Authorities")
+    print(f"  ✓ Mapping accuracy: {cache_data['metadata']['mapping_accuracy']}")
+    
+    # Write practice locations to separate cache
+    locations_path = os.path.join(cache_dir, 'uk_practice_locations.json')
+    with open(locations_path, 'w') as f:
+        json.dump(practice_locations, f, indent=2)
+    
+    print(f"  ✓ Cached {len(practice_locations)} practice locations to {locations_path}")
+
+
 def aggregate_country(country_code, cache_dir):
     """Aggregate data for a specific country"""
     country_code = country_code.upper()
@@ -276,6 +419,7 @@ def main():
     parser = argparse.ArgumentParser(description='Aggregate country data from live sources')
     parser.add_argument('--country', help='Country code (UK, US, AU, FR, JP)')
     parser.add_argument('--all', action='store_true', help='Aggregate all countries')
+    parser.add_argument('--granular', action='store_true', help='Create granular aggregates (UK: Local Authorities)')
     args = parser.parse_args()
     
     cache_dir = os.path.join(os.path.dirname(__file__), '..', 'cache')
@@ -289,12 +433,16 @@ def main():
         for country in ['AU', 'UK']:  # Start with these two
             try:
                 aggregate_country(country, cache_dir)
+                if args.granular and country == 'UK':
+                    aggregate_uk_local_authorities(cache_dir)
             except Exception as e:
                 print(f"❌ Error aggregating {country}: {e}")
                 import traceback
                 traceback.print_exc()
     elif args.country:
         aggregate_country(args.country, cache_dir)
+        if args.granular and args.country.upper() == 'UK':
+            aggregate_uk_local_authorities(cache_dir)
     else:
         parser.print_help()
     

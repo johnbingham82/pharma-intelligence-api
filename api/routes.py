@@ -838,3 +838,51 @@ async def get_country_detail(country_code: str):
             status_code=500,
             detail=f"Failed to fetch country data: {str(e)}"
         )
+
+
+@router.get("/country/{country_code}/local-authorities", tags=["Reference"])
+async def get_country_local_authorities(country_code: str):
+    """
+    Get local authority level data for a country (UK only currently)
+    
+    Returns granular prescribing data at the local authority level (~150 areas for UK)
+    """
+    country = country_code.upper()
+    
+    try:
+        if country != 'UK':
+            raise HTTPException(
+                status_code=404,
+                detail=f"Local authority data not available for {country}"
+            )
+        
+        # Try to load from cache
+        cache_path = os.path.join(os.path.dirname(__file__), 'cache', f'{country.lower()}_local_authority_data.json')
+        
+        if not os.path.exists(cache_path):
+            raise HTTPException(
+                status_code=404,
+                detail="Local authority data not yet aggregated. Run: python scripts/aggregate_country_data.py --country UK --granular"
+            )
+        
+        with open(cache_path, 'r') as f:
+            cached_data = json.load(f)
+        
+        return {
+            'country': country,
+            'granularity': 'local_authority',
+            'last_updated': cached_data.get('last_updated'),
+            'local_authorities': cached_data.get('local_authorities', []),
+            'top_drugs': cached_data.get('top_drugs', []),
+            'metadata': cached_data.get('metadata', {})
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to fetch local authority data: {str(e)}"
+        )

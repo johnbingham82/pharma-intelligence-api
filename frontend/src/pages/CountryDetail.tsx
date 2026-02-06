@@ -7,7 +7,8 @@ import GeographicHeatMap from '../components/GeographicHeatMap'
 import { API_BASE_URL } from '../config'
 
 interface RegionalData {
-  region: string
+  region?: string
+  local_authority?: string
   prescriptions: number
   cost: number
   prescribers: number
@@ -51,10 +52,37 @@ export default function CountryDetail() {
   const [error, setError] = useState<string | null>(null)
   const [data, setData] = useState<CountryData | null>(null)
   const [viewMode, setViewMode] = useState<'chart' | 'heatmap' | 'geographic'>('chart')
+  const [granularity, setGranularity] = useState<'region' | 'local-authority'>('region')
+  const [laData, setLaData] = useState<RegionalData[] | null>(null)
+  const [loadingLaData, setLoadingLaData] = useState(false)
 
   useEffect(() => {
     fetchCountryData()
   }, [countryCode])
+  
+  // Fetch LA-level data when switching to local-authority granularity
+  useEffect(() => {
+    if (granularity === 'local-authority' && countryCode === 'uk' && !laData) {
+      fetchLaData()
+    }
+  }, [granularity, countryCode])
+  
+  const fetchLaData = async () => {
+    setLoadingLaData(true)
+    try {
+      const response = await fetch(`${API_BASE_URL}/country/${countryCode}/local-authorities`)
+      if (response.ok) {
+        const result = await response.json()
+        setLaData(result.local_authorities || [])
+      } else {
+        console.error('LA data not available yet')
+      }
+    } catch (err) {
+      console.error('Error fetching LA data:', err)
+    } finally {
+      setLoadingLaData(false)
+    }
+  }
 
   const fetchCountryData = async () => {
     setLoading(true)
@@ -284,19 +312,27 @@ export default function CountryDetail() {
             />
           ) : (
             <GeographicHeatMap 
-              data={data.regions}
+              data={granularity === 'local-authority' && laData ? laData : data.regions}
               countryCode={countryCode || 'uk'}
               title=""
+              granularity={granularity}
+              onGranularityChange={setGranularity}
             />
           )}
 
           {/* Regional Table */}
           <div className="mt-6 overflow-x-auto">
+            {loadingLaData && (
+              <div className="text-center py-4">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary-600 mx-auto"></div>
+                <p className="text-sm text-gray-600 mt-2">Loading local authority data...</p>
+              </div>
+            )}
             <table className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-50">
                 <tr>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    Region
+                    {granularity === 'local-authority' ? 'Local Authority' : 'Region'}
                   </th>
                   <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
                     Prescriptions
@@ -313,14 +349,17 @@ export default function CountryDetail() {
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
-                {data.regions
+                {(granularity === 'local-authority' && laData ? laData : data.regions)
                   .sort((a, b) => b.prescriptions - a.prescriptions)
+                  .slice(0, granularity === 'local-authority' ? 20 : undefined)
                   .map((region, idx) => (
-                    <tr key={region.region} className={idx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                    <tr key={region.region || region.local_authority} className={idx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="flex items-center">
                           <MapPin className="h-4 w-4 text-gray-400 mr-2" />
-                          <span className="text-sm font-medium text-gray-900">{region.region}</span>
+                          <span className="text-sm font-medium text-gray-900">
+                            {region.local_authority || region.region}
+                          </span>
                         </div>
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-right text-sm text-gray-900">
