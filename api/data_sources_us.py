@@ -7,6 +7,8 @@ API Documentation: https://data.cms.gov/provider-summary-by-type-of-service/medi
 Coverage: Medicare Part D prescriptions (40M+ beneficiaries, seniors 65+)
 """
 import requests
+import os
+import json
 from typing import List, Dict, Optional
 from pharma_intelligence_engine import (
     DataSource, PrescribingData, Prescriber
@@ -28,6 +30,34 @@ class USDataSource(DataSource):
         self.fda_ndc_url = "https://api.fda.gov/drug/ndc.json"
         
         self.cache = {}
+        
+        # Load available drugs from cache directory
+        self._load_available_drugs()
+    
+    def _load_available_drugs(self):
+        """Load list of available drugs from cache directory"""
+        self.available_drugs = {}
+        
+        try:
+            cache_dir = os.path.join(os.path.dirname(__file__), 'cache')
+            if not os.path.exists(cache_dir):
+                print("⚠️  No cache directory found for US data")
+                return
+            
+            # Scan for drug cache files (us_{drug}_data.json)
+            for filename in os.listdir(cache_dir):
+                if filename.startswith('us_') and filename.endswith('_data.json') and filename != 'us_state_data.json':
+                    # Extract drug name from filename (e.g., us_gabapentin_data.json -> gabapentin)
+                    drug_name = filename[3:-10].replace('_', ' ')
+                    
+                    # Also store the cleaned filename version for exact matching
+                    self.available_drugs[drug_name.lower()] = drug_name
+                    
+            print(f"✓ Loaded {len(self.available_drugs)} drugs from US cache")
+            
+        except Exception as e:
+            print(f"⚠️  Error loading available drugs: {e}")
+            self.available_drugs = {}
     
     def search_drug(self, name: str) -> List[Dict]:
         """
@@ -236,36 +266,31 @@ class USDataSource(DataSource):
     
     def find_drug_code(self, name: str, prefer_generic: bool = True) -> Optional[str]:
         """
-        Helper: Find the best drug name for CMS queries
-        
-        CMS uses generic drug names, not NDC codes in the main prescriber API
+        Helper: Find the best drug name for CMS queries (from cache files)
         
         Args:
             name: Drug name to search
             prefer_generic: Return generic name if True, brand if False
             
         Returns:
-            Drug name for CMS query (not NDC)
+            Drug name that matches a cache file, or None if not found
         """
-        # For CMS API, we query by generic name directly
-        # No need for NDC lookup in the main query
-        
         # Clean the name for querying
-        clean_name = name.lower().strip()
+        clean_name = name.lower().strip().replace('_', ' ')
         
-        # Common mappings (add more as needed)
-        known_generics = {
-            'inclisiran': 'inclisiran',
-            'leqvio': 'inclisiran',
-            'metformin': 'metformin',
-            'atorvastatin': 'atorvastatin',
-            'lipitor': 'atorvastatin',
-            'keytruda': 'pembrolizumab',
-            'pembrolizumab': 'pembrolizumab'
-        }
+        # Check if drug exists in our cache
+        if clean_name in self.available_drugs:
+            return self.available_drugs[clean_name]
         
-        # Return known generic or use input as-is
-        return known_generics.get(clean_name, clean_name)
+        # Try partial matching for common abbreviations/variations
+        for cached_drug in self.available_drugs:
+            if clean_name in cached_drug or cached_drug in clean_name:
+                print(f"✓ Matched '{name}' to cached drug '{cached_drug}'")
+                return self.available_drugs[cached_drug]
+        
+        # Not found in cache
+        print(f"⚠️  Drug '{name}' not found in US cache (available: {len(self.available_drugs)} drugs)")
+        return None
     
     def get_state_summary(self, drug_name: str, year: str = "2022") -> Dict:
         """
