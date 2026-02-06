@@ -1,8 +1,9 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { Building2, Pill, Globe, ArrowRight, Check, Zap, Database, Search } from 'lucide-react'
 import axios from 'axios'
 import { API_BASE_URL } from '../config'
+import Autocomplete from '../components/Autocomplete'
 
 const COUNTRIES = [
   { 
@@ -106,16 +107,49 @@ const COUNTRIES = [
   },
 ]
 
+// Top pharmaceutical companies for autocomplete
+const PHARMA_COMPANIES = [
+  'AbbVie', 'Amgen', 'AstraZeneca', 'Bayer', 'Biogen', 'Bristol Myers Squibb',
+  'Daiichi Sankyo', 'Eli Lilly', 'Gilead Sciences', 'GlaxoSmithKline (GSK)',
+  'Johnson & Johnson', 'Merck', 'Moderna', 'Novartis', 'Novo Nordisk',
+  'Pfizer', 'Regeneron', 'Roche', 'Sanofi', 'Takeda', 'Vertex Pharmaceuticals'
+].sort()
+
 export default function Home() {
   const navigate = useNavigate()
   const [step, setStep] = useState(1)
   const [loading, setLoading] = useState(false)
+  const [drugsList, setDrugsList] = useState<string[]>([])
+  const [loadingDrugs, setLoadingDrugs] = useState(false)
   
   const [formData, setFormData] = useState({
     company: '',
     drugName: '',
     country: ''
   })
+
+  // Fetch available drugs on mount
+  useEffect(() => {
+    const fetchDrugs = async () => {
+      setLoadingDrugs(true)
+      try {
+        const response = await axios.get(`${API_BASE_URL}/drugs/list`)
+        const drugs = response.data.drugs.map((drug: any) => drug.name)
+        setDrugsList(drugs.sort())
+      } catch (error) {
+        console.error('Failed to fetch drugs:', error)
+        // Fallback to common drugs if API fails
+        setDrugsList([
+          'Atorvastatin', 'Metformin', 'Amlodipine', 'Omeprazole', 'Simvastatin',
+          'Lisinopril', 'Gabapentin', 'Levothyroxine', 'Rosuvastatin', 'Albuterol'
+        ])
+      } finally {
+        setLoadingDrugs(false)
+      }
+    }
+
+    fetchDrugs()
+  }, [])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -334,12 +368,12 @@ export default function Home() {
 
                   <div>
                     <label className="label">Company Name</label>
-                    <input
-                      type="text"
-                      className="input"
-                      placeholder="e.g., Novartis, Pfizer, AstraZeneca"
+                    <Autocomplete
                       value={formData.company}
-                      onChange={(e) => setFormData({ ...formData, company: e.target.value })}
+                      onChange={(value) => setFormData({ ...formData, company: value })}
+                      suggestions={PHARMA_COMPANIES}
+                      placeholder="e.g., Novartis, Pfizer, AstraZeneca"
+                      className="input"
                       autoFocus
                     />
                     <p className="mt-2 text-sm text-gray-500">
@@ -376,16 +410,20 @@ export default function Home() {
 
                   <div>
                     <label className="label">Drug Name</label>
-                    <input
-                      type="text"
-                      className="input"
-                      placeholder="e.g., Metformin, Atorvastatin, Inclisiran"
+                    <Autocomplete
                       value={formData.drugName}
-                      onChange={(e) => setFormData({ ...formData, drugName: e.target.value })}
+                      onChange={(value) => setFormData({ ...formData, drugName: value })}
+                      suggestions={drugsList}
+                      placeholder="e.g., Metformin, Atorvastatin, Inclisiran"
+                      className="input"
                       autoFocus
+                      loading={loadingDrugs}
                     />
                     <p className="mt-2 text-sm text-gray-500">
-                      Enter brand name or generic name
+                      {drugsList.length > 0 
+                        ? `${drugsList.length} drugs available`
+                        : 'Enter brand name or generic name'
+                      }
                     </p>
                   </div>
 
