@@ -150,23 +150,27 @@ async def list_countries():
 @router.get("/drugs/list", tags=["Drugs"])
 async def list_drugs():
     """
-    List all available drugs in the common drugs database
+    List all available drugs from cache files (all countries)
     
-    Returns comprehensive list of supported drugs with metadata
+    Returns comprehensive list of drugs with real data availability
     """
-    drugs_list = []
-    for key, drug in COMMON_DRUGS.items():
-        drugs_list.append({
-            'id': key,
-            'name': drug['generic_name'],
-            'brand_names': drug['brand_names'],
-            'class': drug['class'],
-            'indications': drug['indications'],
-            'available_countries': list(drug['typical_volumes'].keys())
-        })
+    drugs_set = set()
     
-    # Sort by name
-    drugs_list.sort(key=lambda x: x['name'])
+    # Load drugs from US cache (largest dataset - 1,832 drugs)
+    cache_dir = os.path.join(os.path.dirname(__file__), 'cache')
+    if os.path.exists(cache_dir):
+        for filename in os.listdir(cache_dir):
+            if filename.startswith('us_') and filename.endswith('_data.json') and filename != 'us_state_data.json':
+                # Extract drug name from filename
+                drug_name = filename[3:-10].replace('_', ' ').title()
+                drugs_set.add(drug_name)
+    
+    # Also include common drugs for fallback
+    for key, drug in COMMON_DRUGS.items():
+        drugs_set.add(drug['generic_name'].title())
+    
+    # Convert to list with metadata
+    drugs_list = [{'name': name} for name in sorted(drugs_set)]
     
     return {
         'drugs': drugs_list,
