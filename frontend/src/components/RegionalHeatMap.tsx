@@ -33,18 +33,13 @@ const REGION_LAYOUTS: Record<string, any> = {
   uk: {
     name: 'United Kingdom',
     regions: [
-      { code: 'NE', name: 'North East', row: 0, col: 2 },
+      { code: 'NEYO', name: 'NE & Yorkshire', row: 0, col: 2 },
       { code: 'NW', name: 'North West', row: 1, col: 1 },
-      { code: 'YH', name: 'Yorkshire', row: 1, col: 2 },
-      { code: 'EM', name: 'East Midlands', row: 2, col: 2 },
-      { code: 'WM', name: 'West Midlands', row: 2, col: 1 },
+      { code: 'MID', name: 'Midlands', row: 2, col: 2 },
       { code: 'EE', name: 'East of England', row: 2, col: 3 },
-      { code: 'SW', name: 'South West', row: 3, col: 0 },
+      { code: 'LDN', name: 'London', row: 3, col: 3 },
       { code: 'SE', name: 'South East', row: 3, col: 2 },
-      { code: 'LDN', name: 'London', row: 3, col: 2 },
-      { code: 'SC', name: 'Scotland', row: 0, col: 1 },
-      { code: 'WA', name: 'Wales', row: 2, col: 0 },
-      { code: 'NI', name: 'N. Ireland', row: 1, col: 0 }
+      { code: 'SW', name: 'South West', row: 3, col: 1 }
     ]
   },
   us: {
@@ -102,13 +97,52 @@ export default function RegionalHeatMap({
   
   const layout = REGION_LAYOUTS[countryCode.toLowerCase()] || REGION_LAYOUTS.uk
   
-  // Get region data
+  // Region name mapping for better matching
+  const regionNameMapping: Record<string, string[]> = {
+    // UK NHS regions (7 regions)
+    'NEYO': ['North East', 'Yorkshire', 'North East and Yorkshire'],
+    'NW': ['North West'],
+    'MID': ['Midlands'],
+    'EE': ['East of England', 'East'],
+    'SW': ['South West'],
+    'SE': ['South East'],
+    'LDN': ['London'],
+    // Australia states
+    'NSW': ['New South Wales', 'State: New South Wales'],
+    'VIC': ['Victoria', 'State: Victoria'],
+    'QLD': ['Queensland', 'State: Queensland'],
+    'SA': ['South Australia', 'State: South Australia'],
+    'WA': ['Western Australia', 'State: Western Australia'],
+    'TAS': ['Tasmania', 'State: Tasmania'],
+    'NT': ['Northern Territory', 'State: Northern Territory'],
+    'ACT': ['Australian Capital Territory', 'State: Australian Capital Territory', 'ACT'],
+    // US states
+    'CA': ['California'],
+    'TX': ['Texas'],
+    'FL': ['Florida'],
+    'NY': ['New York'],
+    'PA': ['Pennsylvania'],
+    'IL': ['Illinois'],
+    'OH': ['Ohio'],
+    'GA': ['Georgia'],
+    'NC': ['North Carolina'],
+    'MI': ['Michigan']
+  }
+  
+  // Get region data with improved matching
   const getRegionData = (regionCode: string) => {
-    return data.find(d => 
-      d.region === regionCode || 
-      d.region.toLowerCase().includes(regionCode.toLowerCase()) ||
-      regionCode.toLowerCase().includes(d.region.toLowerCase())
-    )
+    const mappings = regionNameMapping[regionCode] || [regionCode]
+    
+    return data.find(d => {
+      const regionName = d.region.toLowerCase()
+      // Check direct code match
+      if (d.region === regionCode) return true
+      // Check if any mapping matches
+      return mappings.some(mapping => 
+        regionName.includes(mapping.toLowerCase()) ||
+        mapping.toLowerCase().includes(regionName)
+      )
+    })
   }
   
   const formatValue = (value: number, type: string) => {
@@ -117,7 +151,10 @@ export default function RegionalHeatMap({
     return value.toLocaleString()
   }
   
-  const selectedData = selectedRegion ? getRegionData(selectedRegion) : null
+  // Get selected region data - handle both layout codes and direct region names
+  const selectedData = selectedRegion ? (
+    getRegionData(selectedRegion) || data.find(d => d.region === selectedRegion)
+  ) : null
   
   return (
     <div className="space-y-6">
@@ -178,10 +215,11 @@ export default function RegionalHeatMap({
         {/* Heat Map Grid */}
         <div className="lg:col-span-2 bg-white rounded-lg border-2 border-gray-200 p-6">
           <div className="relative" style={{ minHeight: '400px' }}>
-            <div className="grid grid-cols-6 gap-2">
-              {layout.regions.map((region: any) => {
-                const regionData = getRegionData(region.code)
-                if (!regionData) return null
+            {layout.regions.length > 0 ? (
+              <div className="grid grid-cols-6 gap-2">
+                {layout.regions.map((region: any) => {
+                  const regionData = getRegionData(region.code)
+                  if (!regionData) return null
                 
                 const value = currentMetric === 'prescriptions' ? regionData.prescriptions :
                               currentMetric === 'cost' ? regionData.cost :
@@ -220,6 +258,44 @@ export default function RegionalHeatMap({
                 )
               })}
             </div>
+            ) : (
+              // Fallback: Simple grid for unmapped countries
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                {data.map((region) => {
+                  const value = currentMetric === 'prescriptions' ? region.prescriptions :
+                                currentMetric === 'cost' ? region.cost :
+                                currentMetric === 'prescribers' ? region.prescribers :
+                                region.growth || 0
+                  
+                  const colorClass = getColorForValue(value, maxValue, minValue)
+                  const isSelected = selectedRegion === region.region
+                  
+                  return (
+                    <button
+                      key={region.region}
+                      onClick={() => setSelectedRegion(region.region)}
+                      className={`
+                        relative p-4 rounded-lg transition-all transform
+                        ${colorClass}
+                        ${isSelected ? 'ring-4 ring-accent-400 scale-105 shadow-lg z-10' : 'hover:scale-105 hover:shadow-md'}
+                      `}
+                    >
+                      <div className="text-xs font-semibold mb-1 truncate">{region.region}</div>
+                      <div className="text-sm font-bold">
+                        {formatValue(value, currentMetric)}
+                      </div>
+                      
+                      {region.growth && currentMetric !== 'growth' && (
+                        <div className="mt-1 flex items-center justify-center">
+                          <TrendingUp className="h-3 w-3 mr-1" />
+                          <span className="text-xs">{region.growth.toFixed(1)}%</span>
+                        </div>
+                      )}
+                    </button>
+                  )
+                })}
+              </div>
+            )}
           </div>
           
           {/* Legend */}
