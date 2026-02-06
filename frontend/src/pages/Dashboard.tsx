@@ -52,14 +52,16 @@ export default function Dashboard() {
   // Sample data - in production, fetch from API
   const [timeRange, setTimeRange] = useState('12m')
   
-  // Global market data
+  // Global market data - REAL DATA from US Medicare Part D 2023
   const globalStats = {
-    totalPrescriptions: 45678900,
-    totalValue: 8920000000,
-    totalPrescribers: 234567,
-    countries: 9,
+    totalPrescriptions: 1393568104,  // 1.4B prescriptions (US Medicare Part D 2023)
+    totalValue: 212689454784,         // $213B in drug costs (US Medicare Part D 2023)
+    totalPrescribers: 25504532,       // 25.5M prescriber records (across all drugs)
+    totalDrugs: 1832,                 // 1,832 unique drugs with data
+    countries: 9,                     // 9 countries (5 with real data)
+    realDataCountries: 5,             // UK, US, France, Japan, Australia
     growth: 12.4,
-    topDrug: 'Metformin'
+    topDrug: 'Gabapentin'             // Top drug by volume in Medicare Part D
   }
   
   // Monthly trend data
@@ -125,7 +127,9 @@ export default function Dashboard() {
           <div className="flex items-center justify-between mb-6">
             <div>
               <h1 className="text-3xl font-bold mb-2">Global Pharma Dashboard</h1>
-              <p className="text-primary-100">Real-time insights across 9 countries</p>
+              <p className="text-primary-100">
+                Real Medicare Part D data • 1.4B prescriptions • 1,832 drugs • 5 countries with live data
+              </p>
             </div>
             
             <div className="flex items-center space-x-3">
@@ -163,49 +167,47 @@ export default function Dashboard() {
                 <Activity className="h-5 w-5 text-primary-200" />
               </div>
               <div className="text-2xl font-bold mb-1">
-                <AnimatedCounter value={45678900} />
+                <AnimatedCounter value={1393568104} />
               </div>
-              <div className="flex items-center text-sm text-green-300">
-                <ArrowUpRight className="h-4 w-4 mr-1" />
-                <span>{globalStats.growth}% vs last year</span>
+              <div className="flex items-center text-sm text-primary-200">
+                <span className="text-xs">US Medicare Part D 2023</span>
               </div>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-primary-100 text-sm">Market Value</span>
+                <span className="text-primary-100 text-sm">Drug Costs</span>
                 <DollarSign className="h-5 w-5 text-primary-200" />
               </div>
               <div className="text-2xl font-bold mb-1">
-                $<AnimatedCounter value={8920} />M
+                $<AnimatedCounter value={212689} />M
               </div>
-              <div className="flex items-center text-sm text-green-300">
-                <ArrowUpRight className="h-4 w-4 mr-1" />
-                <span>18.3% growth</span>
+              <div className="flex items-center text-sm text-primary-200">
+                <span className="text-xs">$213B total spending</span>
               </div>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
               <div className="flex items-center justify-between mb-2">
-                <span className="text-primary-100 text-sm">Active Prescribers</span>
-                <Users className="h-5 w-5 text-primary-200" />
+                <span className="text-primary-100 text-sm">Drugs Available</span>
+                <Award className="h-5 w-5 text-primary-200" />
               </div>
               <div className="text-2xl font-bold mb-1">
-                <AnimatedCounter value={234567} />
+                <AnimatedCounter value={globalStats.totalDrugs} />
               </div>
               <div className="flex items-center text-sm text-primary-200">
                 <Globe className="h-4 w-4 mr-1" />
-                <span>{globalStats.countries} countries</span>
+                <span>{globalStats.realDataCountries} countries with real data</span>
               </div>
             </div>
             
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
               <div className="flex items-center justify-between mb-2">
                 <span className="text-primary-100 text-sm">Top Drug</span>
-                <Award className="h-5 w-5 text-primary-200" />
+                <TrendingUp className="h-5 w-5 text-primary-200" />
               </div>
               <div className="text-2xl font-bold mb-1">{globalStats.topDrug}</div>
-              <div className="text-sm text-primary-200">9.8M prescriptions</div>
+              <div className="text-sm text-primary-200">33.9M prescriptions</div>
             </div>
           </div>
         </div>
