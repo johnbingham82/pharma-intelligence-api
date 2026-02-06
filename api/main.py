@@ -10,6 +10,7 @@ from datetime import datetime
 import time
 
 from routes import router
+from routes_granular import router as granular_router
 from models import ErrorResponse
 
 # ============================================================================
@@ -52,7 +53,8 @@ app = FastAPI(
         {"name": "General", "description": "Health checks and info"},
         {"name": "Reference", "description": "Reference data (countries, etc.)"},
         {"name": "Drugs", "description": "Drug search and lookup"},
-        {"name": "Analysis", "description": "Core analysis endpoints"}
+        {"name": "Analysis", "description": "Core analysis endpoints"},
+        {"name": "Granular Data", "description": "Practice-level and detailed geographic data"}
     ]
 )
 
@@ -126,6 +128,7 @@ async def internal_error_handler(request: Request, exc):
 # ============================================================================
 
 app.include_router(router)
+app.include_router(granular_router)
 
 
 # ============================================================================
