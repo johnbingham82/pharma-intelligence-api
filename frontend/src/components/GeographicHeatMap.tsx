@@ -98,10 +98,25 @@ export default function GeographicHeatMap({
         const country = countryCode.toUpperCase()
         
         if (country === 'UK') {
-          // UK NHS regions - use simplified geometry
-          const response = await fetch('https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/electoral/eng/eer.json')
-          if (response.ok) {
-            geojson = await response.json()
+          // UK NHS regions - use local simplified GeoJSON with exact name matches
+          try {
+            const response = await fetch('/geojson/uk-nhs-regions-simple.json')
+            if (response.ok) {
+              geojson = await response.json()
+              console.log('✓ Loaded local UK NHS regions GeoJSON')
+            }
+          } catch (e) {
+            console.warn('Failed to load local UK GeoJSON, trying external source', e)
+            
+            // Fallback: external source
+            try {
+              const response = await fetch('https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/electoral/eng/eer.json')
+              if (response.ok) {
+                geojson = await response.json()
+              }
+            } catch (e2) {
+              console.error('All UK GeoJSON sources failed', e2)
+            }
           }
         } else if (country === 'AU') {
           // Australia states
@@ -120,6 +135,26 @@ export default function GeographicHeatMap({
         if (geojson && geojson.features) {
           setGeoJsonData(geojson)
           
+          // Debug: Log feature names and matching
+          console.log('GeoJSON features loaded:', geojson.features.length)
+          console.log('Sample feature properties:', geojson.features[0]?.properties)
+          console.log('API region names:', data.map(d => d.region))
+          
+          // Test matching for all features
+          const matchResults = geojson.features.map((f: any) => {
+            const fname = f.properties?.name || f.properties?.NAME || f.properties?.EER13NM || 'unknown'
+            return {
+              geojsonName: fname,
+              apiMatch: data.find(d => {
+                const regionName = d.region.toLowerCase()
+                const cleanRegion = regionName.replace(/nhs england\s*/i, '').trim()
+                const cleanFeature = fname.toLowerCase().trim()
+                return cleanRegion.includes(cleanFeature) || cleanFeature.includes(cleanRegion)
+              })?.region || 'NO MATCH'
+            }
+          })
+          console.log('Matching results:', matchResults)
+          
           // Calculate bounds
           const layer = L.geoJSON(geojson)
           setBounds(layer.getBounds())
@@ -134,20 +169,80 @@ export default function GeographicHeatMap({
     loadGeoJSON()
   }, [countryCode])
   
+  // Region name mapping for better matching between GeoJSON and API names
+  const regionMappings: Record<string, string[]> = {
+    // UK NHS regions - map GeoJSON names to possible API names
+    'north east': ['north east', 'yorkshire', 'north east and yorkshire'],
+    'yorkshire and the humber': ['yorkshire', 'north east and yorkshire', 'north east'],
+    'north west': ['north west'],
+    'east midlands': ['midlands', 'east midlands'],
+    'west midlands': ['midlands', 'west midlands'],
+    'east of england': ['east of england', 'east'],
+    'london': ['london'],
+    'south east': ['south east'],
+    'south west': ['south west'],
+    // Australia states
+    'new south wales': ['new south wales', 'nsw', 'state: new south wales'],
+    'victoria': ['victoria', 'vic', 'state: victoria'],
+    'queensland': ['queensland', 'qld', 'state: queensland'],
+    'south australia': ['south australia', 'sa', 'state: south australia'],
+    'western australia': ['western australia', 'wa', 'state: western australia'],
+    'tasmania': ['tasmania', 'tas', 'state: tasmania'],
+    'northern territory': ['northern territory', 'nt', 'state: northern territory'],
+    'australian capital territory': ['australian capital territory', 'act', 'state: australian capital territory'],
+    // US states
+    'california': ['california'],
+    'texas': ['texas'],
+    'florida': ['florida'],
+    'new york': ['new york'],
+    'pennsylvania': ['pennsylvania'],
+    'illinois': ['illinois'],
+    'ohio': ['ohio'],
+    'georgia': ['georgia'],
+    'north carolina': ['north carolina'],
+    'michigan': ['michigan']
+  }
+  
   // Match region data to GeoJSON feature
   const getRegionDataForFeature = (feature: any): RegionData | null => {
-    const featureName = feature.properties?.name || feature.properties?.NAME || 
-                       feature.properties?.admin || feature.properties?.ADMIN ||
-                       feature.properties?.region || ''
+    const featureName = (feature.properties?.name || feature.properties?.NAME || 
+                        feature.properties?.admin || feature.properties?.ADMIN ||
+                        feature.properties?.region || feature.properties?.EER13NM ||
+                        '').toLowerCase().trim()
     
+    if (!featureName) return null
+    
+    // Try direct mapping first
+    const mappings = regionMappings[featureName] || []
+    
+    for (const mapping of mappings) {
+      const match = data.find(d => {
+        const regionName = d.region.toLowerCase()
+        return regionName.includes(mapping) || mapping.includes(regionName)
+      })
+      if (match) return match
+    }
+    
+    // Fallback: fuzzy matching
     return data.find(d => {
       const regionName = d.region.toLowerCase()
-      const fname = featureName.toLowerCase()
+      const cleanRegion = regionName.replace(/nhs england\s*/i, '').trim()
+      const cleanFeature = featureName.replace(/nhs england\s*/i, '').trim()
       
-      // Try various matching strategies
-      return regionName.includes(fname) || 
-             fname.includes(regionName) ||
-             regionName.replace(/[^a-z]/g, '') === fname.replace(/[^a-z]/g, '')
+      // Check if one contains the other
+      if (cleanRegion.includes(cleanFeature) || cleanFeature.includes(cleanRegion)) {
+        return true
+      }
+      
+      // Check word-by-word overlap (e.g., "North East" matches "North East and Yorkshire")
+      const regionWords = cleanRegion.split(/\s+/)
+      const featureWords = cleanFeature.split(/\s+/)
+      
+      const overlap = regionWords.filter(word => 
+        word.length > 3 && featureWords.includes(word)
+      ).length
+      
+      return overlap >= 2 || (overlap >= 1 && regionWords.length === 1)
     }) || null
   }
   

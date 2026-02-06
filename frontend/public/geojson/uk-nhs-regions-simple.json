@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NHS England North East and Yorkshire",
+        "code": "NEYO"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-2.5, 55.0], [-0.5, 55.0], [-0.5, 53.0], [-2.5, 53.0], [-2.5, 55.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NHS England North West",
+        "code": "NW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-3.5, 54.5], [-2.0, 54.5], [-2.0, 52.8], [-3.5, 52.8], [-3.5, 54.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NHS England Midlands",
+        "code": "MID"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-2.5, 53.5], [-0.5, 53.5], [-0.5, 52.0], [-2.5, 52.0], [-2.5, 53.5]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NHS England East of England",
+        "code": "EE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-0.5, 53.0], [1.5, 53.0], [1.5, 51.5], [-0.5, 51.5], [-0.5, 53.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NHS England London",
+        "code": "LON"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-0.5, 51.7], [0.3, 51.7], [0.3, 51.3], [-0.5, 51.3], [-0.5, 51.7]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NHS England South East",
+        "code": "SE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-1.5, 52.0], [1.0, 52.0], [1.0, 50.5], [-1.5, 50.5], [-1.5, 52.0]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NHS England South West",
+        "code": "SW"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-5.5, 52.0], [-2.0, 52.0], [-2.0, 50.0], [-5.5, 50.0], [-5.5, 52.0]
+        ]]
+      }
+    }
+  ]
+}
