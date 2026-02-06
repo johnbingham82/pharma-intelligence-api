@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { ArrowLeft, TrendingUp, DollarSign, Users, MapPin, Calendar, AlertCircle, BarChart3, Map } from 'lucide-react'
+import { ArrowLeft, TrendingUp, DollarSign, Users, MapPin, Calendar, AlertCircle, BarChart3, Map, Globe } from 'lucide-react'
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
 import RegionalHeatMap from '../components/RegionalHeatMap'
+import GeographicHeatMap from '../components/GeographicHeatMap'
 import { API_BASE_URL } from '../config'
 
 interface RegionalData {
@@ -49,7 +50,7 @@ export default function CountryDetail() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [data, setData] = useState<CountryData | null>(null)
-  const [viewMode, setViewMode] = useState<'chart' | 'heatmap'>('chart')
+  const [viewMode, setViewMode] = useState<'chart' | 'heatmap' | 'geographic'>('chart')
 
   useEffect(() => {
     fetchCountryData()
@@ -239,7 +240,18 @@ export default function CountryDetail() {
                 }`}
               >
                 <Map className="h-4 w-4" />
-                Heat Map
+                Grid
+              </button>
+              <button
+                onClick={() => setViewMode('geographic')}
+                className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                  viewMode === 'geographic'
+                    ? 'bg-primary-100 text-primary-700'
+                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
+                }`}
+              >
+                <Globe className="h-4 w-4" />
+                Map
               </button>
             </div>
           </div>
@@ -264,8 +276,14 @@ export default function CountryDetail() {
                 </BarChart>
               </ResponsiveContainer>
             </div>
-          ) : (
+          ) : viewMode === 'heatmap' ? (
             <RegionalHeatMap 
+              data={data.regions}
+              countryCode={countryCode || 'uk'}
+              title=""
+            />
+          ) : (
+            <GeographicHeatMap 
               data={data.regions}
               countryCode={countryCode || 'uk'}
               title=""
