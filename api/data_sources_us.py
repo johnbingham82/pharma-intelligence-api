@@ -108,120 +108,78 @@ class USDataSource(DataSource):
     def get_prescribing_data(self, drug_code: str, period: str, 
                            region: Optional[str] = None) -> List[PrescribingData]:
         """
-        Get prescribing data for a drug from CMS Medicare Part D
+        Get prescribing data for a drug from cache (pre-aggregated CMS data)
         
         Args:
-            drug_code: Generic drug name (CMS uses names, not NDC codes in main API)
+            drug_code: Drug name matching cache file
             period: Year (e.g., "2022")
             region: Optional state code (e.g., "CA", "NY")
             
         Returns:
-            List of PrescribingData objects
+            List of PrescribingData objects (synthetic prescribers from state aggregates)
         """
         try:
-            # CMS new API: fetch data in batches and filter client-side
-            # Note: CMS API doesn't support complex server-side filtering yet
+            # Load from cache file
+            cache_file = os.path.join(os.path.dirname(__file__), 'cache', 
+                                     f'us_{drug_code.lower().replace(" ", "_")}_data.json')
             
-            all_data = []
-            offset = 0
-            batch_size = 1000
-            max_records = 10000  # Limit total fetch
-            
-            print(f"Fetching Medicare data for '{drug_code}'...")
-            
-            # Fetch in batches
-            while offset < max_records:
-                params = {
-                    'size': batch_size,
-                    'offset': offset
-                }
-                
-                response = requests.get(
-                    self.prescriber_drug_endpoint,
-                    params=params,
-                    timeout=60
-                )
-                
-                if response.status_code != 200:
-                    print(f"CMS API error: {response.status_code}")
-                    break
-                
-                batch_data = response.json()
-                if not batch_data:
-                    break
-                
-                # Filter for our drug (case-insensitive)
-                matching = [
-                    r for r in batch_data 
-                    if drug_code.lower() in r.get('Gnrc_Name', '').lower()
-                ]
-                
-                # Apply region filter if specified
-                if region:
-                    matching = [
-                        r for r in matching 
-                        if r.get('Prscrbr_State_Abrvtn', '').upper() == region.upper()
-                    ]
-                
-                all_data.extend(matching)
-                
-                # If we found enough matches, stop
-                if len(all_data) >= 1000:
-                    print(f"Found {len(all_data)} matching prescribers")
-                    break
-                
-                offset += batch_size
-                
-                # If batch was less than batch_size, we've reached the end
-                if len(batch_data) < batch_size:
-                    break
-            
-            if not all_data:
-                print(f"No Medicare data found for '{drug_code}'")
+            if not os.path.exists(cache_file):
+                print(f"⚠️  No cache file found for '{drug_code}': {cache_file}")
                 return []
             
-            # Sort by total claims (descending)
-            all_data.sort(key=lambda x: int(x.get('Tot_Clms', 0) or 0), reverse=True)
+            with open(cache_file, 'r') as f:
+                drug_data = json.load(f)
             
-            raw_data = all_data
+            print(f"✓ Loaded cache for {drug_code}: {drug_data['national_total']['total_prescriptions']:,} Rx")
             
-            print(f"✅ Found {len(raw_data)} Medicare prescribers for {drug_code}")
-            
-            # Convert to PrescribingData objects
+            # Convert state-level data to synthetic "prescribers" (top states)
             result = []
-            for item in raw_data:
-                # Create prescriber object
+            
+            # Get states sorted by prescription volume
+            states_sorted = sorted(
+                drug_data['by_state'].items(),
+                key=lambda x: x[1]['prescriptions'],
+                reverse=True
+            )
+            
+            # Filter by region if specified
+            if region:
+                states_sorted = [(s, d) for s, d in states_sorted if s.upper() == region.upper()]
+            
+            # Create synthetic "prescribers" (actually representing state aggregates)
+            # Limit to top 50 states to keep response size reasonable
+            for state_code, state_data in states_sorted[:50]:
+                # Create synthetic prescriber representing this state's data
                 prescriber = Prescriber(
-                    id=item.get('Prscrbr_NPI', 'unknown'),
-                    name=f"{item.get('Prscrbr_Last_Org_Name', '')} {item.get('Prscrbr_First_Name', '')}".strip(),
-                    type=item.get('Prscrbr_Type', 'Prescriber'),
-                    location=f"{item.get('Prscrbr_City', '')}, {item.get('Prscrbr_State_Abrvtn', '')}",
-                    specialty=item.get('Prscrbr_Type')
+                    id=f"STATE_{state_code}",
+                    name=f"{state_code} State Aggregate",
+                    type="State Aggregate",
+                    location=state_code,
+                    specialty="Multiple"
                 )
                 
-                # Extract prescribing metrics
-                # Handle empty strings and missing values
-                total_claims = int(item.get('Tot_Clms') or 0)
-                total_drug_cost = float(item.get('Tot_Drug_Cst') or 0)
-                beneficiary_count = int(item.get('Tot_Benes') or 0)
-                
-                # Create prescribing data object
+                # Create prescribing data
                 data = PrescribingData(
                     prescriber=prescriber,
                     drug_code=drug_code,
-                    period=period,
-                    prescriptions=total_claims,
-                    quantity=total_claims,  # CMS doesn't separate quantity
-                    cost=total_drug_cost,
-                    patients=beneficiary_count
+                    period="2023",  # Cache data is from 2023
+                    prescriptions=state_data['prescriptions'],
+                    quantity=state_data['prescriptions'],
+                    cost=state_data['cost'],
+                    patients=state_data['beneficiaries']
                 )
                 
                 result.append(data)
             
+            if not result:
+                print(f"⚠️  No data found for '{drug_code}' in region '{region}'")
+            else:
+                print(f"✅ Returning {len(result)} state aggregates for {drug_code}")
+            
             return result
             
         except Exception as e:
-            print(f"Error fetching prescribing data: {e}")
+            print(f"Error loading prescribing data from cache: {e}")
             import traceback
             traceback.print_exc()
             return []
