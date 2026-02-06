@@ -528,7 +528,7 @@ export default function GeographicHeatMap({
     : null
   
   // Debug: Log when selection changes but no data found
-  React.useEffect(() => {
+  useEffect(() => {
     if (selectedRegion && !selectedData) {
       console.warn('Selected region has no matching data:', selectedRegion)
       console.log('Available regions:', data.map(d => d.local_authority || d.region))
