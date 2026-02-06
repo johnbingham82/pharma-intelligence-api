@@ -1,0 +1,123 @@
+{
+  "drug_name": "Midostaurin",
+  "generated_at": "2026-02-06T16:38:37.754275",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 342,
+    "total_cost": 7723917,
+    "total_prescribers": 27,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 355907,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 13,
+      "cost": 76420,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 27,
+      "cost": 482119,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 24,
+      "cost": 540409,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 11,
+      "cost": 247953,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 12,
+      "cost": 141130,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 11,
+      "cost": 129725,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 49,
+      "cost": 1459919,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 24,
+      "cost": 576296,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 24,
+      "cost": 426189,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 18,
+      "cost": 312373,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 27,
+      "cost": 493617,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 625620,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 13,
+      "cost": 248384,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 592658,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 12,
+      "cost": 376309,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 25,
+      "cost": 290245,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 15,
+      "cost": 348644,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

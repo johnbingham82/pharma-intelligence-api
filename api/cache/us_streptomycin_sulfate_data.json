@@ -1,0 +1,69 @@
+{
+  "drug_name": "Streptomycin Sulfate",
+  "generated_at": "2026-02-06T16:38:37.922372",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 917,
+    "total_cost": 1964503,
+    "total_prescribers": 47,
+    "total_beneficiaries": 363
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 20,
+      "cost": 7356,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 27,
+      "cost": 79622,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "SC": {
+      "prescriptions": 76,
+      "cost": 149870,
+      "prescribers": 4,
+      "beneficiaries": 45
+    },
+    "MS": {
+      "prescriptions": 49,
+      "cost": 100650,
+      "prescribers": 3,
+      "beneficiaries": 13
+    },
+    "GA": {
+      "prescriptions": 126,
+      "cost": 282100,
+      "prescribers": 8,
+      "beneficiaries": 43
+    },
+    "NC": {
+      "prescriptions": 418,
+      "cost": 809634,
+      "prescribers": 20,
+      "beneficiaries": 153
+    },
+    "AL": {
+      "prescriptions": 74,
+      "cost": 144734,
+      "prescribers": 2,
+      "beneficiaries": 22
+    },
+    "AR": {
+      "prescriptions": 53,
+      "cost": 148722,
+      "prescribers": 3,
+      "beneficiaries": 31
+    },
+    "LA": {
+      "prescriptions": 74,
+      "cost": 241815,
+      "prescribers": 4,
+      "beneficiaries": 44
+    }
+  }
+}

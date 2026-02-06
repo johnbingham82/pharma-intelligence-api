@@ -1,0 +1,81 @@
+{
+  "drug_name": "Trastuzumab-Qyyp",
+  "generated_at": "2026-02-06T16:38:37.966997",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 632,
+    "total_cost": 2752167,
+    "total_prescribers": 30,
+    "total_beneficiaries": 22
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 91,
+      "cost": 472948,
+      "prescribers": 2,
+      "beneficiaries": 22
+    },
+    "FL": {
+      "prescriptions": 31,
+      "cost": 185428,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 20,
+      "cost": 57470,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 217,
+      "cost": 894196,
+      "prescribers": 13,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 72,
+      "cost": 268195,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 29,
+      "cost": 104596,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 53,
+      "cost": 235569,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 16,
+      "cost": 82936,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 28,
+      "cost": 153013,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 64,
+      "cost": 255123,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 42693,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

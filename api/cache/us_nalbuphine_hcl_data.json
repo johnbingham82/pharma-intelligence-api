@@ -1,0 +1,123 @@
+{
+  "drug_name": "Nalbuphine Hcl",
+  "generated_at": "2026-02-06T16:38:37.768006",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 731,
+    "total_cost": 234591,
+    "total_prescribers": 30,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 25,
+      "cost": 1144,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 51,
+      "cost": 6047,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 12,
+      "cost": 13732,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 22,
+      "cost": 7104,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 159,
+      "cost": 43333,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 17,
+      "cost": 3920,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 25,
+      "cost": 8238,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 15,
+      "cost": 17104,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 70,
+      "cost": 53542,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 18,
+      "cost": 8816,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 13,
+      "cost": 5213,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 12,
+      "cost": 1833,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 11,
+      "cost": 8171,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 41,
+      "cost": 10619,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 14,
+      "cost": 12648,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 91,
+      "cost": 4300,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 100,
+      "cost": 14280,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 35,
+      "cost": 14547,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

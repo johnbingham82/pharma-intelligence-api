@@ -1,0 +1,21 @@
+{
+  "drug_name": "Adalimumab-Bwwd",
+  "generated_at": "2026-02-06T16:38:37.375385",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 41,
+    "total_cost": 43717,
+    "total_prescribers": 1,
+    "total_beneficiaries": 16
+  },
+  "by_state": {
+    "PR": {
+      "prescriptions": 41,
+      "cost": 43717,
+      "prescribers": 1,
+      "beneficiaries": 16
+    }
+  }
+}

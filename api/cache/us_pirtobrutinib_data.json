@@ -1,0 +1,129 @@
+{
+  "drug_name": "Pirtobrutinib",
+  "generated_at": "2026-02-06T16:38:37.848458",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 556,
+    "total_cost": 11679511,
+    "total_prescribers": 35,
+    "total_beneficiaries": 11
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 137216,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 39,
+      "cost": 782200,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 38,
+      "cost": 815909,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 53,
+      "cost": 1138500,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 24,
+      "cost": 492108,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 63,
+      "cost": 1436147,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 82,
+      "cost": 1760792,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 34,
+      "cost": 748287,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 16,
+      "cost": 356982,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 15,
+      "cost": 336845,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 23,
+      "cost": 500823,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 272885,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 25,
+      "cost": 479908,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 11,
+      "cost": 122560,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 27,
+      "cost": 593895,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 12,
+      "cost": 194769,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 36,
+      "cost": 718023,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "MI": {
+      "prescriptions": 16,
+      "cost": 366490,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 19,
+      "cost": 425172,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "drug_name": "Betamethasone Acetate,Sod Phos",
+  "generated_at": "2026-02-06T16:38:37.422477",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 151,
+    "total_cost": 7334,
+    "total_prescribers": 6,
+    "total_beneficiaries": 118
+  },
+  "by_state": {
+    "NY": {
+      "prescriptions": 21,
+      "cost": 1018,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "NJ": {
+      "prescriptions": 84,
+      "cost": 3959,
+      "prescribers": 2,
+      "beneficiaries": 60
+    },
+    "LA": {
+      "prescriptions": 15,
+      "cost": 845,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "PR": {
+      "prescriptions": 31,
+      "cost": 1512,
+      "prescribers": 2,
+      "beneficiaries": 29
+    }
+  }
+}

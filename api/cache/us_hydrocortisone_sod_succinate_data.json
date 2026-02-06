@@ -1,0 +1,69 @@
+{
+  "drug_name": "Hydrocortisone Sod Succinate",
+  "generated_at": "2026-02-06T16:38:37.657243",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 194,
+    "total_cost": 25137,
+    "total_prescribers": 12,
+    "total_beneficiaries": 13
+  },
+  "by_state": {
+    "KY": {
+      "prescriptions": 11,
+      "cost": 480,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 282,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 51,
+      "cost": 3265,
+      "prescribers": 2,
+      "beneficiaries": 13
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 255,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 51,
+      "cost": 6130,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 16,
+      "cost": 261,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 14,
+      "cost": 7559,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 11,
+      "cost": 3421,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 17,
+      "cost": 3484,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "drug_name": "Nitisinone",
+  "generated_at": "2026-02-06T16:38:37.790377",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 37,
+    "total_cost": 850904,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MA": {
+      "prescriptions": 22,
+      "cost": 275964,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 15,
+      "cost": 574940,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

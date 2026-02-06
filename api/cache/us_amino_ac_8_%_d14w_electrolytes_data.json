@@ -1,0 +1,27 @@
+{
+  "drug_name": "Amino Ac 8 %/D14W/Electrolytes",
+  "generated_at": "2026-02-06T16:38:37.388586",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 128,
+    "total_cost": 77456,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 23,
+      "cost": 6960,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 105,
+      "cost": 70496,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

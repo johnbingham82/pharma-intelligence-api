@@ -1,0 +1,111 @@
+{
+  "drug_name": "Cobimetinib Fumarate",
+  "generated_at": "2026-02-06T16:38:37.484872",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 433,
+    "total_cost": 2268996,
+    "total_prescribers": 29,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 11,
+      "cost": 100098,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 13,
+      "cost": 119044,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 13,
+      "cost": 75261,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 13,
+      "cost": 63388,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 13,
+      "cost": 119044,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 114,
+      "cost": 602606,
+      "prescribers": 8,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 77,
+      "cost": 268235,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 28,
+      "cost": 167174,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 27,
+      "cost": 77292,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 16,
+      "cost": 83811,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 37,
+      "cost": 202163,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 72918,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 12,
+      "cost": 65681,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 24,
+      "cost": 149558,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VT": {
+      "prescriptions": 12,
+      "cost": 41927,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 60796,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

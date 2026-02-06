@@ -1,0 +1,45 @@
+{
+  "drug_name": "Clindamycin Phosphate/D5W",
+  "generated_at": "2026-02-06T16:38:37.479087",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 71,
+    "total_cost": 9672,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 11,
+      "cost": 2902,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 22,
+      "cost": 2295,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 11,
+      "cost": 1782,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 16,
+      "cost": 1386,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 11,
+      "cost": 1307,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

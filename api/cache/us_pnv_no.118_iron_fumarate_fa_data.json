@@ -1,0 +1,63 @@
+{
+  "drug_name": "Pnv No.118/Iron Fumarate/Fa",
+  "generated_at": "2026-02-06T16:38:37.851178",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 144,
+    "total_cost": 3259,
+    "total_prescribers": 11,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 24,
+      "cost": 552,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 11,
+      "cost": 264,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 14,
+      "cost": 262,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 13,
+      "cost": 320,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 12,
+      "cost": 282,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 14,
+      "cost": 203,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 43,
+      "cost": 1034,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 13,
+      "cost": 342,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

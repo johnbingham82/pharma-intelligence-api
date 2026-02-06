@@ -1,0 +1,75 @@
+{
+  "drug_name": "Inclisiran Sodium",
+  "generated_at": "2026-02-06T16:38:37.671843",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1051,
+    "total_cost": 3744648,
+    "total_prescribers": 38,
+    "total_beneficiaries": 452
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 17,
+      "cost": 62960,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "OH": {
+      "prescriptions": 29,
+      "cost": 99855,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 62,
+      "cost": 208991,
+      "prescribers": 3,
+      "beneficiaries": 16
+    },
+    "KY": {
+      "prescriptions": 119,
+      "cost": 426548,
+      "prescribers": 6,
+      "beneficiaries": 35
+    },
+    "SC": {
+      "prescriptions": 48,
+      "cost": 162328,
+      "prescribers": 2,
+      "beneficiaries": 28
+    },
+    "CT": {
+      "prescriptions": 24,
+      "cost": 85484,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "CA": {
+      "prescriptions": 527,
+      "cost": 1887272,
+      "prescribers": 13,
+      "beneficiaries": 268
+    },
+    "NY": {
+      "prescriptions": 165,
+      "cost": 598120,
+      "prescribers": 8,
+      "beneficiaries": 52
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 41563,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 48,
+      "cost": 171527,
+      "prescribers": 1,
+      "beneficiaries": 23
+    }
+  }
+}

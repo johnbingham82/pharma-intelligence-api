@@ -1,0 +1,45 @@
+{
+  "drug_name": "Avelumab",
+  "generated_at": "2026-02-06T16:38:37.409550",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 104,
+    "total_cost": 1143936,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 34,
+      "cost": 243389,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 95679,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 28,
+      "cost": 400493,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 13,
+      "cost": 200266,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 17,
+      "cost": 204109,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

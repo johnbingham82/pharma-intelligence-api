@@ -1,0 +1,111 @@
+{
+  "drug_name": "Potassium Chloride In 0.9%Nacl",
+  "generated_at": "2026-02-06T16:38:37.856159",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 884,
+    "total_cost": 63362,
+    "total_prescribers": 26,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 13,
+      "cost": 669,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 74,
+      "cost": 2420,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 93,
+      "cost": 15342,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 18,
+      "cost": 1721,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 35,
+      "cost": 2163,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 49,
+      "cost": 6377,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 1329,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 24,
+      "cost": 3182,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 47,
+      "cost": 917,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 134,
+      "cost": 9167,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 99,
+      "cost": 5717,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 62,
+      "cost": 4139,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 102,
+      "cost": 3064,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 32,
+      "cost": 724,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 37,
+      "cost": 5269,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 53,
+      "cost": 1162,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

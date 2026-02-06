@@ -1,0 +1,33 @@
+{
+  "drug_name": "Plerixafor",
+  "generated_at": "2026-02-06T16:38:37.850332",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 74,
+    "total_cost": 1574298,
+    "total_prescribers": 4,
+    "total_beneficiaries": 58
+  },
+  "by_state": {
+    "SC": {
+      "prescriptions": 17,
+      "cost": 471977,
+      "prescribers": 1,
+      "beneficiaries": 16
+    },
+    "CA": {
+      "prescriptions": 13,
+      "cost": 293616,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 44,
+      "cost": 808705,
+      "prescribers": 2,
+      "beneficiaries": 42
+    }
+  }
+}

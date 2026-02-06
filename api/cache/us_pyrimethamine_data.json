@@ -1,0 +1,87 @@
+{
+  "drug_name": "Pyrimethamine",
+  "generated_at": "2026-02-06T16:38:37.872265",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 175,
+    "total_cost": 3669877,
+    "total_prescribers": 14,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 13,
+      "cost": 245476,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 205800,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 16,
+      "cost": 56359,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 28,
+      "cost": 901585,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 23,
+      "cost": 452582,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 12,
+      "cost": 106316,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 13,
+      "cost": 109995,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 11,
+      "cost": 420754,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 368164,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 300105,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 11,
+      "cost": 158482,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 13,
+      "cost": 344259,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

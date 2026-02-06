@@ -1,0 +1,87 @@
+{
+  "drug_name": "Crotamiton",
+  "generated_at": "2026-02-06T16:38:37.506652",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 4174,
+    "total_cost": 12099335,
+    "total_prescribers": 52,
+    "total_beneficiaries": 1854
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 22,
+      "cost": 36512,
+      "prescribers": 1,
+      "beneficiaries": 22
+    },
+    "TX": {
+      "prescriptions": 2650,
+      "cost": 8106169,
+      "prescribers": 20,
+      "beneficiaries": 1189
+    },
+    "CA": {
+      "prescriptions": 67,
+      "cost": 100884,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 411,
+      "cost": 918229,
+      "prescribers": 10,
+      "beneficiaries": 241
+    },
+    "NJ": {
+      "prescriptions": 271,
+      "cost": 650334,
+      "prescribers": 8,
+      "beneficiaries": 39
+    },
+    "MA": {
+      "prescriptions": 147,
+      "cost": 401889,
+      "prescribers": 2,
+      "beneficiaries": 88
+    },
+    "MS": {
+      "prescriptions": 13,
+      "cost": 24493,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 13,
+      "cost": 40420,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "AZ": {
+      "prescriptions": 62,
+      "cost": 191996,
+      "prescribers": 2,
+      "beneficiaries": 49
+    },
+    "AL": {
+      "prescriptions": 16,
+      "cost": 53195,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 451,
+      "cost": 1429017,
+      "prescribers": 1,
+      "beneficiaries": 196
+    },
+    "SD": {
+      "prescriptions": 51,
+      "cost": 146197,
+      "prescribers": 1,
+      "beneficiaries": 19
+    }
+  }
+}

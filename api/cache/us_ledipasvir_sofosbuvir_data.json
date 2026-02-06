@@ -1,0 +1,57 @@
+{
+  "drug_name": "Ledipasvir/Sofosbuvir",
+  "generated_at": "2026-02-06T16:38:37.700436",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 348,
+    "total_cost": 10876720,
+    "total_prescribers": 12,
+    "total_beneficiaries": 82
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 43,
+      "cost": 1471443,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 18,
+      "cost": 205459,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 11,
+      "cost": 134544,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 46,
+      "cost": 1318019,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "AR": {
+      "prescriptions": 11,
+      "cost": 366282,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 206,
+      "cost": 6985180,
+      "prescribers": 3,
+      "beneficiaries": 68
+    },
+    "DE": {
+      "prescriptions": 13,
+      "cost": 395793,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

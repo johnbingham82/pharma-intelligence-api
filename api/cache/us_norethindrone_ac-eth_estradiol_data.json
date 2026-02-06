@@ -1,0 +1,297 @@
+{
+  "drug_name": "Norethindrone Ac-Eth Estradiol",
+  "generated_at": "2026-02-06T16:38:37.793875",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 11932,
+    "total_cost": 376411,
+    "total_prescribers": 801,
+    "total_beneficiaries": 61
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 207,
+      "cost": 8812,
+      "prescribers": 14,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 432,
+      "cost": 11966,
+      "prescribers": 31,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 58,
+      "cost": 897,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 68,
+      "cost": 2180,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 512,
+      "cost": 17291,
+      "prescribers": 34,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 197,
+      "cost": 8279,
+      "prescribers": 13,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 756,
+      "cost": 25520,
+      "prescribers": 53,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 708,
+      "cost": 25389,
+      "prescribers": 46,
+      "beneficiaries": 26
+    },
+    "NM": {
+      "prescriptions": 109,
+      "cost": 2529,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 309,
+      "cost": 8784,
+      "prescribers": 20,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 251,
+      "cost": 7056,
+      "prescribers": 19,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 221,
+      "cost": 10735,
+      "prescribers": 14,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 738,
+      "cost": 27533,
+      "prescribers": 47,
+      "beneficiaries": 21
+    },
+    "NY": {
+      "prescriptions": 681,
+      "cost": 27133,
+      "prescribers": 43,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 264,
+      "cost": 6445,
+      "prescribers": 17,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 386,
+      "cost": 7383,
+      "prescribers": 25,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 136,
+      "cost": 3616,
+      "prescribers": 11,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 388,
+      "cost": 10010,
+      "prescribers": 27,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 251,
+      "cost": 5733,
+      "prescribers": 16,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 50,
+      "cost": 1616,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 284,
+      "cost": 6575,
+      "prescribers": 20,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 55,
+      "cost": 782,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 98,
+      "cost": 2386,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 408,
+      "cost": 11512,
+      "prescribers": 30,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 403,
+      "cost": 13078,
+      "prescribers": 26,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 154,
+      "cost": 2929,
+      "prescribers": 11,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 257,
+      "cost": 7422,
+      "prescribers": 18,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 169,
+      "cost": 3935,
+      "prescribers": 11,
+      "beneficiaries": 0
+    },
+    "ND": {
+      "prescriptions": 99,
+      "cost": 10595,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "NE": {
+      "prescriptions": 100,
+      "cost": 4180,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 367,
+      "cost": 6939,
+      "prescribers": 25,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 343,
+      "cost": 6978,
+      "prescribers": 25,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 122,
+      "cost": 4218,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 291,
+      "cost": 7349,
+      "prescribers": 17,
+      "beneficiaries": 0
+    },
+    "RI": {
+      "prescriptions": 122,
+      "cost": 3064,
+      "prescribers": 8,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 428,
+      "cost": 20304,
+      "prescribers": 29,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 216,
+      "cost": 7866,
+      "prescribers": 14,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 246,
+      "cost": 8645,
+      "prescribers": 15,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 353,
+      "cost": 8189,
+      "prescribers": 26,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 80,
+      "cost": 3332,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 111,
+      "cost": 2659,
+      "prescribers": 8,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 11,
+      "cost": 366,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 414,
+      "cost": 12199,
+      "prescribers": 27,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 13,
+      "cost": 553,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MT": {
+      "prescriptions": 27,
+      "cost": 346,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "ME": {
+      "prescriptions": 13,
+      "cost": 183,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SD": {
+      "prescriptions": 26,
+      "cost": 920,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

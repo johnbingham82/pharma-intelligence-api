@@ -1,0 +1,27 @@
+{
+  "drug_name": "Brolucizumab-Dbll",
+  "generated_at": "2026-02-06T16:38:37.432945",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 165,
+    "total_cost": 422136,
+    "total_prescribers": 6,
+    "total_beneficiaries": 18
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 100,
+      "cost": 237254,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 65,
+      "cost": 184882,
+      "prescribers": 1,
+      "beneficiaries": 18
+    }
+  }
+}

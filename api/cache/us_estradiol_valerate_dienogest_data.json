@@ -1,0 +1,39 @@
+{
+  "drug_name": "Estradiol Valerate/Dienogest",
+  "generated_at": "2026-02-06T16:38:37.589791",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 52,
+    "total_cost": 13205,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 13,
+      "cost": 3315,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 14,
+      "cost": 3611,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 12,
+      "cost": 3073,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 13,
+      "cost": 3206,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

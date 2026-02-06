@@ -1,0 +1,51 @@
+{
+  "drug_name": "Sulfadiazine",
+  "generated_at": "2026-02-06T16:38:37.924948",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 75,
+    "total_cost": 110639,
+    "total_prescribers": 6,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 11,
+      "cost": 9838,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 13,
+      "cost": 42561,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 12,
+      "cost": 22865,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 12,
+      "cost": 10176,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 14,
+      "cost": 15913,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 9286,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

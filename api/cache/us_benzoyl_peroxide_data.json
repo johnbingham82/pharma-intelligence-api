@@ -1,0 +1,27 @@
+{
+  "drug_name": "Benzoyl Peroxide",
+  "generated_at": "2026-02-06T16:38:37.420791",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 98,
+    "total_cost": 52986,
+    "total_prescribers": 3,
+    "total_beneficiaries": 34
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 44,
+      "cost": 22757,
+      "prescribers": 2,
+      "beneficiaries": 19
+    },
+    "NY": {
+      "prescriptions": 54,
+      "cost": 30229,
+      "prescribers": 1,
+      "beneficiaries": 15
+    }
+  }
+}

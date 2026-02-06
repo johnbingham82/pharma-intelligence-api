@@ -1,0 +1,27 @@
+{
+  "drug_name": "Moxifloxacin-Sod.Chloride(Iso)",
+  "generated_at": "2026-02-06T16:38:37.763576",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 48,
+    "total_cost": 10351,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "GA": {
+      "prescriptions": 16,
+      "cost": 4586,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 32,
+      "cost": 5765,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

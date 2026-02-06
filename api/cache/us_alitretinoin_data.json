@@ -1,0 +1,21 @@
+{
+  "drug_name": "Alitretinoin",
+  "generated_at": "2026-02-06T16:38:37.382071",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 11,
+    "total_cost": 206643,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "NE": {
+      "prescriptions": 11,
+      "cost": 206643,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "drug_name": "Imiglucerase",
+  "generated_at": "2026-02-06T16:38:37.666150",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 332,
+    "total_cost": 10766828,
+    "total_prescribers": 20,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 36,
+      "cost": 1385490,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 491022,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 35,
+      "cost": 1338169,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 11,
+      "cost": 687093,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 44,
+      "cost": 1385313,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 34,
+      "cost": 961006,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 47,
+      "cost": 1393087,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 39,
+      "cost": 486235,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 25,
+      "cost": 815477,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 26,
+      "cost": 1018271,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 23,
+      "cost": 805665,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

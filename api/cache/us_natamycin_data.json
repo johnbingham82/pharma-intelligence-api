@@ -1,0 +1,45 @@
+{
+  "drug_name": "Natamycin",
+  "generated_at": "2026-02-06T16:38:37.772495",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 96,
+    "total_cost": 50119,
+    "total_prescribers": 6,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 30,
+      "cost": 14249,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 24,
+      "cost": 15085,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 6389,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 6496,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 17,
+      "cost": 7900,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

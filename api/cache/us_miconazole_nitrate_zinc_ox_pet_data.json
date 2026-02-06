@@ -1,0 +1,39 @@
+{
+  "drug_name": "Miconazole Nitrate/Zinc Ox/Pet",
+  "generated_at": "2026-02-06T16:38:37.752996",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 129,
+    "total_cost": 61438,
+    "total_prescribers": 7,
+    "total_beneficiaries": 21
+  },
+  "by_state": {
+    "NY": {
+      "prescriptions": 51,
+      "cost": 25822,
+      "prescribers": 2,
+      "beneficiaries": 21
+    },
+    "NJ": {
+      "prescriptions": 29,
+      "cost": 7387,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 13,
+      "cost": 8120,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 36,
+      "cost": 20109,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "drug_name": "Dextrose 70 % In Water",
+  "generated_at": "2026-02-06T16:38:37.534209",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 209,
+    "total_cost": 10444,
+    "total_prescribers": 8,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 15,
+      "cost": 243,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 51,
+      "cost": 746,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 52,
+      "cost": 188,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 13,
+      "cost": 512,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 44,
+      "cost": 2073,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 191,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 22,
+      "cost": 6491,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

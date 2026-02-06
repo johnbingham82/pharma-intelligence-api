@@ -1,6 +1,6 @@
 {
   "drug_name": "Febuxostat",
-  "generated_at": "2026-02-06T16:18:00.210446",
+  "generated_at": "2026-02-06T16:38:37.607488",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 1177988,
       "prescribers": 448,
       "beneficiaries": 347
+    },
+    "NM": {
+      "prescriptions": 393,
+      "cost": 58947,
+      "prescribers": 25,
+      "beneficiaries": 11
     },
     "KY": {
       "prescriptions": 4014,
@@ -119,6 +125,12 @@
       "prescribers": 48,
       "beneficiaries": 0
     },
+    "ID": {
+      "prescriptions": 594,
+      "cost": 90305,
+      "prescribers": 39,
+      "beneficiaries": 0
+    },
     "WA": {
       "prescriptions": 1361,
       "cost": 173196,
@@ -155,6 +167,12 @@
       "prescribers": 434,
       "beneficiaries": 200
     },
+    "AZ": {
+      "prescriptions": 1067,
+      "cost": 187104,
+      "prescribers": 62,
+      "beneficiaries": 24
+    },
     "TN": {
       "prescriptions": 3675,
       "cost": 587097,
@@ -178,12 +196,6 @@
       "cost": 94510,
       "prescribers": 46,
       "beneficiaries": 0
-    },
-    "AZ": {
-      "prescriptions": 1067,
-      "cost": 187104,
-      "prescribers": 62,
-      "beneficiaries": 24
     },
     "IL": {
       "prescriptions": 4358,
@@ -215,35 +227,23 @@
       "prescribers": 50,
       "beneficiaries": 108
     },
-    "LA": {
-      "prescriptions": 3132,
-      "cost": 378388,
-      "prescribers": 154,
-      "beneficiaries": 107
-    },
     "RI": {
       "prescriptions": 311,
       "cost": 37736,
       "prescribers": 18,
       "beneficiaries": 0
     },
+    "LA": {
+      "prescriptions": 3132,
+      "cost": 378388,
+      "prescribers": 154,
+      "beneficiaries": 107
+    },
     "WI": {
       "prescriptions": 2316,
       "cost": 328925,
       "prescribers": 133,
       "beneficiaries": 45
-    },
-    "ID": {
-      "prescriptions": 594,
-      "cost": 90305,
-      "prescribers": 39,
-      "beneficiaries": 0
-    },
-    "NM": {
-      "prescriptions": 393,
-      "cost": 58947,
-      "prescribers": 25,
-      "beneficiaries": 11
     },
     "KS": {
       "prescriptions": 987,
@@ -256,6 +256,12 @@
       "cost": 563146,
       "prescribers": 219,
       "beneficiaries": 49
+    },
+    "WV": {
+      "prescriptions": 953,
+      "cost": 132524,
+      "prescribers": 56,
+      "beneficiaries": 38
     },
     "VT": {
       "prescriptions": 94,
@@ -281,29 +287,23 @@
       "prescribers": 134,
       "beneficiaries": 25
     },
+    "DE": {
+      "prescriptions": 347,
+      "cost": 66454,
+      "prescribers": 22,
+      "beneficiaries": 0
+    },
     "MT": {
       "prescriptions": 244,
       "cost": 32953,
       "prescribers": 15,
       "beneficiaries": 0
     },
-    "WV": {
-      "prescriptions": 953,
-      "cost": 132524,
-      "prescribers": 56,
-      "beneficiaries": 38
-    },
     "ME": {
       "prescriptions": 366,
       "cost": 94795,
       "prescribers": 19,
       "beneficiaries": 33
-    },
-    "DE": {
-      "prescriptions": 347,
-      "cost": 66454,
-      "prescribers": 22,
-      "beneficiaries": 0
     },
     "AK": {
       "prescriptions": 155,

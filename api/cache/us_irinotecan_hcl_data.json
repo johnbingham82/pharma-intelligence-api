@@ -1,0 +1,75 @@
+{
+  "drug_name": "Irinotecan Hcl",
+  "generated_at": "2026-02-06T16:38:37.685876",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 896,
+    "total_cost": 895394,
+    "total_prescribers": 35,
+    "total_beneficiaries": 54
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 54,
+      "cost": 5726,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 27,
+      "cost": 2516,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 203,
+      "cost": 188699,
+      "prescribers": 9,
+      "beneficiaries": 13
+    },
+    "NY": {
+      "prescriptions": 381,
+      "cost": 487917,
+      "prescribers": 10,
+      "beneficiaries": 41
+    },
+    "GA": {
+      "prescriptions": 41,
+      "cost": 4700,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 79,
+      "cost": 191296,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 27,
+      "cost": 4077,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 49,
+      "cost": 6184,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 23,
+      "cost": 2232,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VI": {
+      "prescriptions": 12,
+      "cost": 2047,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

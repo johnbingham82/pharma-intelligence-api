@@ -1,0 +1,93 @@
+{
+  "drug_name": "Zoledronic Acid",
+  "generated_at": "2026-02-06T16:38:37.996656",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 3086,
+    "total_cost": 649155,
+    "total_prescribers": 98,
+    "total_beneficiaries": 364
+  },
+  "by_state": {
+    "NV": {
+      "prescriptions": 14,
+      "cost": 2044,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 38,
+      "cost": 4302,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 476,
+      "cost": 37836,
+      "prescribers": 16,
+      "beneficiaries": 56
+    },
+    "TX": {
+      "prescriptions": 84,
+      "cost": 9384,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 1376,
+      "cost": 250584,
+      "prescribers": 41,
+      "beneficiaries": 183
+    },
+    "NY": {
+      "prescriptions": 212,
+      "cost": 64258,
+      "prescribers": 10,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 392,
+      "cost": 208395,
+      "prescribers": 9,
+      "beneficiaries": 58
+    },
+    "DC": {
+      "prescriptions": 41,
+      "cost": 3172,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 78,
+      "cost": 15015,
+      "prescribers": 3,
+      "beneficiaries": 11
+    },
+    "IL": {
+      "prescriptions": 22,
+      "cost": 3837,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 263,
+      "cost": 42327,
+      "prescribers": 5,
+      "beneficiaries": 25
+    },
+    "LA": {
+      "prescriptions": 78,
+      "cost": 5416,
+      "prescribers": 1,
+      "beneficiaries": 31
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 2585,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "drug_name": "Sod Phos,M-B/K Phos,Monob",
+  "generated_at": "2026-02-06T16:38:37.910456",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 22,
+    "total_cost": 2394,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 11,
+      "cost": 1314,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 1080,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

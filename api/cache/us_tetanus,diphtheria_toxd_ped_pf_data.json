@@ -1,0 +1,21 @@
+{
+  "drug_name": "Tetanus,Diphtheria Toxd Ped/Pf",
+  "generated_at": "2026-02-06T16:38:37.946794",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 189,
+    "total_cost": 12947,
+    "total_prescribers": 7,
+    "total_beneficiaries": 97
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 189,
+      "cost": 12947,
+      "prescribers": 7,
+      "beneficiaries": 97
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "drug_name": "Sodium Acetate",
+  "generated_at": "2026-02-06T16:38:37.912105",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 427,
+    "total_cost": 41604,
+    "total_prescribers": 15,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 39,
+      "cost": 4640,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 103,
+      "cost": 11224,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 15,
+      "cost": 2242,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 57,
+      "cost": 6098,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 15,
+      "cost": 1098,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 85,
+      "cost": 7318,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 27,
+      "cost": 5167,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 34,
+      "cost": 2326,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 52,
+      "cost": 1491,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

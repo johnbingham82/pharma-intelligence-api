@@ -1,0 +1,45 @@
+{
+  "drug_name": "Trofinetide",
+  "generated_at": "2026-02-06T16:38:37.974991",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 87,
+    "total_cost": 5243169,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 26,
+      "cost": 1762994,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 12,
+      "cost": 677339,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 13,
+      "cost": 779365,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 19,
+      "cost": 1140801,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 17,
+      "cost": 882670,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

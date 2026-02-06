@@ -1,0 +1,21 @@
+{
+  "drug_name": "Lumacaftor/Ivacaftor",
+  "generated_at": "2026-02-06T16:38:37.725652",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 12,
+    "total_cost": 308278,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 12,
+      "cost": 308278,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

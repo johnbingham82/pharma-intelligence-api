@@ -1,0 +1,93 @@
+{
+  "drug_name": "Mefloquine Hcl",
+  "generated_at": "2026-02-06T16:38:37.731926",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1842,
+    "total_cost": 112936,
+    "total_prescribers": 92,
+    "total_beneficiaries": 1354
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 87,
+      "cost": 7037,
+      "prescribers": 6,
+      "beneficiaries": 42
+    },
+    "OH": {
+      "prescriptions": 18,
+      "cost": 1265,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "PA": {
+      "prescriptions": 46,
+      "cost": 3050,
+      "prescribers": 3,
+      "beneficiaries": 12
+    },
+    "TX": {
+      "prescriptions": 33,
+      "cost": 2396,
+      "prescribers": 2,
+      "beneficiaries": 29
+    },
+    "CA": {
+      "prescriptions": 109,
+      "cost": 4256,
+      "prescribers": 7,
+      "beneficiaries": 77
+    },
+    "NY": {
+      "prescriptions": 615,
+      "cost": 36645,
+      "prescribers": 23,
+      "beneficiaries": 456
+    },
+    "NJ": {
+      "prescriptions": 524,
+      "cost": 34536,
+      "prescribers": 25,
+      "beneficiaries": 437
+    },
+    "MA": {
+      "prescriptions": 12,
+      "cost": 568,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "MN": {
+      "prescriptions": 193,
+      "cost": 11939,
+      "prescribers": 10,
+      "beneficiaries": 129
+    },
+    "DC": {
+      "prescriptions": 14,
+      "cost": 576,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 63,
+      "cost": 3378,
+      "prescribers": 5,
+      "beneficiaries": 37
+    },
+    "IL": {
+      "prescriptions": 99,
+      "cost": 5942,
+      "prescribers": 7,
+      "beneficiaries": 81
+    },
+    "WI": {
+      "prescriptions": 29,
+      "cost": 1348,
+      "prescribers": 1,
+      "beneficiaries": 27
+    }
+  }
+}

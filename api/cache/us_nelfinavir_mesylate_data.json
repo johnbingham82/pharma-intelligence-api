@@ -1,0 +1,105 @@
+{
+  "drug_name": "Nelfinavir Mesylate",
+  "generated_at": "2026-02-06T16:38:37.781675",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 334,
+    "total_cost": 422803,
+    "total_prescribers": 26,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 13,
+      "cost": 16088,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 13,
+      "cost": 14845,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 12,
+      "cost": 15738,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 24,
+      "cost": 31370,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 26,
+      "cost": 34589,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 13,
+      "cost": 13434,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 39,
+      "cost": 51521,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 86,
+      "cost": 107662,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 11,
+      "cost": 13113,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 17044,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 12,
+      "cost": 15587,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 25,
+      "cost": 32474,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 12,
+      "cost": 15641,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 24,
+      "cost": 29409,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 14288,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

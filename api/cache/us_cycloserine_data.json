@@ -1,0 +1,21 @@
+{
+  "drug_name": "Cycloserine",
+  "generated_at": "2026-02-06T16:38:37.509268",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 12,
+    "total_cost": 101486,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 101486,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

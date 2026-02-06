@@ -1,0 +1,93 @@
+{
+  "drug_name": "Cabotegravir",
+  "generated_at": "2026-02-06T16:38:37.441983",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 560,
+    "total_cost": 2280603,
+    "total_prescribers": 36,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 22,
+      "cost": 80563,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 33,
+      "cost": 133832,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 42,
+      "cost": 178075,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 119,
+      "cost": 483787,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 13,
+      "cost": 55430,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 35,
+      "cost": 146371,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 143,
+      "cost": 594016,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 46,
+      "cost": 182511,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 11,
+      "cost": 44984,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 41,
+      "cost": 162677,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 28,
+      "cost": 115227,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 16,
+      "cost": 64849,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 11,
+      "cost": 38281,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "drug_name": "Sofosbuvir/Velpatas/Voxilaprev",
+  "generated_at": "2026-02-06T16:38:37.917902",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 56,
+    "total_cost": 1427653,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 23,
+      "cost": 610247,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 21,
+      "cost": 532426,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 12,
+      "cost": 284980,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

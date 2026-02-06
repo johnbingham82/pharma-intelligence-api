@@ -1,0 +1,75 @@
+{
+  "drug_name": "Vorapaxar Sulfate",
+  "generated_at": "2026-02-06T16:38:37.990608",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 664,
+    "total_cost": 384816,
+    "total_prescribers": 25,
+    "total_beneficiaries": 45
+  },
+  "by_state": {
+    "NV": {
+      "prescriptions": 12,
+      "cost": 5661,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 14,
+      "cost": 6155,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 22,
+      "cost": 4810,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 185,
+      "cost": 119986,
+      "prescribers": 6,
+      "beneficiaries": 21
+    },
+    "SC": {
+      "prescriptions": 29,
+      "cost": 15505,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 21,
+      "cost": 16118,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 46,
+      "cost": 21247,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 49,
+      "cost": 33533,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 44,
+      "cost": 24124,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 242,
+      "cost": 137677,
+      "prescribers": 6,
+      "beneficiaries": 24
+    }
+  }
+}

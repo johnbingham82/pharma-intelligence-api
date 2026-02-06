@@ -1,0 +1,27 @@
+{
+  "drug_name": "Immune Globulin,Gamma(Igg)Slra",
+  "generated_at": "2026-02-06T16:38:37.671720",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 23,
+    "total_cost": 848916,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 12,
+      "cost": 426410,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 11,
+      "cost": 422506,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

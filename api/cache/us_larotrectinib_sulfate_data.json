@@ -1,0 +1,111 @@
+{
+  "drug_name": "Larotrectinib Sulfate",
+  "generated_at": "2026-02-06T16:38:37.698996",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 289,
+    "total_cost": 10052307,
+    "total_prescribers": 23,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 397229,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 27,
+      "cost": 470109,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 11,
+      "cost": 421875,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 317820,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 35,
+      "cost": 1353402,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 46,
+      "cost": 1781592,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 11,
+      "cost": 441713,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 25,
+      "cost": 816984,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 518182,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 476731,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 14,
+      "cost": 556186,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 12,
+      "cost": 492147,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 13,
+      "cost": 320701,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 514091,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 24,
+      "cost": 790022,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 383523,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

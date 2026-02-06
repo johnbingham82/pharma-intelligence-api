@@ -1,0 +1,69 @@
+{
+  "drug_name": "Bedaquiline Fumarate",
+  "generated_at": "2026-02-06T16:38:37.417150",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 288,
+    "total_cost": 1261343,
+    "total_prescribers": 17,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 14,
+      "cost": 64773,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 18,
+      "cost": 68439,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 27,
+      "cost": 126158,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 131,
+      "cost": 591799,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 28,
+      "cost": 109877,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 24,
+      "cost": 102646,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 11,
+      "cost": 41706,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 22,
+      "cost": 107541,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 13,
+      "cost": 48404,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

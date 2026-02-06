@@ -1,0 +1,33 @@
+{
+  "drug_name": "Idursulfase",
+  "generated_at": "2026-02-06T16:38:37.664889",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 38,
+    "total_cost": 2228602,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "GA": {
+      "prescriptions": 13,
+      "cost": 683995,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 890327,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SD": {
+      "prescriptions": 12,
+      "cost": 654280,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

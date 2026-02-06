@@ -1,0 +1,27 @@
+{
+  "drug_name": "Sutimlimab-Jome",
+  "generated_at": "2026-02-06T16:38:37.927680",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 58,
+    "total_cost": 980120,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 44,
+      "cost": 630001,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VT": {
+      "prescriptions": 14,
+      "cost": 350119,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

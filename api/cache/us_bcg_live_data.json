@@ -1,0 +1,81 @@
+{
+  "drug_name": "Bcg Live",
+  "generated_at": "2026-02-06T16:38:37.416396",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 520,
+    "total_cost": 311878,
+    "total_prescribers": 30,
+    "total_beneficiaries": 149
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 28,
+      "cost": 18729,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "NV": {
+      "prescriptions": 20,
+      "cost": 11382,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "PA": {
+      "prescriptions": 26,
+      "cost": 9189,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 167,
+      "cost": 100027,
+      "prescribers": 11,
+      "beneficiaries": 11
+    },
+    "TX": {
+      "prescriptions": 40,
+      "cost": 26021,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "CA": {
+      "prescriptions": 11,
+      "cost": 5919,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 126,
+      "cost": 86258,
+      "prescribers": 7,
+      "beneficiaries": 69
+    },
+    "NJ": {
+      "prescriptions": 18,
+      "cost": 10975,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "MA": {
+      "prescriptions": 44,
+      "cost": 26792,
+      "prescribers": 1,
+      "beneficiaries": 20
+    },
+    "IN": {
+      "prescriptions": 22,
+      "cost": 13701,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 18,
+      "cost": 2885,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

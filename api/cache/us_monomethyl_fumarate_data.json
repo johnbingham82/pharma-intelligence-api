@@ -1,0 +1,63 @@
+{
+  "drug_name": "Monomethyl Fumarate",
+  "generated_at": "2026-02-06T16:38:37.762001",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 194,
+    "total_cost": 1496371,
+    "total_prescribers": 12,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 16,
+      "cost": 255889,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 55,
+      "cost": 437561,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 13,
+      "cost": 86808,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 81946,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 11,
+      "cost": 68922,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 29,
+      "cost": 189121,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 11,
+      "cost": 72680,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 47,
+      "cost": 303444,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

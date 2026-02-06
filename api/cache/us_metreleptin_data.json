@@ -1,0 +1,51 @@
+{
+  "drug_name": "Metreleptin",
+  "generated_at": "2026-02-06T16:38:37.750682",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 70,
+    "total_cost": 12084060,
+    "total_prescribers": 6,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OK": {
+      "prescriptions": 11,
+      "cost": 765218,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 11,
+      "cost": 1820073,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 12,
+      "cost": 2442798,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 2165114,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 12,
+      "cost": 2453655,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 2437202,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

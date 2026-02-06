@@ -1,0 +1,57 @@
+{
+  "drug_name": "Estradiol Cypionate",
+  "generated_at": "2026-02-06T16:38:37.589062",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 199,
+    "total_cost": 36457,
+    "total_prescribers": 11,
+    "total_beneficiaries": 55
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 15,
+      "cost": 2298,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 19,
+      "cost": 3247,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 13,
+      "cost": 2210,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 25,
+      "cost": 3903,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 104,
+      "cost": 20337,
+      "prescribers": 4,
+      "beneficiaries": 55
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 2582,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AK": {
+      "prescriptions": 11,
+      "cost": 1880,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

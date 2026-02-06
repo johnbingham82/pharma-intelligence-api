@@ -1,0 +1,51 @@
+{
+  "drug_name": "Gentamicin Sulfate/Pf",
+  "generated_at": "2026-02-06T16:38:37.638047",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 438,
+    "total_cost": 15447,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 69,
+      "cost": 3950,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 23,
+      "cost": 2415,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 137,
+      "cost": 6282,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 15,
+      "cost": 1071,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 142,
+      "cost": 916,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 52,
+      "cost": 813,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

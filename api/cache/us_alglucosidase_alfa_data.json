@@ -1,0 +1,63 @@
+{
+  "drug_name": "Alglucosidase Alfa",
+  "generated_at": "2026-02-06T16:38:37.380947",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 272,
+    "total_cost": 16475817,
+    "total_prescribers": 14,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 26,
+      "cost": 1283467,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 27,
+      "cost": 3179864,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 25,
+      "cost": 728361,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 66,
+      "cost": 3667171,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 72,
+      "cost": 4276861,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 13,
+      "cost": 1173369,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 29,
+      "cost": 1290882,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 14,
+      "cost": 875842,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

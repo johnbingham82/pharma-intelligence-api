@@ -1,0 +1,33 @@
+{
+  "drug_name": "Promethazine Hcl/Codeine",
+  "generated_at": "2026-02-06T16:38:37.868843",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 546,
+    "total_cost": 3897,
+    "total_prescribers": 25,
+    "total_beneficiaries": 298
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 444,
+      "cost": 2832,
+      "prescribers": 19,
+      "beneficiaries": 261
+    },
+    "CA": {
+      "prescriptions": 28,
+      "cost": 390,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 74,
+      "cost": 675,
+      "prescribers": 4,
+      "beneficiaries": 37
+    }
+  }
+}

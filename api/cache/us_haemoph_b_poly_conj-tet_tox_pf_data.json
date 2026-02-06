@@ -1,0 +1,63 @@
+{
+  "drug_name": "Haemoph B Poly Conj-Tet Tox/Pf",
+  "generated_at": "2026-02-06T16:38:37.648835",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 530,
+    "total_cost": 15825,
+    "total_prescribers": 11,
+    "total_beneficiaries": 457
+  },
+  "by_state": {
+    "NV": {
+      "prescriptions": 21,
+      "cost": 837,
+      "prescribers": 1,
+      "beneficiaries": 16
+    },
+    "CO": {
+      "prescriptions": 18,
+      "cost": 309,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "CA": {
+      "prescriptions": 340,
+      "cost": 11029,
+      "prescribers": 2,
+      "beneficiaries": 326
+    },
+    "GA": {
+      "prescriptions": 14,
+      "cost": 553,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "NC": {
+      "prescriptions": 30,
+      "cost": 554,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "IL": {
+      "prescriptions": 43,
+      "cost": 1387,
+      "prescribers": 1,
+      "beneficiaries": 43
+    },
+    "MO": {
+      "prescriptions": 45,
+      "cost": 892,
+      "prescribers": 2,
+      "beneficiaries": 37
+    },
+    "SD": {
+      "prescriptions": 19,
+      "cost": 264,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

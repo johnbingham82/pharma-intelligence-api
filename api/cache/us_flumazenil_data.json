@@ -1,0 +1,27 @@
+{
+  "drug_name": "Flumazenil",
+  "generated_at": "2026-02-06T16:38:37.618110",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 6964,
+    "total_cost": 61779,
+    "total_prescribers": 68,
+    "total_beneficiaries": 6188
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 275,
+      "cost": 2339,
+      "prescribers": 1,
+      "beneficiaries": 216
+    },
+    "PR": {
+      "prescriptions": 6689,
+      "cost": 59440,
+      "prescribers": 67,
+      "beneficiaries": 5972
+    }
+  }
+}

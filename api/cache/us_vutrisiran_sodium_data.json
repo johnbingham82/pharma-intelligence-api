@@ -1,0 +1,57 @@
+{
+  "drug_name": "Vutrisiran Sodium",
+  "generated_at": "2026-02-06T16:38:37.992013",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 181,
+    "total_cost": 21980217,
+    "total_prescribers": 11,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 43,
+      "cost": 5213484,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 1441595,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 27,
+      "cost": 3311512,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 52,
+      "cost": 6278781,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 22,
+      "cost": 2688505,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 12,
+      "cost": 1470889,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 1575451,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

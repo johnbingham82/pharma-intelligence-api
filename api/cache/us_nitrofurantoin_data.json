@@ -1,0 +1,153 @@
+{
+  "drug_name": "Nitrofurantoin",
+  "generated_at": "2026-02-06T16:38:37.790501",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 683,
+    "total_cost": 1594966,
+    "total_prescribers": 46,
+    "total_beneficiaries": 39
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 47,
+      "cost": 100321,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 70,
+      "cost": 134350,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 30,
+      "cost": 108243,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 16,
+      "cost": 32037,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 15,
+      "cost": 20769,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 11,
+      "cost": 24073,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 26,
+      "cost": 31812,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 28,
+      "cost": 46871,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 49,
+      "cost": 158743,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 46,
+      "cost": 129342,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 12,
+      "cost": 12928,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 36,
+      "cost": 70666,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 46,
+      "cost": 126057,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 15,
+      "cost": 39032,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 23,
+      "cost": 91562,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 11,
+      "cost": 19705,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 54,
+      "cost": 101827,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "ND": {
+      "prescriptions": 19,
+      "cost": 24742,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 32,
+      "cost": 100798,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 18375,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 15,
+      "cost": 42903,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 47,
+      "cost": 106917,
+      "prescribers": 2,
+      "beneficiaries": 27
+    },
+    "DE": {
+      "prescriptions": 22,
+      "cost": 52893,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

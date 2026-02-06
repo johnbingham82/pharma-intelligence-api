@@ -1,0 +1,21 @@
+{
+  "drug_name": "Pentamidine Isethionate",
+  "generated_at": "2026-02-06T16:38:37.836583",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 18,
+    "total_cost": 2704,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 18,
+      "cost": 2704,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

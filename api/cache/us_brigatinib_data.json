@@ -1,0 +1,135 @@
+{
+  "drug_name": "Brigatinib",
+  "generated_at": "2026-02-06T16:38:37.430562",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 732,
+    "total_cost": 13390042,
+    "total_prescribers": 51,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 84,
+      "cost": 1297858,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 82,
+      "cost": 1535744,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 67,
+      "cost": 1088480,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 34,
+      "cost": 704062,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 50,
+      "cost": 773331,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NM": {
+      "prescriptions": 11,
+      "cost": 137226,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 44,
+      "cost": 748979,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 87,
+      "cost": 1604049,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 67,
+      "cost": 1524716,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 11,
+      "cost": 213282,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 22,
+      "cost": 458076,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 25,
+      "cost": 698225,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 15,
+      "cost": 306333,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 18,
+      "cost": 224847,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 22,
+      "cost": 428928,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 227466,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 13,
+      "cost": 265973,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 45,
+      "cost": 858668,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 11,
+      "cost": 143099,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MT": {
+      "prescriptions": 12,
+      "cost": 150700,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

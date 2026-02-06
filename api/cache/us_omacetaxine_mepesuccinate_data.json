@@ -1,0 +1,39 @@
+{
+  "drug_name": "Omacetaxine Mepesuccinate",
+  "generated_at": "2026-02-06T16:38:37.805444",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 84,
+    "total_cost": 501314,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 18,
+      "cost": 133090,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 12,
+      "cost": 91409,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 15,
+      "cost": 41226,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 39,
+      "cost": 235589,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

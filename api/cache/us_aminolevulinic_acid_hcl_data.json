@@ -1,0 +1,51 @@
+{
+  "drug_name": "Aminolevulinic Acid Hcl",
+  "generated_at": "2026-02-06T16:38:37.389217",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 154,
+    "total_cost": 78262,
+    "total_prescribers": 8,
+    "total_beneficiaries": 106
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 12,
+      "cost": 5931,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 14,
+      "cost": 6080,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "CA": {
+      "prescriptions": 26,
+      "cost": 19014,
+      "prescribers": 1,
+      "beneficiaries": 22
+    },
+    "NY": {
+      "prescriptions": 62,
+      "cost": 29739,
+      "prescribers": 2,
+      "beneficiaries": 54
+    },
+    "GA": {
+      "prescriptions": 18,
+      "cost": 8429,
+      "prescribers": 1,
+      "beneficiaries": 16
+    },
+    "TN": {
+      "prescriptions": 22,
+      "cost": 9069,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

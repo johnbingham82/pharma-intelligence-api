@@ -1,0 +1,57 @@
+{
+  "drug_name": "Metyrosine",
+  "generated_at": "2026-02-06T16:38:37.751560",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 96,
+    "total_cost": 4014193,
+    "total_prescribers": 8,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 24497,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 25,
+      "cost": 704224,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 13,
+      "cost": 877342,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 12,
+      "cost": 910258,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 12,
+      "cost": 220542,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 12,
+      "cost": 689237,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 11,
+      "cost": 588093,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

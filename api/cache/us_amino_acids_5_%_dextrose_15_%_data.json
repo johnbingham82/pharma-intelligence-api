@@ -1,0 +1,21 @@
+{
+  "drug_name": "Amino Acids 5 %/Dextrose 15 %",
+  "generated_at": "2026-02-06T16:38:37.388829",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 39,
+    "total_cost": 12875,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 39,
+      "cost": 12875,
+      "prescribers": 3,
+      "beneficiaries": 0
+    }
+  }
+}

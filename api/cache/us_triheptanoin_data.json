@@ -1,0 +1,39 @@
+{
+  "drug_name": "Triheptanoin",
+  "generated_at": "2026-02-06T16:38:37.973530",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 45,
+    "total_cost": 821051,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 11,
+      "cost": 223603,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 11,
+      "cost": 73879,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 11,
+      "cost": 197854,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 12,
+      "cost": 325715,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

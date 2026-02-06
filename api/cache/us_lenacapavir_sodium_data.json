@@ -1,0 +1,39 @@
+{
+  "drug_name": "Lenacapavir Sodium",
+  "generated_at": "2026-02-06T16:38:37.701391",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 68,
+    "total_cost": 1007928,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 18,
+      "cost": 264628,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 24,
+      "cost": 306241,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 153902,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 15,
+      "cost": 283157,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

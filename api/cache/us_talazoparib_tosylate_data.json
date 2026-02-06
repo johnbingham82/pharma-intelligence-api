@@ -1,0 +1,69 @@
+{
+  "drug_name": "Talazoparib Tosylate",
+  "generated_at": "2026-02-06T16:38:37.933589",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 125,
+    "total_cost": 1960609,
+    "total_prescribers": 10,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 208926,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 22,
+      "cost": 415451,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 12,
+      "cost": 149652,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 13,
+      "cost": 163156,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 18,
+      "cost": 346656,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 11,
+      "cost": 207546,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 13,
+      "cost": 43715,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 224880,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 12,
+      "cost": 200627,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

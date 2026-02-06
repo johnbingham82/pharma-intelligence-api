@@ -1,0 +1,39 @@
+{
+  "drug_name": "Doxorubicin Hcl Peg-Liposomal",
+  "generated_at": "2026-02-06T16:38:37.555054",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 112,
+    "total_cost": 254156,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 35,
+      "cost": 64122,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 54,
+      "cost": 126868,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 24956,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 12,
+      "cost": 38210,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

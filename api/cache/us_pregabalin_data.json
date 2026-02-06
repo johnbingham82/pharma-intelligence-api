@@ -1,6 +1,6 @@
 {
   "drug_name": "Pregabalin",
-  "generated_at": "2026-02-06T16:18:00.187064",
+  "generated_at": "2026-02-06T16:38:37.863068",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 19524349,
       "prescribers": 9355,
       "beneficiaries": 103585
+    },
+    "NM": {
+      "prescriptions": 38623,
+      "cost": 2045722,
+      "prescribers": 958,
+      "beneficiaries": 5785
     },
     "KY": {
       "prescriptions": 128380,
@@ -119,6 +125,12 @@
       "prescribers": 2168,
       "beneficiaries": 11452
     },
+    "ID": {
+      "prescriptions": 38870,
+      "cost": 2036714,
+      "prescribers": 935,
+      "beneficiaries": 5768
+    },
     "WA": {
       "prescriptions": 103773,
       "cost": 4386136,
@@ -155,6 +167,12 @@
       "prescribers": 5508,
       "beneficiaries": 45438
     },
+    "AZ": {
+      "prescriptions": 106893,
+      "cost": 4509973,
+      "prescribers": 2614,
+      "beneficiaries": 23101
+    },
     "TN": {
       "prescriptions": 216651,
       "cost": 10687900,
@@ -178,12 +196,6 @@
       "cost": 1786437,
       "prescribers": 1057,
       "beneficiaries": 6723
-    },
-    "AZ": {
-      "prescriptions": 106893,
-      "cost": 4509973,
-      "prescribers": 2614,
-      "beneficiaries": 23101
     },
     "IL": {
       "prescriptions": 175285,
@@ -215,35 +227,23 @@
       "prescribers": 411,
       "beneficiaries": 1962
     },
-    "LA": {
-      "prescriptions": 123348,
-      "cost": 3710703,
-      "prescribers": 2048,
-      "beneficiaries": 23046
-    },
     "RI": {
       "prescriptions": 17478,
       "cost": 749454,
       "prescribers": 510,
       "beneficiaries": 1981
     },
+    "LA": {
+      "prescriptions": 123348,
+      "cost": 3710703,
+      "prescribers": 2048,
+      "beneficiaries": 23046
+    },
     "WI": {
       "prescriptions": 126863,
       "cost": 6272078,
       "prescribers": 3102,
       "beneficiaries": 18834
-    },
-    "ID": {
-      "prescriptions": 38870,
-      "cost": 2036714,
-      "prescribers": 935,
-      "beneficiaries": 5768
-    },
-    "NM": {
-      "prescriptions": 38623,
-      "cost": 2045722,
-      "prescribers": 958,
-      "beneficiaries": 5785
     },
     "KS": {
       "prescriptions": 66383,
@@ -256,6 +256,12 @@
       "cost": 8171071,
       "prescribers": 5434,
       "beneficiaries": 41382
+    },
+    "WV": {
+      "prescriptions": 48891,
+      "cost": 1674151,
+      "prescribers": 1101,
+      "beneficiaries": 5771
     },
     "VT": {
       "prescriptions": 12380,
@@ -281,29 +287,23 @@
       "prescribers": 2714,
       "beneficiaries": 24934
     },
+    "DE": {
+      "prescriptions": 14931,
+      "cost": 672523,
+      "prescribers": 372,
+      "beneficiaries": 2795
+    },
     "MT": {
       "prescriptions": 22942,
       "cost": 696619,
       "prescribers": 611,
       "beneficiaries": 2367
     },
-    "WV": {
-      "prescriptions": 48891,
-      "cost": 1674151,
-      "prescribers": 1101,
-      "beneficiaries": 5771
-    },
     "ME": {
       "prescriptions": 29869,
       "cost": 2344514,
       "prescribers": 892,
       "beneficiaries": 5171
-    },
-    "DE": {
-      "prescriptions": 14931,
-      "cost": 672523,
-      "prescribers": 372,
-      "beneficiaries": 2795
     },
     "AK": {
       "prescriptions": 7560,
@@ -335,6 +335,12 @@
       "prescribers": 5,
       "beneficiaries": 34
     },
+    "VI": {
+      "prescriptions": 319,
+      "cost": 14383,
+      "prescribers": 15,
+      "beneficiaries": 13
+    },
     "MP": {
       "prescriptions": 45,
       "cost": 1177,
@@ -346,12 +352,6 @@
       "cost": 3819,
       "prescribers": 3,
       "beneficiaries": 0
-    },
-    "VI": {
-      "prescriptions": 319,
-      "cost": 14383,
-      "prescribers": 15,
-      "beneficiaries": 13
     },
     "AP": {
       "prescriptions": 122,

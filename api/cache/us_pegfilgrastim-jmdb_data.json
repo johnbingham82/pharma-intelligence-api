@@ -1,0 +1,117 @@
+{
+  "drug_name": "Pegfilgrastim-Jmdb",
+  "generated_at": "2026-02-06T16:38:37.830730",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 978,
+    "total_cost": 4136572,
+    "total_prescribers": 40,
+    "total_beneficiaries": 114
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 54,
+      "cost": 188593,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "PA": {
+      "prescriptions": 25,
+      "cost": 74167,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 97,
+      "cost": 407839,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "FL": {
+      "prescriptions": 37,
+      "cost": 156491,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 22,
+      "cost": 92973,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 14,
+      "cost": 48874,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "CA": {
+      "prescriptions": 270,
+      "cost": 1159862,
+      "prescribers": 11,
+      "beneficiaries": 12
+    },
+    "NY": {
+      "prescriptions": 82,
+      "cost": 423817,
+      "prescribers": 4,
+      "beneficiaries": 12
+    },
+    "NJ": {
+      "prescriptions": 64,
+      "cost": 280573,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 14,
+      "cost": 54552,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 14,
+      "cost": 131165,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 17,
+      "cost": 36948,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 16,
+      "cost": 34775,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 12,
+      "cost": 53138,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 12,
+      "cost": 52223,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 48,
+      "cost": 286025,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "PR": {
+      "prescriptions": 180,
+      "cost": 654557,
+      "prescribers": 6,
+      "beneficiaries": 27
+    }
+  }
+}

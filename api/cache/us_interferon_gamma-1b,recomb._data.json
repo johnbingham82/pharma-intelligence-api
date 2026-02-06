@@ -1,0 +1,87 @@
+{
+  "drug_name": "Interferon Gamma-1B,Recomb.",
+  "generated_at": "2026-02-06T16:38:37.683950",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 301,
+    "total_cost": 18861438,
+    "total_prescribers": 19,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 40,
+      "cost": 2613336,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 13,
+      "cost": 609480,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 82,
+      "cost": 5070736,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 11,
+      "cost": 751835,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 25,
+      "cost": 1632584,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 33,
+      "cost": 1698620,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 24,
+      "cost": 1514617,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 12,
+      "cost": 756087,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 795694,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 27,
+      "cost": 1771848,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 11,
+      "cost": 879253,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MT": {
+      "prescriptions": 12,
+      "cost": 767348,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

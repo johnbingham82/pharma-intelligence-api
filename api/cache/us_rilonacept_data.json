@@ -1,0 +1,123 @@
+{
+  "drug_name": "Rilonacept",
+  "generated_at": "2026-02-06T16:38:37.882997",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 517,
+    "total_cost": 11727010,
+    "total_prescribers": 35,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 13,
+      "cost": 270719,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 68,
+      "cost": 1527244,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 26,
+      "cost": 556464,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 35,
+      "cost": 754396,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 37,
+      "cost": 848013,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 63,
+      "cost": 1449739,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 23,
+      "cost": 514187,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 28,
+      "cost": 613143,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 84,
+      "cost": 1905024,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 288113,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 11,
+      "cost": 252166,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 18,
+      "cost": 398044,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 12,
+      "cost": 271491,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 26,
+      "cost": 729889,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 14,
+      "cost": 309896,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 23,
+      "cost": 502890,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 13,
+      "cost": 283426,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AK": {
+      "prescriptions": 11,
+      "cost": 252166,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

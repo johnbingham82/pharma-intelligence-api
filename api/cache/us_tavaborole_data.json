@@ -1,0 +1,177 @@
+{
+  "drug_name": "Tavaborole",
+  "generated_at": "2026-02-06T16:38:37.936162",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 21436,
+    "total_cost": 13899046,
+    "total_prescribers": 375,
+    "total_beneficiaries": 5584
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 107,
+      "cost": 29955,
+      "prescribers": 5,
+      "beneficiaries": 13
+    },
+    "OH": {
+      "prescriptions": 24,
+      "cost": 3387,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 242,
+      "cost": 85041,
+      "prescribers": 4,
+      "beneficiaries": 79
+    },
+    "FL": {
+      "prescriptions": 79,
+      "cost": 45903,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 338,
+      "cost": 60175,
+      "prescribers": 16,
+      "beneficiaries": 50
+    },
+    "KY": {
+      "prescriptions": 13,
+      "cost": 8843,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 11,
+      "cost": 4954,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 31,
+      "cost": 29464,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 6291,
+      "cost": 5700025,
+      "prescribers": 113,
+      "beneficiaries": 1342
+    },
+    "NY": {
+      "prescriptions": 11947,
+      "cost": 7286375,
+      "prescribers": 173,
+      "beneficiaries": 3621
+    },
+    "NJ": {
+      "prescriptions": 169,
+      "cost": 64013,
+      "prescribers": 8,
+      "beneficiaries": 31
+    },
+    "MA": {
+      "prescriptions": 1318,
+      "cost": 331788,
+      "prescribers": 2,
+      "beneficiaries": 363
+    },
+    "VA": {
+      "prescriptions": 232,
+      "cost": 96294,
+      "prescribers": 7,
+      "beneficiaries": 52
+    },
+    "WA": {
+      "prescriptions": 18,
+      "cost": 4909,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 183,
+      "cost": 27879,
+      "prescribers": 8,
+      "beneficiaries": 18
+    },
+    "NC": {
+      "prescriptions": 67,
+      "cost": 11412,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 19,
+      "cost": 6880,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 35,
+      "cost": 18258,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 25,
+      "cost": 9382,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 29,
+      "cost": 14390,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 17,
+      "cost": 10335,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "RI": {
+      "prescriptions": 14,
+      "cost": 3754,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 11,
+      "cost": 1660,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 81,
+      "cost": 15571,
+      "prescribers": 4,
+      "beneficiaries": 15
+    },
+    "UT": {
+      "prescriptions": 15,
+      "cost": 1955,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 103,
+      "cost": 24350,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "AK": {
+      "prescriptions": 17,
+      "cost": 2094,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

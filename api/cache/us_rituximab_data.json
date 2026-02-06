@@ -1,0 +1,105 @@
+{
+  "drug_name": "Rituximab",
+  "generated_at": "2026-02-06T16:38:37.888690",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 961,
+    "total_cost": 10793695,
+    "total_prescribers": 47,
+    "total_beneficiaries": 137
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 47,
+      "cost": 484072,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 16,
+      "cost": 129452,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 73,
+      "cost": 766607,
+      "prescribers": 5,
+      "beneficiaries": 11
+    },
+    "TX": {
+      "prescriptions": 234,
+      "cost": 3239377,
+      "prescribers": 7,
+      "beneficiaries": 57
+    },
+    "KY": {
+      "prescriptions": 35,
+      "cost": 261959,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 12,
+      "cost": 237941,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 295,
+      "cost": 3098652,
+      "prescribers": 16,
+      "beneficiaries": 54
+    },
+    "NY": {
+      "prescriptions": 47,
+      "cost": 663557,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 42,
+      "cost": 371243,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 21,
+      "cost": 132132,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 49,
+      "cost": 496247,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 14,
+      "cost": 276795,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 24,
+      "cost": 115806,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 27,
+      "cost": 235464,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 25,
+      "cost": 284391,
+      "prescribers": 1,
+      "beneficiaries": 15
+    }
+  }
+}

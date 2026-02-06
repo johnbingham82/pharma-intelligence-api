@@ -1,0 +1,87 @@
+{
+  "drug_name": "Eravacycline Di-Hydrochloride",
+  "generated_at": "2026-02-06T16:38:37.580509",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 322,
+    "total_cost": 268820,
+    "total_prescribers": 21,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 43,
+      "cost": 27119,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 30,
+      "cost": 23088,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 11,
+      "cost": 6022,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 11,
+      "cost": 9642,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 47,
+      "cost": 46379,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 25,
+      "cost": 24139,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 13,
+      "cost": 9533,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 37,
+      "cost": 16239,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 30,
+      "cost": 35182,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 34,
+      "cost": 31648,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 16,
+      "cost": 17272,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 25,
+      "cost": 22557,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

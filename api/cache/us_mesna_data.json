@@ -1,0 +1,33 @@
+{
+  "drug_name": "Mesna",
+  "generated_at": "2026-02-06T16:38:37.738145",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 87,
+    "total_cost": 44333,
+    "total_prescribers": 4,
+    "total_beneficiaries": 15
+  },
+  "by_state": {
+    "NM": {
+      "prescriptions": 46,
+      "cost": 2197,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 30,
+      "cost": 33048,
+      "prescribers": 2,
+      "beneficiaries": 15
+    },
+    "VA": {
+      "prescriptions": 11,
+      "cost": 9088,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "drug_name": "Cimetidine Hcl",
+  "generated_at": "2026-02-06T16:38:37.472943",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 11,
+    "total_cost": 821,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 11,
+      "cost": 821,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

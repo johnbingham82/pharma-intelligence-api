@@ -1,0 +1,39 @@
+{
+  "drug_name": "Dobutamine Hcl",
+  "generated_at": "2026-02-06T16:38:37.548681",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 174,
+    "total_cost": 9903,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 23,
+      "cost": 2419,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 1483,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 40,
+      "cost": 2827,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 99,
+      "cost": 3174,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

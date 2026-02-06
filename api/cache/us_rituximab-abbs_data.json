@@ -1,0 +1,63 @@
+{
+  "drug_name": "Rituximab-Abbs",
+  "generated_at": "2026-02-06T16:38:37.888881",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 614,
+    "total_cost": 4843618,
+    "total_prescribers": 28,
+    "total_beneficiaries": 56
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 32,
+      "cost": 221231,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "FL": {
+      "prescriptions": 32,
+      "cost": 183699,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 79,
+      "cost": 516697,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 146,
+      "cost": 1022193,
+      "prescribers": 7,
+      "beneficiaries": 26
+    },
+    "NY": {
+      "prescriptions": 242,
+      "cost": 1951410,
+      "prescribers": 10,
+      "beneficiaries": 19
+    },
+    "NJ": {
+      "prescriptions": 55,
+      "cost": 564908,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 13,
+      "cost": 107943,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 15,
+      "cost": 275537,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

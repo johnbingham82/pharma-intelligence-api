@@ -1,0 +1,87 @@
+{
+  "drug_name": "Hydromorphone Hcl/Pf",
+  "generated_at": "2026-02-06T16:38:37.659267",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 451,
+    "total_cost": 118069,
+    "total_prescribers": 20,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 15,
+      "cost": 1121,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 11,
+      "cost": 2179,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 139,
+      "cost": 67758,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 18,
+      "cost": 2985,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 68,
+      "cost": 17520,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 58,
+      "cost": 6978,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 51,
+      "cost": 1521,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 11,
+      "cost": 447,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 30,
+      "cost": 1970,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 17,
+      "cost": 7082,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ND": {
+      "prescriptions": 22,
+      "cost": 129,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AK": {
+      "prescriptions": 11,
+      "cost": 8379,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

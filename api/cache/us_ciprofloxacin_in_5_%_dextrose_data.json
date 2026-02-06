@@ -1,0 +1,93 @@
+{
+  "drug_name": "Ciprofloxacin In 5 % Dextrose",
+  "generated_at": "2026-02-06T16:38:37.474928",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 207,
+    "total_cost": 7073,
+    "total_prescribers": 16,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 23,
+      "cost": 736,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 11,
+      "cost": 274,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 216,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 13,
+      "cost": 353,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 22,
+      "cost": 644,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 29,
+      "cost": 1365,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 540,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 17,
+      "cost": 639,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 14,
+      "cost": 934,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 16,
+      "cost": 312,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 13,
+      "cost": 251,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 12,
+      "cost": 450,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 13,
+      "cost": 359,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "drug_name": "Delafloxacin Meglumine",
+  "generated_at": "2026-02-06T16:38:37.522013",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 37,
+    "total_cost": 132766,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "DC": {
+      "prescriptions": 12,
+      "cost": 64212,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 26073,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 13,
+      "cost": 42481,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

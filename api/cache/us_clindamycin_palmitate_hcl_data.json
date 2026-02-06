@@ -1,0 +1,51 @@
+{
+  "drug_name": "Clindamycin Palmitate Hcl",
+  "generated_at": "2026-02-06T16:38:37.478236",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 125,
+    "total_cost": 17364,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 27,
+      "cost": 5390,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 23,
+      "cost": 553,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 19,
+      "cost": 2725,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 12,
+      "cost": 392,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 25,
+      "cost": 3327,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 19,
+      "cost": 4977,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

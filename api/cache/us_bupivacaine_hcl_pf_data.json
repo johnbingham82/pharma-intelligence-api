@@ -1,0 +1,45 @@
+{
+  "drug_name": "Bupivacaine Hcl/Pf",
+  "generated_at": "2026-02-06T16:38:37.436178",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 70,
+    "total_cost": 1688,
+    "total_prescribers": 5,
+    "total_beneficiaries": 26
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 13,
+      "cost": 34,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "SC": {
+      "prescriptions": 13,
+      "cost": 107,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 19,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 17,
+      "cost": 1417,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 16,
+      "cost": 111,
+      "prescribers": 1,
+      "beneficiaries": 14
+    }
+  }
+}

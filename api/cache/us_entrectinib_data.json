@@ -1,0 +1,93 @@
+{
+  "drug_name": "Entrectinib",
+  "generated_at": "2026-02-06T16:38:37.577310",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 233,
+    "total_cost": 3504325,
+    "total_prescribers": 19,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 11,
+      "cost": 73653,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 36,
+      "cost": 621619,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 39,
+      "cost": 649661,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 12,
+      "cost": 145775,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 177625,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 12,
+      "cost": 181802,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 12,
+      "cost": 178533,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 11,
+      "cost": 129946,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 236223,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 149353,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 23,
+      "cost": 460486,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 31,
+      "cost": 285692,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 11,
+      "cost": 213957,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

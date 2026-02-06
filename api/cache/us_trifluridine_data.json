@@ -1,0 +1,135 @@
+{
+  "drug_name": "Trifluridine",
+  "generated_at": "2026-02-06T16:38:37.972937",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 785,
+    "total_cost": 130453,
+    "total_prescribers": 52,
+    "total_beneficiaries": 139
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 44,
+      "cost": 6214,
+      "prescribers": 3,
+      "beneficiaries": 13
+    },
+    "CO": {
+      "prescriptions": 12,
+      "cost": 2118,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 64,
+      "cost": 12103,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 98,
+      "cost": 15734,
+      "prescribers": 7,
+      "beneficiaries": 11
+    },
+    "TX": {
+      "prescriptions": 97,
+      "cost": 15842,
+      "prescribers": 7,
+      "beneficiaries": 23
+    },
+    "SC": {
+      "prescriptions": 12,
+      "cost": 2059,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 96,
+      "cost": 17336,
+      "prescribers": 7,
+      "beneficiaries": 13
+    },
+    "NY": {
+      "prescriptions": 36,
+      "cost": 5565,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 111,
+      "cost": 19035,
+      "prescribers": 6,
+      "beneficiaries": 11
+    },
+    "VA": {
+      "prescriptions": 12,
+      "cost": 1565,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 12,
+      "cost": 2180,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 16,
+      "cost": 2630,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 2090,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ND": {
+      "prescriptions": 11,
+      "cost": 1773,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 11,
+      "cost": 1907,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "IN": {
+      "prescriptions": 76,
+      "cost": 11746,
+      "prescribers": 1,
+      "beneficiaries": 34
+    },
+    "AR": {
+      "prescriptions": 26,
+      "cost": 4140,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "HI": {
+      "prescriptions": 13,
+      "cost": 2105,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 12,
+      "cost": 2015,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 14,
+      "cost": 2296,
+      "prescribers": 1,
+      "beneficiaries": 12
+    }
+  }
+}

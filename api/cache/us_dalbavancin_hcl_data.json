@@ -1,0 +1,117 @@
+{
+  "drug_name": "Dalbavancin Hcl",
+  "generated_at": "2026-02-06T16:38:37.512928",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1241,
+    "total_cost": 5975790,
+    "total_prescribers": 43,
+    "total_beneficiaries": 204
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 14,
+      "cost": 58666,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 17,
+      "cost": 94400,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 78,
+      "cost": 218810,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 15,
+      "cost": 84035,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 74,
+      "cost": 330039,
+      "prescribers": 5,
+      "beneficiaries": 14
+    },
+    "KY": {
+      "prescriptions": 24,
+      "cost": 177820,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 33,
+      "cost": 193189,
+      "prescribers": 1,
+      "beneficiaries": 18
+    },
+    "CT": {
+      "prescriptions": 11,
+      "cost": 60185,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 40,
+      "cost": 264079,
+      "prescribers": 3,
+      "beneficiaries": 11
+    },
+    "MS": {
+      "prescriptions": 44,
+      "cost": 243336,
+      "prescribers": 1,
+      "beneficiaries": 24
+    },
+    "GA": {
+      "prescriptions": 46,
+      "cost": 191526,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 38,
+      "cost": 100004,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 32,
+      "cost": 177798,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 13,
+      "cost": 65920,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 661,
+      "cost": 3251176,
+      "prescribers": 12,
+      "beneficiaries": 124
+    },
+    "AR": {
+      "prescriptions": 49,
+      "cost": 203377,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 52,
+      "cost": 261430,
+      "prescribers": 3,
+      "beneficiaries": 13
+    }
+  }
+}

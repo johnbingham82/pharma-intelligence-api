@@ -1,0 +1,141 @@
+{
+  "drug_name": "Avacopan",
+  "generated_at": "2026-02-06T16:38:37.408299",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 753,
+    "total_cost": 11437636,
+    "total_prescribers": 54,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 45,
+      "cost": 700599,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 61,
+      "cost": 938614,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 13,
+      "cost": 198990,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 12,
+      "cost": 194028,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 31,
+      "cost": 471535,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 48,
+      "cost": 778517,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 68,
+      "cost": 1065458,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 23,
+      "cost": 319004,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 12,
+      "cost": 190975,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 22,
+      "cost": 352836,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 125,
+      "cost": 1701874,
+      "prescribers": 10,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 87,
+      "cost": 1304352,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 73,
+      "cost": 1159121,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 11,
+      "cost": 161702,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 14,
+      "cost": 225437,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 186079,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 41,
+      "cost": 642706,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 13,
+      "cost": 187887,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 19,
+      "cost": 294595,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 174014,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AK": {
+      "prescriptions": 12,
+      "cost": 189313,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

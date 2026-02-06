@@ -1,0 +1,27 @@
+{
+  "drug_name": "Lurbinectedin",
+  "generated_at": "2026-02-06T16:38:37.726704",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 30,
+    "total_cost": 495852,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "NY": {
+      "prescriptions": 17,
+      "cost": 282894,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 13,
+      "cost": 212958,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

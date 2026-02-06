@@ -1,0 +1,93 @@
+{
+  "drug_name": "Metronidazole/Sodium Chloride",
+  "generated_at": "2026-02-06T16:38:37.751264",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 351,
+    "total_cost": 9217,
+    "total_prescribers": 20,
+    "total_beneficiaries": 22
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 35,
+      "cost": 798,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 11,
+      "cost": 300,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 25,
+      "cost": 638,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 51,
+      "cost": 1461,
+      "prescribers": 2,
+      "beneficiaries": 22
+    },
+    "NJ": {
+      "prescriptions": 51,
+      "cost": 1610,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 13,
+      "cost": 74,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 40,
+      "cost": 1118,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 40,
+      "cost": 708,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 15,
+      "cost": 274,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 16,
+      "cost": 712,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 31,
+      "cost": 958,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 11,
+      "cost": 232,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 12,
+      "cost": 334,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

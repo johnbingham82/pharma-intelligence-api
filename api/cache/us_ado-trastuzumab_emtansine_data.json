@@ -1,0 +1,51 @@
+{
+  "drug_name": "Ado-Trastuzumab Emtansine",
+  "generated_at": "2026-02-06T16:38:37.376675",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 131,
+    "total_cost": 1559380,
+    "total_prescribers": 9,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 99270,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 16,
+      "cost": 202073,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 16,
+      "cost": 177654,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 25,
+      "cost": 286095,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 49,
+      "cost": 639502,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 14,
+      "cost": 154786,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

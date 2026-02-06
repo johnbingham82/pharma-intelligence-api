@@ -1,0 +1,39 @@
+{
+  "drug_name": "Methylergonovine Maleate",
+  "generated_at": "2026-02-06T16:38:37.745244",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 73,
+    "total_cost": 233147,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 38,
+      "cost": 79600,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 11,
+      "cost": 38880,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 13017,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 101650,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

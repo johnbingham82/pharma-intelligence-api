@@ -1,0 +1,45 @@
+{
+  "drug_name": "Fat Emulsions",
+  "generated_at": "2026-02-06T16:38:37.607357",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 153,
+    "total_cost": 121189,
+    "total_prescribers": 9,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 12,
+      "cost": 2967,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 19,
+      "cost": 4376,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 17,
+      "cost": 790,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 83,
+      "cost": 9074,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 22,
+      "cost": 103982,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

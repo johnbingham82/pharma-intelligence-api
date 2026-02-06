@@ -1,0 +1,63 @@
+{
+  "drug_name": "Promethazine/Dextromethorphan",
+  "generated_at": "2026-02-06T16:38:37.868963",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 4989,
+    "total_cost": 67649,
+    "total_prescribers": 192,
+    "total_beneficiaries": 3007
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 27,
+      "cost": 657,
+      "prescribers": 1,
+      "beneficiaries": 24
+    },
+    "NV": {
+      "prescriptions": 31,
+      "cost": 313,
+      "prescribers": 2,
+      "beneficiaries": 18
+    },
+    "FL": {
+      "prescriptions": 423,
+      "cost": 3705,
+      "prescribers": 19,
+      "beneficiaries": 207
+    },
+    "TX": {
+      "prescriptions": 12,
+      "cost": 139,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 4314,
+      "cost": 60004,
+      "prescribers": 161,
+      "beneficiaries": 2596
+    },
+    "WA": {
+      "prescriptions": 22,
+      "cost": 574,
+      "prescribers": 1,
+      "beneficiaries": 22
+    },
+    "NC": {
+      "prescriptions": 112,
+      "cost": 1849,
+      "prescribers": 4,
+      "beneficiaries": 93
+    },
+    "MI": {
+      "prescriptions": 48,
+      "cost": 408,
+      "prescribers": 3,
+      "beneficiaries": 47
+    }
+  }
+}

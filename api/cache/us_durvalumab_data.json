@@ -1,0 +1,123 @@
+{
+  "drug_name": "Durvalumab",
+  "generated_at": "2026-02-06T16:38:37.559767",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1327,
+    "total_cost": 14780911,
+    "total_prescribers": 61,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 97,
+      "cost": 812783,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 28,
+      "cost": 217408,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 293,
+      "cost": 2608168,
+      "prescribers": 14,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 71,
+      "cost": 984182,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 62,
+      "cost": 349282,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 32,
+      "cost": 418275,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 129,
+      "cost": 1498361,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 268,
+      "cost": 3555572,
+      "prescribers": 13,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 44,
+      "cost": 613103,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 21,
+      "cost": 126943,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 38,
+      "cost": 371988,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 146665,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 27,
+      "cost": 440219,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 22,
+      "cost": 288207,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 46,
+      "cost": 585488,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 71,
+      "cost": 811523,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 55,
+      "cost": 829145,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 11,
+      "cost": 123599,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "drug_name": "Beremagene Geperpavec-Svdt",
+  "generated_at": "2026-02-06T16:38:37.421579",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 117,
+    "total_cost": 2921609,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 19,
+      "cost": 457971,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 85,
+      "cost": 2153406,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 13,
+      "cost": 310232,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

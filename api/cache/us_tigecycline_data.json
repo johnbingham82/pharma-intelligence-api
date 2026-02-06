@@ -1,0 +1,129 @@
+{
+  "drug_name": "Tigecycline",
+  "generated_at": "2026-02-06T16:38:37.952022",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1553,
+    "total_cost": 1416322,
+    "total_prescribers": 68,
+    "total_beneficiaries": 30
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 12,
+      "cost": 25489,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 146,
+      "cost": 212072,
+      "prescribers": 8,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 13,
+      "cost": 18710,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 246,
+      "cost": 227832,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 205,
+      "cost": 145164,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 55,
+      "cost": 70335,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 164,
+      "cost": 196979,
+      "prescribers": 4,
+      "beneficiaries": 30
+    },
+    "NY": {
+      "prescriptions": 74,
+      "cost": 40346,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 37,
+      "cost": 71032,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 14,
+      "cost": 5978,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 11,
+      "cost": 15385,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 194,
+      "cost": 49014,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 34,
+      "cost": 47017,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 217,
+      "cost": 127107,
+      "prescribers": 14,
+      "beneficiaries": 0
+    },
+    "RI": {
+      "prescriptions": 16,
+      "cost": 26798,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 31,
+      "cost": 26772,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 41,
+      "cost": 36495,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 30,
+      "cost": 53449,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VT": {
+      "prescriptions": 13,
+      "cost": 20348,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

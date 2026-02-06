@@ -1,0 +1,27 @@
+{
+  "drug_name": "Atropine Sulfate/Pf",
+  "generated_at": "2026-02-06T16:38:37.407871",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 52,
+    "total_cost": 2343,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "WA": {
+      "prescriptions": 11,
+      "cost": 495,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 41,
+      "cost": 1848,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

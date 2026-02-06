@@ -1,0 +1,57 @@
+{
+  "drug_name": "Velaglucerase Alfa",
+  "generated_at": "2026-02-06T16:38:37.985751",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 188,
+    "total_cost": 6879928,
+    "total_prescribers": 11,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 576305,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 23,
+      "cost": 809762,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 15,
+      "cost": 466265,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 53,
+      "cost": 1618036,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 16,
+      "cost": 569707,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 57,
+      "cost": 2174491,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 13,
+      "cost": 665362,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

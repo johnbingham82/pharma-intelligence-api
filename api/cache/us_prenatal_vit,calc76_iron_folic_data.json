@@ -1,0 +1,27 @@
+{
+  "drug_name": "Prenatal Vit,Calc76/Iron/Folic",
+  "generated_at": "2026-02-06T16:38:37.864234",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 25,
+    "total_cost": 571,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 12,
+      "cost": 447,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 13,
+      "cost": 124,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

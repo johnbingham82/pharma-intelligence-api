@@ -1,0 +1,105 @@
+{
+  "drug_name": "Abiraterone Acet,Submicronized",
+  "generated_at": "2026-02-06T16:38:37.366562",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 797,
+    "total_cost": 8370078,
+    "total_prescribers": 27,
+    "total_beneficiaries": 43
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 128489,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 35,
+      "cost": 354070,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 26,
+      "cost": 271460,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 11,
+      "cost": 118340,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 45,
+      "cost": 493844,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 50,
+      "cost": 532401,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 61,
+      "cost": 599658,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 194,
+      "cost": 2044627,
+      "prescribers": 3,
+      "beneficiaries": 19
+    },
+    "ID": {
+      "prescriptions": 81,
+      "cost": 789897,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 175,
+      "cost": 1910924,
+      "prescribers": 1,
+      "beneficiaries": 24
+    },
+    "IA": {
+      "prescriptions": 12,
+      "cost": 130425,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 30,
+      "cost": 323781,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 18,
+      "cost": 184066,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 24,
+      "cost": 253878,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 23,
+      "cost": 234218,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

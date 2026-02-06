@@ -1,0 +1,105 @@
+{
+  "drug_name": "Noreth-Ethinyl Estradiol/Iron",
+  "generated_at": "2026-02-06T16:38:37.793273",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 281,
+    "total_cost": 15579,
+    "total_prescribers": 22,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 28,
+      "cost": 1491,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 24,
+      "cost": 1764,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 24,
+      "cost": 1768,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 31,
+      "cost": 836,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 11,
+      "cost": 483,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 46,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 1215,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 15,
+      "cost": 888,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 11,
+      "cost": 241,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 11,
+      "cost": 295,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 856,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 41,
+      "cost": 2395,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 11,
+      "cost": 464,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 28,
+      "cost": 1799,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MT": {
+      "prescriptions": 12,
+      "cost": 1038,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

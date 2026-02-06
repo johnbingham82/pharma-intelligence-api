@@ -1,0 +1,21 @@
+{
+  "drug_name": "Eflapegrastim-Xnst",
+  "generated_at": "2026-02-06T16:38:37.565085",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 39,
+    "total_cost": 189767,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 39,
+      "cost": 189767,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

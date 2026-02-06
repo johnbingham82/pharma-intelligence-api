@@ -1,0 +1,75 @@
+{
+  "drug_name": "Fam-Trastuzumab Deruxtecn-Nxki",
+  "generated_at": "2026-02-06T16:38:37.603354",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 577,
+    "total_cost": 6020612,
+    "total_prescribers": 32,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 58,
+      "cost": 588247,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 33,
+      "cost": 410962,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 108,
+      "cost": 1208625,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 207,
+      "cost": 2077278,
+      "prescribers": 8,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 41,
+      "cost": 441168,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 17,
+      "cost": 137419,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 12,
+      "cost": 154162,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 27,
+      "cost": 285642,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 16,
+      "cost": 177671,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 58,
+      "cost": 539438,
+      "prescribers": 3,
+      "beneficiaries": 0
+    }
+  }
+}

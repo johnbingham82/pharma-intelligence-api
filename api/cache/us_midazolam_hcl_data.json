@@ -1,0 +1,63 @@
+{
+  "drug_name": "Midazolam Hcl",
+  "generated_at": "2026-02-06T16:38:37.753596",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 21719,
+    "total_cost": 75512,
+    "total_prescribers": 178,
+    "total_beneficiaries": 19547
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 629,
+      "cost": 2215,
+      "prescribers": 4,
+      "beneficiaries": 577
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 446,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 58,
+      "cost": 416,
+      "prescribers": 1,
+      "beneficiaries": 26
+    },
+    "VA": {
+      "prescriptions": 15,
+      "cost": 1502,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 11,
+      "cost": 86,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 413,
+      "cost": 3623,
+      "prescribers": 10,
+      "beneficiaries": 87
+    },
+    "PR": {
+      "prescriptions": 20568,
+      "cost": 66643,
+      "prescribers": 159,
+      "beneficiaries": 18857
+    },
+    "MO": {
+      "prescriptions": 13,
+      "cost": 581,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

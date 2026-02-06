@@ -1,0 +1,117 @@
+{
+  "drug_name": "Fentanyl Citrate",
+  "generated_at": "2026-02-06T16:38:37.611699",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 456,
+    "total_cost": 2576731,
+    "total_prescribers": 34,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 13,
+      "cost": 12858,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 12,
+      "cost": 50936,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 38,
+      "cost": 131597,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 46,
+      "cost": 713059,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 29,
+      "cost": 99760,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 77,
+      "cost": 431363,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 39,
+      "cost": 79635,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 27,
+      "cost": 391407,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 13,
+      "cost": 14696,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 11,
+      "cost": 7851,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 39066,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 21554,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 13,
+      "cost": 19233,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 12,
+      "cost": 13572,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 11,
+      "cost": 296899,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 50,
+      "cost": 149695,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 40,
+      "cost": 103550,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

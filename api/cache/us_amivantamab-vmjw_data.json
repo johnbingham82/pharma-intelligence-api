@@ -1,0 +1,27 @@
+{
+  "drug_name": "Amivantamab-Vmjw",
+  "generated_at": "2026-02-06T16:38:37.390447",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 24,
+    "total_cost": 369125,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 12,
+      "cost": 127516,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 12,
+      "cost": 241609,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

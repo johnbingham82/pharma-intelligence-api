@@ -1,0 +1,147 @@
+{
+  "drug_name": "Tinidazole",
+  "generated_at": "2026-02-06T16:38:37.953656",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1003,
+    "total_cost": 72347,
+    "total_prescribers": 54,
+    "total_beneficiaries": 321
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 58,
+      "cost": 4689,
+      "prescribers": 2,
+      "beneficiaries": 40
+    },
+    "OH": {
+      "prescriptions": 43,
+      "cost": 6537,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "NV": {
+      "prescriptions": 12,
+      "cost": 415,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 64,
+      "cost": 6227,
+      "prescribers": 3,
+      "beneficiaries": 20
+    },
+    "FL": {
+      "prescriptions": 72,
+      "cost": 2075,
+      "prescribers": 5,
+      "beneficiaries": 16
+    },
+    "TX": {
+      "prescriptions": 87,
+      "cost": 2675,
+      "prescribers": 6,
+      "beneficiaries": 51
+    },
+    "KY": {
+      "prescriptions": 13,
+      "cost": 572,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "CT": {
+      "prescriptions": 13,
+      "cost": 563,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 98,
+      "cost": 12558,
+      "prescribers": 7,
+      "beneficiaries": 22
+    },
+    "NY": {
+      "prescriptions": 30,
+      "cost": 1037,
+      "prescribers": 2,
+      "beneficiaries": 13
+    },
+    "NJ": {
+      "prescriptions": 220,
+      "cost": 15935,
+      "prescribers": 5,
+      "beneficiaries": 64
+    },
+    "MA": {
+      "prescriptions": 24,
+      "cost": 1774,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 27,
+      "cost": 784,
+      "prescribers": 1,
+      "beneficiaries": 20
+    },
+    "DC": {
+      "prescriptions": 31,
+      "cost": 1857,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 324,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 48,
+      "cost": 2634,
+      "prescribers": 3,
+      "beneficiaries": 12
+    },
+    "TN": {
+      "prescriptions": 13,
+      "cost": 1606,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 175,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 39,
+      "cost": 5688,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "AL": {
+      "prescriptions": 11,
+      "cost": 282,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 66,
+      "cost": 2652,
+      "prescribers": 4,
+      "beneficiaries": 29
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 1288,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

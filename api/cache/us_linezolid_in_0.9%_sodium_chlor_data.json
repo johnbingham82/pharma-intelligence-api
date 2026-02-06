@@ -1,0 +1,27 @@
+{
+  "drug_name": "Linezolid In 0.9% Sodium Chlor",
+  "generated_at": "2026-02-06T16:38:37.716473",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 29,
+    "total_cost": 14937,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 12,
+      "cost": 7140,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 17,
+      "cost": 7797,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

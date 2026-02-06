@@ -1,0 +1,39 @@
+{
+  "drug_name": "Erdafitinib",
+  "generated_at": "2026-02-06T16:38:37.580814",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 63,
+    "total_cost": 1127818,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 11,
+      "cost": 150897,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 30,
+      "cost": 596510,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 11,
+      "cost": 148290,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 232121,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

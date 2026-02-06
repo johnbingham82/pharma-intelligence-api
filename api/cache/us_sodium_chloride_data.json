@@ -1,0 +1,81 @@
+{
+  "drug_name": "Sodium Chloride",
+  "generated_at": "2026-02-06T16:38:37.912602",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 369,
+    "total_cost": 15034,
+    "total_prescribers": 16,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 13,
+      "cost": 1552,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 61,
+      "cost": 519,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 44,
+      "cost": 1092,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 18,
+      "cost": 425,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 61,
+      "cost": 2367,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 30,
+      "cost": 751,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 30,
+      "cost": 2090,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 11,
+      "cost": 1010,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 52,
+      "cost": 113,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 38,
+      "cost": 4284,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 11,
+      "cost": 831,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

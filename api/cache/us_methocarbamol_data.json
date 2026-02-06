@@ -1,6 +1,6 @@
 {
   "drug_name": "Methocarbamol",
-  "generated_at": "2026-02-06T16:18:00.190316",
+  "generated_at": "2026-02-06T16:38:37.742153",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 3042547,
       "prescribers": 6196,
       "beneficiaries": 78016
+    },
+    "NM": {
+      "prescriptions": 6779,
+      "cost": 75002,
+      "prescribers": 300,
+      "beneficiaries": 2012
     },
     "KY": {
       "prescriptions": 54695,
@@ -119,6 +125,12 @@
       "prescribers": 932,
       "beneficiaries": 5431
     },
+    "ID": {
+      "prescriptions": 12877,
+      "cost": 161444,
+      "prescribers": 455,
+      "beneficiaries": 2856
+    },
     "WA": {
       "prescriptions": 51217,
       "cost": 737656,
@@ -155,6 +167,12 @@
       "prescribers": 2591,
       "beneficiaries": 27566
     },
+    "AZ": {
+      "prescriptions": 39602,
+      "cost": 599920,
+      "prescribers": 1369,
+      "beneficiaries": 13707
+    },
     "TN": {
       "prescriptions": 76907,
       "cost": 1043558,
@@ -178,12 +196,6 @@
       "cost": 113119,
       "prescribers": 224,
       "beneficiaries": 1743
-    },
-    "AZ": {
-      "prescriptions": 39602,
-      "cost": 599920,
-      "prescribers": 1369,
-      "beneficiaries": 13707
     },
     "IL": {
       "prescriptions": 18662,
@@ -215,35 +227,23 @@
       "prescribers": 69,
       "beneficiaries": 250
     },
-    "LA": {
-      "prescriptions": 73526,
-      "cost": 745058,
-      "prescribers": 1998,
-      "beneficiaries": 30551
-    },
     "RI": {
       "prescriptions": 4907,
       "cost": 54482,
       "prescribers": 190,
       "beneficiaries": 1651
     },
+    "LA": {
+      "prescriptions": 73526,
+      "cost": 745058,
+      "prescribers": 1998,
+      "beneficiaries": 30551
+    },
     "WI": {
       "prescriptions": 13900,
       "cost": 214584,
       "prescribers": 567,
       "beneficiaries": 3964
-    },
-    "ID": {
-      "prescriptions": 12877,
-      "cost": 161444,
-      "prescribers": 455,
-      "beneficiaries": 2856
-    },
-    "NM": {
-      "prescriptions": 6779,
-      "cost": 75002,
-      "prescribers": 300,
-      "beneficiaries": 2012
     },
     "KS": {
       "prescriptions": 10905,
@@ -256,6 +256,12 @@
       "cost": 1005636,
       "prescribers": 3411,
       "beneficiaries": 38771
+    },
+    "WV": {
+      "prescriptions": 13601,
+      "cost": 155322,
+      "prescribers": 540,
+      "beneficiaries": 3411
     },
     "VT": {
       "prescriptions": 3155,
@@ -281,29 +287,23 @@
       "prescribers": 1085,
       "beneficiaries": 7040
     },
+    "DE": {
+      "prescriptions": 1541,
+      "cost": 25328,
+      "prescribers": 49,
+      "beneficiaries": 517
+    },
     "MT": {
       "prescriptions": 10523,
       "cost": 108904,
       "prescribers": 384,
       "beneficiaries": 2441
     },
-    "WV": {
-      "prescriptions": 13601,
-      "cost": 155322,
-      "prescribers": 540,
-      "beneficiaries": 3411
-    },
     "ME": {
       "prescriptions": 3007,
       "cost": 61197,
       "prescribers": 144,
       "beneficiaries": 515
-    },
-    "DE": {
-      "prescriptions": 1541,
-      "cost": 25328,
-      "prescribers": 49,
-      "beneficiaries": 517
     },
     "AK": {
       "prescriptions": 1751,

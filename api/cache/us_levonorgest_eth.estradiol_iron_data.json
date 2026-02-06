@@ -1,0 +1,27 @@
+{
+  "drug_name": "Levonorgest/Eth.Estradiol/Iron",
+  "generated_at": "2026-02-06T16:38:37.710522",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 24,
+    "total_cost": 6679,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "NJ": {
+      "prescriptions": 13,
+      "cost": 3782,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 2897,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

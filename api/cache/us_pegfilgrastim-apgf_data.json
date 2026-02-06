@@ -1,0 +1,75 @@
+{
+  "drug_name": "Pegfilgrastim-Apgf",
+  "generated_at": "2026-02-06T16:38:37.830001",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 345,
+    "total_cost": 1466260,
+    "total_prescribers": 18,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 103,
+      "cost": 428187,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 27,
+      "cost": 114491,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 111,
+      "cost": 466770,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 13,
+      "cost": 46902,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 15,
+      "cost": 62891,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 26,
+      "cost": 139676,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 13,
+      "cost": 54990,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 14,
+      "cost": 54361,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 11,
+      "cost": 47108,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 12,
+      "cost": 50884,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "drug_name": "Chlorambucil",
+  "generated_at": "2026-02-06T16:38:37.465832",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 672,
+    "total_cost": 5190830,
+    "total_prescribers": 41,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 81,
+      "cost": 681176,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 12,
+      "cost": 28286,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 42,
+      "cost": 462412,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 30,
+      "cost": 248369,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 135,
+      "cost": 708626,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 27,
+      "cost": 206305,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 51,
+      "cost": 461566,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 58,
+      "cost": 400405,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 14,
+      "cost": 125285,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 41,
+      "cost": 232211,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 12,
+      "cost": 102697,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 23,
+      "cost": 140288,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 13,
+      "cost": 53090,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 79947,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 35,
+      "cost": 341839,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 36,
+      "cost": 357704,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 12,
+      "cost": 51557,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 13,
+      "cost": 65100,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 14,
+      "cost": 391812,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 12,
+      "cost": 52155,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

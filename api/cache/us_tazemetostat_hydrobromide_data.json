@@ -1,0 +1,81 @@
+{
+  "drug_name": "Tazemetostat Hydrobromide",
+  "generated_at": "2026-02-06T16:38:37.936754",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 247,
+    "total_cost": 4771068,
+    "total_prescribers": 18,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 12,
+      "cost": 239235,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 12,
+      "cost": 223497,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 23,
+      "cost": 462394,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 11,
+      "cost": 98173,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 57,
+      "cost": 1124372,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 202335,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 17,
+      "cost": 341260,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 64,
+      "cost": 1282481,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 12,
+      "cost": 239671,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 11,
+      "cost": 218874,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 17,
+      "cost": 338776,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

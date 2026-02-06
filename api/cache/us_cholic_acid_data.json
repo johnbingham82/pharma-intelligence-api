@@ -1,0 +1,27 @@
+{
+  "drug_name": "Cholic Acid",
+  "generated_at": "2026-02-06T16:38:37.470086",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 38,
+    "total_cost": 3217965,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "NH": {
+      "prescriptions": 12,
+      "cost": 1262134,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 26,
+      "cost": 1955831,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "drug_name": "Multivit41/Iron/Folate8/Ps-Dha",
+  "generated_at": "2026-02-06T16:38:37.764099",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 144,
+    "total_cost": 24747,
+    "total_prescribers": 8,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TN": {
+      "prescriptions": 43,
+      "cost": 6756,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 37,
+      "cost": 6745,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 13,
+      "cost": 1997,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 28,
+      "cost": 5450,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MT": {
+      "prescriptions": 11,
+      "cost": 1825,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WY": {
+      "prescriptions": 12,
+      "cost": 1974,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

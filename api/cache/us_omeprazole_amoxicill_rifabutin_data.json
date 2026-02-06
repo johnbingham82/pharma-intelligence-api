@@ -1,0 +1,63 @@
+{
+  "drug_name": "Omeprazole/Amoxicill/Rifabutin",
+  "generated_at": "2026-02-06T16:38:37.808458",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 592,
+    "total_cost": 474289,
+    "total_prescribers": 35,
+    "total_beneficiaries": 547
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 13,
+      "cost": 8945,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "TX": {
+      "prescriptions": 66,
+      "cost": 53734,
+      "prescribers": 4,
+      "beneficiaries": 54
+    },
+    "CA": {
+      "prescriptions": 363,
+      "cost": 288423,
+      "prescribers": 21,
+      "beneficiaries": 346
+    },
+    "NY": {
+      "prescriptions": 72,
+      "cost": 59471,
+      "prescribers": 4,
+      "beneficiaries": 70
+    },
+    "GA": {
+      "prescriptions": 23,
+      "cost": 18839,
+      "prescribers": 2,
+      "beneficiaries": 23
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 9692,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 29,
+      "cost": 23719,
+      "prescribers": 1,
+      "beneficiaries": 27
+    },
+    "MI": {
+      "prescriptions": 14,
+      "cost": 11466,
+      "prescribers": 1,
+      "beneficiaries": 14
+    }
+  }
+}

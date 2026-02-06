@@ -1,0 +1,117 @@
+{
+  "drug_name": "Crofelemer",
+  "generated_at": "2026-02-06T16:38:37.506079",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1577,
+    "total_cost": 4556460,
+    "total_prescribers": 82,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 47,
+      "cost": 110406,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 11,
+      "cost": 33430,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 17,
+      "cost": 54984,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 213,
+      "cost": 643549,
+      "prescribers": 12,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 114,
+      "cost": 328473,
+      "prescribers": 8,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 25,
+      "cost": 61155,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 14,
+      "cost": 88849,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 565,
+      "cost": 1649135,
+      "prescribers": 25,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 62,
+      "cost": 161263,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 15,
+      "cost": 47955,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 11,
+      "cost": 28485,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 23,
+      "cost": 59030,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 60,
+      "cost": 208750,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 91,
+      "cost": 229313,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 76,
+      "cost": 235931,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 38,
+      "cost": 96032,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 195,
+      "cost": 519720,
+      "prescribers": 8,
+      "beneficiaries": 0
+    }
+  }
+}

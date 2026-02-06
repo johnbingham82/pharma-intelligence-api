@@ -1,0 +1,33 @@
+{
+  "drug_name": "Haemph B Polysac Conj-Menin/Pf",
+  "generated_at": "2026-02-06T16:38:37.649021",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 112,
+    "total_cost": 4226,
+    "total_prescribers": 5,
+    "total_beneficiaries": 79
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 58,
+      "cost": 1810,
+      "prescribers": 2,
+      "beneficiaries": 40
+    },
+    "NE": {
+      "prescriptions": 16,
+      "cost": 485,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "WI": {
+      "prescriptions": 38,
+      "cost": 1931,
+      "prescribers": 2,
+      "beneficiaries": 28
+    }
+  }
+}

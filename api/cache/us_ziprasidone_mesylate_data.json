@@ -1,0 +1,141 @@
+{
+  "drug_name": "Ziprasidone Mesylate",
+  "generated_at": "2026-02-06T16:38:37.996297",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1006,
+    "total_cost": 188863,
+    "total_prescribers": 50,
+    "total_beneficiaries": 107
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 95,
+      "cost": 14910,
+      "prescribers": 3,
+      "beneficiaries": 22
+    },
+    "NV": {
+      "prescriptions": 34,
+      "cost": 2940,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 165,
+      "cost": 64698,
+      "prescribers": 4,
+      "beneficiaries": 42
+    },
+    "TX": {
+      "prescriptions": 42,
+      "cost": 5804,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 75,
+      "cost": 13802,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 43,
+      "cost": 3842,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 23,
+      "cost": 1219,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 56,
+      "cost": 5229,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 16,
+      "cost": 1629,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 33,
+      "cost": 7917,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 77,
+      "cost": 20522,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "ND": {
+      "prescriptions": 25,
+      "cost": 3454,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 37,
+      "cost": 7105,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 28,
+      "cost": 1193,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 32,
+      "cost": 1360,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 28,
+      "cost": 8028,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 39,
+      "cost": 6908,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "MI": {
+      "prescriptions": 14,
+      "cost": 2650,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 57,
+      "cost": 8081,
+      "prescribers": 3,
+      "beneficiaries": 14
+    },
+    "UT": {
+      "prescriptions": 64,
+      "cost": 1966,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 23,
+      "cost": 5606,
+      "prescribers": 1,
+      "beneficiaries": 15
+    }
+  }
+}

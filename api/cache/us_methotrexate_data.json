@@ -1,0 +1,27 @@
+{
+  "drug_name": "Methotrexate",
+  "generated_at": "2026-02-06T16:38:37.742720",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 24,
+    "total_cost": 12652,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "KY": {
+      "prescriptions": 13,
+      "cost": 7837,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 4815,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

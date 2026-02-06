@@ -1,0 +1,75 @@
+{
+  "drug_name": "Nimodipine",
+  "generated_at": "2026-02-06T16:38:37.788510",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 586,
+    "total_cost": 319603,
+    "total_prescribers": 26,
+    "total_beneficiaries": 54
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 75,
+      "cost": 35296,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 61,
+      "cost": 10336,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 101,
+      "cost": 101529,
+      "prescribers": 4,
+      "beneficiaries": 13
+    },
+    "NY": {
+      "prescriptions": 144,
+      "cost": 85678,
+      "prescribers": 4,
+      "beneficiaries": 41
+    },
+    "MA": {
+      "prescriptions": 22,
+      "cost": 46034,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 12,
+      "cost": 1309,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 12,
+      "cost": 1975,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 35,
+      "cost": 16386,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 72,
+      "cost": 11714,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 52,
+      "cost": 9346,
+      "prescribers": 3,
+      "beneficiaries": 0
+    }
+  }
+}

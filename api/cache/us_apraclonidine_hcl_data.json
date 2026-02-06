@@ -1,0 +1,129 @@
+{
+  "drug_name": "Apraclonidine Hcl",
+  "generated_at": "2026-02-06T16:38:37.399158",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1018,
+    "total_cost": 96302,
+    "total_prescribers": 45,
+    "total_beneficiaries": 151
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 31,
+      "cost": 4190,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 51,
+      "cost": 5514,
+      "prescribers": 2,
+      "beneficiaries": 13
+    },
+    "CO": {
+      "prescriptions": 15,
+      "cost": 984,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 11,
+      "cost": 1373,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 78,
+      "cost": 8219,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 113,
+      "cost": 13221,
+      "prescribers": 3,
+      "beneficiaries": 21
+    },
+    "KY": {
+      "prescriptions": 11,
+      "cost": 896,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 21,
+      "cost": 2168,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 106,
+      "cost": 9666,
+      "prescribers": 6,
+      "beneficiaries": 13
+    },
+    "NY": {
+      "prescriptions": 99,
+      "cost": 8843,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 26,
+      "cost": 1793,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 43,
+      "cost": 5037,
+      "prescribers": 1,
+      "beneficiaries": 16
+    },
+    "OR": {
+      "prescriptions": 25,
+      "cost": 1461,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 21,
+      "cost": 1256,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 19,
+      "cost": 1415,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 195,
+      "cost": 19051,
+      "prescribers": 6,
+      "beneficiaries": 47
+    },
+    "AL": {
+      "prescriptions": 22,
+      "cost": 1643,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "WI": {
+      "prescriptions": 27,
+      "cost": 2135,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 104,
+      "cost": 7437,
+      "prescribers": 2,
+      "beneficiaries": 30
+    }
+  }
+}

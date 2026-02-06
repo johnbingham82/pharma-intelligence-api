@@ -1,0 +1,57 @@
+{
+  "drug_name": "Tobramycin In 0.225% Sod Chlor",
+  "generated_at": "2026-02-06T16:38:37.957982",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 127,
+    "total_cost": 311058,
+    "total_prescribers": 8,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 23,
+      "cost": 72101,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 25,
+      "cost": 53183,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 18,
+      "cost": 65750,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 13,
+      "cost": 21737,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 11,
+      "cost": 9257,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 23050,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 25,
+      "cost": 65980,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

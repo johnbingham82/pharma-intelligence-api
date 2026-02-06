@@ -1,0 +1,45 @@
+{
+  "drug_name": "Gefitinib",
+  "generated_at": "2026-02-06T16:38:37.636557",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 125,
+    "total_cost": 984071,
+    "total_prescribers": 9,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 12,
+      "cost": 88612,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 73,
+      "cost": 578128,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 15,
+      "cost": 116088,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 12,
+      "cost": 93092,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 13,
+      "cost": 108151,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

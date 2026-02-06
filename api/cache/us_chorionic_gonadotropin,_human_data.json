@@ -1,0 +1,99 @@
+{
+  "drug_name": "Chorionic Gonadotropin, Human",
+  "generated_at": "2026-02-06T16:38:37.470260",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 331,
+    "total_cost": 165882,
+    "total_prescribers": 25,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 1554,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 42,
+      "cost": 17313,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 53,
+      "cost": 11913,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 11,
+      "cost": 14013,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 78,
+      "cost": 44633,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 15,
+      "cost": 1831,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 18,
+      "cost": 5560,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 12483,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 24,
+      "cost": 9268,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 1809,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 12,
+      "cost": 10557,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 13,
+      "cost": 4447,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VT": {
+      "prescriptions": 13,
+      "cost": 17352,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MT": {
+      "prescriptions": 16,
+      "cost": 13149,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

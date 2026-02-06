@@ -1,0 +1,81 @@
+{
+  "drug_name": "Tramadol Hcl/Celecoxib",
+  "generated_at": "2026-02-06T16:38:37.963792",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1056,
+    "total_cost": 325296,
+    "total_prescribers": 48,
+    "total_beneficiaries": 211
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 18,
+      "cost": 8315,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 13,
+      "cost": 5257,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 29,
+      "cost": 8715,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 416,
+      "cost": 148965,
+      "prescribers": 14,
+      "beneficiaries": 103
+    },
+    "NY": {
+      "prescriptions": 353,
+      "cost": 78752,
+      "prescribers": 17,
+      "beneficiaries": 95
+    },
+    "NJ": {
+      "prescriptions": 160,
+      "cost": 46698,
+      "prescribers": 8,
+      "beneficiaries": 13
+    },
+    "GA": {
+      "prescriptions": 12,
+      "cost": 3004,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 6518,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 17,
+      "cost": 12366,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 15,
+      "cost": 5292,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 12,
+      "cost": 1414,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

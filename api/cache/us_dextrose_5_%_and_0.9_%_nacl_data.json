@@ -1,0 +1,147 @@
+{
+  "drug_name": "Dextrose 5 % And 0.9 % Nacl",
+  "generated_at": "2026-02-06T16:38:37.532800",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 2344,
+    "total_cost": 85539,
+    "total_prescribers": 91,
+    "total_beneficiaries": 575
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 814,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 31,
+      "cost": 395,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 243,
+      "cost": 4715,
+      "prescribers": 11,
+      "beneficiaries": 11
+    },
+    "FL": {
+      "prescriptions": 125,
+      "cost": 2136,
+      "prescribers": 7,
+      "beneficiaries": 29
+    },
+    "TX": {
+      "prescriptions": 15,
+      "cost": 202,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "SC": {
+      "prescriptions": 18,
+      "cost": 1765,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 74,
+      "cost": 4568,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 1047,
+      "cost": 47538,
+      "prescribers": 32,
+      "beneficiaries": 433
+    },
+    "NY": {
+      "prescriptions": 245,
+      "cost": 7521,
+      "prescribers": 12,
+      "beneficiaries": 39
+    },
+    "NJ": {
+      "prescriptions": 38,
+      "cost": 865,
+      "prescribers": 2,
+      "beneficiaries": 13
+    },
+    "MA": {
+      "prescriptions": 43,
+      "cost": 772,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 13,
+      "cost": 132,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 65,
+      "cost": 1386,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "GA": {
+      "prescriptions": 97,
+      "cost": 6673,
+      "prescribers": 3,
+      "beneficiaries": 16
+    },
+    "AZ": {
+      "prescriptions": 11,
+      "cost": 90,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 16,
+      "cost": 308,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 52,
+      "cost": 1007,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 61,
+      "cost": 1366,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 50,
+      "cost": 1870,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 21,
+      "cost": 370,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 38,
+      "cost": 776,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 29,
+      "cost": 270,
+      "prescribers": 1,
+      "beneficiaries": 12
+    }
+  }
+}

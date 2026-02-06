@@ -1,0 +1,27 @@
+{
+  "drug_name": "Nivolumab-Relatlimab-Rmbw",
+  "generated_at": "2026-02-06T16:38:37.792234",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 35,
+    "total_cost": 1063264,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 24,
+      "cost": 728536,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 11,
+      "cost": 334728,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

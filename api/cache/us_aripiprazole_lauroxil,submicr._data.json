@@ -1,0 +1,33 @@
+{
+  "drug_name": "Aripiprazole Lauroxil,Submicr.",
+  "generated_at": "2026-02-06T16:38:37.401259",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 58,
+    "total_cost": 143293,
+    "total_prescribers": 3,
+    "total_beneficiaries": 45
+  },
+  "by_state": {
+    "NV": {
+      "prescriptions": 11,
+      "cost": 26712,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 34,
+      "cost": 84125,
+      "prescribers": 1,
+      "beneficiaries": 33
+    },
+    "IN": {
+      "prescriptions": 13,
+      "cost": 32456,
+      "prescribers": 1,
+      "beneficiaries": 12
+    }
+  }
+}

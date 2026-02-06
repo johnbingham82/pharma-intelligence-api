@@ -1,0 +1,51 @@
+{
+  "drug_name": "Adagrasib",
+  "generated_at": "2026-02-06T16:38:37.374505",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 102,
+    "total_cost": 1812193,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 32,
+      "cost": 684867,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 25,
+      "cost": 526762,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 12,
+      "cost": 91462,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 158474,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 11,
+      "cost": 113060,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 11,
+      "cost": 237568,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

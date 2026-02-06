@@ -1,0 +1,33 @@
+{
+  "drug_name": "Dipht,Pert(A),Tet-Polio/Hib/Pf",
+  "generated_at": "2026-02-06T16:38:37.543510",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 361,
+    "total_cost": 41563,
+    "total_prescribers": 11,
+    "total_beneficiaries": 199
+  },
+  "by_state": {
+    "NC": {
+      "prescriptions": 70,
+      "cost": 8048,
+      "prescribers": 3,
+      "beneficiaries": 30
+    },
+    "IA": {
+      "prescriptions": 16,
+      "cost": 1804,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 275,
+      "cost": 31711,
+      "prescribers": 7,
+      "beneficiaries": 169
+    }
+  }
+}

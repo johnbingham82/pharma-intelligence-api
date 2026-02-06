@@ -1,0 +1,27 @@
+{
+  "drug_name": "Mefenamic Acid",
+  "generated_at": "2026-02-06T16:38:37.731755",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 45,
+    "total_cost": 6224,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "KY": {
+      "prescriptions": 12,
+      "cost": 2570,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 33,
+      "cost": 3654,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

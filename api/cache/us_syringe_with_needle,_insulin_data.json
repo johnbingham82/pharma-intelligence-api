@@ -1,0 +1,147 @@
+{
+  "drug_name": "Syringe With Needle, Insulin",
+  "generated_at": "2026-02-06T16:38:37.929535",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1439,
+    "total_cost": 40614,
+    "total_prescribers": 63,
+    "total_beneficiaries": 72
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 156,
+      "cost": 5162,
+      "prescribers": 9,
+      "beneficiaries": 11
+    },
+    "CO": {
+      "prescriptions": 16,
+      "cost": 452,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 303,
+      "cost": 7742,
+      "prescribers": 10,
+      "beneficiaries": 16
+    },
+    "NM": {
+      "prescriptions": 28,
+      "cost": 861,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 19,
+      "cost": 366,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 51,
+      "cost": 996,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 150,
+      "cost": 3665,
+      "prescribers": 7,
+      "beneficiaries": 13
+    },
+    "MS": {
+      "prescriptions": 98,
+      "cost": 3314,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 56,
+      "cost": 1448,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 12,
+      "cost": 355,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 21,
+      "cost": 717,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 61,
+      "cost": 1802,
+      "prescribers": 3,
+      "beneficiaries": 15
+    },
+    "IA": {
+      "prescriptions": 23,
+      "cost": 738,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 36,
+      "cost": 796,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 27,
+      "cost": 1034,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 142,
+      "cost": 4669,
+      "prescribers": 4,
+      "beneficiaries": 17
+    },
+    "WI": {
+      "prescriptions": 19,
+      "cost": 491,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 25,
+      "cost": 435,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 15,
+      "cost": 350,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 98,
+      "cost": 2806,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 71,
+      "cost": 2056,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ME": {
+      "prescriptions": 12,
+      "cost": 359,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "drug_name": "Triptorelin Pamoate",
+  "generated_at": "2026-02-06T16:38:37.974799",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 4201,
+    "total_cost": 10094852,
+    "total_prescribers": 110,
+    "total_beneficiaries": 1232
+  },
+  "by_state": {
+    "NV": {
+      "prescriptions": 12,
+      "cost": 9776,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 20,
+      "cost": 52011,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 2518,
+      "cost": 5394225,
+      "prescribers": 49,
+      "beneficiaries": 765
+    },
+    "TX": {
+      "prescriptions": 330,
+      "cost": 918212,
+      "prescribers": 7,
+      "beneficiaries": 114
+    },
+    "SC": {
+      "prescriptions": 44,
+      "cost": 89165,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 199,
+      "cost": 432449,
+      "prescribers": 7,
+      "beneficiaries": 39
+    },
+    "NY": {
+      "prescriptions": 484,
+      "cost": 1190353,
+      "prescribers": 13,
+      "beneficiaries": 89
+    },
+    "NJ": {
+      "prescriptions": 61,
+      "cost": 160128,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 124,
+      "cost": 513866,
+      "prescribers": 6,
+      "beneficiaries": 96
+    },
+    "OR": {
+      "prescriptions": 13,
+      "cost": 10355,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 136,
+      "cost": 647127,
+      "prescribers": 5,
+      "beneficiaries": 70
+    },
+    "RI": {
+      "prescriptions": 37,
+      "cost": 114001,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "LA": {
+      "prescriptions": 83,
+      "cost": 290119,
+      "prescribers": 3,
+      "beneficiaries": 45
+    },
+    "WI": {
+      "prescriptions": 13,
+      "cost": 51437,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 102,
+      "cost": 124633,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 13,
+      "cost": 58583,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VI": {
+      "prescriptions": 12,
+      "cost": 38412,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

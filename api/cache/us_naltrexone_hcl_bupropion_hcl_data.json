@@ -1,0 +1,45 @@
+{
+  "drug_name": "Naltrexone Hcl/Bupropion Hcl",
+  "generated_at": "2026-02-06T16:38:37.769893",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 84,
+    "total_cost": 60484,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "KY": {
+      "prescriptions": 24,
+      "cost": 16064,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 8333,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 23,
+      "cost": 17791,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 14,
+      "cost": 11490,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 6806,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

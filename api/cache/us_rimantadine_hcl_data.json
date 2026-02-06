@@ -1,0 +1,87 @@
+{
+  "drug_name": "Rimantadine Hcl",
+  "generated_at": "2026-02-06T16:38:37.884162",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 448,
+    "total_cost": 78452,
+    "total_prescribers": 24,
+    "total_beneficiaries": 59
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 115,
+      "cost": 25946,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 12,
+      "cost": 4952,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 55,
+      "cost": 12714,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 93,
+      "cost": 11319,
+      "prescribers": 3,
+      "beneficiaries": 59
+    },
+    "TX": {
+      "prescriptions": 13,
+      "cost": 899,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 11,
+      "cost": 1517,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 15,
+      "cost": 1457,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 25,
+      "cost": 1733,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 42,
+      "cost": 5732,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 43,
+      "cost": 9050,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 1573,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 1560,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

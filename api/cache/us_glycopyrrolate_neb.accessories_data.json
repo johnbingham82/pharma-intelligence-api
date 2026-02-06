@@ -1,0 +1,63 @@
+{
+  "drug_name": "Glycopyrrolate/Neb.Accessories",
+  "generated_at": "2026-02-06T16:38:37.644955",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 183,
+    "total_cost": 255053,
+    "total_prescribers": 12,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 23,
+      "cost": 34022,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 12,
+      "cost": 16159,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 43,
+      "cost": 57953,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 35,
+      "cost": 49063,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 26,
+      "cost": 34722,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 12,
+      "cost": 16757,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 18,
+      "cost": 27109,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 14,
+      "cost": 19268,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

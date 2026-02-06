@@ -1,0 +1,21 @@
+{
+  "drug_name": "Lidocaine Hcl/Epinephrine",
+  "generated_at": "2026-02-06T16:38:37.713113",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 49,
+    "total_cost": 577,
+    "total_prescribers": 1,
+    "total_beneficiaries": 17
+  },
+  "by_state": {
+    "IL": {
+      "prescriptions": 49,
+      "cost": 577,
+      "prescribers": 1,
+      "beneficiaries": 17
+    }
+  }
+}

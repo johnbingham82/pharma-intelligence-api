@@ -1,0 +1,81 @@
+{
+  "drug_name": "Neomycin Sulf/Polymyxin B Sulf",
+  "generated_at": "2026-02-06T16:38:37.781994",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 635,
+    "total_cost": 24058,
+    "total_prescribers": 28,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 15,
+      "cost": 457,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 80,
+      "cost": 3058,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 157,
+      "cost": 6238,
+      "prescribers": 11,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 44,
+      "cost": 546,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 101,
+      "cost": 4382,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 24,
+      "cost": 3085,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 29,
+      "cost": 643,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 35,
+      "cost": 552,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 47,
+      "cost": 1054,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 87,
+      "cost": 3050,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 16,
+      "cost": 993,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "drug_name": "Telavancin Hcl",
+  "generated_at": "2026-02-06T16:38:37.937732",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 38,
+    "total_cost": 137058,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 16,
+      "cost": 46060,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 22,
+      "cost": 90998,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

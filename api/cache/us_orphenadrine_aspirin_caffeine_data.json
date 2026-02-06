@@ -1,0 +1,87 @@
+{
+  "drug_name": "Orphenadrine/Aspirin/Caffeine",
+  "generated_at": "2026-02-06T16:38:37.812927",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 965,
+    "total_cost": 2960941,
+    "total_prescribers": 38,
+    "total_beneficiaries": 307
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 15,
+      "cost": 34577,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 218,
+      "cost": 846974,
+      "prescribers": 2,
+      "beneficiaries": 85
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 22492,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 88,
+      "cost": 367414,
+      "prescribers": 4,
+      "beneficiaries": 83
+    },
+    "CA": {
+      "prescriptions": 120,
+      "cost": 381759,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 200,
+      "cost": 691814,
+      "prescribers": 10,
+      "beneficiaries": 25
+    },
+    "NJ": {
+      "prescriptions": 32,
+      "cost": 60909,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 75,
+      "cost": 177334,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 61,
+      "cost": 126860,
+      "prescribers": 1,
+      "beneficiaries": 60
+    },
+    "AL": {
+      "prescriptions": 118,
+      "cost": 173040,
+      "prescribers": 4,
+      "beneficiaries": 41
+    },
+    "HI": {
+      "prescriptions": 13,
+      "cost": 24734,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 13,
+      "cost": 53034,
+      "prescribers": 1,
+      "beneficiaries": 13
+    }
+  }
+}

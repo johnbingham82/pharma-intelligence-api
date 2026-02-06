@@ -1,0 +1,27 @@
+{
+  "drug_name": "Clindamycin In 0.9 % Sod Chlor",
+  "generated_at": "2026-02-06T16:38:37.478112",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 89,
+    "total_cost": 16389,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 77,
+      "cost": 15419,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 12,
+      "cost": 970,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

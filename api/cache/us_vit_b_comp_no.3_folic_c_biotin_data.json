@@ -1,0 +1,39 @@
+{
+  "drug_name": "Vit B Comp No.3/Folic/C/Biotin",
+  "generated_at": "2026-02-06T16:38:37.990263",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 393,
+    "total_cost": 7379,
+    "total_prescribers": 13,
+    "total_beneficiaries": 54
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 331,
+      "cost": 6333,
+      "prescribers": 9,
+      "beneficiaries": 54
+    },
+    "NY": {
+      "prescriptions": 22,
+      "cost": 418,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 24,
+      "cost": 311,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 16,
+      "cost": 317,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

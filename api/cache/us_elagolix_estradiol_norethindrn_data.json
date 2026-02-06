@@ -1,0 +1,69 @@
+{
+  "drug_name": "Elagolix/Estradiol/Norethindrn",
+  "generated_at": "2026-02-06T16:38:37.566000",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 134,
+    "total_cost": 149783,
+    "total_prescribers": 11,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 26,
+      "cost": 31066,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 13,
+      "cost": 15632,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 12862,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 13,
+      "cost": 15489,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 14045,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 23,
+      "cost": 26737,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 12,
+      "cost": 14098,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 11,
+      "cost": 6475,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 12,
+      "cost": 13379,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

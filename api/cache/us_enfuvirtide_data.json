@@ -1,0 +1,51 @@
+{
+  "drug_name": "Enfuvirtide",
+  "generated_at": "2026-02-06T16:38:37.575817",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 115,
+    "total_cost": 439676,
+    "total_prescribers": 9,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 11,
+      "cost": 41149,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 11,
+      "cost": 41684,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 47635,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 57,
+      "cost": 216091,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 46643,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 12,
+      "cost": 46474,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

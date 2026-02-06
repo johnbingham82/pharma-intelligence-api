@@ -1,0 +1,27 @@
+{
+  "drug_name": "Prenatal Vit103/Iron Fum/Folic",
+  "generated_at": "2026-02-06T16:38:37.864357",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 81,
+    "total_cost": 3656,
+    "total_prescribers": 3,
+    "total_beneficiaries": 11
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 40,
+      "cost": 2296,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "LA": {
+      "prescriptions": 41,
+      "cost": 1360,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

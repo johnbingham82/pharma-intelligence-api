@@ -1,6 +1,6 @@
 {
   "drug_name": "Valsartan",
-  "generated_at": "2026-02-06T16:18:00.182726",
+  "generated_at": "2026-02-06T16:38:37.981614",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 9186351,
       "prescribers": 6821,
       "beneficiaries": 47995
+    },
+    "NM": {
+      "prescriptions": 6237,
+      "cost": 255229,
+      "prescribers": 265,
+      "beneficiaries": 773
     },
     "KY": {
       "prescriptions": 58174,
@@ -119,6 +125,12 @@
       "prescribers": 612,
       "beneficiaries": 1924
     },
+    "ID": {
+      "prescriptions": 7911,
+      "cost": 257958,
+      "prescribers": 317,
+      "beneficiaries": 855
+    },
     "WA": {
       "prescriptions": 21861,
       "cost": 782935,
@@ -155,6 +167,12 @@
       "prescribers": 3443,
       "beneficiaries": 19972
     },
+    "AZ": {
+      "prescriptions": 57216,
+      "cost": 2066199,
+      "prescribers": 1688,
+      "beneficiaries": 11757
+    },
     "TN": {
       "prescriptions": 74499,
       "cost": 3067591,
@@ -178,12 +196,6 @@
       "cost": 407402,
       "prescribers": 415,
       "beneficiaries": 1423
-    },
-    "AZ": {
-      "prescriptions": 57216,
-      "cost": 2066199,
-      "prescribers": 1688,
-      "beneficiaries": 11757
     },
     "IL": {
       "prescriptions": 89214,
@@ -215,35 +227,23 @@
       "prescribers": 210,
       "beneficiaries": 1082
     },
-    "LA": {
-      "prescriptions": 85190,
-      "cost": 2455395,
-      "prescribers": 1813,
-      "beneficiaries": 17884
-    },
     "RI": {
       "prescriptions": 13318,
       "cost": 401780,
       "prescribers": 372,
       "beneficiaries": 2145
     },
+    "LA": {
+      "prescriptions": 85190,
+      "cost": 2455395,
+      "prescribers": 1813,
+      "beneficiaries": 17884
+    },
     "WI": {
       "prescriptions": 42939,
       "cost": 1439017,
       "prescribers": 1401,
       "beneficiaries": 6649
-    },
-    "ID": {
-      "prescriptions": 7911,
-      "cost": 257958,
-      "prescribers": 317,
-      "beneficiaries": 855
-    },
-    "NM": {
-      "prescriptions": 6237,
-      "cost": 255229,
-      "prescribers": 265,
-      "beneficiaries": 773
     },
     "KS": {
       "prescriptions": 13643,
@@ -256,6 +256,12 @@
       "cost": 1937490,
       "prescribers": 1593,
       "beneficiaries": 5692
+    },
+    "WV": {
+      "prescriptions": 23456,
+      "cost": 729866,
+      "prescribers": 669,
+      "beneficiaries": 4303
     },
     "VT": {
       "prescriptions": 2927,
@@ -281,29 +287,23 @@
       "prescribers": 1306,
       "beneficiaries": 5084
     },
+    "DE": {
+      "prescriptions": 12484,
+      "cost": 457343,
+      "prescribers": 382,
+      "beneficiaries": 2538
+    },
     "MT": {
       "prescriptions": 4797,
       "cost": 143804,
       "prescribers": 185,
       "beneficiaries": 526
     },
-    "WV": {
-      "prescriptions": 23456,
-      "cost": 729866,
-      "prescribers": 669,
-      "beneficiaries": 4303
-    },
     "ME": {
       "prescriptions": 7475,
       "cost": 297149,
       "prescribers": 318,
       "beneficiaries": 861
-    },
-    "DE": {
-      "prescriptions": 12484,
-      "cost": 457343,
-      "prescribers": 382,
-      "beneficiaries": 2538
     },
     "AK": {
       "prescriptions": 2948,
@@ -335,6 +335,12 @@
       "prescribers": 1,
       "beneficiaries": 0
     },
+    "VI": {
+      "prescriptions": 563,
+      "cost": 20093,
+      "prescribers": 18,
+      "beneficiaries": 55
+    },
     "MP": {
       "prescriptions": 11,
       "cost": 215,
@@ -346,12 +352,6 @@
       "cost": 1376,
       "prescribers": 2,
       "beneficiaries": 0
-    },
-    "VI": {
-      "prescriptions": 563,
-      "cost": 20093,
-      "prescribers": 18,
-      "beneficiaries": 55
     },
     "AP": {
       "prescriptions": 136,

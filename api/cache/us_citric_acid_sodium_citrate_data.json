@@ -1,0 +1,105 @@
+{
+  "drug_name": "Citric Acid/Sodium Citrate",
+  "generated_at": "2026-02-06T16:38:37.476346",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 514,
+    "total_cost": 23030,
+    "total_prescribers": 34,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 37,
+      "cost": 1345,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 13,
+      "cost": 819,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 25,
+      "cost": 490,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 45,
+      "cost": 1483,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 93,
+      "cost": 5255,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 125,
+      "cost": 5919,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 24,
+      "cost": 3589,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 23,
+      "cost": 537,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 11,
+      "cost": 151,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 16,
+      "cost": 763,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 38,
+      "cost": 1142,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 11,
+      "cost": 335,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ND": {
+      "prescriptions": 15,
+      "cost": 486,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SD": {
+      "prescriptions": 17,
+      "cost": 286,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WY": {
+      "prescriptions": 21,
+      "cost": 430,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

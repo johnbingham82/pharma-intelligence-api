@@ -1,0 +1,45 @@
+{
+  "drug_name": "Lamivudine/Tenofovir Disop Fum",
+  "generated_at": "2026-02-06T16:38:37.696042",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 90,
+    "total_cost": 118766,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 23,
+      "cost": 27171,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 30,
+      "cost": 47019,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 14,
+      "cost": 17253,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 11,
+      "cost": 12833,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 12,
+      "cost": 14490,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

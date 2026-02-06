@@ -1,0 +1,117 @@
+{
+  "drug_name": "Becaplermin",
+  "generated_at": "2026-02-06T16:38:37.416555",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1188,
+    "total_cost": 2005734,
+    "total_prescribers": 67,
+    "total_beneficiaries": 209
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 15358,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 27,
+      "cost": 42157,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "PA": {
+      "prescriptions": 37,
+      "cost": 71843,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 186,
+      "cost": 301464,
+      "prescribers": 11,
+      "beneficiaries": 34
+    },
+    "TX": {
+      "prescriptions": 134,
+      "cost": 199967,
+      "prescribers": 5,
+      "beneficiaries": 41
+    },
+    "NM": {
+      "prescriptions": 12,
+      "cost": 17986,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 40,
+      "cost": 61125,
+      "prescribers": 2,
+      "beneficiaries": 18
+    },
+    "CA": {
+      "prescriptions": 200,
+      "cost": 406421,
+      "prescribers": 9,
+      "beneficiaries": 39
+    },
+    "NY": {
+      "prescriptions": 299,
+      "cost": 465943,
+      "prescribers": 18,
+      "beneficiaries": 51
+    },
+    "NJ": {
+      "prescriptions": 114,
+      "cost": 162750,
+      "prescribers": 7,
+      "beneficiaries": 13
+    },
+    "MS": {
+      "prescriptions": 19,
+      "cost": 27020,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 51,
+      "cost": 91318,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 11,
+      "cost": 15252,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 77975,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 16820,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 11,
+      "cost": 15234,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 17101,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

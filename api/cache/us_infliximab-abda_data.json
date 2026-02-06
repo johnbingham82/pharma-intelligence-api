@@ -1,0 +1,69 @@
+{
+  "drug_name": "Infliximab-Abda",
+  "generated_at": "2026-02-06T16:38:37.673373",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 288,
+    "total_cost": 1226715,
+    "total_prescribers": 18,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 15,
+      "cost": 78047,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 12,
+      "cost": 34015,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 32,
+      "cost": 150610,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 17,
+      "cost": 126125,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 90,
+      "cost": 317876,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 87,
+      "cost": 383438,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 26786,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 12,
+      "cost": 64842,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 44976,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

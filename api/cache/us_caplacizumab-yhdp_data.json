@@ -1,0 +1,27 @@
+{
+  "drug_name": "Caplacizumab-Yhdp",
+  "generated_at": "2026-02-06T16:38:37.448601",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 23,
+    "total_cost": 5395026,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 11,
+      "cost": 2604789,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 12,
+      "cost": 2790237,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

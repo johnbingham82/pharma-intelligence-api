@@ -1,0 +1,39 @@
+{
+  "drug_name": "Mitomycin",
+  "generated_at": "2026-02-06T16:38:37.758903",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 206,
+    "total_cost": 394016,
+    "total_prescribers": 10,
+    "total_beneficiaries": 29
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 159,
+      "cost": 366276,
+      "prescribers": 7,
+      "beneficiaries": 29
+    },
+    "TX": {
+      "prescriptions": 11,
+      "cost": 462,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 16,
+      "cost": 13523,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 20,
+      "cost": 13755,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

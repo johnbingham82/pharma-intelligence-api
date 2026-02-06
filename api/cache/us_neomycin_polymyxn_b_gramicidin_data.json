@@ -1,0 +1,75 @@
+{
+  "drug_name": "Neomycin/Polymyxn B/Gramicidin",
+  "generated_at": "2026-02-06T16:38:37.783909",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 169,
+    "total_cost": 8274,
+    "total_prescribers": 12,
+    "total_beneficiaries": 120
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 13,
+      "cost": 551,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "PA": {
+      "prescriptions": 15,
+      "cost": 973,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 23,
+      "cost": 1256,
+      "prescribers": 1,
+      "beneficiaries": 22
+    },
+    "FL": {
+      "prescriptions": 31,
+      "cost": 1416,
+      "prescribers": 2,
+      "beneficiaries": 25
+    },
+    "TX": {
+      "prescriptions": 13,
+      "cost": 592,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "CA": {
+      "prescriptions": 27,
+      "cost": 1273,
+      "prescribers": 2,
+      "beneficiaries": 13
+    },
+    "NY": {
+      "prescriptions": 12,
+      "cost": 545,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "AR": {
+      "prescriptions": 12,
+      "cost": 545,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "PR": {
+      "prescriptions": 12,
+      "cost": 559,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 564,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

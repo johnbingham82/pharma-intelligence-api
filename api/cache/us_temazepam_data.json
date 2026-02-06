@@ -1,6 +1,6 @@
 {
   "drug_name": "Temazepam",
-  "generated_at": "2026-02-06T16:18:00.202708",
+  "generated_at": "2026-02-06T16:38:37.939615",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 1736187,
       "prescribers": 4147,
       "beneficiaries": 10606
+    },
+    "NM": {
+      "prescriptions": 6319,
+      "cost": 74513,
+      "prescribers": 259,
+      "beneficiaries": 274
     },
     "KY": {
       "prescriptions": 27943,
@@ -119,6 +125,12 @@
       "prescribers": 355,
       "beneficiaries": 75
     },
+    "ID": {
+      "prescriptions": 5365,
+      "cost": 73694,
+      "prescribers": 245,
+      "beneficiaries": 83
+    },
     "WA": {
       "prescriptions": 10474,
       "cost": 161549,
@@ -155,6 +167,12 @@
       "prescribers": 1876,
       "beneficiaries": 2284
     },
+    "AZ": {
+      "prescriptions": 23081,
+      "cost": 276979,
+      "prescribers": 968,
+      "beneficiaries": 1006
+    },
     "TN": {
       "prescriptions": 34117,
       "cost": 371685,
@@ -178,12 +196,6 @@
       "cost": 105444,
       "prescribers": 287,
       "beneficiaries": 170
-    },
-    "AZ": {
-      "prescriptions": 23081,
-      "cost": 276979,
-      "prescribers": 968,
-      "beneficiaries": 1006
     },
     "IL": {
       "prescriptions": 32377,
@@ -215,35 +227,23 @@
       "prescribers": 90,
       "beneficiaries": 52
     },
-    "LA": {
-      "prescriptions": 41349,
-      "cost": 437824,
-      "prescribers": 1226,
-      "beneficiaries": 3121
-    },
     "RI": {
       "prescriptions": 3771,
       "cost": 44165,
       "prescribers": 170,
       "beneficiaries": 62
     },
+    "LA": {
+      "prescriptions": 41349,
+      "cost": 437824,
+      "prescribers": 1226,
+      "beneficiaries": 3121
+    },
     "WI": {
       "prescriptions": 14234,
       "cost": 206150,
       "prescribers": 649,
       "beneficiaries": 320
-    },
-    "ID": {
-      "prescriptions": 5365,
-      "cost": 73694,
-      "prescribers": 245,
-      "beneficiaries": 83
-    },
-    "NM": {
-      "prescriptions": 6319,
-      "cost": 74513,
-      "prescribers": 259,
-      "beneficiaries": 274
     },
     "KS": {
       "prescriptions": 13193,
@@ -256,6 +256,12 @@
       "cost": 522332,
       "prescribers": 1380,
       "beneficiaries": 1026
+    },
+    "WV": {
+      "prescriptions": 11627,
+      "cost": 118992,
+      "prescribers": 415,
+      "beneficiaries": 520
     },
     "VT": {
       "prescriptions": 1450,
@@ -281,29 +287,23 @@
       "prescribers": 1248,
       "beneficiaries": 2511
     },
+    "DE": {
+      "prescriptions": 2638,
+      "cost": 45358,
+      "prescribers": 124,
+      "beneficiaries": 53
+    },
     "MT": {
       "prescriptions": 4403,
       "cost": 49929,
       "prescribers": 202,
       "beneficiaries": 107
     },
-    "WV": {
-      "prescriptions": 11627,
-      "cost": 118992,
-      "prescribers": 415,
-      "beneficiaries": 520
-    },
     "ME": {
       "prescriptions": 1806,
       "cost": 29090,
       "prescribers": 110,
       "beneficiaries": 30
-    },
-    "DE": {
-      "prescriptions": 2638,
-      "cost": 45358,
-      "prescribers": 124,
-      "beneficiaries": 53
     },
     "AK": {
       "prescriptions": 478,
@@ -335,16 +335,16 @@
       "prescribers": 3,
       "beneficiaries": 0
     },
-    "AE": {
-      "prescriptions": 16,
-      "cost": 153,
-      "prescribers": 1,
-      "beneficiaries": 0
-    },
     "VI": {
       "prescriptions": 84,
       "cost": 1481,
       "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "AE": {
+      "prescriptions": 16,
+      "cost": 153,
+      "prescribers": 1,
       "beneficiaries": 0
     },
     "AP": {

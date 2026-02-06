@@ -1,0 +1,27 @@
+{
+  "drug_name": "Enfortumab Vedotin-Ejfv",
+  "generated_at": "2026-02-06T16:38:37.575389",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 29,
+    "total_cost": 1184871,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 15,
+      "cost": 911736,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 14,
+      "cost": 273135,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

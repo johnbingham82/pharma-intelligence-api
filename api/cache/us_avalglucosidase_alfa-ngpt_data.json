@@ -1,0 +1,93 @@
+{
+  "drug_name": "Avalglucosidase Alfa-Ngpt",
+  "generated_at": "2026-02-06T16:38:37.408641",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 278,
+    "total_cost": 15722234,
+    "total_prescribers": 16,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 37,
+      "cost": 2540723,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 12,
+      "cost": 1071611,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 14,
+      "cost": 1112466,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 65,
+      "cost": 3487150,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 15,
+      "cost": 698897,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 25,
+      "cost": 658402,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 24,
+      "cost": 768966,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 805518,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 12,
+      "cost": 551975,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 25,
+      "cost": 1454618,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 1419982,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 680645,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 12,
+      "cost": 471281,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

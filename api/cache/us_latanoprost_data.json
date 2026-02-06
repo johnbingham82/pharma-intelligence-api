@@ -1,6 +1,6 @@
 {
   "drug_name": "Latanoprost",
-  "generated_at": "2026-02-06T16:18:00.210959",
+  "generated_at": "2026-02-06T16:38:37.699582",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 16573129,
       "prescribers": 4081,
       "beneficiaries": 179427
+    },
+    "NM": {
+      "prescriptions": 47971,
+      "cost": 1312007,
+      "prescribers": 327,
+      "beneficiaries": 12301
     },
     "KY": {
       "prescriptions": 101546,
@@ -119,6 +125,12 @@
       "prescribers": 927,
       "beneficiaries": 32787
     },
+    "ID": {
+      "prescriptions": 39122,
+      "cost": 844547,
+      "prescribers": 373,
+      "beneficiaries": 9570
+    },
     "WA": {
       "prescriptions": 180833,
       "cost": 4154034,
@@ -155,6 +167,12 @@
       "prescribers": 1966,
       "beneficiaries": 77692
     },
+    "AZ": {
+      "prescriptions": 181320,
+      "cost": 4238199,
+      "prescribers": 1068,
+      "beneficiaries": 51616
+    },
     "TN": {
       "prescriptions": 172110,
       "cost": 3523561,
@@ -178,12 +196,6 @@
       "cost": 1371253,
       "prescribers": 562,
       "beneficiaries": 14359
-    },
-    "AZ": {
-      "prescriptions": 181320,
-      "cost": 4238199,
-      "prescribers": 1068,
-      "beneficiaries": 51616
     },
     "IL": {
       "prescriptions": 367336,
@@ -215,35 +227,23 @@
       "prescribers": 299,
       "beneficiaries": 14108
     },
-    "LA": {
-      "prescriptions": 170939,
-      "cost": 2932166,
-      "prescribers": 1001,
-      "beneficiaries": 42029
-    },
     "RI": {
       "prescriptions": 45581,
       "cost": 1139980,
       "prescribers": 306,
       "beneficiaries": 11153
     },
+    "LA": {
+      "prescriptions": 170939,
+      "cost": 2932166,
+      "prescribers": 1001,
+      "beneficiaries": 42029
+    },
     "WI": {
       "prescriptions": 186299,
       "cost": 4570027,
       "prescribers": 1326,
       "beneficiaries": 48487
-    },
-    "ID": {
-      "prescriptions": 39122,
-      "cost": 844547,
-      "prescribers": 373,
-      "beneficiaries": 9570
-    },
-    "NM": {
-      "prescriptions": 47971,
-      "cost": 1312007,
-      "prescribers": 327,
-      "beneficiaries": 12301
     },
     "KS": {
       "prescriptions": 90654,
@@ -256,6 +256,12 @@
       "cost": 6717072,
       "prescribers": 2144,
       "beneficiaries": 84348
+    },
+    "WV": {
+      "prescriptions": 51546,
+      "cost": 802835,
+      "prescribers": 376,
+      "beneficiaries": 12356
     },
     "VT": {
       "prescriptions": 19036,
@@ -281,29 +287,23 @@
       "prescribers": 1395,
       "beneficiaries": 44028
     },
+    "DE": {
+      "prescriptions": 25582,
+      "cost": 548907,
+      "prescribers": 186,
+      "beneficiaries": 7254
+    },
     "MT": {
       "prescriptions": 30130,
       "cost": 531736,
       "prescribers": 241,
       "beneficiaries": 7333
     },
-    "WV": {
-      "prescriptions": 51546,
-      "cost": 802835,
-      "prescribers": 376,
-      "beneficiaries": 12356
-    },
     "ME": {
       "prescriptions": 36091,
       "cost": 1042931,
       "prescribers": 357,
       "beneficiaries": 10601
-    },
-    "DE": {
-      "prescriptions": 25582,
-      "cost": 548907,
-      "prescribers": 186,
-      "beneficiaries": 7254
     },
     "AK": {
       "prescriptions": 7664,
@@ -335,6 +335,12 @@
       "prescribers": 4,
       "beneficiaries": 24
     },
+    "VI": {
+      "prescriptions": 3120,
+      "cost": 111268,
+      "prescribers": 17,
+      "beneficiaries": 734
+    },
     "MP": {
       "prescriptions": 28,
       "cost": 777,
@@ -346,12 +352,6 @@
       "cost": 5417,
       "prescribers": 4,
       "beneficiaries": 104
-    },
-    "VI": {
-      "prescriptions": 3120,
-      "cost": 111268,
-      "prescribers": 17,
-      "beneficiaries": 734
     },
     "AP": {
       "prescriptions": 101,

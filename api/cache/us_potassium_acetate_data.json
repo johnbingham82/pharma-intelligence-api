@@ -1,0 +1,21 @@
+{
+  "drug_name": "Potassium Acetate",
+  "generated_at": "2026-02-06T16:38:37.855362",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 44,
+    "total_cost": 369,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MN": {
+      "prescriptions": 44,
+      "cost": 369,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

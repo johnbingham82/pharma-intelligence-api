@@ -1,0 +1,27 @@
+{
+  "drug_name": "Fentanyl Citrate/Pf",
+  "generated_at": "2026-02-06T16:38:37.612065",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 19049,
+    "total_cost": 70921,
+    "total_prescribers": 128,
+    "total_beneficiaries": 16792
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 260,
+      "cost": 973,
+      "prescribers": 2,
+      "beneficiaries": 259
+    },
+    "PR": {
+      "prescriptions": 18789,
+      "cost": 69948,
+      "prescribers": 126,
+      "beneficiaries": 16533
+    }
+  }
+}

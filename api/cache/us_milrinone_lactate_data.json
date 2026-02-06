@@ -1,0 +1,69 @@
+{
+  "drug_name": "Milrinone Lactate",
+  "generated_at": "2026-02-06T16:38:37.755763",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 981,
+    "total_cost": 187958,
+    "total_prescribers": 34,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 53,
+      "cost": 19688,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 244,
+      "cost": 36698,
+      "prescribers": 10,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 406,
+      "cost": 108459,
+      "prescribers": 13,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 50,
+      "cost": 2696,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 12,
+      "cost": 466,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 16,
+      "cost": 3738,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 140,
+      "cost": 6087,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 30,
+      "cost": 9013,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 30,
+      "cost": 1113,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

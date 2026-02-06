@@ -1,6 +1,6 @@
 {
   "drug_name": "Methylprednisolone",
-  "generated_at": "2026-02-06T16:18:00.196706",
+  "generated_at": "2026-02-06T16:38:37.746442",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 3592076,
       "prescribers": 10528,
       "beneficiaries": 314711
+    },
+    "NM": {
+      "prescriptions": 11092,
+      "cost": 107977,
+      "prescribers": 397,
+      "beneficiaries": 9004
     },
     "KY": {
       "prescriptions": 121216,
@@ -119,6 +125,12 @@
       "prescribers": 448,
       "beneficiaries": 8461
     },
+    "ID": {
+      "prescriptions": 10313,
+      "cost": 110350,
+      "prescribers": 404,
+      "beneficiaries": 8286
+    },
     "WA": {
       "prescriptions": 20829,
       "cost": 231189,
@@ -155,6 +167,12 @@
       "prescribers": 3352,
       "beneficiaries": 103602
     },
+    "AZ": {
+      "prescriptions": 97271,
+      "cost": 899692,
+      "prescribers": 2797,
+      "beneficiaries": 83028
+    },
     "TN": {
       "prescriptions": 170516,
       "cost": 1725757,
@@ -178,12 +196,6 @@
       "cost": 158630,
       "prescribers": 578,
       "beneficiaries": 12657
-    },
-    "AZ": {
-      "prescriptions": 97271,
-      "cost": 899692,
-      "prescribers": 2797,
-      "beneficiaries": 83028
     },
     "IL": {
       "prescriptions": 151591,
@@ -215,35 +227,23 @@
       "prescribers": 117,
       "beneficiaries": 2434
     },
-    "LA": {
-      "prescriptions": 79405,
-      "cost": 651875,
-      "prescribers": 2250,
-      "beneficiaries": 67143
-    },
     "RI": {
       "prescriptions": 14122,
       "cost": 138047,
       "prescribers": 393,
       "beneficiaries": 11452
     },
+    "LA": {
+      "prescriptions": 79405,
+      "cost": 651875,
+      "prescribers": 2250,
+      "beneficiaries": 67143
+    },
     "WI": {
       "prescriptions": 32232,
       "cost": 306637,
       "prescribers": 1248,
       "beneficiaries": 26724
-    },
-    "ID": {
-      "prescriptions": 10313,
-      "cost": 110350,
-      "prescribers": 404,
-      "beneficiaries": 8286
-    },
-    "NM": {
-      "prescriptions": 11092,
-      "cost": 107977,
-      "prescribers": 397,
-      "beneficiaries": 9004
     },
     "KS": {
       "prescriptions": 27156,
@@ -256,6 +256,12 @@
       "cost": 1280484,
       "prescribers": 4200,
       "beneficiaries": 122791
+    },
+    "WV": {
+      "prescriptions": 41842,
+      "cost": 372628,
+      "prescribers": 1099,
+      "beneficiaries": 34599
     },
     "VT": {
       "prescriptions": 1809,
@@ -281,29 +287,23 @@
       "prescribers": 2815,
       "beneficiaries": 86721
     },
+    "DE": {
+      "prescriptions": 14868,
+      "cost": 150229,
+      "prescribers": 459,
+      "beneficiaries": 12823
+    },
     "MT": {
       "prescriptions": 5746,
       "cost": 65984,
       "prescribers": 251,
       "beneficiaries": 4556
     },
-    "WV": {
-      "prescriptions": 41842,
-      "cost": 372628,
-      "prescribers": 1099,
-      "beneficiaries": 34599
-    },
     "ME": {
       "prescriptions": 6090,
       "cost": 76672,
       "prescribers": 228,
       "beneficiaries": 4757
-    },
-    "DE": {
-      "prescriptions": 14868,
-      "cost": 150229,
-      "prescribers": 459,
-      "beneficiaries": 12823
     },
     "AK": {
       "prescriptions": 1423,
@@ -335,17 +335,17 @@
       "prescribers": 4,
       "beneficiaries": 103
     },
-    "AE": {
-      "prescriptions": 61,
-      "cost": 607,
-      "prescribers": 3,
-      "beneficiaries": 55
-    },
     "VI": {
       "prescriptions": 181,
       "cost": 2508,
       "prescribers": 10,
       "beneficiaries": 154
+    },
+    "AE": {
+      "prescriptions": 61,
+      "cost": 607,
+      "prescribers": 3,
+      "beneficiaries": 55
     },
     "AP": {
       "prescriptions": 89,

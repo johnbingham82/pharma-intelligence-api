@@ -1,0 +1,231 @@
+{
+  "drug_name": "Fluorometholone Acetate",
+  "generated_at": "2026-02-06T16:38:37.621603",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 18884,
+    "total_cost": 2705813,
+    "total_prescribers": 436,
+    "total_beneficiaries": 9118
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 59,
+      "cost": 9095,
+      "prescribers": 3,
+      "beneficiaries": 28
+    },
+    "OH": {
+      "prescriptions": 256,
+      "cost": 35931,
+      "prescribers": 9,
+      "beneficiaries": 104
+    },
+    "NV": {
+      "prescriptions": 104,
+      "cost": 14931,
+      "prescribers": 4,
+      "beneficiaries": 51
+    },
+    "CO": {
+      "prescriptions": 103,
+      "cost": 13890,
+      "prescribers": 5,
+      "beneficiaries": 40
+    },
+    "PA": {
+      "prescriptions": 1062,
+      "cost": 151279,
+      "prescribers": 22,
+      "beneficiaries": 455
+    },
+    "OK": {
+      "prescriptions": 183,
+      "cost": 25114,
+      "prescribers": 5,
+      "beneficiaries": 105
+    },
+    "FL": {
+      "prescriptions": 1528,
+      "cost": 211897,
+      "prescribers": 42,
+      "beneficiaries": 773
+    },
+    "TX": {
+      "prescriptions": 2001,
+      "cost": 310384,
+      "prescribers": 47,
+      "beneficiaries": 1015
+    },
+    "KY": {
+      "prescriptions": 217,
+      "cost": 32193,
+      "prescribers": 6,
+      "beneficiaries": 117
+    },
+    "SC": {
+      "prescriptions": 99,
+      "cost": 13141,
+      "prescribers": 6,
+      "beneficiaries": 33
+    },
+    "CT": {
+      "prescriptions": 632,
+      "cost": 92539,
+      "prescribers": 15,
+      "beneficiaries": 280
+    },
+    "CA": {
+      "prescriptions": 2650,
+      "cost": 381778,
+      "prescribers": 70,
+      "beneficiaries": 1365
+    },
+    "NY": {
+      "prescriptions": 5222,
+      "cost": 733151,
+      "prescribers": 60,
+      "beneficiaries": 3036
+    },
+    "NJ": {
+      "prescriptions": 1420,
+      "cost": 203455,
+      "prescribers": 34,
+      "beneficiaries": 550
+    },
+    "MA": {
+      "prescriptions": 228,
+      "cost": 31441,
+      "prescribers": 9,
+      "beneficiaries": 127
+    },
+    "MS": {
+      "prescriptions": 138,
+      "cost": 18431,
+      "prescribers": 7,
+      "beneficiaries": 34
+    },
+    "VA": {
+      "prescriptions": 105,
+      "cost": 16211,
+      "prescribers": 6,
+      "beneficiaries": 28
+    },
+    "WA": {
+      "prescriptions": 170,
+      "cost": 27740,
+      "prescribers": 2,
+      "beneficiaries": 39
+    },
+    "DC": {
+      "prescriptions": 30,
+      "cost": 4340,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 246,
+      "cost": 34144,
+      "prescribers": 8,
+      "beneficiaries": 109
+    },
+    "NC": {
+      "prescriptions": 434,
+      "cost": 60901,
+      "prescribers": 7,
+      "beneficiaries": 202
+    },
+    "AZ": {
+      "prescriptions": 222,
+      "cost": 34463,
+      "prescribers": 7,
+      "beneficiaries": 72
+    },
+    "TN": {
+      "prescriptions": 49,
+      "cost": 7451,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 165,
+      "cost": 22861,
+      "prescribers": 9,
+      "beneficiaries": 57
+    },
+    "IN": {
+      "prescriptions": 93,
+      "cost": 13670,
+      "prescribers": 6,
+      "beneficiaries": 23
+    },
+    "AL": {
+      "prescriptions": 162,
+      "cost": 25610,
+      "prescribers": 7,
+      "beneficiaries": 46
+    },
+    "AR": {
+      "prescriptions": 117,
+      "cost": 15686,
+      "prescribers": 1,
+      "beneficiaries": 73
+    },
+    "HI": {
+      "prescriptions": 21,
+      "cost": 4920,
+      "prescribers": 1,
+      "beneficiaries": 16
+    },
+    "LA": {
+      "prescriptions": 52,
+      "cost": 7254,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 52,
+      "cost": 7196,
+      "prescribers": 2,
+      "beneficiaries": 30
+    },
+    "MI": {
+      "prescriptions": 795,
+      "cost": 106862,
+      "prescribers": 15,
+      "beneficiaries": 232
+    },
+    "WV": {
+      "prescriptions": 45,
+      "cost": 6223,
+      "prescribers": 2,
+      "beneficiaries": 26
+    },
+    "VT": {
+      "prescriptions": 20,
+      "cost": 2675,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 168,
+      "cost": 24180,
+      "prescribers": 8,
+      "beneficiaries": 21
+    },
+    "DE": {
+      "prescriptions": 18,
+      "cost": 2394,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "SD": {
+      "prescriptions": 18,
+      "cost": 2382,
+      "prescribers": 1,
+      "beneficiaries": 16
+    }
+  }
+}

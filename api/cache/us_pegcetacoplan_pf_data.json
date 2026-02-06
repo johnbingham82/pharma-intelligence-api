@@ -1,0 +1,39 @@
+{
+  "drug_name": "Pegcetacoplan/Pf",
+  "generated_at": "2026-02-06T16:38:37.829507",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 302,
+    "total_cost": 910127,
+    "total_prescribers": 13,
+    "total_beneficiaries": 75
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 172,
+      "cost": 515522,
+      "prescribers": 8,
+      "beneficiaries": 32
+    },
+    "TX": {
+      "prescriptions": 54,
+      "cost": 166495,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "NY": {
+      "prescriptions": 31,
+      "cost": 120319,
+      "prescribers": 2,
+      "beneficiaries": 15
+    },
+    "MS": {
+      "prescriptions": 45,
+      "cost": 107791,
+      "prescribers": 1,
+      "beneficiaries": 14
+    }
+  }
+}

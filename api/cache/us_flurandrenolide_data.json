@@ -1,0 +1,75 @@
+{
+  "drug_name": "Flurandrenolide",
+  "generated_at": "2026-02-06T16:38:37.623713",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 518,
+    "total_cost": 454895,
+    "total_prescribers": 34,
+    "total_beneficiaries": 80
+  },
+  "by_state": {
+    "NV": {
+      "prescriptions": 18,
+      "cost": 14269,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "CO": {
+      "prescriptions": 24,
+      "cost": 18760,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 18,
+      "cost": 14061,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 328,
+      "cost": 290805,
+      "prescribers": 20,
+      "beneficiaries": 54
+    },
+    "NY": {
+      "prescriptions": 57,
+      "cost": 38180,
+      "prescribers": 4,
+      "beneficiaries": 11
+    },
+    "MA": {
+      "prescriptions": 23,
+      "cost": 18008,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 13,
+      "cost": 10181,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 13,
+      "cost": 11239,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 13,
+      "cost": 10108,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 11,
+      "cost": 29284,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

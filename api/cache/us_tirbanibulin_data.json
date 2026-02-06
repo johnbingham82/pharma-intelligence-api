@@ -1,0 +1,87 @@
+{
+  "drug_name": "Tirbanibulin",
+  "generated_at": "2026-02-06T16:38:37.955746",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 548,
+    "total_cost": 656573,
+    "total_prescribers": 27,
+    "total_beneficiaries": 216
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 16,
+      "cost": 16169,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 19,
+      "cost": 20665,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 12774,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 41,
+      "cost": 43181,
+      "prescribers": 3,
+      "beneficiaries": 18
+    },
+    "SC": {
+      "prescriptions": 13,
+      "cost": 13581,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "CA": {
+      "prescriptions": 78,
+      "cost": 120455,
+      "prescribers": 4,
+      "beneficiaries": 34
+    },
+    "NY": {
+      "prescriptions": 263,
+      "cost": 307093,
+      "prescribers": 10,
+      "beneficiaries": 108
+    },
+    "NJ": {
+      "prescriptions": 27,
+      "cost": 28462,
+      "prescribers": 1,
+      "beneficiaries": 18
+    },
+    "WA": {
+      "prescriptions": 11,
+      "cost": 11819,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 32,
+      "cost": 34582,
+      "prescribers": 1,
+      "beneficiaries": 16
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 16338,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 25,
+      "cost": 31454,
+      "prescribers": 2,
+      "beneficiaries": 11
+    }
+  }
+}

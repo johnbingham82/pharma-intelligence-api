@@ -1,0 +1,45 @@
+{
+  "drug_name": "Estradiol/Norgestimate",
+  "generated_at": "2026-02-06T16:38:37.590780",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 57,
+    "total_cost": 11667,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 11,
+      "cost": 2279,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 11,
+      "cost": 2176,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 2222,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 12,
+      "cost": 2507,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 2483,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

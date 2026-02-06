@@ -1,0 +1,45 @@
+{
+  "drug_name": "Elapegademase-Lvlr",
+  "generated_at": "2026-02-06T16:38:37.566329",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 69,
+    "total_cost": 25778035,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 11,
+      "cost": 3826779,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 13,
+      "cost": 3334610,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 17,
+      "cost": 6823690,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 15,
+      "cost": 5386656,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 13,
+      "cost": 6406300,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

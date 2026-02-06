@@ -1,0 +1,39 @@
+{
+  "drug_name": "Treprostinil/Neb Accessories",
+  "generated_at": "2026-02-06T16:38:37.969796",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 57,
+    "total_cost": 1188905,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CT": {
+      "prescriptions": 13,
+      "cost": 273593,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 19,
+      "cost": 378705,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 12,
+      "cost": 256858,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 13,
+      "cost": 279749,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

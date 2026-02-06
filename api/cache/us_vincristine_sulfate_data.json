@@ -1,0 +1,39 @@
+{
+  "drug_name": "Vincristine Sulfate",
+  "generated_at": "2026-02-06T16:38:37.989686",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 105,
+    "total_cost": 1303,
+    "total_prescribers": 8,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 23,
+      "cost": 428,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 13,
+      "cost": 157,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 57,
+      "cost": 538,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 12,
+      "cost": 180,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

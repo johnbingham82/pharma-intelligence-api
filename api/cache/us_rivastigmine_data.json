@@ -1,6 +1,6 @@
 {
   "drug_name": "Rivastigmine",
-  "generated_at": "2026-02-06T16:18:00.205906",
+  "generated_at": "2026-02-06T16:38:37.890157",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 5619942,
       "prescribers": 763,
       "beneficiaries": 2360
+    },
+    "NM": {
+      "prescriptions": 522,
+      "cost": 113947,
+      "prescribers": 28,
+      "beneficiaries": 11
     },
     "KY": {
       "prescriptions": 3217,
@@ -119,6 +125,12 @@
       "prescribers": 105,
       "beneficiaries": 184
     },
+    "ID": {
+      "prescriptions": 560,
+      "cost": 121437,
+      "prescribers": 27,
+      "beneficiaries": 53
+    },
     "WA": {
       "prescriptions": 2991,
       "cost": 733745,
@@ -155,6 +167,12 @@
       "prescribers": 256,
       "beneficiaries": 477
     },
+    "AZ": {
+      "prescriptions": 3279,
+      "cost": 903958,
+      "prescribers": 130,
+      "beneficiaries": 455
+    },
     "TN": {
       "prescriptions": 7400,
       "cost": 1553326,
@@ -178,12 +196,6 @@
       "cost": 254965,
       "prescribers": 52,
       "beneficiaries": 13
-    },
-    "AZ": {
-      "prescriptions": 3279,
-      "cost": 903958,
-      "prescribers": 130,
-      "beneficiaries": 455
     },
     "IL": {
       "prescriptions": 6620,
@@ -215,35 +227,23 @@
       "prescribers": 29,
       "beneficiaries": 70
     },
-    "LA": {
-      "prescriptions": 5926,
-      "cost": 1582846,
-      "prescribers": 202,
-      "beneficiaries": 350
-    },
     "RI": {
       "prescriptions": 999,
       "cost": 274860,
       "prescribers": 39,
       "beneficiaries": 74
     },
+    "LA": {
+      "prescriptions": 5926,
+      "cost": 1582846,
+      "prescribers": 202,
+      "beneficiaries": 350
+    },
     "WI": {
       "prescriptions": 4318,
       "cost": 1114074,
       "prescribers": 144,
       "beneficiaries": 451
-    },
-    "ID": {
-      "prescriptions": 560,
-      "cost": 121437,
-      "prescribers": 27,
-      "beneficiaries": 53
-    },
-    "NM": {
-      "prescriptions": 522,
-      "cost": 113947,
-      "prescribers": 28,
-      "beneficiaries": 11
     },
     "KS": {
       "prescriptions": 3308,
@@ -256,6 +256,12 @@
       "cost": 2243072,
       "prescribers": 321,
       "beneficiaries": 998
+    },
+    "WV": {
+      "prescriptions": 1351,
+      "cost": 284866,
+      "prescribers": 70,
+      "beneficiaries": 16
     },
     "VT": {
       "prescriptions": 233,
@@ -281,29 +287,23 @@
       "prescribers": 170,
       "beneficiaries": 283
     },
+    "DE": {
+      "prescriptions": 382,
+      "cost": 85944,
+      "prescribers": 22,
+      "beneficiaries": 0
+    },
     "MT": {
       "prescriptions": 290,
       "cost": 51640,
       "prescribers": 11,
       "beneficiaries": 22
     },
-    "WV": {
-      "prescriptions": 1351,
-      "cost": 284866,
-      "prescribers": 70,
-      "beneficiaries": 16
-    },
     "ME": {
       "prescriptions": 931,
       "cost": 266618,
       "prescribers": 40,
       "beneficiaries": 88
-    },
-    "DE": {
-      "prescriptions": 382,
-      "cost": 85944,
-      "prescribers": 22,
-      "beneficiaries": 0
     },
     "AK": {
       "prescriptions": 137,

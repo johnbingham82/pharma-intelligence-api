@@ -1,0 +1,21 @@
+{
+  "drug_name": "Ubidecarenone",
+  "generated_at": "2026-02-06T16:38:37.976326",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 13,
+    "total_cost": 104,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "WA": {
+      "prescriptions": 13,
+      "cost": 104,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

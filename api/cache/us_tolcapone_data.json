@@ -1,0 +1,33 @@
+{
+  "drug_name": "Tolcapone",
+  "generated_at": "2026-02-06T16:38:37.960047",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 61,
+    "total_cost": 163034,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CT": {
+      "prescriptions": 36,
+      "cost": 39232,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 14,
+      "cost": 110803,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ME": {
+      "prescriptions": 11,
+      "cost": 12999,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

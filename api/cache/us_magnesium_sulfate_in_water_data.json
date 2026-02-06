@@ -1,0 +1,69 @@
+{
+  "drug_name": "Magnesium Sulfate In Water",
+  "generated_at": "2026-02-06T16:38:37.727963",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 311,
+    "total_cost": 12999,
+    "total_prescribers": 14,
+    "total_beneficiaries": 29
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 14,
+      "cost": 473,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 38,
+      "cost": 2020,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NM": {
+      "prescriptions": 41,
+      "cost": 591,
+      "prescribers": 3,
+      "beneficiaries": 29
+    },
+    "KY": {
+      "prescriptions": 14,
+      "cost": 6,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 546,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 12,
+      "cost": 750,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 82,
+      "cost": 5719,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 51,
+      "cost": 402,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 47,
+      "cost": 2492,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

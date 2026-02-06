@@ -1,0 +1,51 @@
+{
+  "drug_name": "Decitabine",
+  "generated_at": "2026-02-06T16:38:37.520161",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 99,
+    "total_cost": 202113,
+    "total_prescribers": 8,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 23,
+      "cost": 32303,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 27651,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 27,
+      "cost": 68338,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 13,
+      "cost": 24046,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 30215,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 19560,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

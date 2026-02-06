@@ -1,0 +1,123 @@
+{
+  "drug_name": "Griseofulvin Ultramicrosize",
+  "generated_at": "2026-02-06T16:38:37.647281",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 925,
+    "total_cost": 236641,
+    "total_prescribers": 46,
+    "total_beneficiaries": 178
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 15,
+      "cost": 3064,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "OH": {
+      "prescriptions": 63,
+      "cost": 12428,
+      "prescribers": 3,
+      "beneficiaries": 12
+    },
+    "CO": {
+      "prescriptions": 13,
+      "cost": 1230,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 26,
+      "cost": 6553,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "OK": {
+      "prescriptions": 24,
+      "cost": 10657,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 37,
+      "cost": 4896,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 11,
+      "cost": 1430,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 74,
+      "cost": 14286,
+      "prescribers": 4,
+      "beneficiaries": 20
+    },
+    "CA": {
+      "prescriptions": 154,
+      "cost": 44091,
+      "prescribers": 6,
+      "beneficiaries": 24
+    },
+    "NY": {
+      "prescriptions": 310,
+      "cost": 91906,
+      "prescribers": 11,
+      "beneficiaries": 86
+    },
+    "VA": {
+      "prescriptions": 25,
+      "cost": 3156,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 59,
+      "cost": 15987,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 15,
+      "cost": 8569,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 3128,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 11,
+      "cost": 1581,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 41,
+      "cost": 9120,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 12,
+      "cost": 1621,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "MO": {
+      "prescriptions": 23,
+      "cost": 2938,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

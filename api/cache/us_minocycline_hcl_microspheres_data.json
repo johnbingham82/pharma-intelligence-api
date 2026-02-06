@@ -1,0 +1,69 @@
+{
+  "drug_name": "Minocycline Hcl Microspheres",
+  "generated_at": "2026-02-06T16:38:37.756440",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 201,
+    "total_cost": 1772466,
+    "total_prescribers": 13,
+    "total_beneficiaries": 109
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 13,
+      "cost": 54372,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "CA": {
+      "prescriptions": 60,
+      "cost": 735295,
+      "prescribers": 3,
+      "beneficiaries": 21
+    },
+    "NY": {
+      "prescriptions": 42,
+      "cost": 558539,
+      "prescribers": 2,
+      "beneficiaries": 39
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 137115,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 70038,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 29,
+      "cost": 124684,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 45513,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "WI": {
+      "prescriptions": 12,
+      "cost": 23574,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 23336,
+      "prescribers": 1,
+      "beneficiaries": 11
+    }
+  }
+}

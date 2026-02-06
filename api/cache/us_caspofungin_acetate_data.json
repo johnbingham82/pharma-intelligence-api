@@ -1,0 +1,105 @@
+{
+  "drug_name": "Caspofungin Acetate",
+  "generated_at": "2026-02-06T16:38:37.454719",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1852,
+    "total_cost": 840016,
+    "total_prescribers": 52,
+    "total_beneficiaries": 412
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 24,
+      "cost": 25016,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 216,
+      "cost": 169043,
+      "prescribers": 8,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 19,
+      "cost": 16257,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 18,
+      "cost": 4915,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 25,
+      "cost": 4365,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 62,
+      "cost": 40373,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 1247,
+      "cost": 333951,
+      "prescribers": 28,
+      "beneficiaries": 412
+    },
+    "VA": {
+      "prescriptions": 40,
+      "cost": 17810,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 17,
+      "cost": 1323,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 17,
+      "cost": 5501,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 18,
+      "cost": 10435,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 92,
+      "cost": 140534,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 16,
+      "cost": 21353,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 25,
+      "cost": 39978,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 16,
+      "cost": 9162,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "drug_name": "Lofexidine Hcl",
+  "generated_at": "2026-02-06T16:38:37.720534",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 339,
+    "total_cost": 1416934,
+    "total_prescribers": 11,
+    "total_beneficiaries": 245
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 12,
+      "cost": 28767,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 20,
+      "cost": 80349,
+      "prescribers": 1,
+      "beneficiaries": 20
+    },
+    "CA": {
+      "prescriptions": 60,
+      "cost": 222105,
+      "prescribers": 3,
+      "beneficiaries": 15
+    },
+    "NC": {
+      "prescriptions": 236,
+      "cost": 1049799,
+      "prescribers": 5,
+      "beneficiaries": 199
+    },
+    "IN": {
+      "prescriptions": 11,
+      "cost": 35914,
+      "prescribers": 1,
+      "beneficiaries": 11
+    }
+  }
+}

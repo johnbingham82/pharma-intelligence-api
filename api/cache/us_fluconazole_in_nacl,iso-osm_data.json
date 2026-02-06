@@ -1,0 +1,99 @@
+{
+  "drug_name": "Fluconazole In Nacl,Iso-Osm",
+  "generated_at": "2026-02-06T16:38:37.617226",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 346,
+    "total_cost": 20741,
+    "total_prescribers": 20,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 27,
+      "cost": 2939,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 11,
+      "cost": 678,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 19,
+      "cost": 1215,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 17,
+      "cost": 397,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 83,
+      "cost": 4137,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 18,
+      "cost": 531,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 16,
+      "cost": 1573,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 32,
+      "cost": 2832,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 18,
+      "cost": 935,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 592,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 18,
+      "cost": 568,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 30,
+      "cost": 838,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 32,
+      "cost": 2343,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 13,
+      "cost": 1163,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

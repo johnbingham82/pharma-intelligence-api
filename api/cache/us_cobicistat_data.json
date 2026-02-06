@@ -1,0 +1,117 @@
+{
+  "drug_name": "Cobicistat",
+  "generated_at": "2026-02-06T16:38:37.484677",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 294,
+    "total_cost": 97099,
+    "total_prescribers": 24,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 11,
+      "cost": 3395,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 11,
+      "cost": 3368,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 22,
+      "cost": 10367,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 11,
+      "cost": 3334,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 58,
+      "cost": 17286,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 12,
+      "cost": 3489,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 13,
+      "cost": 3978,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 23,
+      "cost": 6843,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 24,
+      "cost": 8573,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 13,
+      "cost": 4094,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 11,
+      "cost": 2899,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 13,
+      "cost": 3978,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 11,
+      "cost": 3334,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 25,
+      "cost": 7820,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 3980,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 3026,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SD": {
+      "prescriptions": 12,
+      "cost": 7335,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

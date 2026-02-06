@@ -1,0 +1,75 @@
+{
+  "drug_name": "Multivit-Mins60/Iron Fum/Folic",
+  "generated_at": "2026-02-06T16:38:37.763934",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1005,
+    "total_cost": 10637,
+    "total_prescribers": 30,
+    "total_beneficiaries": 45
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 28,
+      "cost": 516,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 28,
+      "cost": 637,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 780,
+      "cost": 5607,
+      "prescribers": 16,
+      "beneficiaries": 34
+    },
+    "NJ": {
+      "prescriptions": 60,
+      "cost": 1536,
+      "prescribers": 3,
+      "beneficiaries": 11
+    },
+    "OR": {
+      "prescriptions": 13,
+      "cost": 254,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 13,
+      "cost": 276,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 33,
+      "cost": 789,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 26,
+      "cost": 491,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 255,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AK": {
+      "prescriptions": 13,
+      "cost": 276,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

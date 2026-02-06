@@ -1,0 +1,21 @@
+{
+  "drug_name": "Syringe,Insulin,Needless 1 Ml",
+  "generated_at": "2026-02-06T16:38:37.930226",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 27,
+    "total_cost": 333,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PR": {
+      "prescriptions": 27,
+      "cost": 333,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

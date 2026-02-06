@@ -1,0 +1,123 @@
+{
+  "drug_name": "Incobotulinumtoxina",
+  "generated_at": "2026-02-06T16:38:37.672020",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 951,
+    "total_cost": 1223683,
+    "total_prescribers": 43,
+    "total_beneficiaries": 219
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 14,
+      "cost": 15012,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 163,
+      "cost": 222044,
+      "prescribers": 3,
+      "beneficiaries": 77
+    },
+    "PA": {
+      "prescriptions": 11,
+      "cost": 15006,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 53,
+      "cost": 66951,
+      "prescribers": 3,
+      "beneficiaries": 11
+    },
+    "TX": {
+      "prescriptions": 227,
+      "cost": 336760,
+      "prescribers": 11,
+      "beneficiaries": 53
+    },
+    "CT": {
+      "prescriptions": 23,
+      "cost": 35254,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 47,
+      "cost": 51530,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 78,
+      "cost": 97766,
+      "prescribers": 3,
+      "beneficiaries": 23
+    },
+    "NJ": {
+      "prescriptions": 71,
+      "cost": 90127,
+      "prescribers": 4,
+      "beneficiaries": 11
+    },
+    "MA": {
+      "prescriptions": 32,
+      "cost": 44047,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 12,
+      "cost": 7842,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 52,
+      "cost": 37722,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 54,
+      "cost": 64008,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "TN": {
+      "prescriptions": 14,
+      "cost": 5814,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 16,
+      "cost": 30140,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 41,
+      "cost": 53513,
+      "prescribers": 1,
+      "beneficiaries": 17
+    },
+    "LA": {
+      "prescriptions": 30,
+      "cost": 29138,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "AK": {
+      "prescriptions": 13,
+      "cost": 21009,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

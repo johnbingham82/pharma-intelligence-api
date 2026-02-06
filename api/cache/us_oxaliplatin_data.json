@@ -1,0 +1,81 @@
+{
+  "drug_name": "Oxaliplatin",
+  "generated_at": "2026-02-06T16:38:37.814928",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 2100,
+    "total_cost": 796653,
+    "total_prescribers": 82,
+    "total_beneficiaries": 138
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 254,
+      "cost": 26865,
+      "prescribers": 11,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 59,
+      "cost": 11954,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 610,
+      "cost": 169645,
+      "prescribers": 22,
+      "beneficiaries": 36
+    },
+    "NY": {
+      "prescriptions": 709,
+      "cost": 445070,
+      "prescribers": 26,
+      "beneficiaries": 79
+    },
+    "NJ": {
+      "prescriptions": 107,
+      "cost": 17200,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 26,
+      "cost": 4077,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 940,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 127,
+      "cost": 59202,
+      "prescribers": 4,
+      "beneficiaries": 12
+    },
+    "HI": {
+      "prescriptions": 89,
+      "cost": 34227,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 66,
+      "cost": 22644,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "PR": {
+      "prescriptions": 41,
+      "cost": 4829,
+      "prescribers": 3,
+      "beneficiaries": 0
+    }
+  }
+}

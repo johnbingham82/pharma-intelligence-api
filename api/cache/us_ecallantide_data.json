@@ -1,0 +1,69 @@
+{
+  "drug_name": "Ecallantide",
+  "generated_at": "2026-02-06T16:38:37.561107",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 289,
+    "total_cost": 21041861,
+    "total_prescribers": 11,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 13,
+      "cost": 264766,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 36,
+      "cost": 1301337,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 45,
+      "cost": 1429092,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 13,
+      "cost": 2973613,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 49,
+      "cost": 3276659,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 889449,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 17,
+      "cost": 2763848,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 62,
+      "cost": 2308862,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 41,
+      "cost": 5834235,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

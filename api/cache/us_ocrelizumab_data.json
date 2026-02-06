@@ -1,0 +1,129 @@
+{
+  "drug_name": "Ocrelizumab",
+  "generated_at": "2026-02-06T16:38:37.797893",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1009,
+    "total_cost": 38521672,
+    "total_prescribers": 49,
+    "total_beneficiaries": 342
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 71,
+      "cost": 2884519,
+      "prescribers": 1,
+      "beneficiaries": 42
+    },
+    "NV": {
+      "prescriptions": 18,
+      "cost": 743437,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "PA": {
+      "prescriptions": 83,
+      "cost": 3188727,
+      "prescribers": 4,
+      "beneficiaries": 33
+    },
+    "FL": {
+      "prescriptions": 39,
+      "cost": 1555862,
+      "prescribers": 2,
+      "beneficiaries": 18
+    },
+    "TX": {
+      "prescriptions": 42,
+      "cost": 1514255,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 12,
+      "cost": 491959,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 32,
+      "cost": 1321685,
+      "prescribers": 1,
+      "beneficiaries": 17
+    },
+    "CA": {
+      "prescriptions": 89,
+      "cost": 3477063,
+      "prescribers": 5,
+      "beneficiaries": 27
+    },
+    "NY": {
+      "prescriptions": 59,
+      "cost": 2368791,
+      "prescribers": 4,
+      "beneficiaries": 12
+    },
+    "MA": {
+      "prescriptions": 50,
+      "cost": 2000102,
+      "prescribers": 3,
+      "beneficiaries": 23
+    },
+    "MS": {
+      "prescriptions": 73,
+      "cost": 2345587,
+      "prescribers": 2,
+      "beneficiaries": 37
+    },
+    "GA": {
+      "prescriptions": 81,
+      "cost": 3097448,
+      "prescribers": 2,
+      "beneficiaries": 45
+    },
+    "NC": {
+      "prescriptions": 91,
+      "cost": 3398278,
+      "prescribers": 4,
+      "beneficiaries": 39
+    },
+    "AZ": {
+      "prescriptions": 14,
+      "cost": 537128,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 67,
+      "cost": 2489445,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 55,
+      "cost": 2023145,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 42,
+      "cost": 1583177,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 14,
+      "cost": 522524,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 77,
+      "cost": 2978540,
+      "prescribers": 2,
+      "beneficiaries": 37
+    }
+  }
+}

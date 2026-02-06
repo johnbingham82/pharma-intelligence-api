@@ -1,0 +1,99 @@
+{
+  "drug_name": "Palonosetron Hcl",
+  "generated_at": "2026-02-06T16:38:37.822308",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 3699,
+    "total_cost": 434039,
+    "total_prescribers": 90,
+    "total_beneficiaries": 626
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 25,
+      "cost": 1597,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 65,
+      "cost": 4977,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 209,
+      "cost": 8757,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 1480,
+      "cost": 127120,
+      "prescribers": 28,
+      "beneficiaries": 280
+    },
+    "NY": {
+      "prescriptions": 467,
+      "cost": 96914,
+      "prescribers": 15,
+      "beneficiaries": 60
+    },
+    "NJ": {
+      "prescriptions": 361,
+      "cost": 28257,
+      "prescribers": 16,
+      "beneficiaries": 48
+    },
+    "GA": {
+      "prescriptions": 15,
+      "cost": 1149,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 44,
+      "cost": 4613,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 109,
+      "cost": 7985,
+      "prescribers": 2,
+      "beneficiaries": 23
+    },
+    "IA": {
+      "prescriptions": 36,
+      "cost": 7080,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 494,
+      "cost": 86404,
+      "prescribers": 7,
+      "beneficiaries": 123
+    },
+    "HI": {
+      "prescriptions": 41,
+      "cost": 6119,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 341,
+      "cost": 52498,
+      "prescribers": 2,
+      "beneficiaries": 92
+    },
+    "VI": {
+      "prescriptions": 12,
+      "cost": 569,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "drug_name": "Dexmedetomidine Hcl",
+  "generated_at": "2026-02-06T16:38:37.530214",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 20,
+    "total_cost": 56874,
+    "total_prescribers": 1,
+    "total_beneficiaries": 12
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 20,
+      "cost": 56874,
+      "prescribers": 1,
+      "beneficiaries": 12
+    }
+  }
+}

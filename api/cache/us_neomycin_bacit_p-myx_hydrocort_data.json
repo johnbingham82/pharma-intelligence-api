@@ -1,0 +1,99 @@
+{
+  "drug_name": "Neomycin/Bacit/P-Myx/Hydrocort",
+  "generated_at": "2026-02-06T16:38:37.782665",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 368,
+    "total_cost": 14510,
+    "total_prescribers": 21,
+    "total_beneficiaries": 153
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 11,
+      "cost": 633,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 49,
+      "cost": 1649,
+      "prescribers": 2,
+      "beneficiaries": 37
+    },
+    "FL": {
+      "prescriptions": 11,
+      "cost": 505,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 16,
+      "cost": 567,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "SC": {
+      "prescriptions": 13,
+      "cost": 721,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 54,
+      "cost": 2340,
+      "prescribers": 2,
+      "beneficiaries": 38
+    },
+    "NY": {
+      "prescriptions": 28,
+      "cost": 967,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 37,
+      "cost": 1419,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 56,
+      "cost": 1800,
+      "prescribers": 2,
+      "beneficiaries": 36
+    },
+    "MN": {
+      "prescriptions": 11,
+      "cost": 359,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 23,
+      "cost": 873,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 15,
+      "cost": 611,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 31,
+      "cost": 1411,
+      "prescribers": 1,
+      "beneficiaries": 27
+    },
+    "MO": {
+      "prescriptions": 13,
+      "cost": 655,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

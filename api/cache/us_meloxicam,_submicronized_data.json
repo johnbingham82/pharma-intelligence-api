@@ -1,0 +1,141 @@
+{
+  "drug_name": "Meloxicam, Submicronized",
+  "generated_at": "2026-02-06T16:38:37.733042",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 9974,
+    "total_cost": 9424050,
+    "total_prescribers": 239,
+    "total_beneficiaries": 1519
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 95,
+      "cost": 45327,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 152,
+      "cost": 124993,
+      "prescribers": 4,
+      "beneficiaries": 15
+    },
+    "CO": {
+      "prescriptions": 24,
+      "cost": 9687,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 205,
+      "cost": 143197,
+      "prescribers": 3,
+      "beneficiaries": 23
+    },
+    "FL": {
+      "prescriptions": 24,
+      "cost": 10894,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 140,
+      "cost": 306986,
+      "prescribers": 2,
+      "beneficiaries": 42
+    },
+    "CA": {
+      "prescriptions": 3757,
+      "cost": 3810519,
+      "prescribers": 89,
+      "beneficiaries": 420
+    },
+    "NY": {
+      "prescriptions": 5233,
+      "cost": 4688913,
+      "prescribers": 113,
+      "beneficiaries": 953
+    },
+    "NJ": {
+      "prescriptions": 143,
+      "cost": 157927,
+      "prescribers": 7,
+      "beneficiaries": 54
+    },
+    "MA": {
+      "prescriptions": 49,
+      "cost": 41328,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 12012,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 16,
+      "cost": 9469,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 7837,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 29,
+      "cost": 6135,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 7232,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 12,
+      "cost": 7837,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "RI": {
+      "prescriptions": 12,
+      "cost": 5145,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 12,
+      "cost": 7309,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 11,
+      "cost": 6759,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 7180,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ME": {
+      "prescriptions": 12,
+      "cost": 7364,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

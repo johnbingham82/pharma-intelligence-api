@@ -1,6 +1,6 @@
 {
   "drug_name": "Celecoxib",
-  "generated_at": "2026-02-06T16:18:00.208759",
+  "generated_at": "2026-02-06T16:38:37.461906",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 12859168,
       "prescribers": 8663,
       "beneficiaries": 111739
+    },
+    "NM": {
+      "prescriptions": 19363,
+      "cost": 846617,
+      "prescribers": 600,
+      "beneficiaries": 4271
     },
     "KY": {
       "prescriptions": 82217,
@@ -119,6 +125,12 @@
       "prescribers": 1220,
       "beneficiaries": 8691
     },
+    "ID": {
+      "prescriptions": 26085,
+      "cost": 1619216,
+      "prescribers": 791,
+      "beneficiaries": 6830
+    },
     "WA": {
       "prescriptions": 43350,
       "cost": 1722085,
@@ -155,6 +167,12 @@
       "prescribers": 4830,
       "beneficiaries": 50186
     },
+    "AZ": {
+      "prescriptions": 67782,
+      "cost": 2483127,
+      "prescribers": 2050,
+      "beneficiaries": 19800
+    },
     "TN": {
       "prescriptions": 124557,
       "cost": 4234205,
@@ -178,12 +196,6 @@
       "cost": 1460327,
       "prescribers": 917,
       "beneficiaries": 7453
-    },
-    "AZ": {
-      "prescriptions": 67782,
-      "cost": 2483127,
-      "prescribers": 2050,
-      "beneficiaries": 19800
     },
     "IL": {
       "prescriptions": 130542,
@@ -215,35 +227,23 @@
       "prescribers": 381,
       "beneficiaries": 4479
     },
-    "LA": {
-      "prescriptions": 93046,
-      "cost": 2401073,
-      "prescribers": 1930,
-      "beneficiaries": 23947
-    },
     "RI": {
       "prescriptions": 9801,
       "cost": 304754,
       "prescribers": 329,
       "beneficiaries": 1541
     },
+    "LA": {
+      "prescriptions": 93046,
+      "cost": 2401073,
+      "prescribers": 1930,
+      "beneficiaries": 23947
+    },
     "WI": {
       "prescriptions": 58976,
       "cost": 2489743,
       "prescribers": 1896,
       "beneficiaries": 15235
-    },
-    "ID": {
-      "prescriptions": 26085,
-      "cost": 1619216,
-      "prescribers": 791,
-      "beneficiaries": 6830
-    },
-    "NM": {
-      "prescriptions": 19363,
-      "cost": 846617,
-      "prescribers": 600,
-      "beneficiaries": 4271
     },
     "KS": {
       "prescriptions": 50118,
@@ -256,6 +256,12 @@
       "cost": 5107483,
       "prescribers": 3760,
       "beneficiaries": 31332
+    },
+    "WV": {
+      "prescriptions": 28103,
+      "cost": 1016026,
+      "prescribers": 757,
+      "beneficiaries": 5756
     },
     "VT": {
       "prescriptions": 7217,
@@ -281,29 +287,23 @@
       "prescribers": 2720,
       "beneficiaries": 26738
     },
+    "DE": {
+      "prescriptions": 12458,
+      "cost": 531446,
+      "prescribers": 339,
+      "beneficiaries": 3952
+    },
     "MT": {
       "prescriptions": 24283,
       "cost": 907573,
       "prescribers": 641,
       "beneficiaries": 5830
     },
-    "WV": {
-      "prescriptions": 28103,
-      "cost": 1016026,
-      "prescribers": 757,
-      "beneficiaries": 5756
-    },
     "ME": {
       "prescriptions": 13015,
       "cost": 911508,
       "prescribers": 488,
       "beneficiaries": 2944
-    },
-    "DE": {
-      "prescriptions": 12458,
-      "cost": 531446,
-      "prescribers": 339,
-      "beneficiaries": 3952
     },
     "AK": {
       "prescriptions": 6198,
@@ -335,17 +335,17 @@
       "prescribers": 4,
       "beneficiaries": 0
     },
-    "AE": {
-      "prescriptions": 68,
-      "cost": 1237,
-      "prescribers": 3,
-      "beneficiaries": 41
-    },
     "VI": {
       "prescriptions": 418,
       "cost": 11796,
       "prescribers": 15,
       "beneficiaries": 138
+    },
+    "AE": {
+      "prescriptions": 68,
+      "cost": 1237,
+      "prescribers": 3,
+      "beneficiaries": 41
     },
     "AP": {
       "prescriptions": 65,

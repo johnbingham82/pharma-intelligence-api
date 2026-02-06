@@ -1,6 +1,6 @@
 {
   "drug_name": "Azithromycin",
-  "generated_at": "2026-02-06T16:18:00.194151",
+  "generated_at": "2026-02-06T16:38:37.413075",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 3975845,
       "prescribers": 14634,
       "beneficiaries": 473108
+    },
+    "NM": {
+      "prescriptions": 26572,
+      "cost": 190247,
+      "prescribers": 889,
+      "beneficiaries": 21292
     },
     "KY": {
       "prescriptions": 142208,
@@ -119,6 +125,12 @@
       "prescribers": 1465,
       "beneficiaries": 27570
     },
+    "ID": {
+      "prescriptions": 22852,
+      "cost": 162316,
+      "prescribers": 873,
+      "beneficiaries": 17505
+    },
     "WA": {
       "prescriptions": 57833,
       "cost": 559553,
@@ -155,6 +167,12 @@
       "prescribers": 5495,
       "beneficiaries": 145765
     },
+    "AZ": {
+      "prescriptions": 130824,
+      "cost": 849449,
+      "prescribers": 3773,
+      "beneficiaries": 105187
+    },
     "TN": {
       "prescriptions": 189288,
       "cost": 1452876,
@@ -178,12 +196,6 @@
       "cost": 253998,
       "prescribers": 1003,
       "beneficiaries": 19863
-    },
-    "AZ": {
-      "prescriptions": 130824,
-      "cost": 849449,
-      "prescribers": 3773,
-      "beneficiaries": 105187
     },
     "IL": {
       "prescriptions": 213456,
@@ -215,35 +227,23 @@
       "prescribers": 585,
       "beneficiaries": 16234
     },
-    "LA": {
-      "prescriptions": 118720,
-      "cost": 799773,
-      "prescribers": 3002,
-      "beneficiaries": 95173
-    },
     "RI": {
       "prescriptions": 23905,
       "cost": 145345,
       "prescribers": 630,
       "beneficiaries": 18219
     },
+    "LA": {
+      "prescriptions": 118720,
+      "cost": 799773,
+      "prescribers": 3002,
+      "beneficiaries": 95173
+    },
     "WI": {
       "prescriptions": 61658,
       "cost": 539614,
       "prescribers": 2321,
       "beneficiaries": 43599
-    },
-    "ID": {
-      "prescriptions": 22852,
-      "cost": 162316,
-      "prescribers": 873,
-      "beneficiaries": 17505
-    },
-    "NM": {
-      "prescriptions": 26572,
-      "cost": 190247,
-      "prescribers": 889,
-      "beneficiaries": 21292
     },
     "KS": {
       "prescriptions": 45667,
@@ -256,6 +256,12 @@
       "cost": 1549550,
       "prescribers": 6380,
       "beneficiaries": 167043
+    },
+    "WV": {
+      "prescriptions": 45990,
+      "cost": 310012,
+      "prescribers": 1316,
+      "beneficiaries": 35076
     },
     "VT": {
       "prescriptions": 7751,
@@ -281,29 +287,23 @@
       "prescribers": 3695,
       "beneficiaries": 101884
     },
+    "DE": {
+      "prescriptions": 17374,
+      "cost": 143888,
+      "prescribers": 545,
+      "beneficiaries": 14232
+    },
     "MT": {
       "prescriptions": 12677,
       "cost": 119009,
       "prescribers": 501,
       "beneficiaries": 8881
     },
-    "WV": {
-      "prescriptions": 45990,
-      "cost": 310012,
-      "prescribers": 1316,
-      "beneficiaries": 35076
-    },
     "ME": {
       "prescriptions": 19943,
       "cost": 185885,
       "prescribers": 817,
       "beneficiaries": 14945
-    },
-    "DE": {
-      "prescriptions": 17374,
-      "cost": 143888,
-      "prescribers": 545,
-      "beneficiaries": 14232
     },
     "AK": {
       "prescriptions": 4892,
@@ -335,6 +335,12 @@
       "prescribers": 9,
       "beneficiaries": 248
     },
+    "VI": {
+      "prescriptions": 562,
+      "cost": 6327,
+      "prescribers": 21,
+      "beneficiaries": 481
+    },
     "MP": {
       "prescriptions": 12,
       "cost": 149,
@@ -346,12 +352,6 @@
       "cost": 1192,
       "prescribers": 8,
       "beneficiaries": 183
-    },
-    "VI": {
-      "prescriptions": 562,
-      "cost": 6327,
-      "prescribers": 21,
-      "beneficiaries": 481
     },
     "AP": {
       "prescriptions": 63,

@@ -1,0 +1,45 @@
+{
+  "drug_name": "Etoposide",
+  "generated_at": "2026-02-06T16:38:37.596767",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 103,
+    "total_cost": 5579,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 13,
+      "cost": 730,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 16,
+      "cost": 882,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 46,
+      "cost": 2487,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 540,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 17,
+      "cost": 940,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

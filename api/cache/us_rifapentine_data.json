@@ -1,0 +1,63 @@
+{
+  "drug_name": "Rifapentine",
+  "generated_at": "2026-02-06T16:38:37.882326",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 232,
+    "total_cost": 26909,
+    "total_prescribers": 12,
+    "total_beneficiaries": 62
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 24,
+      "cost": 3950,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NM": {
+      "prescriptions": 13,
+      "cost": 1516,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 24,
+      "cost": 682,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 22,
+      "cost": 3069,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "MS": {
+      "prescriptions": 115,
+      "cost": 13718,
+      "prescribers": 3,
+      "beneficiaries": 49
+    },
+    "ND": {
+      "prescriptions": 11,
+      "cost": 1327,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "RI": {
+      "prescriptions": 11,
+      "cost": 1173,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 1474,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "drug_name": "Gentamicin In Nacl, Iso-Osm",
+  "generated_at": "2026-02-06T16:38:37.637408",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 431,
+    "total_cost": 12535,
+    "total_prescribers": 16,
+    "total_beneficiaries": 33
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 30,
+      "cost": 601,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 37,
+      "cost": 1005,
+      "prescribers": 2,
+      "beneficiaries": 15
+    },
+    "CA": {
+      "prescriptions": 66,
+      "cost": 2295,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 15,
+      "cost": 371,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 598,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 18,
+      "cost": 1687,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 14,
+      "cost": 199,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 14,
+      "cost": 336,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 74,
+      "cost": 2390,
+      "prescribers": 1,
+      "beneficiaries": 18
+    },
+    "RI": {
+      "prescriptions": 11,
+      "cost": 229,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 141,
+      "cost": 2824,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

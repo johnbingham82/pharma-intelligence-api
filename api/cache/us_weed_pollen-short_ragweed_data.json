@@ -1,0 +1,27 @@
+{
+  "drug_name": "Weed Pollen-Short Ragweed",
+  "generated_at": "2026-02-06T16:38:37.992985",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 23,
+    "total_cost": 8399,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 4710,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 11,
+      "cost": 3689,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

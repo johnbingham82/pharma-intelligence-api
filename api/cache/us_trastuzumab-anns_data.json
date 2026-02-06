@@ -1,0 +1,63 @@
+{
+  "drug_name": "Trastuzumab-Anns",
+  "generated_at": "2026-02-06T16:38:37.966362",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 523,
+    "total_cost": 2442065,
+    "total_prescribers": 27,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 12,
+      "cost": 45971,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 171,
+      "cost": 805727,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 106,
+      "cost": 455575,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 69,
+      "cost": 270591,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 24,
+      "cost": 132246,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 14,
+      "cost": 75859,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 108,
+      "cost": 523066,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 19,
+      "cost": 133030,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

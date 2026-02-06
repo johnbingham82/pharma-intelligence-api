@@ -1,0 +1,33 @@
+{
+  "drug_name": "Mafenide Acetate",
+  "generated_at": "2026-02-06T16:38:37.727434",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 38,
+    "total_cost": 4631,
+    "total_prescribers": 3,
+    "total_beneficiaries": 12
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 1252,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 16,
+      "cost": 2538,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 841,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

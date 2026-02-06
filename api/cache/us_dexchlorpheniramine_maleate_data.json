@@ -1,0 +1,21 @@
+{
+  "drug_name": "Dexchlorpheniramine Maleate",
+  "generated_at": "2026-02-06T16:38:37.529659",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 26,
+    "total_cost": 16668,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "NC": {
+      "prescriptions": 26,
+      "cost": 16668,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

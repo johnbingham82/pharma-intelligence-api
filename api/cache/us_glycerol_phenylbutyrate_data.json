@@ -1,0 +1,123 @@
+{
+  "drug_name": "Glycerol Phenylbutyrate",
+  "generated_at": "2026-02-06T16:38:37.643779",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 601,
+    "total_cost": 56919968,
+    "total_prescribers": 31,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 14,
+      "cost": 1744765,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 57,
+      "cost": 4762629,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 49,
+      "cost": 3798604,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 19,
+      "cost": 1975191,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 87,
+      "cost": 7386206,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 18,
+      "cost": 1579319,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 75,
+      "cost": 8354354,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 61,
+      "cost": 5646688,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 31,
+      "cost": 2504194,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 12,
+      "cost": 1450693,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 12,
+      "cost": 2568554,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 49,
+      "cost": 4098417,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 29,
+      "cost": 2758260,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 11,
+      "cost": 743608,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 17,
+      "cost": 1723183,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 25,
+      "cost": 2075790,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 13,
+      "cost": 990631,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 22,
+      "cost": 2758882,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

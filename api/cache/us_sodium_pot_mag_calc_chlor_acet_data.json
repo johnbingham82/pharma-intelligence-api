@@ -1,0 +1,27 @@
+{
+  "drug_name": "Sodium/Pot/Mag/Calc/Chlor/Acet",
+  "generated_at": "2026-02-06T16:38:37.917763",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 28,
+    "total_cost": 16942,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 11,
+      "cost": 6980,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 17,
+      "cost": 9962,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

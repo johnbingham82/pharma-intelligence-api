@@ -1,0 +1,69 @@
+{
+  "drug_name": "Venlafaxine Besylate",
+  "generated_at": "2026-02-06T16:38:37.986564",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 287,
+    "total_cost": 46035,
+    "total_prescribers": 14,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 2452,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 16,
+      "cost": 1899,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 45,
+      "cost": 15913,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 33,
+      "cost": 9333,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 34,
+      "cost": 3373,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 98,
+      "cost": 6915,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 23,
+      "cost": 2222,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 13,
+      "cost": 1245,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 13,
+      "cost": 2683,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

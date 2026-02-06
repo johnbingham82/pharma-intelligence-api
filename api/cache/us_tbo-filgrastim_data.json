@@ -1,0 +1,69 @@
+{
+  "drug_name": "Tbo-Filgrastim",
+  "generated_at": "2026-02-06T16:38:37.936933",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 234,
+    "total_cost": 535888,
+    "total_prescribers": 14,
+    "total_beneficiaries": 23
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 11,
+      "cost": 11748,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 58,
+      "cost": 132695,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 37,
+      "cost": 47576,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 13,
+      "cost": 34948,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "NJ": {
+      "prescriptions": 57,
+      "cost": 156531,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 15,
+      "cost": 23681,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 18,
+      "cost": 73535,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "AR": {
+      "prescriptions": 14,
+      "cost": 48967,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 11,
+      "cost": 6207,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

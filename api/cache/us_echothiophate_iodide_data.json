@@ -1,0 +1,63 @@
+{
+  "drug_name": "Echothiophate Iodide",
+  "generated_at": "2026-02-06T16:38:37.561347",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 260,
+    "total_cost": 663955,
+    "total_prescribers": 11,
+    "total_beneficiaries": 11
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 23,
+      "cost": 57719,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 28,
+      "cost": 71281,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 118,
+      "cost": 296627,
+      "prescribers": 4,
+      "beneficiaries": 11
+    },
+    "NJ": {
+      "prescriptions": 36,
+      "cost": 92490,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 17,
+      "cost": 45751,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 15,
+      "cost": 40369,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 30114,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 11,
+      "cost": 29604,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

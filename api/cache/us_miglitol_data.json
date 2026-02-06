@@ -1,0 +1,123 @@
+{
+  "drug_name": "Miglitol",
+  "generated_at": "2026-02-06T16:38:37.755030",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 517,
+    "total_cost": 126822,
+    "total_prescribers": 27,
+    "total_beneficiaries": 30
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 23,
+      "cost": 4861,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 18,
+      "cost": 8985,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 13,
+      "cost": 3768,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 11,
+      "cost": 1455,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 154,
+      "cost": 36514,
+      "prescribers": 4,
+      "beneficiaries": 16
+    },
+    "NY": {
+      "prescriptions": 48,
+      "cost": 8893,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 43,
+      "cost": 6107,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 11,
+      "cost": 1903,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 13,
+      "cost": 1561,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 13,
+      "cost": 2077,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 82,
+      "cost": 34503,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "MN": {
+      "prescriptions": 12,
+      "cost": 542,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 14,
+      "cost": 1995,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 683,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 11,
+      "cost": 5349,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 17,
+      "cost": 2830,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 2539,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MT": {
+      "prescriptions": 12,
+      "cost": 2257,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

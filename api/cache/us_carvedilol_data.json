@@ -1,6 +1,6 @@
 {
   "drug_name": "Carvedilol",
-  "generated_at": "2026-02-06T16:18:00.181618",
+  "generated_at": "2026-02-06T16:38:37.453283",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 13344728,
       "prescribers": 16627,
       "beneficiaries": 349866
+    },
+    "NM": {
+      "prescriptions": 67688,
+      "cost": 955463,
+      "prescribers": 1292,
+      "beneficiaries": 17437
     },
     "KY": {
       "prescriptions": 303370,
@@ -119,6 +125,12 @@
       "prescribers": 2924,
       "beneficiaries": 36218
     },
+    "ID": {
+      "prescriptions": 56577,
+      "cost": 617053,
+      "prescribers": 1113,
+      "beneficiaries": 13121
+    },
     "WA": {
       "prescriptions": 203486,
       "cost": 2621451,
@@ -155,6 +167,12 @@
       "prescribers": 8124,
       "beneficiaries": 129770
     },
+    "AZ": {
+      "prescriptions": 237394,
+      "cost": 2948341,
+      "prescribers": 4272,
+      "beneficiaries": 68602
+    },
     "TN": {
       "prescriptions": 431297,
       "cost": 4608318,
@@ -178,12 +196,6 @@
       "cost": 1133688,
       "prescribers": 1494,
       "beneficiaries": 21066
-    },
-    "AZ": {
-      "prescriptions": 237394,
-      "cost": 2948341,
-      "prescribers": 4272,
-      "beneficiaries": 68602
     },
     "IL": {
       "prescriptions": 561295,
@@ -215,35 +227,23 @@
       "prescribers": 745,
       "beneficiaries": 8002
     },
-    "LA": {
-      "prescriptions": 284939,
-      "cost": 2648966,
-      "prescribers": 3645,
-      "beneficiaries": 70986
-    },
     "RI": {
       "prescriptions": 25105,
       "cost": 300923,
       "prescribers": 588,
       "beneficiaries": 4469
     },
+    "LA": {
+      "prescriptions": 284939,
+      "cost": 2648966,
+      "prescribers": 3645,
+      "beneficiaries": 70986
+    },
     "WI": {
       "prescriptions": 227729,
       "cost": 2884205,
       "prescribers": 4106,
       "beneficiaries": 53626
-    },
-    "ID": {
-      "prescriptions": 56577,
-      "cost": 617053,
-      "prescribers": 1113,
-      "beneficiaries": 13121
-    },
-    "NM": {
-      "prescriptions": 67688,
-      "cost": 955463,
-      "prescribers": 1292,
-      "beneficiaries": 17437
     },
     "KS": {
       "prescriptions": 152547,
@@ -256,6 +256,12 @@
       "cost": 6614232,
       "prescribers": 8107,
       "beneficiaries": 131421
+    },
+    "WV": {
+      "prescriptions": 79096,
+      "cost": 767291,
+      "prescribers": 1478,
+      "beneficiaries": 18491
     },
     "VT": {
       "prescriptions": 13250,
@@ -281,29 +287,23 @@
       "prescribers": 4869,
       "beneficiaries": 108596
     },
+    "DE": {
+      "prescriptions": 50720,
+      "cost": 682168,
+      "prescribers": 746,
+      "beneficiaries": 14583
+    },
     "MT": {
       "prescriptions": 37607,
       "cost": 396781,
       "prescribers": 764,
       "beneficiaries": 7395
     },
-    "WV": {
-      "prescriptions": 79096,
-      "cost": 767291,
-      "prescribers": 1478,
-      "beneficiaries": 18491
-    },
     "ME": {
       "prescriptions": 39014,
       "cost": 542682,
       "prescribers": 1103,
       "beneficiaries": 8134
-    },
-    "DE": {
-      "prescriptions": 50720,
-      "cost": 682168,
-      "prescribers": 746,
-      "beneficiaries": 14583
     },
     "AK": {
       "prescriptions": 14152,
@@ -335,6 +335,12 @@
       "prescribers": 6,
       "beneficiaries": 49
     },
+    "VI": {
+      "prescriptions": 1571,
+      "cost": 24872,
+      "prescribers": 39,
+      "beneficiaries": 244
+    },
     "MP": {
       "prescriptions": 136,
       "cost": 1858,
@@ -346,12 +352,6 @@
       "cost": 4566,
       "prescribers": 4,
       "beneficiaries": 60
-    },
-    "VI": {
-      "prescriptions": 1571,
-      "cost": 24872,
-      "prescribers": 39,
-      "beneficiaries": 244
     },
     "AP": {
       "prescriptions": 116,

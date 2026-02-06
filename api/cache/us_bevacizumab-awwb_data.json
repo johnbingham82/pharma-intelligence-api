@@ -1,0 +1,87 @@
+{
+  "drug_name": "Bevacizumab-Awwb",
+  "generated_at": "2026-02-06T16:38:37.425107",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1463,
+    "total_cost": 9119477,
+    "total_prescribers": 61,
+    "total_beneficiaries": 54
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 46,
+      "cost": 157477,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 93,
+      "cost": 394879,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 24,
+      "cost": 125724,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 359,
+      "cost": 2325109,
+      "prescribers": 10,
+      "beneficiaries": 31
+    },
+    "NY": {
+      "prescriptions": 525,
+      "cost": 3800534,
+      "prescribers": 25,
+      "beneficiaries": 11
+    },
+    "NJ": {
+      "prescriptions": 107,
+      "cost": 528607,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 22,
+      "cost": 123581,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 38,
+      "cost": 175164,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 37,
+      "cost": 217402,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 122,
+      "cost": 787382,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 77,
+      "cost": 441057,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "PR": {
+      "prescriptions": 13,
+      "cost": 42561,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

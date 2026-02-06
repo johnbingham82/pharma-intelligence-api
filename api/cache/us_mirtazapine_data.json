@@ -1,6 +1,6 @@
 {
   "drug_name": "Mirtazapine",
-  "generated_at": "2026-02-06T16:18:00.199816",
+  "generated_at": "2026-02-06T16:38:37.757405",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 8909406,
       "prescribers": 8608,
       "beneficiaries": 71955
+    },
+    "NM": {
+      "prescriptions": 33608,
+      "cost": 880455,
+      "prescribers": 880,
+      "beneficiaries": 6000
     },
     "KY": {
       "prescriptions": 125654,
@@ -119,6 +125,12 @@
       "prescribers": 2092,
       "beneficiaries": 8552
     },
+    "ID": {
+      "prescriptions": 21683,
+      "cost": 470697,
+      "prescribers": 688,
+      "beneficiaries": 2012
+    },
     "WA": {
       "prescriptions": 112628,
       "cost": 2860476,
@@ -155,6 +167,12 @@
       "prescribers": 5646,
       "beneficiaries": 42751
     },
+    "AZ": {
+      "prescriptions": 92443,
+      "cost": 2337714,
+      "prescribers": 2439,
+      "beneficiaries": 14720
+    },
     "TN": {
       "prescriptions": 193625,
       "cost": 4065632,
@@ -178,12 +196,6 @@
       "cost": 867656,
       "prescribers": 997,
       "beneficiaries": 4544
-    },
-    "AZ": {
-      "prescriptions": 92443,
-      "cost": 2337714,
-      "prescribers": 2439,
-      "beneficiaries": 14720
     },
     "IL": {
       "prescriptions": 234254,
@@ -215,35 +227,23 @@
       "prescribers": 412,
       "beneficiaries": 2755
     },
-    "LA": {
-      "prescriptions": 116027,
-      "cost": 2033813,
-      "prescribers": 2184,
-      "beneficiaries": 18546
-    },
     "RI": {
       "prescriptions": 39890,
       "cost": 1097550,
       "prescribers": 789,
       "beneficiaries": 6098
     },
+    "LA": {
+      "prescriptions": 116027,
+      "cost": 2033813,
+      "prescribers": 2184,
+      "beneficiaries": 18546
+    },
     "WI": {
       "prescriptions": 142425,
       "cost": 3514408,
       "prescribers": 3227,
       "beneficiaries": 19749
-    },
-    "ID": {
-      "prescriptions": 21683,
-      "cost": 470697,
-      "prescribers": 688,
-      "beneficiaries": 2012
-    },
-    "NM": {
-      "prescriptions": 33608,
-      "cost": 880455,
-      "prescribers": 880,
-      "beneficiaries": 6000
     },
     "KS": {
       "prescriptions": 68663,
@@ -256,6 +256,12 @@
       "cost": 4370364,
       "prescribers": 4562,
       "beneficiaries": 28853
+    },
+    "WV": {
+      "prescriptions": 52825,
+      "cost": 1011681,
+      "prescribers": 994,
+      "beneficiaries": 7960
     },
     "VT": {
       "prescriptions": 13908,
@@ -281,29 +287,23 @@
       "prescribers": 3128,
       "beneficiaries": 28118
     },
+    "DE": {
+      "prescriptions": 21193,
+      "cost": 523660,
+      "prescribers": 507,
+      "beneficiaries": 3391
+    },
     "MT": {
       "prescriptions": 18933,
       "cost": 383307,
       "prescribers": 515,
       "beneficiaries": 1855
     },
-    "WV": {
-      "prescriptions": 52825,
-      "cost": 1011681,
-      "prescribers": 994,
-      "beneficiaries": 7960
-    },
     "ME": {
       "prescriptions": 34078,
       "cost": 973734,
       "prescribers": 968,
       "beneficiaries": 5142
-    },
-    "DE": {
-      "prescriptions": 21193,
-      "cost": 523660,
-      "prescribers": 507,
-      "beneficiaries": 3391
     },
     "AK": {
       "prescriptions": 5807,
@@ -335,6 +335,12 @@
       "prescribers": 5,
       "beneficiaries": 26
     },
+    "VI": {
+      "prescriptions": 242,
+      "cost": 5666,
+      "prescribers": 11,
+      "beneficiaries": 14
+    },
     "MP": {
       "prescriptions": 18,
       "cost": 365,
@@ -346,12 +352,6 @@
       "cost": 8266,
       "prescribers": 4,
       "beneficiaries": 123
-    },
-    "VI": {
-      "prescriptions": 242,
-      "cost": 5666,
-      "prescribers": 11,
-      "beneficiaries": 14
     },
     "AP": {
       "prescriptions": 75,

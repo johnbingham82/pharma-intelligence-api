@@ -1,0 +1,63 @@
+{
+  "drug_name": "Acetaminophen/Caff/Dihydrocod",
+  "generated_at": "2026-02-06T16:38:37.371271",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 374,
+    "total_cost": 76140,
+    "total_prescribers": 22,
+    "total_beneficiaries": 14
+  },
+  "by_state": {
+    "OK": {
+      "prescriptions": 11,
+      "cost": 2527,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 28,
+      "cost": 4490,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 208,
+      "cost": 40716,
+      "prescribers": 11,
+      "beneficiaries": 14
+    },
+    "NJ": {
+      "prescriptions": 38,
+      "cost": 8078,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 11,
+      "cost": 3854,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 36,
+      "cost": 6553,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 30,
+      "cost": 7143,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 12,
+      "cost": 2779,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

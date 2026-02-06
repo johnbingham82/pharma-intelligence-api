@@ -1,0 +1,45 @@
+{
+  "drug_name": "Obinutuzumab",
+  "generated_at": "2026-02-06T16:38:37.797752",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 160,
+    "total_cost": 1779423,
+    "total_prescribers": 10,
+    "total_beneficiaries": 11
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 25,
+      "cost": 286639,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 13,
+      "cost": 108608,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 28,
+      "cost": 456979,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 68,
+      "cost": 681058,
+      "prescribers": 3,
+      "beneficiaries": 11
+    },
+    "NJ": {
+      "prescriptions": 26,
+      "cost": 246139,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

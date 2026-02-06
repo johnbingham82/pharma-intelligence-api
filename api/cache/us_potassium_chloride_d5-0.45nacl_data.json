@@ -1,0 +1,69 @@
+{
+  "drug_name": "Potassium Chloride/D5-0.45Nacl",
+  "generated_at": "2026-02-06T16:38:37.856715",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 511,
+    "total_cost": 24088,
+    "total_prescribers": 13,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 30,
+      "cost": 969,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 49,
+      "cost": 2904,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 40,
+      "cost": 1760,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 22,
+      "cost": 333,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 201,
+      "cost": 7745,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 67,
+      "cost": 1649,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 11,
+      "cost": 73,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 48,
+      "cost": 5665,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 43,
+      "cost": 2990,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

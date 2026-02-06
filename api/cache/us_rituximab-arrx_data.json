@@ -1,0 +1,39 @@
+{
+  "drug_name": "Rituximab-Arrx",
+  "generated_at": "2026-02-06T16:38:37.889035",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 95,
+    "total_cost": 526140,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 11,
+      "cost": 30967,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 60,
+      "cost": 426348,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 32985,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 12,
+      "cost": 35840,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

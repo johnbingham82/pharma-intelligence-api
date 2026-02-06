@@ -1,6 +1,6 @@
 {
   "drug_name": "Gabapentin",
-  "generated_at": "2026-02-06T16:18:00.186275",
+  "generated_at": "2026-02-06T16:38:37.633212",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 48856421,
       "prescribers": 25445,
       "beneficiaries": 739360
+    },
+    "NM": {
+      "prescriptions": 219068,
+      "cost": 3824379,
+      "prescribers": 2368,
+      "beneficiaries": 55805
     },
     "KY": {
       "prescriptions": 797506,
@@ -119,6 +125,12 @@
       "prescribers": 5000,
       "beneficiaries": 98810
     },
+    "ID": {
+      "prescriptions": 173510,
+      "cost": 3666299,
+      "prescribers": 2162,
+      "beneficiaries": 42318
+    },
     "WA": {
       "prescriptions": 591316,
       "cost": 13913919,
@@ -155,6 +167,12 @@
       "prescribers": 13033,
       "beneficiaries": 337279
     },
+    "AZ": {
+      "prescriptions": 624094,
+      "cost": 13274331,
+      "prescribers": 7621,
+      "beneficiaries": 191938
+    },
     "TN": {
       "prescriptions": 1025497,
       "cost": 16349208,
@@ -178,12 +196,6 @@
       "cost": 4158519,
       "prescribers": 2346,
       "beneficiaries": 43582
-    },
-    "AZ": {
-      "prescriptions": 624094,
-      "cost": 13274331,
-      "prescribers": 7621,
-      "beneficiaries": 191938
     },
     "IL": {
       "prescriptions": 1045816,
@@ -215,35 +227,23 @@
       "prescribers": 1096,
       "beneficiaries": 16127
     },
-    "LA": {
-      "prescriptions": 675677,
-      "cost": 10338255,
-      "prescribers": 5576,
-      "beneficiaries": 167756
-    },
     "RI": {
       "prescriptions": 123948,
       "cost": 2391802,
       "prescribers": 1613,
       "beneficiaries": 27189
     },
+    "LA": {
+      "prescriptions": 675677,
+      "cost": 10338255,
+      "prescribers": 5576,
+      "beneficiaries": 167756
+    },
     "WI": {
       "prescriptions": 581522,
       "cost": 12825916,
       "prescribers": 6690,
       "beneficiaries": 142771
-    },
-    "ID": {
-      "prescriptions": 173510,
-      "cost": 3666299,
-      "prescribers": 2162,
-      "beneficiaries": 42318
-    },
-    "NM": {
-      "prescriptions": 219068,
-      "cost": 3824379,
-      "prescribers": 2368,
-      "beneficiaries": 55805
     },
     "KS": {
       "prescriptions": 318762,
@@ -256,6 +256,12 @@
       "cost": 17942185,
       "prescribers": 11259,
       "beneficiaries": 249482
+    },
+    "WV": {
+      "prescriptions": 254991,
+      "cost": 4035724,
+      "prescribers": 2164,
+      "beneficiaries": 50039
     },
     "VT": {
       "prescriptions": 60735,
@@ -281,29 +287,23 @@
       "prescribers": 6994,
       "beneficiaries": 185719
     },
+    "DE": {
+      "prescriptions": 101912,
+      "cost": 2015039,
+      "prescribers": 1265,
+      "beneficiaries": 29676
+    },
     "MT": {
       "prescriptions": 109160,
       "cost": 1907598,
       "prescribers": 1396,
       "beneficiaries": 22841
     },
-    "WV": {
-      "prescriptions": 254991,
-      "cost": 4035724,
-      "prescribers": 2164,
-      "beneficiaries": 50039
-    },
     "ME": {
       "prescriptions": 139219,
       "cost": 4092980,
       "prescribers": 2066,
       "beneficiaries": 36761
-    },
-    "DE": {
-      "prescriptions": 101912,
-      "cost": 2015039,
-      "prescribers": 1265,
-      "beneficiaries": 29676
     },
     "AK": {
       "prescriptions": 37933,
@@ -335,6 +335,12 @@
       "prescribers": 15,
       "beneficiaries": 300
     },
+    "VI": {
+      "prescriptions": 2186,
+      "cost": 40190,
+      "prescribers": 48,
+      "beneficiaries": 534
+    },
     "MP": {
       "prescriptions": 57,
       "cost": 735,
@@ -346,12 +352,6 @@
       "cost": 9667,
       "prescribers": 12,
       "beneficiaries": 138
-    },
-    "VI": {
-      "prescriptions": 2186,
-      "cost": 40190,
-      "prescribers": 48,
-      "beneficiaries": 534
     },
     "AP": {
       "prescriptions": 605,

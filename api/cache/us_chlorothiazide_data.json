@@ -1,0 +1,27 @@
+{
+  "drug_name": "Chlorothiazide",
+  "generated_at": "2026-02-06T16:38:37.467687",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 34,
+    "total_cost": 1285,
+    "total_prescribers": 2,
+    "total_beneficiaries": 11
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 23,
+      "cost": 604,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "MN": {
+      "prescriptions": 11,
+      "cost": 681,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

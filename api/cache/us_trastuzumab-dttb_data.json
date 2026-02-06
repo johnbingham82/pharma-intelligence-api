@@ -1,0 +1,33 @@
+{
+  "drug_name": "Trastuzumab-Dttb",
+  "generated_at": "2026-02-06T16:38:37.966635",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 155,
+    "total_cost": 633469,
+    "total_prescribers": 11,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 12,
+      "cost": 43269,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 108,
+      "cost": 445222,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 35,
+      "cost": 144978,
+      "prescribers": 3,
+      "beneficiaries": 0
+    }
+  }
+}

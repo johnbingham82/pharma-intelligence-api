@@ -1,0 +1,75 @@
+{
+  "drug_name": "Zavegepant Hcl",
+  "generated_at": "2026-02-06T16:38:37.994727",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 230,
+    "total_cost": 280453,
+    "total_prescribers": 16,
+    "total_beneficiaries": 13
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 26,
+      "cost": 31382,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "FL": {
+      "prescriptions": 40,
+      "cost": 46262,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 13,
+      "cost": 14598,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 11,
+      "cost": 16867,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 22,
+      "cost": 32342,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 15,
+      "cost": 17923,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 43,
+      "cost": 51288,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 16,
+      "cost": 18772,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 14,
+      "cost": 16442,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 30,
+      "cost": 34577,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

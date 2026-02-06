@@ -1,0 +1,45 @@
+{
+  "drug_name": "Gauze Bandage",
+  "generated_at": "2026-02-06T16:38:37.636390",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 526,
+    "total_cost": 2824,
+    "total_prescribers": 27,
+    "total_beneficiaries": 358
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 11,
+      "cost": 25,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 22,
+      "cost": 109,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "NY": {
+      "prescriptions": 51,
+      "cost": 451,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 14,
+      "cost": 68,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 428,
+      "cost": 2171,
+      "prescribers": 21,
+      "beneficiaries": 339
+    }
+  }
+}

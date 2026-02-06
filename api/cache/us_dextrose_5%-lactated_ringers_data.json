@@ -1,0 +1,99 @@
+{
+  "drug_name": "Dextrose 5%-Lactated Ringers",
+  "generated_at": "2026-02-06T16:38:37.533926",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 914,
+    "total_cost": 48139,
+    "total_prescribers": 24,
+    "total_beneficiaries": 247
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 49,
+      "cost": 725,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 16,
+      "cost": 388,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 383,
+      "cost": 19346,
+      "prescribers": 9,
+      "beneficiaries": 247
+    },
+    "NY": {
+      "prescriptions": 83,
+      "cost": 5745,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 38,
+      "cost": 6097,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 18,
+      "cost": 690,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 48,
+      "cost": 5674,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 12,
+      "cost": 346,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 49,
+      "cost": 1528,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 38,
+      "cost": 1447,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 52,
+      "cost": 738,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 43,
+      "cost": 1185,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 43,
+      "cost": 319,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 42,
+      "cost": 3911,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

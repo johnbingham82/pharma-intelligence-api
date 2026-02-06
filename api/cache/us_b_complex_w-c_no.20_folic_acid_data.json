@@ -1,0 +1,27 @@
+{
+  "drug_name": "B Complex W-C No.20/Folic Acid",
+  "generated_at": "2026-02-06T16:38:37.414037",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 25,
+    "total_cost": 623,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 14,
+      "cost": 406,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 11,
+      "cost": 217,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

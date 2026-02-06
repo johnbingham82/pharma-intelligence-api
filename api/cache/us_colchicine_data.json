@@ -1,6 +1,6 @@
 {
   "drug_name": "Colchicine",
-  "generated_at": "2026-02-06T16:18:00.209379",
+  "generated_at": "2026-02-06T16:38:37.485797",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 2701917,
       "prescribers": 1403,
       "beneficiaries": 5290
+    },
+    "NM": {
+      "prescriptions": 1499,
+      "cost": 116355,
+      "prescribers": 88,
+      "beneficiaries": 174
     },
     "KY": {
       "prescriptions": 11528,
@@ -119,6 +125,12 @@
       "prescribers": 283,
       "beneficiaries": 606
     },
+    "ID": {
+      "prescriptions": 1980,
+      "cost": 169423,
+      "prescribers": 114,
+      "beneficiaries": 307
+    },
     "WA": {
       "prescriptions": 10457,
       "cost": 868458,
@@ -155,6 +167,12 @@
       "prescribers": 1640,
       "beneficiaries": 5444
     },
+    "AZ": {
+      "prescriptions": 4037,
+      "cost": 306372,
+      "prescribers": 215,
+      "beneficiaries": 821
+    },
     "TN": {
       "prescriptions": 16654,
       "cost": 1483321,
@@ -178,12 +196,6 @@
       "cost": 130701,
       "prescribers": 100,
       "beneficiaries": 88
-    },
-    "AZ": {
-      "prescriptions": 4037,
-      "cost": 306372,
-      "prescribers": 215,
-      "beneficiaries": 821
     },
     "IL": {
       "prescriptions": 16478,
@@ -215,35 +227,23 @@
       "prescribers": 286,
       "beneficiaries": 2172
     },
-    "LA": {
-      "prescriptions": 17233,
-      "cost": 1456475,
-      "prescribers": 707,
-      "beneficiaries": 2910
-    },
     "RI": {
       "prescriptions": 3901,
       "cost": 338162,
       "prescribers": 169,
       "beneficiaries": 594
     },
+    "LA": {
+      "prescriptions": 17233,
+      "cost": 1456475,
+      "prescribers": 707,
+      "beneficiaries": 2910
+    },
     "WI": {
       "prescriptions": 8826,
       "cost": 801002,
       "prescribers": 415,
       "beneficiaries": 1358
-    },
-    "ID": {
-      "prescriptions": 1980,
-      "cost": 169423,
-      "prescribers": 114,
-      "beneficiaries": 307
-    },
-    "NM": {
-      "prescriptions": 1499,
-      "cost": 116355,
-      "prescribers": 88,
-      "beneficiaries": 174
     },
     "KS": {
       "prescriptions": 2638,
@@ -256,6 +256,12 @@
       "cost": 1635684,
       "prescribers": 1135,
       "beneficiaries": 3163
+    },
+    "WV": {
+      "prescriptions": 3577,
+      "cost": 293440,
+      "prescribers": 186,
+      "beneficiaries": 333
     },
     "VT": {
       "prescriptions": 1017,
@@ -281,29 +287,23 @@
       "prescribers": 453,
       "beneficiaries": 808
     },
+    "DE": {
+      "prescriptions": 1494,
+      "cost": 138760,
+      "prescribers": 77,
+      "beneficiaries": 155
+    },
     "MT": {
       "prescriptions": 1539,
       "cost": 126844,
       "prescribers": 80,
       "beneficiaries": 204
     },
-    "WV": {
-      "prescriptions": 3577,
-      "cost": 293440,
-      "prescribers": 186,
-      "beneficiaries": 333
-    },
     "ME": {
       "prescriptions": 2194,
       "cost": 216461,
       "prescribers": 111,
       "beneficiaries": 551
-    },
-    "DE": {
-      "prescriptions": 1494,
-      "cost": 138760,
-      "prescribers": 77,
-      "beneficiaries": 155
     },
     "AK": {
       "prescriptions": 548,
@@ -335,16 +335,16 @@
       "prescribers": 1,
       "beneficiaries": 12
     },
-    "MP": {
-      "prescriptions": 28,
-      "cost": 1469,
-      "prescribers": 2,
-      "beneficiaries": 0
-    },
     "VI": {
       "prescriptions": 85,
       "cost": 5205,
       "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MP": {
+      "prescriptions": 28,
+      "cost": 1469,
+      "prescribers": 2,
       "beneficiaries": 0
     },
     "XX": {

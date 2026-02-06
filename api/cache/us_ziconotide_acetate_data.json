@@ -1,0 +1,21 @@
+{
+  "drug_name": "Ziconotide Acetate",
+  "generated_at": "2026-02-06T16:38:37.994877",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 11,
+    "total_cost": 38612,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 38612,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

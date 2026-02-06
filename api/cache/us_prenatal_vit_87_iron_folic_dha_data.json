@@ -1,0 +1,27 @@
+{
+  "drug_name": "Prenatal Vit 87/Iron/Folic/Dha",
+  "generated_at": "2026-02-06T16:38:37.864100",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 39,
+    "total_cost": 9479,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "WI": {
+      "prescriptions": 26,
+      "cost": 4703,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 13,
+      "cost": 4776,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

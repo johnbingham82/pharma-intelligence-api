@@ -1,0 +1,21 @@
+{
+  "drug_name": "Ergotamine Tartrate",
+  "generated_at": "2026-02-06T16:38:37.581832",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 19,
+    "total_cost": 13454,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 19,
+      "cost": 13454,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "drug_name": "Fat Emul/Soy/Mct/Oliv/Fish Oil",
+  "generated_at": "2026-02-06T16:38:37.606793",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 168,
+    "total_cost": 15265,
+    "total_prescribers": 6,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 73,
+      "cost": 6593,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 95,
+      "cost": 8672,
+      "prescribers": 3,
+      "beneficiaries": 0
+    }
+  }
+}

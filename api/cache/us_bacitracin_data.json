@@ -1,0 +1,177 @@
+{
+  "drug_name": "Bacitracin",
+  "generated_at": "2026-02-06T16:38:37.414163",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 2287,
+    "total_cost": 244319,
+    "total_prescribers": 113,
+    "total_beneficiaries": 1236
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 175,
+      "cost": 16419,
+      "prescribers": 6,
+      "beneficiaries": 154
+    },
+    "PA": {
+      "prescriptions": 140,
+      "cost": 15218,
+      "prescribers": 9,
+      "beneficiaries": 33
+    },
+    "FL": {
+      "prescriptions": 170,
+      "cost": 16298,
+      "prescribers": 11,
+      "beneficiaries": 95
+    },
+    "TX": {
+      "prescriptions": 153,
+      "cost": 14498,
+      "prescribers": 10,
+      "beneficiaries": 103
+    },
+    "KY": {
+      "prescriptions": 99,
+      "cost": 9688,
+      "prescribers": 5,
+      "beneficiaries": 68
+    },
+    "CT": {
+      "prescriptions": 55,
+      "cost": 5488,
+      "prescribers": 4,
+      "beneficiaries": 11
+    },
+    "CA": {
+      "prescriptions": 518,
+      "cost": 58095,
+      "prescribers": 19,
+      "beneficiaries": 325
+    },
+    "NY": {
+      "prescriptions": 238,
+      "cost": 29326,
+      "prescribers": 12,
+      "beneficiaries": 88
+    },
+    "NJ": {
+      "prescriptions": 103,
+      "cost": 11114,
+      "prescribers": 4,
+      "beneficiaries": 48
+    },
+    "MA": {
+      "prescriptions": 23,
+      "cost": 2315,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "MS": {
+      "prescriptions": 42,
+      "cost": 4700,
+      "prescribers": 2,
+      "beneficiaries": 22
+    },
+    "VA": {
+      "prescriptions": 23,
+      "cost": 2279,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 60,
+      "cost": 6783,
+      "prescribers": 2,
+      "beneficiaries": 43
+    },
+    "WA": {
+      "prescriptions": 60,
+      "cost": 6181,
+      "prescribers": 2,
+      "beneficiaries": 45
+    },
+    "MN": {
+      "prescriptions": 71,
+      "cost": 7299,
+      "prescribers": 4,
+      "beneficiaries": 23
+    },
+    "GA": {
+      "prescriptions": 12,
+      "cost": 1230,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 37,
+      "cost": 3588,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 24,
+      "cost": 3049,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "NE": {
+      "prescriptions": 24,
+      "cost": 3068,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 48,
+      "cost": 5048,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 38,
+      "cost": 3002,
+      "prescribers": 2,
+      "beneficiaries": 30
+    },
+    "AL": {
+      "prescriptions": 89,
+      "cost": 9031,
+      "prescribers": 2,
+      "beneficiaries": 81
+    },
+    "AR": {
+      "prescriptions": 25,
+      "cost": 2488,
+      "prescribers": 1,
+      "beneficiaries": 23
+    },
+    "HI": {
+      "prescriptions": 19,
+      "cost": 3759,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "WI": {
+      "prescriptions": 14,
+      "cost": 1680,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 16,
+      "cost": 1562,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ME": {
+      "prescriptions": 11,
+      "cost": 1113,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

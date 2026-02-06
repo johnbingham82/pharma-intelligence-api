@@ -1,0 +1,45 @@
+{
+  "drug_name": "Sotagliflozin",
+  "generated_at": "2026-02-06T16:38:37.920091",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 146,
+    "total_cost": 131664,
+    "total_prescribers": 8,
+    "total_beneficiaries": 21
+  },
+  "by_state": {
+    "KY": {
+      "prescriptions": 15,
+      "cost": 10876,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 13,
+      "cost": 15104,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 39,
+      "cost": 35923,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 66,
+      "cost": 54761,
+      "prescribers": 2,
+      "beneficiaries": 21
+    },
+    "NJ": {
+      "prescriptions": 13,
+      "cost": 15000,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

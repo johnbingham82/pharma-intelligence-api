@@ -1,0 +1,81 @@
+{
+  "drug_name": "Cefoxitin Sodium",
+  "generated_at": "2026-02-06T16:38:37.458420",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 386,
+    "total_cost": 125432,
+    "total_prescribers": 26,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 67,
+      "cost": 27704,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 133,
+      "cost": 49313,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 11,
+      "cost": 2808,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 15,
+      "cost": 4920,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 27,
+      "cost": 8820,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 27,
+      "cost": 5202,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 27,
+      "cost": 5613,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "ND": {
+      "prescriptions": 12,
+      "cost": 143,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 27,
+      "cost": 12086,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "RI": {
+      "prescriptions": 27,
+      "cost": 8172,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 13,
+      "cost": 651,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

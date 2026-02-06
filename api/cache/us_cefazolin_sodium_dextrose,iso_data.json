@@ -1,0 +1,81 @@
+{
+  "drug_name": "Cefazolin Sodium/Dextrose,Iso",
+  "generated_at": "2026-02-06T16:38:37.456125",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 301,
+    "total_cost": 29038,
+    "total_prescribers": 20,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 40,
+      "cost": 2868,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 16,
+      "cost": 2406,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 12,
+      "cost": 2609,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 17,
+      "cost": 1791,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 11,
+      "cost": 1281,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 1204,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 11,
+      "cost": 689,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 58,
+      "cost": 6052,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 60,
+      "cost": 4626,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 37,
+      "cost": 3031,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 27,
+      "cost": 2481,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

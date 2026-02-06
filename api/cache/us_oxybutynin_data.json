@@ -1,6 +1,6 @@
 {
   "drug_name": "Oxybutynin",
-  "generated_at": "2026-02-06T16:18:00.208180",
+  "generated_at": "2026-02-06T16:38:37.816774",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -38,6 +38,12 @@
     "TX": {
       "prescriptions": 13,
       "cost": 9418,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NM": {
+      "prescriptions": 13,
+      "cost": 9384,
       "prescribers": 1,
       "beneficiaries": 0
     },
@@ -122,12 +128,6 @@
     "RI": {
       "prescriptions": 13,
       "cost": 8175,
-      "prescribers": 1,
-      "beneficiaries": 0
-    },
-    "NM": {
-      "prescriptions": 13,
-      "cost": 9384,
       "prescribers": 1,
       "beneficiaries": 0
     },

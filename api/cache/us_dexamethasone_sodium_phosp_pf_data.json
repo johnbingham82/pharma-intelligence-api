@@ -1,0 +1,117 @@
+{
+  "drug_name": "Dexamethasone Sodium Phosp/Pf",
+  "generated_at": "2026-02-06T16:38:37.528728",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 2594,
+    "total_cost": 36347,
+    "total_prescribers": 72,
+    "total_beneficiaries": 1061
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 119,
+      "cost": 4465,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 693,
+      "cost": 4489,
+      "prescribers": 11,
+      "beneficiaries": 549
+    },
+    "FL": {
+      "prescriptions": 435,
+      "cost": 4404,
+      "prescribers": 12,
+      "beneficiaries": 72
+    },
+    "TX": {
+      "prescriptions": 96,
+      "cost": 764,
+      "prescribers": 4,
+      "beneficiaries": 39
+    },
+    "CA": {
+      "prescriptions": 81,
+      "cost": 1012,
+      "prescribers": 4,
+      "beneficiaries": 13
+    },
+    "NY": {
+      "prescriptions": 400,
+      "cost": 11125,
+      "prescribers": 10,
+      "beneficiaries": 103
+    },
+    "NJ": {
+      "prescriptions": 220,
+      "cost": 1993,
+      "prescribers": 12,
+      "beneficiaries": 15
+    },
+    "WA": {
+      "prescriptions": 36,
+      "cost": 328,
+      "prescribers": 1,
+      "beneficiaries": 24
+    },
+    "MN": {
+      "prescriptions": 23,
+      "cost": 171,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "DC": {
+      "prescriptions": 30,
+      "cost": 275,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 19,
+      "cost": 219,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "LA": {
+      "prescriptions": 107,
+      "cost": 1096,
+      "prescribers": 1,
+      "beneficiaries": 37
+    },
+    "KS": {
+      "prescriptions": 16,
+      "cost": 82,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 34,
+      "cost": 542,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "UT": {
+      "prescriptions": 233,
+      "cost": 3285,
+      "prescribers": 5,
+      "beneficiaries": 143
+    },
+    "PR": {
+      "prescriptions": 23,
+      "cost": 297,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "MO": {
+      "prescriptions": 29,
+      "cost": 1800,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

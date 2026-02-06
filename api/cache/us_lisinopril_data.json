@@ -1,6 +1,6 @@
 {
   "drug_name": "Lisinopril",
-  "generated_at": "2026-02-06T16:18:00.177256",
+  "generated_at": "2026-02-06T16:38:37.718635",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 20954324,
       "prescribers": 21209,
       "beneficiaries": 736824
+    },
+    "NM": {
+      "prescriptions": 252071,
+      "cost": 2669114,
+      "prescribers": 2134,
+      "beneficiaries": 79428
     },
     "KY": {
       "prescriptions": 736161,
@@ -119,6 +125,12 @@
       "prescribers": 4460,
       "beneficiaries": 148278
     },
+    "ID": {
+      "prescriptions": 193825,
+      "cost": 1529524,
+      "prescribers": 1823,
+      "beneficiaries": 56238
+    },
     "WA": {
       "prescriptions": 792799,
       "cost": 7699015,
@@ -155,6 +167,12 @@
       "prescribers": 10195,
       "beneficiaries": 314243
     },
+    "AZ": {
+      "prescriptions": 790171,
+      "cost": 7028413,
+      "prescribers": 6561,
+      "beneficiaries": 257067
+    },
     "TN": {
       "prescriptions": 870144,
       "cost": 7081523,
@@ -178,12 +196,6 @@
       "cost": 2039213,
       "prescribers": 2018,
       "beneficiaries": 53614
-    },
-    "AZ": {
-      "prescriptions": 790171,
-      "cost": 7028413,
-      "prescribers": 6561,
-      "beneficiaries": 257067
     },
     "IL": {
       "prescriptions": 1301374,
@@ -215,35 +227,23 @@
       "prescribers": 1069,
       "beneficiaries": 28833
     },
-    "LA": {
-      "prescriptions": 451607,
-      "cost": 3365564,
-      "prescribers": 4325,
-      "beneficiaries": 121406
-    },
     "RI": {
       "prescriptions": 169236,
       "cost": 1826580,
       "prescribers": 1315,
       "beneficiaries": 46036
     },
+    "LA": {
+      "prescriptions": 451607,
+      "cost": 3365564,
+      "prescribers": 4325,
+      "beneficiaries": 121406
+    },
     "WI": {
       "prescriptions": 751671,
       "cost": 6554408,
       "prescribers": 5824,
       "beneficiaries": 213057
-    },
-    "ID": {
-      "prescriptions": 193825,
-      "cost": 1529524,
-      "prescribers": 1823,
-      "beneficiaries": 56238
-    },
-    "NM": {
-      "prescriptions": 252071,
-      "cost": 2669114,
-      "prescribers": 2134,
-      "beneficiaries": 79428
     },
     "KS": {
       "prescriptions": 359699,
@@ -256,6 +256,12 @@
       "cost": 14883894,
       "prescribers": 10920,
       "beneficiaries": 404679
+    },
+    "WV": {
+      "prescriptions": 278037,
+      "cost": 2097826,
+      "prescribers": 2195,
+      "beneficiaries": 78758
     },
     "VT": {
       "prescriptions": 82412,
@@ -281,29 +287,23 @@
       "prescribers": 5977,
       "beneficiaries": 242961
     },
+    "DE": {
+      "prescriptions": 110282,
+      "cost": 1024748,
+      "prescribers": 1012,
+      "beneficiaries": 33363
+    },
     "MT": {
       "prescriptions": 128806,
       "cost": 1117993,
       "prescribers": 1227,
       "beneficiaries": 32907
     },
-    "WV": {
-      "prescriptions": 278037,
-      "cost": 2097826,
-      "prescribers": 2195,
-      "beneficiaries": 78758
-    },
     "ME": {
       "prescriptions": 231973,
       "cost": 2048330,
       "prescribers": 1940,
       "beneficiaries": 72073
-    },
-    "DE": {
-      "prescriptions": 110282,
-      "cost": 1024748,
-      "prescribers": 1012,
-      "beneficiaries": 33363
     },
     "AK": {
       "prescriptions": 50908,
@@ -335,6 +335,12 @@
       "prescribers": 16,
       "beneficiaries": 309
     },
+    "VI": {
+      "prescriptions": 3157,
+      "cost": 36747,
+      "prescribers": 54,
+      "beneficiaries": 609
+    },
     "MP": {
       "prescriptions": 322,
       "cost": 2660,
@@ -346,12 +352,6 @@
       "cost": 4958,
       "prescribers": 9,
       "beneficiaries": 144
-    },
-    "VI": {
-      "prescriptions": 3157,
-      "cost": 36747,
-      "prescribers": 54,
-      "beneficiaries": 609
     },
     "AP": {
       "prescriptions": 346,

@@ -1,0 +1,51 @@
+{
+  "drug_name": "Artemether/Lumefantrine",
+  "generated_at": "2026-02-06T16:38:37.401776",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 112,
+    "total_cost": 40034,
+    "total_prescribers": 8,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 14,
+      "cost": 7780,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 15,
+      "cost": 10194,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 30,
+      "cost": 6615,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 15,
+      "cost": 5917,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 11,
+      "cost": 1858,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 27,
+      "cost": 7670,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

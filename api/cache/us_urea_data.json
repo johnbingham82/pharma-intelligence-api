@@ -1,0 +1,33 @@
+{
+  "drug_name": "Urea",
+  "generated_at": "2026-02-06T16:38:37.978607",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 53,
+    "total_cost": 5580,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 29,
+      "cost": 3066,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NM": {
+      "prescriptions": 13,
+      "cost": 1730,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 11,
+      "cost": 784,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

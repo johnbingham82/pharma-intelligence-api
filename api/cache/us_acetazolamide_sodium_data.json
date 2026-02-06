@@ -1,0 +1,21 @@
+{
+  "drug_name": "Acetazolamide Sodium",
+  "generated_at": "2026-02-06T16:38:37.371873",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 17,
+    "total_cost": 8835,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "GA": {
+      "prescriptions": 17,
+      "cost": 8835,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

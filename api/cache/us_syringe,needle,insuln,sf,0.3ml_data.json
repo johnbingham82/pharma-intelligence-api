@@ -1,0 +1,87 @@
+{
+  "drug_name": "Syringe,Needle,Insuln,Sf,0.3Ml",
+  "generated_at": "2026-02-06T16:38:37.930884",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 260,
+    "total_cost": 11836,
+    "total_prescribers": 19,
+    "total_beneficiaries": 13
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 178,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 12,
+      "cost": 591,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 71,
+      "cost": 2214,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 26,
+      "cost": 1450,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 16,
+      "cost": 911,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 33,
+      "cost": 2172,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "NE": {
+      "prescriptions": 11,
+      "cost": 647,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 11,
+      "cost": 607,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 11,
+      "cost": 609,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 13,
+      "cost": 738,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 26,
+      "cost": 1108,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "SD": {
+      "prescriptions": 18,
+      "cost": 611,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

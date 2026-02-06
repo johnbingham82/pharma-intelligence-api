@@ -1,0 +1,99 @@
+{
+  "drug_name": "Syringe,Insul U-500,Ndl,0.5Ml",
+  "generated_at": "2026-02-06T16:38:37.929934",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 554,
+    "total_cost": 24498,
+    "total_prescribers": 35,
+    "total_beneficiaries": 11
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 35,
+      "cost": 1276,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 25,
+      "cost": 1067,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 22,
+      "cost": 1149,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 39,
+      "cost": 1760,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 101,
+      "cost": 5624,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 13,
+      "cost": 556,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 19,
+      "cost": 837,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 37,
+      "cost": 1887,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 24,
+      "cost": 1238,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 36,
+      "cost": 1757,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 22,
+      "cost": 1070,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 24,
+      "cost": 1006,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 15,
+      "cost": 764,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 142,
+      "cost": 4507,
+      "prescribers": 6,
+      "beneficiaries": 11
+    }
+  }
+}

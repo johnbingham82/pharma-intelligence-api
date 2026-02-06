@@ -1,6 +1,6 @@
 {
   "drug_name": "Hydrochlorothiazide",
-  "generated_at": "2026-02-06T16:18:00.182202",
+  "generated_at": "2026-02-06T16:38:37.654490",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 5797625,
       "prescribers": 16485,
       "beneficiaries": 330079
+    },
+    "NM": {
+      "prescriptions": 90381,
+      "cost": 529845,
+      "prescribers": 1483,
+      "beneficiaries": 26420
     },
     "KY": {
       "prescriptions": 331045,
@@ -119,6 +125,12 @@
       "prescribers": 3296,
       "beneficiaries": 57305
     },
+    "ID": {
+      "prescriptions": 89512,
+      "cost": 453241,
+      "prescribers": 1440,
+      "beneficiaries": 24558
+    },
     "WA": {
       "prescriptions": 315191,
       "cost": 1836185,
@@ -155,6 +167,12 @@
       "prescribers": 8210,
       "beneficiaries": 186544
     },
+    "AZ": {
+      "prescriptions": 295756,
+      "cost": 1532314,
+      "prescribers": 4753,
+      "beneficiaries": 92318
+    },
     "TN": {
       "prescriptions": 427996,
       "cost": 2147953,
@@ -178,12 +196,6 @@
       "cost": 539360,
       "prescribers": 1556,
       "beneficiaries": 24215
-    },
-    "AZ": {
-      "prescriptions": 295756,
-      "cost": 1532314,
-      "prescribers": 4753,
-      "beneficiaries": 92318
     },
     "IL": {
       "prescriptions": 681598,
@@ -215,35 +227,23 @@
       "prescribers": 748,
       "beneficiaries": 10744
     },
-    "LA": {
-      "prescriptions": 342778,
-      "cost": 1521246,
-      "prescribers": 3749,
-      "beneficiaries": 93390
-    },
     "RI": {
       "prescriptions": 75167,
       "cost": 361341,
       "prescribers": 984,
       "beneficiaries": 20448
     },
+    "LA": {
+      "prescriptions": 342778,
+      "cost": 1521246,
+      "prescribers": 3749,
+      "beneficiaries": 93390
+    },
     "WI": {
       "prescriptions": 374398,
       "cost": 1891126,
       "prescribers": 4638,
       "beneficiaries": 106524
-    },
-    "ID": {
-      "prescriptions": 89512,
-      "cost": 453241,
-      "prescribers": 1440,
-      "beneficiaries": 24558
-    },
-    "NM": {
-      "prescriptions": 90381,
-      "cost": 529845,
-      "prescribers": 1483,
-      "beneficiaries": 26420
     },
     "KS": {
       "prescriptions": 165723,
@@ -256,6 +256,12 @@
       "cost": 3359376,
       "prescribers": 8477,
       "beneficiaries": 164467
+    },
+    "WV": {
+      "prescriptions": 128010,
+      "cost": 587430,
+      "prescribers": 1709,
+      "beneficiaries": 36253
     },
     "VT": {
       "prescriptions": 40208,
@@ -281,29 +287,23 @@
       "prescribers": 4635,
       "beneficiaries": 105820
     },
+    "DE": {
+      "prescriptions": 65113,
+      "cost": 387480,
+      "prescribers": 862,
+      "beneficiaries": 19414
+    },
     "MT": {
       "prescriptions": 60022,
       "cost": 292962,
       "prescribers": 956,
       "beneficiaries": 14749
     },
-    "WV": {
-      "prescriptions": 128010,
-      "cost": 587430,
-      "prescribers": 1709,
-      "beneficiaries": 36253
-    },
     "ME": {
       "prescriptions": 103200,
       "cost": 502226,
       "prescribers": 1463,
       "beneficiaries": 31259
-    },
-    "DE": {
-      "prescriptions": 65113,
-      "cost": 387480,
-      "prescribers": 862,
-      "beneficiaries": 19414
     },
     "AK": {
       "prescriptions": 17971,
@@ -335,6 +335,12 @@
       "prescribers": 12,
       "beneficiaries": 132
     },
+    "VI": {
+      "prescriptions": 3246,
+      "cost": 24016,
+      "prescribers": 49,
+      "beneficiaries": 640
+    },
     "MP": {
       "prescriptions": 105,
       "cost": 634,
@@ -346,12 +352,6 @@
       "cost": 2610,
       "prescribers": 7,
       "beneficiaries": 101
-    },
-    "VI": {
-      "prescriptions": 3246,
-      "cost": 24016,
-      "prescribers": 49,
-      "beneficiaries": 640
     },
     "AP": {
       "prescriptions": 269,

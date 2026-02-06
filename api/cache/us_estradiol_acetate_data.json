@@ -1,0 +1,99 @@
+{
+  "drug_name": "Estradiol Acetate",
+  "generated_at": "2026-02-06T16:38:37.588686",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 950,
+    "total_cost": 705678,
+    "total_prescribers": 45,
+    "total_beneficiaries": 98
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 49,
+      "cost": 37714,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "PA": {
+      "prescriptions": 11,
+      "cost": 8032,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 19,
+      "cost": 15434,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 40,
+      "cost": 29895,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 25,
+      "cost": 19171,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 400,
+      "cost": 294587,
+      "prescribers": 17,
+      "beneficiaries": 55
+    },
+    "NY": {
+      "prescriptions": 46,
+      "cost": 32778,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 36,
+      "cost": 27674,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 12,
+      "cost": 8634,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 18,
+      "cost": 12483,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 51,
+      "cost": 38893,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 57,
+      "cost": 44308,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 51,
+      "cost": 37950,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 135,
+      "cost": 98125,
+      "prescribers": 3,
+      "beneficiaries": 31
+    }
+  }
+}

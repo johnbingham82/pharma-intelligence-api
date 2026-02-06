@@ -1,0 +1,51 @@
+{
+  "drug_name": "Panitumumab",
+  "generated_at": "2026-02-06T16:38:37.823294",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 200,
+    "total_cost": 1738757,
+    "total_prescribers": 9,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "NV": {
+      "prescriptions": 28,
+      "cost": 137470,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 82286,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 59,
+      "cost": 269005,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 23,
+      "cost": 230204,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 58,
+      "cost": 919205,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 20,
+      "cost": 100587,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "drug_name": "Balanced Salt Irrig Soln No.2",
+  "generated_at": "2026-02-06T16:38:37.415260",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 54,
+    "total_cost": 499,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 62,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 32,
+      "cost": 335,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 11,
+      "cost": 102,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

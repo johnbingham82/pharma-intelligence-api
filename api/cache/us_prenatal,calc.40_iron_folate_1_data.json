@@ -1,0 +1,27 @@
+{
+  "drug_name": "Prenatal,Calc.40/Iron/Folate 1",
+  "generated_at": "2026-02-06T16:38:37.864751",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 25,
+    "total_cost": 912,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 362,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 14,
+      "cost": 550,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

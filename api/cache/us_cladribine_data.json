@@ -1,0 +1,123 @@
+{
+  "drug_name": "Cladribine",
+  "generated_at": "2026-02-06T16:38:37.476577",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 496,
+    "total_cost": 36686572,
+    "total_prescribers": 28,
+    "total_beneficiaries": 118
+  },
+  "by_state": {
+    "CO": {
+      "prescriptions": 30,
+      "cost": 2071544,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 38,
+      "cost": 2829865,
+      "prescribers": 2,
+      "beneficiaries": 15
+    },
+    "OK": {
+      "prescriptions": 35,
+      "cost": 2752220,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 84,
+      "cost": 6463493,
+      "prescribers": 4,
+      "beneficiaries": 22
+    },
+    "TX": {
+      "prescriptions": 25,
+      "cost": 2041877,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 892912,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 744099,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 13,
+      "cost": 831929,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 11,
+      "cost": 755234,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 13,
+      "cost": 934031,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 33,
+      "cost": 2640572,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "IA": {
+      "prescriptions": 22,
+      "cost": 1789807,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "IN": {
+      "prescriptions": 33,
+      "cost": 2734893,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "AL": {
+      "prescriptions": 24,
+      "cost": 1661034,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 12,
+      "cost": 963695,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 17,
+      "cost": 1259829,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 71,
+      "cost": 4458033,
+      "prescribers": 2,
+      "beneficiaries": 31
+    },
+    "MO": {
+      "prescriptions": 12,
+      "cost": 861505,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

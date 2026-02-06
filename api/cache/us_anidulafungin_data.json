@@ -1,0 +1,51 @@
+{
+  "drug_name": "Anidulafungin",
+  "generated_at": "2026-02-06T16:38:37.397757",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 234,
+    "total_cost": 140919,
+    "total_prescribers": 10,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 13,
+      "cost": 19361,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 31,
+      "cost": 15550,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 47,
+      "cost": 19493,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 76,
+      "cost": 23334,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 13,
+      "cost": 17601,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 54,
+      "cost": 45580,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

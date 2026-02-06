@@ -1,0 +1,27 @@
+{
+  "drug_name": "Maralixibat Chloride",
+  "generated_at": "2026-02-06T16:38:37.728397",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 25,
+    "total_cost": 2519524,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 13,
+      "cost": 1714046,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 805478,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

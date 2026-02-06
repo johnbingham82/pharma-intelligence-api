@@ -1,0 +1,39 @@
+{
+  "drug_name": "Pertuzumab-Trastuzumab-Hy-Zzxf",
+  "generated_at": "2026-02-06T16:38:37.840483",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 71,
+    "total_cost": 627323,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 18,
+      "cost": 161508,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 25,
+      "cost": 229160,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 15,
+      "cost": 114739,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 13,
+      "cost": 121916,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

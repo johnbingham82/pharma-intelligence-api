@@ -1,6 +1,6 @@
 {
   "drug_name": "Simvastatin",
-  "generated_at": "2026-02-06T16:18:00.178522",
+  "generated_at": "2026-02-06T16:38:37.907757",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 9780651,
       "prescribers": 13635,
       "beneficiaries": 243949
+    },
+    "NM": {
+      "prescriptions": 82483,
+      "cost": 1090641,
+      "prescribers": 1317,
+      "beneficiaries": 22086
     },
     "KY": {
       "prescriptions": 252500,
@@ -119,6 +125,12 @@
       "prescribers": 2710,
       "beneficiaries": 39135
     },
+    "ID": {
+      "prescriptions": 68465,
+      "cost": 641990,
+      "prescribers": 1183,
+      "beneficiaries": 16539
+    },
     "WA": {
       "prescriptions": 243265,
       "cost": 2715365,
@@ -155,6 +167,12 @@
       "prescribers": 6541,
       "beneficiaries": 112163
     },
+    "AZ": {
+      "prescriptions": 280752,
+      "cost": 3001040,
+      "prescribers": 4212,
+      "beneficiaries": 80540
+    },
     "TN": {
       "prescriptions": 336096,
       "cost": 3175158,
@@ -178,12 +196,6 @@
       "cost": 1178699,
       "prescribers": 1444,
       "beneficiaries": 24056
-    },
-    "AZ": {
-      "prescriptions": 280752,
-      "cost": 3001040,
-      "prescribers": 4212,
-      "beneficiaries": 80540
     },
     "IL": {
       "prescriptions": 554610,
@@ -215,35 +227,23 @@
       "prescribers": 726,
       "beneficiaries": 15312
     },
-    "LA": {
-      "prescriptions": 164863,
-      "cost": 1464625,
-      "prescribers": 2559,
-      "beneficiaries": 36660
-    },
     "RI": {
       "prescriptions": 58823,
       "cost": 727584,
       "prescribers": 803,
       "beneficiaries": 14441
     },
+    "LA": {
+      "prescriptions": 164863,
+      "cost": 1464625,
+      "prescribers": 2559,
+      "beneficiaries": 36660
+    },
     "WI": {
       "prescriptions": 350978,
       "cost": 3822948,
       "prescribers": 4139,
       "beneficiaries": 90333
-    },
-    "ID": {
-      "prescriptions": 68465,
-      "cost": 641990,
-      "prescribers": 1183,
-      "beneficiaries": 16539
-    },
-    "NM": {
-      "prescriptions": 82483,
-      "cost": 1090641,
-      "prescribers": 1317,
-      "beneficiaries": 22086
     },
     "KS": {
       "prescriptions": 166869,
@@ -256,6 +256,12 @@
       "cost": 8237934,
       "prescribers": 7540,
       "beneficiaries": 158892
+    },
+    "WV": {
+      "prescriptions": 103090,
+      "cost": 903474,
+      "prescribers": 1440,
+      "beneficiaries": 25379
     },
     "VT": {
       "prescriptions": 39246,
@@ -281,29 +287,23 @@
       "prescribers": 3704,
       "beneficiaries": 72172
     },
+    "DE": {
+      "prescriptions": 40192,
+      "cost": 454571,
+      "prescribers": 686,
+      "beneficiaries": 10643
+    },
     "MT": {
       "prescriptions": 56880,
       "cost": 546315,
       "prescribers": 829,
       "beneficiaries": 12678
     },
-    "WV": {
-      "prescriptions": 103090,
-      "cost": 903474,
-      "prescribers": 1440,
-      "beneficiaries": 25379
-    },
     "ME": {
       "prescriptions": 84579,
       "cost": 894657,
       "prescribers": 1338,
       "beneficiaries": 23248
-    },
-    "DE": {
-      "prescriptions": 40192,
-      "cost": 454571,
-      "prescribers": 686,
-      "beneficiaries": 10643
     },
     "AK": {
       "prescriptions": 10536,
@@ -335,6 +335,12 @@
       "prescribers": 10,
       "beneficiaries": 122
     },
+    "VI": {
+      "prescriptions": 3058,
+      "cost": 38316,
+      "prescribers": 42,
+      "beneficiaries": 510
+    },
     "MP": {
       "prescriptions": 35,
       "cost": 454,
@@ -346,12 +352,6 @@
       "cost": 2710,
       "prescribers": 3,
       "beneficiaries": 67
-    },
-    "VI": {
-      "prescriptions": 3058,
-      "cost": 38316,
-      "prescribers": 42,
-      "beneficiaries": 510
     },
     "AP": {
       "prescriptions": 112,

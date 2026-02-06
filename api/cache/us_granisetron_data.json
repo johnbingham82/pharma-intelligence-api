@@ -1,0 +1,123 @@
+{
+  "drug_name": "Granisetron",
+  "generated_at": "2026-02-06T16:38:37.646252",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1246,
+    "total_cost": 2486405,
+    "total_prescribers": 52,
+    "total_beneficiaries": 205
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 17,
+      "cost": 11427,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 13,
+      "cost": 36775,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 28,
+      "cost": 33078,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 150,
+      "cost": 401788,
+      "prescribers": 2,
+      "beneficiaries": 40
+    },
+    "FL": {
+      "prescriptions": 13,
+      "cost": 20841,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 104,
+      "cost": 120518,
+      "prescribers": 2,
+      "beneficiaries": 26
+    },
+    "KY": {
+      "prescriptions": 31,
+      "cost": 256314,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 27,
+      "cost": 26995,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 101,
+      "cost": 145374,
+      "prescribers": 5,
+      "beneficiaries": 23
+    },
+    "NY": {
+      "prescriptions": 69,
+      "cost": 172972,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 266,
+      "cost": 406361,
+      "prescribers": 11,
+      "beneficiaries": 41
+    },
+    "VA": {
+      "prescriptions": 70,
+      "cost": 74023,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 86,
+      "cost": 103712,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "IN": {
+      "prescriptions": 51,
+      "cost": 143910,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 144,
+      "cost": 402738,
+      "prescribers": 7,
+      "beneficiaries": 64
+    },
+    "HI": {
+      "prescriptions": 34,
+      "cost": 29045,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 12,
+      "cost": 23594,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 30,
+      "cost": 76940,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "drug_name": "Orlistat",
+  "generated_at": "2026-02-06T16:38:37.812406",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 24,
+    "total_cost": 17200,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MN": {
+      "prescriptions": 13,
+      "cost": 9343,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 11,
+      "cost": 7857,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

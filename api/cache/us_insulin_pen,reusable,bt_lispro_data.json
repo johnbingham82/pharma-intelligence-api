@@ -1,0 +1,39 @@
+{
+  "drug_name": "Insulin Pen,Reusable,Bt Lispro",
+  "generated_at": "2026-02-06T16:38:37.680822",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 78,
+    "total_cost": 82242,
+    "total_prescribers": 5,
+    "total_beneficiaries": 72
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 10178,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "TX": {
+      "prescriptions": 17,
+      "cost": 15654,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "KY": {
+      "prescriptions": 24,
+      "cost": 32226,
+      "prescribers": 1,
+      "beneficiaries": 23
+    },
+    "NC": {
+      "prescriptions": 26,
+      "cost": 24184,
+      "prescribers": 2,
+      "beneficiaries": 23
+    }
+  }
+}

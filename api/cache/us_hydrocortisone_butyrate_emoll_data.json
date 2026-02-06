@@ -1,0 +1,33 @@
+{
+  "drug_name": "Hydrocortisone Butyrate/Emoll",
+  "generated_at": "2026-02-06T16:38:37.657120",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 43,
+    "total_cost": 2705,
+    "total_prescribers": 3,
+    "total_beneficiaries": 16
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 18,
+      "cost": 960,
+      "prescribers": 1,
+      "beneficiaries": 16
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 1052,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 13,
+      "cost": 693,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

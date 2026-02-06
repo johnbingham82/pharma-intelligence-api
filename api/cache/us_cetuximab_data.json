@@ -1,0 +1,69 @@
+{
+  "drug_name": "Cetuximab",
+  "generated_at": "2026-02-06T16:38:37.465024",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 399,
+    "total_cost": 2980072,
+    "total_prescribers": 17,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 110,
+      "cost": 367375,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 15,
+      "cost": 48172,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 81,
+      "cost": 853875,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 74,
+      "cost": 909144,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 14,
+      "cost": 79220,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 25,
+      "cost": 182382,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 12,
+      "cost": 103308,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 18,
+      "cost": 183703,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 50,
+      "cost": 252893,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

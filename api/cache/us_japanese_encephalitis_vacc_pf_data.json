@@ -1,0 +1,93 @@
+{
+  "drug_name": "Japanese Encephalitis Vacc/Pf",
+  "generated_at": "2026-02-06T16:38:37.692383",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 424,
+    "total_cost": 147443,
+    "total_prescribers": 18,
+    "total_beneficiaries": 237
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 36,
+      "cost": 11730,
+      "prescribers": 1,
+      "beneficiaries": 22
+    },
+    "CO": {
+      "prescriptions": 23,
+      "cost": 7581,
+      "prescribers": 1,
+      "beneficiaries": 17
+    },
+    "FL": {
+      "prescriptions": 58,
+      "cost": 18867,
+      "prescribers": 1,
+      "beneficiaries": 40
+    },
+    "TX": {
+      "prescriptions": 66,
+      "cost": 21264,
+      "prescribers": 2,
+      "beneficiaries": 48
+    },
+    "CA": {
+      "prescriptions": 81,
+      "cost": 25738,
+      "prescribers": 3,
+      "beneficiaries": 45
+    },
+    "VA": {
+      "prescriptions": 19,
+      "cost": 6201,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "WA": {
+      "prescriptions": 16,
+      "cost": 5541,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 19,
+      "cost": 9585,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 3964,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 17,
+      "cost": 5659,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "HI": {
+      "prescriptions": 21,
+      "cost": 6598,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "RI": {
+      "prescriptions": 13,
+      "cost": 8716,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 43,
+      "cost": 15999,
+      "prescribers": 3,
+      "beneficiaries": 13
+    }
+  }
+}

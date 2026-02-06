@@ -1,0 +1,129 @@
+{
+  "drug_name": "Serdexmethylphen/Dexmethylphen",
+  "generated_at": "2026-02-06T16:38:37.904499",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 768,
+    "total_cost": 321449,
+    "total_prescribers": 57,
+    "total_beneficiaries": 14
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 36,
+      "cost": 14292,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 14,
+      "cost": 5492,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 73,
+      "cost": 29673,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 35,
+      "cost": 14680,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 82,
+      "cost": 34659,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 46,
+      "cost": 19810,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 45,
+      "cost": 18120,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 23,
+      "cost": 11680,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 37,
+      "cost": 15065,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 13,
+      "cost": 5578,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 46,
+      "cost": 18372,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 94,
+      "cost": 39771,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 11,
+      "cost": 4522,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 26,
+      "cost": 10611,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 86,
+      "cost": 36962,
+      "prescribers": 4,
+      "beneficiaries": 14
+    },
+    "WI": {
+      "prescriptions": 36,
+      "cost": 15333,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 14,
+      "cost": 5433,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 13,
+      "cost": 5550,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 38,
+      "cost": 15846,
+      "prescribers": 3,
+      "beneficiaries": 0
+    }
+  }
+}

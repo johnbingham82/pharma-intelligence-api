@@ -1,0 +1,129 @@
+{
+  "drug_name": "Cefixime",
+  "generated_at": "2026-02-06T16:38:37.458217",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1483,
+    "total_cost": 165494,
+    "total_prescribers": 67,
+    "total_beneficiaries": 974
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 35,
+      "cost": 4830,
+      "prescribers": 2,
+      "beneficiaries": 30
+    },
+    "CO": {
+      "prescriptions": 15,
+      "cost": 1395,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 16,
+      "cost": 729,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 11,
+      "cost": 1302,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 253,
+      "cost": 33081,
+      "prescribers": 15,
+      "beneficiaries": 150
+    },
+    "TX": {
+      "prescriptions": 533,
+      "cost": 23856,
+      "prescribers": 14,
+      "beneficiaries": 467
+    },
+    "CA": {
+      "prescriptions": 124,
+      "cost": 25984,
+      "prescribers": 8,
+      "beneficiaries": 64
+    },
+    "NY": {
+      "prescriptions": 138,
+      "cost": 7237,
+      "prescribers": 5,
+      "beneficiaries": 100
+    },
+    "NJ": {
+      "prescriptions": 100,
+      "cost": 16387,
+      "prescribers": 4,
+      "beneficiaries": 61
+    },
+    "MA": {
+      "prescriptions": 13,
+      "cost": 5589,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 39,
+      "cost": 3283,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 13,
+      "cost": 8524,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 57,
+      "cost": 11657,
+      "prescribers": 4,
+      "beneficiaries": 33
+    },
+    "IL": {
+      "prescriptions": 35,
+      "cost": 6448,
+      "prescribers": 2,
+      "beneficiaries": 26
+    },
+    "IN": {
+      "prescriptions": 15,
+      "cost": 2004,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "AL": {
+      "prescriptions": 12,
+      "cost": 1218,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 52,
+      "cost": 8117,
+      "prescribers": 2,
+      "beneficiaries": 31
+    },
+    "MI": {
+      "prescriptions": 11,
+      "cost": 1774,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 11,
+      "cost": 2079,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

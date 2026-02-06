@@ -1,0 +1,51 @@
+{
+  "drug_name": "Immune Globul G (Igg)/Glycine",
+  "generated_at": "2026-02-06T16:38:37.670931",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 310,
+    "total_cost": 136883,
+    "total_prescribers": 10,
+    "total_beneficiaries": 30
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 25,
+      "cost": 8004,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 13,
+      "cost": 7829,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 235,
+      "cost": 47093,
+      "prescribers": 4,
+      "beneficiaries": 30
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 11054,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 13,
+      "cost": 59908,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 13,
+      "cost": 2995,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

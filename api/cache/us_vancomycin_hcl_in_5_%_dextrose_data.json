@@ -1,0 +1,87 @@
+{
+  "drug_name": "Vancomycin Hcl In 5 % Dextrose",
+  "generated_at": "2026-02-06T16:38:37.982918",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 518,
+    "total_cost": 38335,
+    "total_prescribers": 29,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 77,
+      "cost": 7682,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 73,
+      "cost": 2084,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 50,
+      "cost": 5695,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 724,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 36,
+      "cost": 1297,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 1983,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 64,
+      "cost": 3469,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 35,
+      "cost": 2318,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 29,
+      "cost": 1157,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 15,
+      "cost": 1429,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 422,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 104,
+      "cost": 10075,
+      "prescribers": 4,
+      "beneficiaries": 0
+    }
+  }
+}

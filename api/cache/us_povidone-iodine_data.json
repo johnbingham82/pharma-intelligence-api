@@ -1,0 +1,21 @@
+{
+  "drug_name": "Povidone-Iodine",
+  "generated_at": "2026-02-06T16:38:37.858194",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 15,
+    "total_cost": 212,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 15,
+      "cost": 212,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

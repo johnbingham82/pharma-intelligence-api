@@ -1,0 +1,45 @@
+{
+  "drug_name": "Esomeprazole Sodium",
+  "generated_at": "2026-02-06T16:38:37.587506",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 132,
+    "total_cost": 36138,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 51,
+      "cost": 12540,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 13,
+      "cost": 17165,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 34,
+      "cost": 1646,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 20,
+      "cost": 2258,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 14,
+      "cost": 2529,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "drug_name": "Meperidine Hcl/Pf",
+  "generated_at": "2026-02-06T16:38:37.735343",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 6121,
+    "total_cost": 93513,
+    "total_prescribers": 68,
+    "total_beneficiaries": 5228
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 36,
+      "cost": 3016,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 336,
+      "cost": 2368,
+      "prescribers": 1,
+      "beneficiaries": 254
+    },
+    "CA": {
+      "prescriptions": 75,
+      "cost": 31522,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 22,
+      "cost": 1314,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 32,
+      "cost": 3326,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 36,
+      "cost": 887,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 31,
+      "cost": 383,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 11,
+      "cost": 196,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ND": {
+      "prescriptions": 103,
+      "cost": 281,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 11,
+      "cost": 34,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 19,
+      "cost": 55,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 22,
+      "cost": 19927,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 3172,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 5359,
+      "cost": 25913,
+      "prescribers": 44,
+      "beneficiaries": 4974
+    },
+    "MO": {
+      "prescriptions": 16,
+      "cost": 1119,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

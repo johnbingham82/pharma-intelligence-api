@@ -1,0 +1,93 @@
+{
+  "drug_name": "Podofilox",
+  "generated_at": "2026-02-06T16:38:37.852476",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 348,
+    "total_cost": 20876,
+    "total_prescribers": 24,
+    "total_beneficiaries": 40
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 27,
+      "cost": 1221,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 15,
+      "cost": 779,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "FL": {
+      "prescriptions": 80,
+      "cost": 4757,
+      "prescribers": 5,
+      "beneficiaries": 26
+    },
+    "TX": {
+      "prescriptions": 22,
+      "cost": 1364,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 23,
+      "cost": 2454,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 55,
+      "cost": 2201,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 14,
+      "cost": 968,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 33,
+      "cost": 1959,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 12,
+      "cost": 866,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 12,
+      "cost": 636,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 29,
+      "cost": 1957,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 14,
+      "cost": 695,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 12,
+      "cost": 1019,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

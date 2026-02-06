@@ -1,0 +1,39 @@
+{
+  "drug_name": "Bendamustine Hcl",
+  "generated_at": "2026-02-06T16:38:37.420045",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 126,
+    "total_cost": 1324832,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 25,
+      "cost": 243614,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 60,
+      "cost": 690542,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 29,
+      "cost": 284118,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 12,
+      "cost": 106558,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

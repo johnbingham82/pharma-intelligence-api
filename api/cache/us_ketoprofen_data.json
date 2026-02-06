@@ -1,0 +1,111 @@
+{
+  "drug_name": "Ketoprofen",
+  "generated_at": "2026-02-06T16:38:37.692965",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1428,
+    "total_cost": 2111923,
+    "total_prescribers": 66,
+    "total_beneficiaries": 190
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 11,
+      "cost": 11109,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "OH": {
+      "prescriptions": 13,
+      "cost": 2453,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 12,
+      "cost": 2157,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 27,
+      "cost": 6404,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 11,
+      "cost": 2935,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 151,
+      "cost": 122539,
+      "prescribers": 7,
+      "beneficiaries": 11
+    },
+    "TX": {
+      "prescriptions": 28,
+      "cost": 60856,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "CA": {
+      "prescriptions": 637,
+      "cost": 1202261,
+      "prescribers": 22,
+      "beneficiaries": 133
+    },
+    "NY": {
+      "prescriptions": 172,
+      "cost": 294745,
+      "prescribers": 7,
+      "beneficiaries": 23
+    },
+    "NJ": {
+      "prescriptions": 101,
+      "cost": 76338,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 11,
+      "cost": 2243,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 16,
+      "cost": 1885,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 11,
+      "cost": 2507,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 193,
+      "cost": 275627,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 22,
+      "cost": 45134,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 12,
+      "cost": 2730,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

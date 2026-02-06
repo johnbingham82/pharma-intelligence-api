@@ -1,0 +1,33 @@
+{
+  "drug_name": "Galsulfase",
+  "generated_at": "2026-02-06T16:38:37.635178",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 35,
+    "total_cost": 3803657,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 12,
+      "cost": 1307437,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 1302098,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 11,
+      "cost": 1194122,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

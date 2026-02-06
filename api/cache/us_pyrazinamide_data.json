@@ -1,0 +1,69 @@
+{
+  "drug_name": "Pyrazinamide",
+  "generated_at": "2026-02-06T16:38:37.871669",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 310,
+    "total_cost": 76256,
+    "total_prescribers": 18,
+    "total_beneficiaries": 25
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 32,
+      "cost": 7541,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 91,
+      "cost": 23637,
+      "prescribers": 6,
+      "beneficiaries": 13
+    },
+    "NY": {
+      "prescriptions": 73,
+      "cost": 21424,
+      "prescribers": 4,
+      "beneficiaries": 12
+    },
+    "NJ": {
+      "prescriptions": 19,
+      "cost": 1566,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 27,
+      "cost": 2066,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 14,
+      "cost": 4767,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 30,
+      "cost": 8449,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 12,
+      "cost": 2480,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 12,
+      "cost": 4326,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

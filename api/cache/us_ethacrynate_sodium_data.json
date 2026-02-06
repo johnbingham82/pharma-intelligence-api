@@ -1,0 +1,21 @@
+{
+  "drug_name": "Ethacrynate Sodium",
+  "generated_at": "2026-02-06T16:38:37.594075",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 13,
+    "total_cost": 200668,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 13,
+      "cost": 200668,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

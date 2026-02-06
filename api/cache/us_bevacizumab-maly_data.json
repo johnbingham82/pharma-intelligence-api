@@ -1,0 +1,27 @@
+{
+  "drug_name": "Bevacizumab-Maly",
+  "generated_at": "2026-02-06T16:38:37.425511",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 63,
+    "total_cost": 188401,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 44,
+      "cost": 125356,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 19,
+      "cost": 63045,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

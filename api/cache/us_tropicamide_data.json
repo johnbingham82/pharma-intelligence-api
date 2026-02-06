@@ -1,0 +1,21 @@
+{
+  "drug_name": "Tropicamide",
+  "generated_at": "2026-02-06T16:38:37.975130",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 15,
+    "total_cost": 160,
+    "total_prescribers": 1,
+    "total_beneficiaries": 15
+  },
+  "by_state": {
+    "VA": {
+      "prescriptions": 15,
+      "cost": 160,
+      "prescribers": 1,
+      "beneficiaries": 15
+    }
+  }
+}

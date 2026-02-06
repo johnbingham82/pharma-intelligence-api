@@ -1,0 +1,21 @@
+{
+  "drug_name": "Lincomycin Hcl",
+  "generated_at": "2026-02-06T16:38:37.715943",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 17,
+    "total_cost": 428,
+    "total_prescribers": 1,
+    "total_beneficiaries": 12
+  },
+  "by_state": {
+    "AL": {
+      "prescriptions": 17,
+      "cost": 428,
+      "prescribers": 1,
+      "beneficiaries": 12
+    }
+  }
+}

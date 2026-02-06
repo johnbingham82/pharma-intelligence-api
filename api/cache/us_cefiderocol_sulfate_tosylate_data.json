@@ -1,0 +1,75 @@
+{
+  "drug_name": "Cefiderocol Sulfate Tosylate",
+  "generated_at": "2026-02-06T16:38:37.458063",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 386,
+    "total_cost": 1112840,
+    "total_prescribers": 18,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 22,
+      "cost": 29666,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 28,
+      "cost": 54777,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 48,
+      "cost": 82185,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 16,
+      "cost": 102546,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 36,
+      "cost": 233097,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 11,
+      "cost": 46188,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 131,
+      "cost": 175014,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 15,
+      "cost": 133017,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 38,
+      "cost": 224025,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 41,
+      "cost": 32325,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

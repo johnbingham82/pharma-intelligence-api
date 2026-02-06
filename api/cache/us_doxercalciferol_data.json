@@ -1,0 +1,87 @@
+{
+  "drug_name": "Doxercalciferol",
+  "generated_at": "2026-02-06T16:38:37.554749",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 403,
+    "total_cost": 194020,
+    "total_prescribers": 23,
+    "total_beneficiaries": 37
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 17,
+      "cost": 1625,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 36,
+      "cost": 22671,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "PA": {
+      "prescriptions": 47,
+      "cost": 10561,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 26,
+      "cost": 10094,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 88,
+      "cost": 47046,
+      "prescribers": 4,
+      "beneficiaries": 11
+    },
+    "NY": {
+      "prescriptions": 35,
+      "cost": 6724,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 77,
+      "cost": 68816,
+      "prescribers": 3,
+      "beneficiaries": 12
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 4007,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 26,
+      "cost": 4449,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 1206,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 16,
+      "cost": 5125,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 12,
+      "cost": 11696,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

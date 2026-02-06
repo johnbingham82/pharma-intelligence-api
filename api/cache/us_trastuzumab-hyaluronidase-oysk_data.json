@@ -1,0 +1,33 @@
+{
+  "drug_name": "Trastuzumab-Hyaluronidase-Oysk",
+  "generated_at": "2026-02-06T16:38:37.966750",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 47,
+    "total_cost": 236027,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 14,
+      "cost": 76446,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 17,
+      "cost": 89565,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 16,
+      "cost": 70016,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

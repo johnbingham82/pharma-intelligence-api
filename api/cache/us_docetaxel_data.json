@@ -1,0 +1,99 @@
+{
+  "drug_name": "Docetaxel",
+  "generated_at": "2026-02-06T16:38:37.548950",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1273,
+    "total_cost": 863559,
+    "total_prescribers": 65,
+    "total_beneficiaries": 37
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 89,
+      "cost": 25456,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 37,
+      "cost": 22906,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 19,
+      "cost": 4959,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 423,
+      "cost": 329744,
+      "prescribers": 20,
+      "beneficiaries": 12
+    },
+    "NY": {
+      "prescriptions": 267,
+      "cost": 172517,
+      "prescribers": 16,
+      "beneficiaries": 12
+    },
+    "NJ": {
+      "prescriptions": 106,
+      "cost": 73305,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 14,
+      "cost": 1985,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 36,
+      "cost": 42007,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 15,
+      "cost": 7879,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 48,
+      "cost": 49923,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 75,
+      "cost": 83071,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 50,
+      "cost": 32584,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "PR": {
+      "prescriptions": 81,
+      "cost": 12376,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "VI": {
+      "prescriptions": 13,
+      "cost": 4847,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "drug_name": "Degarelix Acetate",
+  "generated_at": "2026-02-06T16:38:37.521856",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1223,
+    "total_cost": 731555,
+    "total_prescribers": 33,
+    "total_beneficiaries": 116
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 200,
+      "cost": 124028,
+      "prescribers": 4,
+      "beneficiaries": 20
+    },
+    "TX": {
+      "prescriptions": 379,
+      "cost": 219440,
+      "prescribers": 3,
+      "beneficiaries": 50
+    },
+    "SC": {
+      "prescriptions": 38,
+      "cost": 22290,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 157,
+      "cost": 90272,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 171,
+      "cost": 114627,
+      "prescribers": 8,
+      "beneficiaries": 13
+    },
+    "NJ": {
+      "prescriptions": 50,
+      "cost": 27089,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 11,
+      "cost": 5099,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 12,
+      "cost": 4972,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 149,
+      "cost": 91295,
+      "prescribers": 1,
+      "beneficiaries": 33
+    },
+    "IN": {
+      "prescriptions": 29,
+      "cost": 17543,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 15,
+      "cost": 9021,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 12,
+      "cost": 5879,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

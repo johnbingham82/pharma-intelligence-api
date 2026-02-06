@@ -1,0 +1,123 @@
+{
+  "drug_name": "Luspatercept-Aamt",
+  "generated_at": "2026-02-06T16:38:37.726828",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1167,
+    "total_cost": 15893059,
+    "total_prescribers": 57,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 17,
+      "cost": 136404,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 76,
+      "cost": 791924,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 45,
+      "cost": 679106,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 54,
+      "cost": 624540,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 357,
+      "cost": 5289111,
+      "prescribers": 16,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 206,
+      "cost": 3062333,
+      "prescribers": 11,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 123,
+      "cost": 1516837,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 14,
+      "cost": 164137,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 98,
+      "cost": 1281368,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 11,
+      "cost": 236485,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 19,
+      "cost": 178329,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 14,
+      "cost": 338043,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 40,
+      "cost": 388212,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 28,
+      "cost": 363373,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "RI": {
+      "prescriptions": 14,
+      "cost": 195080,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 18,
+      "cost": 268661,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 16,
+      "cost": 169412,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 17,
+      "cost": 209704,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

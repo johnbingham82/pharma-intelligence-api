@@ -1,0 +1,33 @@
+{
+  "drug_name": "Potassium Chloride/D5-0.9%Nacl",
+  "generated_at": "2026-02-06T16:38:37.856883",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 178,
+    "total_cost": 7882,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MA": {
+      "prescriptions": 53,
+      "cost": 3737,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 51,
+      "cost": 2123,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 74,
+      "cost": 2022,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "drug_name": "Quinine Sulfate",
+  "generated_at": "2026-02-06T16:38:37.873698",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 665,
+    "total_cost": 54397,
+    "total_prescribers": 39,
+    "total_beneficiaries": 32
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 13,
+      "cost": 978,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 13,
+      "cost": 667,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 12,
+      "cost": 604,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 13,
+      "cost": 471,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 12,
+      "cost": 447,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 12,
+      "cost": 973,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 35,
+      "cost": 3117,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 84,
+      "cost": 11215,
+      "prescribers": 6,
+      "beneficiaries": 13
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 1317,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 32,
+      "cost": 3000,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 14,
+      "cost": 699,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ND": {
+      "prescriptions": 11,
+      "cost": 366,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 11,
+      "cost": 554,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 13,
+      "cost": 883,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 14,
+      "cost": 1591,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 38,
+      "cost": 962,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 12,
+      "cost": 488,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 303,
+      "cost": 25515,
+      "prescribers": 13,
+      "beneficiaries": 19
+    },
+    "MO": {
+      "prescriptions": 11,
+      "cost": 550,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "drug_name": "Deferoxamine Mesylate",
+  "generated_at": "2026-02-06T16:38:37.521419",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 208,
+    "total_cost": 78079,
+    "total_prescribers": 10,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 11,
+      "cost": 7387,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 14,
+      "cost": 410,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 51,
+      "cost": 19639,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 53,
+      "cost": 13574,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 35,
+      "cost": 8999,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 14,
+      "cost": 23487,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 30,
+      "cost": 4583,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

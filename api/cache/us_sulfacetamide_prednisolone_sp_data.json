@@ -1,0 +1,129 @@
+{
+  "drug_name": "Sulfacetamide/Prednisolone Sp",
+  "generated_at": "2026-02-06T16:38:37.924750",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 2312,
+    "total_cost": 45693,
+    "total_prescribers": 60,
+    "total_beneficiaries": 1436
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 18,
+      "cost": 291,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 874,
+      "cost": 21716,
+      "prescribers": 6,
+      "beneficiaries": 519
+    },
+    "SC": {
+      "prescriptions": 176,
+      "cost": 3308,
+      "prescribers": 6,
+      "beneficiaries": 124
+    },
+    "CA": {
+      "prescriptions": 106,
+      "cost": 2120,
+      "prescribers": 5,
+      "beneficiaries": 91
+    },
+    "NY": {
+      "prescriptions": 157,
+      "cost": 2141,
+      "prescribers": 3,
+      "beneficiaries": 136
+    },
+    "MS": {
+      "prescriptions": 53,
+      "cost": 762,
+      "prescribers": 2,
+      "beneficiaries": 48
+    },
+    "MN": {
+      "prescriptions": 183,
+      "cost": 3644,
+      "prescribers": 9,
+      "beneficiaries": 121
+    },
+    "GA": {
+      "prescriptions": 26,
+      "cost": 485,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "TN": {
+      "prescriptions": 113,
+      "cost": 1878,
+      "prescribers": 3,
+      "beneficiaries": 75
+    },
+    "IA": {
+      "prescriptions": 30,
+      "cost": 447,
+      "prescribers": 1,
+      "beneficiaries": 21
+    },
+    "IL": {
+      "prescriptions": 14,
+      "cost": 236,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 26,
+      "cost": 443,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 221,
+      "cost": 3173,
+      "prescribers": 7,
+      "beneficiaries": 135
+    },
+    "LA": {
+      "prescriptions": 24,
+      "cost": 553,
+      "prescribers": 1,
+      "beneficiaries": 17
+    },
+    "WI": {
+      "prescriptions": 41,
+      "cost": 741,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "MI": {
+      "prescriptions": 65,
+      "cost": 1105,
+      "prescribers": 3,
+      "beneficiaries": 24
+    },
+    "WV": {
+      "prescriptions": 11,
+      "cost": 183,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 69,
+      "cost": 1016,
+      "prescribers": 2,
+      "beneficiaries": 22
+    },
+    "MO": {
+      "prescriptions": 105,
+      "cost": 1451,
+      "prescribers": 3,
+      "beneficiaries": 80
+    }
+  }
+}

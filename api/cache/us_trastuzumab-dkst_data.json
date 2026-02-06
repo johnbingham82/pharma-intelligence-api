@@ -1,0 +1,39 @@
+{
+  "drug_name": "Trastuzumab-Dkst",
+  "generated_at": "2026-02-06T16:38:37.966512",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 65,
+    "total_cost": 297317,
+    "total_prescribers": 4,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 13,
+      "cost": 74759,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 15,
+      "cost": 65455,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 21,
+      "cost": 110854,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VI": {
+      "prescriptions": 16,
+      "cost": 46249,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

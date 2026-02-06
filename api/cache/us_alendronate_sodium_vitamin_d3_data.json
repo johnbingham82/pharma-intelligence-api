@@ -1,0 +1,93 @@
+{
+  "drug_name": "Alendronate Sodium/Vitamin D3",
+  "generated_at": "2026-02-06T16:38:37.380191",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 327,
+    "total_cost": 65555,
+    "total_prescribers": 24,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 22,
+      "cost": 4676,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 23,
+      "cost": 4761,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 50,
+      "cost": 10041,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NM": {
+      "prescriptions": 13,
+      "cost": 2728,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 12,
+      "cost": 2634,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 76,
+      "cost": 15593,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 13,
+      "cost": 2729,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 36,
+      "cost": 4787,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 3575,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 12,
+      "cost": 2553,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 2542,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 11,
+      "cost": 2070,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 36,
+      "cost": 6866,
+      "prescribers": 3,
+      "beneficiaries": 0
+    }
+  }
+}

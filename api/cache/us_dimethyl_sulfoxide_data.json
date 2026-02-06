@@ -1,0 +1,27 @@
+{
+  "drug_name": "Dimethyl Sulfoxide",
+  "generated_at": "2026-02-06T16:38:37.541741",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 23,
+    "total_cost": 16433,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 12,
+      "cost": 8581,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 7852,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

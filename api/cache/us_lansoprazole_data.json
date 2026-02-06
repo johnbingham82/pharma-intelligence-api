@@ -1,6 +1,6 @@
 {
   "drug_name": "Lansoprazole",
-  "generated_at": "2026-02-06T16:18:00.185649",
+  "generated_at": "2026-02-06T16:38:37.697738",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 1164297,
       "prescribers": 1259,
       "beneficiaries": 2070
+    },
+    "NM": {
+      "prescriptions": 1123,
+      "cost": 61496,
+      "prescribers": 71,
+      "beneficiaries": 63
     },
     "KY": {
       "prescriptions": 24233,
@@ -119,6 +125,12 @@
       "prescribers": 281,
       "beneficiaries": 79
     },
+    "ID": {
+      "prescriptions": 3448,
+      "cost": 143711,
+      "prescribers": 182,
+      "beneficiaries": 56
+    },
     "WA": {
       "prescriptions": 6284,
       "cost": 387784,
@@ -155,6 +167,12 @@
       "prescribers": 1109,
       "beneficiaries": 926
     },
+    "AZ": {
+      "prescriptions": 5518,
+      "cost": 284075,
+      "prescribers": 315,
+      "beneficiaries": 414
+    },
     "TN": {
       "prescriptions": 21614,
       "cost": 967420,
@@ -178,12 +196,6 @@
       "cost": 112240,
       "prescribers": 134,
       "beneficiaries": 11
-    },
-    "AZ": {
-      "prescriptions": 5518,
-      "cost": 284075,
-      "prescribers": 315,
-      "beneficiaries": 414
     },
     "IL": {
       "prescriptions": 20955,
@@ -215,35 +227,23 @@
       "prescribers": 22,
       "beneficiaries": 12
     },
-    "LA": {
-      "prescriptions": 10176,
-      "cost": 390600,
-      "prescribers": 464,
-      "beneficiaries": 780
-    },
     "RI": {
       "prescriptions": 2534,
       "cost": 219330,
       "prescribers": 107,
       "beneficiaries": 227
     },
+    "LA": {
+      "prescriptions": 10176,
+      "cost": 390600,
+      "prescribers": 464,
+      "beneficiaries": 780
+    },
     "WI": {
       "prescriptions": 11061,
       "cost": 709495,
       "prescribers": 595,
       "beneficiaries": 200
-    },
-    "ID": {
-      "prescriptions": 3448,
-      "cost": 143711,
-      "prescribers": 182,
-      "beneficiaries": 56
-    },
-    "NM": {
-      "prescriptions": 1123,
-      "cost": 61496,
-      "prescribers": 71,
-      "beneficiaries": 63
     },
     "KS": {
       "prescriptions": 4624,
@@ -256,6 +256,12 @@
       "cost": 1592218,
       "prescribers": 1674,
       "beneficiaries": 1673
+    },
+    "WV": {
+      "prescriptions": 6950,
+      "cost": 272847,
+      "prescribers": 344,
+      "beneficiaries": 156
     },
     "VT": {
       "prescriptions": 1257,
@@ -281,29 +287,23 @@
       "prescribers": 625,
       "beneficiaries": 220
     },
+    "DE": {
+      "prescriptions": 2072,
+      "cost": 158903,
+      "prescribers": 116,
+      "beneficiaries": 81
+    },
     "MT": {
       "prescriptions": 1231,
       "cost": 53114,
       "prescribers": 75,
       "beneficiaries": 0
     },
-    "WV": {
-      "prescriptions": 6950,
-      "cost": 272847,
-      "prescribers": 344,
-      "beneficiaries": 156
-    },
     "ME": {
       "prescriptions": 2700,
       "cost": 224290,
       "prescribers": 160,
       "beneficiaries": 53
-    },
-    "DE": {
-      "prescriptions": 2072,
-      "cost": 158903,
-      "prescribers": 116,
-      "beneficiaries": 81
     },
     "AK": {
       "prescriptions": 855,

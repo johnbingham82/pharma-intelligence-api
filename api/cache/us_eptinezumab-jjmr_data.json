@@ -1,0 +1,111 @@
+{
+  "drug_name": "Eptinezumab-Jjmr",
+  "generated_at": "2026-02-06T16:38:37.580247",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 539,
+    "total_cost": 2079175,
+    "total_prescribers": 32,
+    "total_beneficiaries": 46
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 17,
+      "cost": 45578,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NV": {
+      "prescriptions": 21,
+      "cost": 58563,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 61,
+      "cost": 201211,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 11,
+      "cost": 44958,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 15,
+      "cost": 67810,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 35,
+      "cost": 144580,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 134,
+      "cost": 570556,
+      "prescribers": 7,
+      "beneficiaries": 22
+    },
+    "NJ": {
+      "prescriptions": 23,
+      "cost": 72916,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 22,
+      "cost": 88562,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 11,
+      "cost": 25866,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 71,
+      "cost": 274764,
+      "prescribers": 3,
+      "beneficiaries": 13
+    },
+    "TN": {
+      "prescriptions": 60,
+      "cost": 268490,
+      "prescribers": 3,
+      "beneficiaries": 11
+    },
+    "NE": {
+      "prescriptions": 14,
+      "cost": 37103,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 19,
+      "cost": 69895,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 11,
+      "cost": 38782,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 14,
+      "cost": 69541,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

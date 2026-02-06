@@ -1,0 +1,117 @@
+{
+  "drug_name": "Omaveloxolone",
+  "generated_at": "2026-02-06T16:38:37.806637",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 569,
+    "total_cost": 17911642,
+    "total_prescribers": 22,
+    "total_beneficiaries": 48
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 34,
+      "cost": 1100000,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 166,
+      "cost": 5098541,
+      "prescribers": 2,
+      "beneficiaries": 32
+    },
+    "OK": {
+      "prescriptions": 11,
+      "cost": 359444,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 28,
+      "cost": 911898,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 13,
+      "cost": 416091,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 87,
+      "cost": 2789341,
+      "prescribers": 1,
+      "beneficiaries": 16
+    },
+    "MA": {
+      "prescriptions": 19,
+      "cost": 571511,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 55,
+      "cost": 1825178,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 13,
+      "cost": 417384,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 321535,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 26,
+      "cost": 773017,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 17,
+      "cost": 548533,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 392389,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 18,
+      "cost": 574796,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 25,
+      "cost": 786197,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 21,
+      "cost": 604897,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ME": {
+      "prescriptions": 13,
+      "cost": 420890,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

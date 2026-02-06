@@ -1,0 +1,51 @@
+{
+  "drug_name": "Netupitant/Palonosetron Hcl",
+  "generated_at": "2026-02-06T16:38:37.785728",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 345,
+    "total_cost": 313927,
+    "total_prescribers": 13,
+    "total_beneficiaries": 13
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 15,
+      "cost": 41763,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 39,
+      "cost": 53470,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 15,
+      "cost": 10838,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 203,
+      "cost": 146941,
+      "prescribers": 5,
+      "beneficiaries": 13
+    },
+    "CA": {
+      "prescriptions": 58,
+      "cost": 49835,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 15,
+      "cost": 11080,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

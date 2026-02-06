@@ -1,0 +1,27 @@
+{
+  "drug_name": "Gr Pol-Orc/Sw Ver/Rye/Kent/Tim",
+  "generated_at": "2026-02-06T16:38:37.646143",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 29,
+    "total_cost": 18520,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 12,
+      "cost": 5908,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 17,
+      "cost": 12612,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

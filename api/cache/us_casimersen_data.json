@@ -1,0 +1,45 @@
+{
+  "drug_name": "Casimersen",
+  "generated_at": "2026-02-06T16:38:37.454568",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 174,
+    "total_cost": 10652311,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 67,
+      "cost": 2374273,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OK": {
+      "prescriptions": 12,
+      "cost": 1872120,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 35,
+      "cost": 2867972,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 13,
+      "cost": 2002532,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 47,
+      "cost": 1535414,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

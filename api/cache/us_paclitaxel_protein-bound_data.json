@@ -1,0 +1,69 @@
+{
+  "drug_name": "Paclitaxel Protein-Bound",
+  "generated_at": "2026-02-06T16:38:37.820470",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 522,
+    "total_cost": 3627957,
+    "total_prescribers": 27,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 77,
+      "cost": 269512,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 24,
+      "cost": 66558,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 90,
+      "cost": 533895,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 27,
+      "cost": 307297,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 77,
+      "cost": 622536,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 113,
+      "cost": 900534,
+      "prescribers": 8,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 85508,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 23,
+      "cost": 178915,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 79,
+      "cost": 663202,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

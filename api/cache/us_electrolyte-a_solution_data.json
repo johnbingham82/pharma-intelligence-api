@@ -1,0 +1,39 @@
+{
+  "drug_name": "Electrolyte-A Solution",
+  "generated_at": "2026-02-06T16:38:37.566467",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 99,
+    "total_cost": 19511,
+    "total_prescribers": 6,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 24,
+      "cost": 1763,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 19,
+      "cost": 3063,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 18,
+      "cost": 1142,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 38,
+      "cost": 13543,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

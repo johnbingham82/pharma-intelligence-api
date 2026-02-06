@@ -1,0 +1,27 @@
+{
+  "drug_name": "Olipudase Alfa-Rpcp",
+  "generated_at": "2026-02-06T16:38:37.802292",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 26,
+    "total_cost": 3603222,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 13,
+      "cost": 1838350,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 13,
+      "cost": 1764872,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

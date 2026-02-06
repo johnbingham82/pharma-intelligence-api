@@ -1,0 +1,81 @@
+{
+  "drug_name": "Nilutamide",
+  "generated_at": "2026-02-06T16:38:37.788321",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 226,
+    "total_cost": 1028298,
+    "total_prescribers": 13,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "NV": {
+      "prescriptions": 14,
+      "cost": 66242,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 11,
+      "cost": 17177,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 67,
+      "cost": 327720,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 23,
+      "cost": 109591,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 12,
+      "cost": 52711,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 11,
+      "cost": 53815,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 11,
+      "cost": 56761,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 13,
+      "cost": 66202,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 28,
+      "cost": 142069,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 13,
+      "cost": 56340,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 23,
+      "cost": 79670,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

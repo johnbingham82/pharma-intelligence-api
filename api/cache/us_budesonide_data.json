@@ -1,6 +1,6 @@
 {
   "drug_name": "Budesonide",
-  "generated_at": "2026-02-06T16:18:00.193049",
+  "generated_at": "2026-02-06T16:38:37.433981",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 4103132,
       "prescribers": 729,
       "beneficiaries": 1649
+    },
+    "NM": {
+      "prescriptions": 1123,
+      "cost": 260501,
+      "prescribers": 56,
+      "beneficiaries": 80
     },
     "KY": {
       "prescriptions": 6236,
@@ -119,6 +125,12 @@
       "prescribers": 167,
       "beneficiaries": 366
     },
+    "ID": {
+      "prescriptions": 1960,
+      "cost": 480276,
+      "prescribers": 83,
+      "beneficiaries": 219
+    },
     "WA": {
       "prescriptions": 4473,
       "cost": 942118,
@@ -155,6 +167,12 @@
       "prescribers": 398,
       "beneficiaries": 595
     },
+    "AZ": {
+      "prescriptions": 4946,
+      "cost": 1217607,
+      "prescribers": 194,
+      "beneficiaries": 831
+    },
     "TN": {
       "prescriptions": 5939,
       "cost": 1288565,
@@ -178,12 +196,6 @@
       "cost": 541330,
       "prescribers": 112,
       "beneficiaries": 215
-    },
-    "AZ": {
-      "prescriptions": 4946,
-      "cost": 1217607,
-      "prescribers": 194,
-      "beneficiaries": 831
     },
     "IL": {
       "prescriptions": 9832,
@@ -215,35 +227,23 @@
       "prescribers": 13,
       "beneficiaries": 20
     },
-    "LA": {
-      "prescriptions": 3333,
-      "cost": 920889,
-      "prescribers": 152,
-      "beneficiaries": 75
-    },
     "RI": {
       "prescriptions": 920,
       "cost": 198906,
       "prescribers": 45,
       "beneficiaries": 24
     },
+    "LA": {
+      "prescriptions": 3333,
+      "cost": 920889,
+      "prescribers": 152,
+      "beneficiaries": 75
+    },
     "WI": {
       "prescriptions": 7598,
       "cost": 1510642,
       "prescribers": 325,
       "beneficiaries": 829
-    },
-    "ID": {
-      "prescriptions": 1960,
-      "cost": 480276,
-      "prescribers": 83,
-      "beneficiaries": 219
-    },
-    "NM": {
-      "prescriptions": 1123,
-      "cost": 260501,
-      "prescribers": 56,
-      "beneficiaries": 80
     },
     "KS": {
       "prescriptions": 4171,
@@ -256,6 +256,12 @@
       "cost": 2952741,
       "prescribers": 486,
       "beneficiaries": 1132
+    },
+    "WV": {
+      "prescriptions": 1875,
+      "cost": 410938,
+      "prescribers": 59,
+      "beneficiaries": 120
     },
     "VT": {
       "prescriptions": 586,
@@ -281,29 +287,23 @@
       "prescribers": 270,
       "beneficiaries": 560
     },
+    "DE": {
+      "prescriptions": 1017,
+      "cost": 294299,
+      "prescribers": 42,
+      "beneficiaries": 59
+    },
     "MT": {
       "prescriptions": 882,
       "cost": 191409,
       "prescribers": 44,
       "beneficiaries": 66
     },
-    "WV": {
-      "prescriptions": 1875,
-      "cost": 410938,
-      "prescribers": 59,
-      "beneficiaries": 120
-    },
     "ME": {
       "prescriptions": 1160,
       "cost": 430189,
       "prescribers": 60,
       "beneficiaries": 51
-    },
-    "DE": {
-      "prescriptions": 1017,
-      "cost": 294299,
-      "prescribers": 42,
-      "beneficiaries": 59
     },
     "AK": {
       "prescriptions": 380,

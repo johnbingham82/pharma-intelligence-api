@@ -1,0 +1,33 @@
+{
+  "drug_name": "Praziquantel",
+  "generated_at": "2026-02-06T16:38:37.860395",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 58,
+    "total_cost": 140159,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 26,
+      "cost": 25361,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 19,
+      "cost": 24401,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 90397,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

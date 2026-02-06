@@ -1,0 +1,57 @@
+{
+  "drug_name": "Malathion",
+  "generated_at": "2026-02-06T16:38:37.728248",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 141,
+    "total_cost": 28783,
+    "total_prescribers": 8,
+    "total_beneficiaries": 35
+  },
+  "by_state": {
+    "KY": {
+      "prescriptions": 51,
+      "cost": 11135,
+      "prescribers": 1,
+      "beneficiaries": 24
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 2058,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 11,
+      "cost": 1885,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 34,
+      "cost": 6967,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 2240,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 11,
+      "cost": 2059,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 11,
+      "cost": 2439,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

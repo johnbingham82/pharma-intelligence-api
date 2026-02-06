@@ -1,0 +1,129 @@
+{
+  "drug_name": "Peg 3350/Sod Sulf,Chlr/Pot/Mag",
+  "generated_at": "2026-02-06T16:38:37.827872",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 968,
+    "total_cost": 127089,
+    "total_prescribers": 52,
+    "total_beneficiaries": 963
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 33,
+      "cost": 4079,
+      "prescribers": 2,
+      "beneficiaries": 33
+    },
+    "CO": {
+      "prescriptions": 169,
+      "cost": 22827,
+      "prescribers": 8,
+      "beneficiaries": 169
+    },
+    "PA": {
+      "prescriptions": 110,
+      "cost": 13595,
+      "prescribers": 5,
+      "beneficiaries": 109
+    },
+    "OK": {
+      "prescriptions": 16,
+      "cost": 2157,
+      "prescribers": 1,
+      "beneficiaries": 16
+    },
+    "FL": {
+      "prescriptions": 72,
+      "cost": 9550,
+      "prescribers": 4,
+      "beneficiaries": 71
+    },
+    "TX": {
+      "prescriptions": 78,
+      "cost": 10233,
+      "prescribers": 5,
+      "beneficiaries": 78
+    },
+    "SC": {
+      "prescriptions": 13,
+      "cost": 1717,
+      "prescribers": 1,
+      "beneficiaries": 13
+    },
+    "CT": {
+      "prescriptions": 25,
+      "cost": 3352,
+      "prescribers": 1,
+      "beneficiaries": 24
+    },
+    "CA": {
+      "prescriptions": 116,
+      "cost": 15366,
+      "prescribers": 6,
+      "beneficiaries": 116
+    },
+    "NY": {
+      "prescriptions": 62,
+      "cost": 7732,
+      "prescribers": 4,
+      "beneficiaries": 62
+    },
+    "NJ": {
+      "prescriptions": 33,
+      "cost": 4151,
+      "prescribers": 2,
+      "beneficiaries": 33
+    },
+    "OR": {
+      "prescriptions": 11,
+      "cost": 1460,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "GA": {
+      "prescriptions": 14,
+      "cost": 1893,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "NC": {
+      "prescriptions": 14,
+      "cost": 1870,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "TN": {
+      "prescriptions": 30,
+      "cost": 3944,
+      "prescribers": 2,
+      "beneficiaries": 30
+    },
+    "IA": {
+      "prescriptions": 34,
+      "cost": 4424,
+      "prescribers": 1,
+      "beneficiaries": 34
+    },
+    "AL": {
+      "prescriptions": 83,
+      "cost": 11249,
+      "prescribers": 5,
+      "beneficiaries": 82
+    },
+    "AR": {
+      "prescriptions": 31,
+      "cost": 4210,
+      "prescribers": 1,
+      "beneficiaries": 31
+    },
+    "UT": {
+      "prescriptions": 24,
+      "cost": 3280,
+      "prescribers": 1,
+      "beneficiaries": 23
+    }
+  }
+}

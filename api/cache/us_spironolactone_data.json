@@ -1,6 +1,6 @@
 {
   "drug_name": "Spironolactone",
-  "generated_at": "2026-02-06T16:18:00.184210",
+  "generated_at": "2026-02-06T16:38:37.921587",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 5902059,
       "prescribers": 10479,
       "beneficiaries": 104270
+    },
+    "NM": {
+      "prescriptions": 35721,
+      "cost": 541739,
+      "prescribers": 969,
+      "beneficiaries": 8132
     },
     "KY": {
       "prescriptions": 143952,
@@ -119,6 +125,12 @@
       "prescribers": 2423,
       "beneficiaries": 20985
     },
+    "ID": {
+      "prescriptions": 47013,
+      "cost": 569246,
+      "prescribers": 1062,
+      "beneficiaries": 11074
+    },
     "WA": {
       "prescriptions": 141877,
       "cost": 1906505,
@@ -155,6 +167,12 @@
       "prescribers": 6181,
       "beneficiaries": 64779
     },
+    "AZ": {
+      "prescriptions": 109960,
+      "cost": 1483312,
+      "prescribers": 2958,
+      "beneficiaries": 26827
+    },
     "TN": {
       "prescriptions": 211561,
       "cost": 2763241,
@@ -178,12 +196,6 @@
       "cost": 645622,
       "prescribers": 1193,
       "beneficiaries": 10009
-    },
-    "AZ": {
-      "prescriptions": 109960,
-      "cost": 1483312,
-      "prescribers": 2958,
-      "beneficiaries": 26827
     },
     "IL": {
       "prescriptions": 294320,
@@ -215,35 +227,23 @@
       "prescribers": 359,
       "beneficiaries": 2496
     },
-    "LA": {
-      "prescriptions": 116139,
-      "cost": 1232816,
-      "prescribers": 2525,
-      "beneficiaries": 24982
-    },
     "RI": {
       "prescriptions": 23833,
       "cost": 290756,
       "prescribers": 619,
       "beneficiaries": 4437
     },
+    "LA": {
+      "prescriptions": 116139,
+      "cost": 1232816,
+      "prescribers": 2525,
+      "beneficiaries": 24982
+    },
     "WI": {
       "prescriptions": 168074,
       "cost": 2235736,
       "prescribers": 3670,
       "beneficiaries": 39038
-    },
-    "ID": {
-      "prescriptions": 47013,
-      "cost": 569246,
-      "prescribers": 1062,
-      "beneficiaries": 11074
-    },
-    "NM": {
-      "prescriptions": 35721,
-      "cost": 541739,
-      "prescribers": 969,
-      "beneficiaries": 8132
     },
     "KS": {
       "prescriptions": 82268,
@@ -256,6 +256,12 @@
       "cost": 3272019,
       "prescribers": 5934,
       "beneficiaries": 55121
+    },
+    "WV": {
+      "prescriptions": 51337,
+      "cost": 591520,
+      "prescribers": 1217,
+      "beneficiaries": 11231
     },
     "VT": {
       "prescriptions": 11918,
@@ -281,29 +287,23 @@
       "prescribers": 3913,
       "beneficiaries": 51801
     },
+    "DE": {
+      "prescriptions": 16579,
+      "cost": 208568,
+      "prescribers": 426,
+      "beneficiaries": 3926
+    },
     "MT": {
       "prescriptions": 33008,
       "cost": 363363,
       "prescribers": 739,
       "beneficiaries": 6383
     },
-    "WV": {
-      "prescriptions": 51337,
-      "cost": 591520,
-      "prescribers": 1217,
-      "beneficiaries": 11231
-    },
     "ME": {
       "prescriptions": 26546,
       "cost": 388024,
       "prescribers": 863,
       "beneficiaries": 4813
-    },
-    "DE": {
-      "prescriptions": 16579,
-      "cost": 208568,
-      "prescribers": 426,
-      "beneficiaries": 3926
     },
     "AK": {
       "prescriptions": 11439,
@@ -335,17 +335,17 @@
       "prescribers": 8,
       "beneficiaries": 0
     },
-    "AE": {
-      "prescriptions": 50,
-      "cost": 598,
-      "prescribers": 3,
-      "beneficiaries": 15
-    },
     "VI": {
       "prescriptions": 671,
       "cost": 12143,
       "prescribers": 21,
       "beneficiaries": 71
+    },
+    "AE": {
+      "prescriptions": 50,
+      "cost": 598,
+      "prescribers": 3,
+      "beneficiaries": 15
     },
     "AP": {
       "prescriptions": 112,

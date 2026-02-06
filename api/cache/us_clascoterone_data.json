@@ -1,0 +1,51 @@
+{
+  "drug_name": "Clascoterone",
+  "generated_at": "2026-02-06T16:38:37.477195",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 183,
+    "total_cost": 114869,
+    "total_prescribers": 12,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 13,
+      "cost": 8281,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 40,
+      "cost": 25366,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 54,
+      "cost": 33453,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 36,
+      "cost": 23183,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 28,
+      "cost": 16948,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 7638,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

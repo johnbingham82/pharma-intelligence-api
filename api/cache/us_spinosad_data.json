@@ -1,0 +1,69 @@
+{
+  "drug_name": "Spinosad",
+  "generated_at": "2026-02-06T16:38:37.921048",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 203,
+    "total_cost": 100046,
+    "total_prescribers": 11,
+    "total_beneficiaries": 39
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 14,
+      "cost": 2002,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 11,
+      "cost": 4891,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 34,
+      "cost": 8965,
+      "prescribers": 2,
+      "beneficiaries": 14
+    },
+    "TX": {
+      "prescriptions": 35,
+      "cost": 56874,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 32,
+      "cost": 8460,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 2688,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 16,
+      "cost": 4748,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 21,
+      "cost": 4520,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "IN": {
+      "prescriptions": 29,
+      "cost": 6898,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

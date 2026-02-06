@@ -1,0 +1,45 @@
+{
+  "drug_name": "Epoprostenol Sodium",
+  "generated_at": "2026-02-06T16:38:37.579845",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 156,
+    "total_cost": 345877,
+    "total_prescribers": 6,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 23,
+      "cost": 121964,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 52,
+      "cost": 56118,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 24,
+      "cost": 38308,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 45,
+      "cost": 30493,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 12,
+      "cost": 98994,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

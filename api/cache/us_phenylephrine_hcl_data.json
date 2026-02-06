@@ -1,0 +1,57 @@
+{
+  "drug_name": "Phenylephrine Hcl",
+  "generated_at": "2026-02-06T16:38:37.842521",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1324,
+    "total_cost": 49253,
+    "total_prescribers": 26,
+    "total_beneficiaries": 1215
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 111,
+      "cost": 2911,
+      "prescribers": 5,
+      "beneficiaries": 106
+    },
+    "PA": {
+      "prescriptions": 44,
+      "cost": 1477,
+      "prescribers": 1,
+      "beneficiaries": 35
+    },
+    "TX": {
+      "prescriptions": 121,
+      "cost": 3696,
+      "prescribers": 1,
+      "beneficiaries": 118
+    },
+    "CA": {
+      "prescriptions": 790,
+      "cost": 32486,
+      "prescribers": 16,
+      "beneficiaries": 733
+    },
+    "NY": {
+      "prescriptions": 49,
+      "cost": 1557,
+      "prescribers": 1,
+      "beneficiaries": 46
+    },
+    "VA": {
+      "prescriptions": 14,
+      "cost": 512,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NH": {
+      "prescriptions": 195,
+      "cost": 6614,
+      "prescribers": 1,
+      "beneficiaries": 177
+    }
+  }
+}

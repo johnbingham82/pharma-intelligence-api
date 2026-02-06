@@ -1,0 +1,21 @@
+{
+  "drug_name": "Neomycin Sulfate/Fluocinolone",
+  "generated_at": "2026-02-06T16:38:37.782551",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 124,
+    "total_cost": 112898,
+    "total_prescribers": 4,
+    "total_beneficiaries": 72
+  },
+  "by_state": {
+    "NY": {
+      "prescriptions": 124,
+      "cost": 112898,
+      "prescribers": 4,
+      "beneficiaries": 72
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "drug_name": "Pegfilgrastim-Bmez",
+  "generated_at": "2026-02-06T16:38:37.830228",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 647,
+    "total_cost": 2944913,
+    "total_prescribers": 35,
+    "total_beneficiaries": 26
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 25,
+      "cost": 96220,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 41,
+      "cost": 176246,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 24,
+      "cost": 107945,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 24,
+      "cost": 136803,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 27,
+      "cost": 206856,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 73,
+      "cost": 307087,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 58,
+      "cost": 288477,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 36,
+      "cost": 156450,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 54513,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 13,
+      "cost": 54513,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 11,
+      "cost": 46131,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 86,
+      "cost": 381138,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 28,
+      "cost": 133508,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 14,
+      "cost": 53294,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WV": {
+      "prescriptions": 11,
+      "cost": 92880,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 163,
+      "cost": 652852,
+      "prescribers": 4,
+      "beneficiaries": 26
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "drug_name": "Tildrakizumab-Asmn",
+  "generated_at": "2026-02-06T16:38:37.952261",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 258,
+    "total_cost": 4498158,
+    "total_prescribers": 15,
+    "total_beneficiaries": 11
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 11,
+      "cost": 198450,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 12,
+      "cost": 215459,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 30,
+      "cost": 527513,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 48,
+      "cost": 813213,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "NY": {
+      "prescriptions": 94,
+      "cost": 1657756,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 24,
+      "cost": 391434,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 13,
+      "cost": 240503,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 216171,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 14,
+      "cost": 237659,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

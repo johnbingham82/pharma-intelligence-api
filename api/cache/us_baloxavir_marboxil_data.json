@@ -1,0 +1,81 @@
+{
+  "drug_name": "Baloxavir Marboxil",
+  "generated_at": "2026-02-06T16:38:37.415410",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 507,
+    "total_cost": 87119,
+    "total_prescribers": 20,
+    "total_beneficiaries": 481
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 19,
+      "cost": 3164,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "TX": {
+      "prescriptions": 19,
+      "cost": 3254,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "KY": {
+      "prescriptions": 24,
+      "cost": 4186,
+      "prescribers": 1,
+      "beneficiaries": 22
+    },
+    "CA": {
+      "prescriptions": 57,
+      "cost": 10008,
+      "prescribers": 3,
+      "beneficiaries": 49
+    },
+    "NY": {
+      "prescriptions": 220,
+      "cost": 37308,
+      "prescribers": 5,
+      "beneficiaries": 217
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 2172,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 64,
+      "cost": 10692,
+      "prescribers": 1,
+      "beneficiaries": 64
+    },
+    "MS": {
+      "prescriptions": 24,
+      "cost": 4939,
+      "prescribers": 2,
+      "beneficiaries": 24
+    },
+    "WA": {
+      "prescriptions": 34,
+      "cost": 5720,
+      "prescribers": 2,
+      "beneficiaries": 33
+    },
+    "AL": {
+      "prescriptions": 11,
+      "cost": 1847,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "LA": {
+      "prescriptions": 23,
+      "cost": 3829,
+      "prescribers": 2,
+      "beneficiaries": 23
+    }
+  }
+}

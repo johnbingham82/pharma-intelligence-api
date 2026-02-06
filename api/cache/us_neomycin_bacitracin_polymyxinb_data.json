@@ -1,0 +1,147 @@
+{
+  "drug_name": "Neomycin/Bacitracin/Polymyxinb",
+  "generated_at": "2026-02-06T16:38:37.782835",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1041,
+    "total_cost": 38059,
+    "total_prescribers": 44,
+    "total_beneficiaries": 548
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 22,
+      "cost": 740,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 188,
+      "cost": 5903,
+      "prescribers": 5,
+      "beneficiaries": 101
+    },
+    "NV": {
+      "prescriptions": 11,
+      "cost": 512,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 19,
+      "cost": 682,
+      "prescribers": 1,
+      "beneficiaries": 14
+    },
+    "PA": {
+      "prescriptions": 25,
+      "cost": 1000,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 63,
+      "cost": 2343,
+      "prescribers": 3,
+      "beneficiaries": 38
+    },
+    "TX": {
+      "prescriptions": 55,
+      "cost": 1650,
+      "prescribers": 3,
+      "beneficiaries": 55
+    },
+    "CT": {
+      "prescriptions": 14,
+      "cost": 535,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 251,
+      "cost": 7262,
+      "prescribers": 5,
+      "beneficiaries": 191
+    },
+    "NY": {
+      "prescriptions": 71,
+      "cost": 2965,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 27,
+      "cost": 2000,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "MN": {
+      "prescriptions": 38,
+      "cost": 1347,
+      "prescribers": 2,
+      "beneficiaries": 24
+    },
+    "NC": {
+      "prescriptions": 38,
+      "cost": 1435,
+      "prescribers": 2,
+      "beneficiaries": 26
+    },
+    "TN": {
+      "prescriptions": 49,
+      "cost": 1575,
+      "prescribers": 2,
+      "beneficiaries": 37
+    },
+    "IA": {
+      "prescriptions": 11,
+      "cost": 517,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 12,
+      "cost": 585,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 37,
+      "cost": 1871,
+      "prescribers": 1,
+      "beneficiaries": 22
+    },
+    "WI": {
+      "prescriptions": 14,
+      "cost": 1038,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 56,
+      "cost": 2505,
+      "prescribers": 4,
+      "beneficiaries": 28
+    },
+    "WV": {
+      "prescriptions": 14,
+      "cost": 482,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 12,
+      "cost": 573,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 14,
+      "cost": 539,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

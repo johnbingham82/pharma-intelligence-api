@@ -1,0 +1,39 @@
+{
+  "drug_name": "Glucagon Hcl",
+  "generated_at": "2026-02-06T16:38:37.642063",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 877,
+    "total_cost": 264365,
+    "total_prescribers": 47,
+    "total_beneficiaries": 67
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 813,
+      "cost": 244418,
+      "prescribers": 44,
+      "beneficiaries": 56
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 4023,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 15,
+      "cost": 4502,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ZZ": {
+      "prescriptions": 38,
+      "cost": 11422,
+      "prescribers": 1,
+      "beneficiaries": 11
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "drug_name": "Carboplatin",
+  "generated_at": "2026-02-06T16:38:37.451421",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1732,
+    "total_cost": 96083,
+    "total_prescribers": 77,
+    "total_beneficiaries": 179
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 312,
+      "cost": 12687,
+      "prescribers": 12,
+      "beneficiaries": 11
+    },
+    "TX": {
+      "prescriptions": 118,
+      "cost": 6928,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 403,
+      "cost": 20365,
+      "prescribers": 17,
+      "beneficiaries": 54
+    },
+    "NY": {
+      "prescriptions": 271,
+      "cost": 15661,
+      "prescribers": 12,
+      "beneficiaries": 38
+    },
+    "NJ": {
+      "prescriptions": 183,
+      "cost": 10943,
+      "prescribers": 11,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 19,
+      "cost": 1343,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 22,
+      "cost": 772,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 21,
+      "cost": 1259,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 11,
+      "cost": 215,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 48,
+      "cost": 3445,
+      "prescribers": 2,
+      "beneficiaries": 15
+    },
+    "IL": {
+      "prescriptions": 14,
+      "cost": 603,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 138,
+      "cost": 10919,
+      "prescribers": 6,
+      "beneficiaries": 26
+    },
+    "HI": {
+      "prescriptions": 55,
+      "cost": 3456,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 82,
+      "cost": 5933,
+      "prescribers": 2,
+      "beneficiaries": 35
+    },
+    "PR": {
+      "prescriptions": 23,
+      "cost": 895,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VI": {
+      "prescriptions": 12,
+      "cost": 659,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

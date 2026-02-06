@@ -1,0 +1,69 @@
+{
+  "drug_name": "Nitazoxanide",
+  "generated_at": "2026-02-06T16:38:37.790202",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 179,
+    "total_cost": 401755,
+    "total_prescribers": 11,
+    "total_beneficiaries": 50
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 14,
+      "cost": 37510,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 35,
+      "cost": 61625,
+      "prescribers": 2,
+      "beneficiaries": 11
+    },
+    "TX": {
+      "prescriptions": 25,
+      "cost": 68780,
+      "prescribers": 2,
+      "beneficiaries": 13
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 5851,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 21,
+      "cost": 42107,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 16,
+      "cost": 58408,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 32,
+      "cost": 91296,
+      "prescribers": 1,
+      "beneficiaries": 26
+    },
+    "IN": {
+      "prescriptions": 11,
+      "cost": 11520,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 14,
+      "cost": 24658,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

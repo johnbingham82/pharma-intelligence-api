@@ -1,0 +1,57 @@
+{
+  "drug_name": "Crizanlizumab-Tmca",
+  "generated_at": "2026-02-06T16:38:37.505674",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 299,
+    "total_cost": 3524000,
+    "total_prescribers": 15,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 12,
+      "cost": 136529,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 120,
+      "cost": 1427066,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 41,
+      "cost": 438922,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 28,
+      "cost": 260198,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 34,
+      "cost": 369631,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 52,
+      "cost": 759824,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 131830,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

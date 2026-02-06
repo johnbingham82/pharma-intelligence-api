@@ -1,0 +1,27 @@
+{
+  "drug_name": "Blinatumomab",
+  "generated_at": "2026-02-06T16:38:37.428675",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 32,
+    "total_cost": 661643,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "WA": {
+      "prescriptions": 11,
+      "cost": 169576,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 21,
+      "cost": 492067,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

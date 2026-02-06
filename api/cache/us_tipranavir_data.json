@@ -1,0 +1,87 @@
+{
+  "drug_name": "Tipranavir",
+  "generated_at": "2026-02-06T16:38:37.955376",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 321,
+    "total_cost": 680492,
+    "total_prescribers": 24,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OK": {
+      "prescriptions": 12,
+      "cost": 25855,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 23,
+      "cost": 48589,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 46,
+      "cost": 99119,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 25283,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 122,
+      "cost": 260118,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 22,
+      "cost": 47755,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 24,
+      "cost": 48984,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 11,
+      "cost": 24361,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 27747,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 20807,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 13,
+      "cost": 27725,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 12,
+      "cost": 24149,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

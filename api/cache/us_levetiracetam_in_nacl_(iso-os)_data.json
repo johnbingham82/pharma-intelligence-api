@@ -1,0 +1,39 @@
+{
+  "drug_name": "Levetiracetam In Nacl (Iso-Os)",
+  "generated_at": "2026-02-06T16:38:37.706205",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 98,
+    "total_cost": 23575,
+    "total_prescribers": 5,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 13,
+      "cost": 5486,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 27,
+      "cost": 5261,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 29,
+      "cost": 4109,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 29,
+      "cost": 8719,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "drug_name": "Sargramostim",
+  "generated_at": "2026-02-06T16:38:37.899187",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 228,
+    "total_cost": 1334652,
+    "total_prescribers": 12,
+    "total_beneficiaries": 17
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 236880,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 13,
+      "cost": 112725,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 85,
+      "cost": 302412,
+      "prescribers": 3,
+      "beneficiaries": 17
+    },
+    "NY": {
+      "prescriptions": 47,
+      "cost": 333130,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 13,
+      "cost": 34079,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 12,
+      "cost": 56119,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 34,
+      "cost": 209715,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "RI": {
+      "prescriptions": 12,
+      "cost": 49592,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

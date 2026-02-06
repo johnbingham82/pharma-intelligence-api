@@ -1,6 +1,6 @@
 {
   "drug_name": "Allopurinol",
-  "generated_at": "2026-02-06T16:18:00.209877",
+  "generated_at": "2026-02-06T16:38:37.382190",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 8274112,
       "prescribers": 11762,
       "beneficiaries": 128506
+    },
+    "NM": {
+      "prescriptions": 38941,
+      "cost": 599907,
+      "prescribers": 984,
+      "beneficiaries": 8099
     },
     "KY": {
       "prescriptions": 167020,
@@ -119,6 +125,12 @@
       "prescribers": 2336,
       "beneficiaries": 19551
     },
+    "ID": {
+      "prescriptions": 44222,
+      "cost": 753564,
+      "prescribers": 1047,
+      "beneficiaries": 9006
+    },
     "WA": {
       "prescriptions": 147884,
       "cost": 2512813,
@@ -155,6 +167,12 @@
       "prescribers": 6124,
       "beneficiaries": 66963
     },
+    "AZ": {
+      "prescriptions": 143552,
+      "cost": 2214031,
+      "prescribers": 3300,
+      "beneficiaries": 35651
+    },
     "TN": {
       "prescriptions": 229520,
       "cost": 3313919,
@@ -178,12 +196,6 @@
       "cost": 938173,
       "prescribers": 1204,
       "beneficiaries": 11131
-    },
-    "AZ": {
-      "prescriptions": 143552,
-      "cost": 2214031,
-      "prescribers": 3300,
-      "beneficiaries": 35651
     },
     "IL": {
       "prescriptions": 346266,
@@ -215,35 +227,23 @@
       "prescribers": 815,
       "beneficiaries": 13650
     },
-    "LA": {
-      "prescriptions": 156221,
-      "cost": 1915164,
-      "prescribers": 2729,
-      "beneficiaries": 33549
-    },
     "RI": {
       "prescriptions": 29090,
       "cost": 468804,
       "prescribers": 632,
       "beneficiaries": 5842
     },
+    "LA": {
+      "prescriptions": 156221,
+      "cost": 1915164,
+      "prescribers": 2729,
+      "beneficiaries": 33549
+    },
     "WI": {
       "prescriptions": 207274,
       "cost": 3404063,
       "prescribers": 3719,
       "beneficiaries": 46767
-    },
-    "ID": {
-      "prescriptions": 44222,
-      "cost": 753564,
-      "prescribers": 1047,
-      "beneficiaries": 9006
-    },
-    "NM": {
-      "prescriptions": 38941,
-      "cost": 599907,
-      "prescribers": 984,
-      "beneficiaries": 8099
     },
     "KS": {
       "prescriptions": 92142,
@@ -256,6 +256,12 @@
       "cost": 4429725,
       "prescribers": 6242,
       "beneficiaries": 65016
+    },
+    "WV": {
+      "prescriptions": 61989,
+      "cost": 775900,
+      "prescribers": 1261,
+      "beneficiaries": 13137
     },
     "VT": {
       "prescriptions": 13861,
@@ -281,29 +287,23 @@
       "prescribers": 3477,
       "beneficiaries": 43387
     },
+    "DE": {
+      "prescriptions": 23403,
+      "cost": 341217,
+      "prescribers": 551,
+      "beneficiaries": 5132
+    },
     "MT": {
       "prescriptions": 31896,
       "cost": 418297,
       "prescribers": 693,
       "beneficiaries": 5916
     },
-    "WV": {
-      "prescriptions": 61989,
-      "cost": 775900,
-      "prescribers": 1261,
-      "beneficiaries": 13137
-    },
     "ME": {
       "prescriptions": 38234,
       "cost": 675461,
       "prescribers": 1058,
       "beneficiaries": 7511
-    },
-    "DE": {
-      "prescriptions": 23403,
-      "cost": 341217,
-      "prescribers": 551,
-      "beneficiaries": 5132
     },
     "AK": {
       "prescriptions": 10614,
@@ -335,6 +335,12 @@
       "prescribers": 6,
       "beneficiaries": 34
     },
+    "VI": {
+      "prescriptions": 1198,
+      "cost": 21379,
+      "prescribers": 33,
+      "beneficiaries": 154
+    },
     "MP": {
       "prescriptions": 159,
       "cost": 1938,
@@ -346,12 +352,6 @@
       "cost": 2673,
       "prescribers": 4,
       "beneficiaries": 52
-    },
-    "VI": {
-      "prescriptions": 1198,
-      "cost": 21379,
-      "prescribers": 33,
-      "beneficiaries": 154
     },
     "AP": {
       "prescriptions": 148,

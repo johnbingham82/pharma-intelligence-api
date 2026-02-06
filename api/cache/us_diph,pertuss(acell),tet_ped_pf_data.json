@@ -1,0 +1,57 @@
+{
+  "drug_name": "Diph,Pertuss(Acell),Tet Ped/Pf",
+  "generated_at": "2026-02-06T16:38:37.541877",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 201,
+    "total_cost": 7604,
+    "total_prescribers": 10,
+    "total_beneficiaries": 128
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 64,
+      "cost": 2294,
+      "prescribers": 2,
+      "beneficiaries": 43
+    },
+    "MN": {
+      "prescriptions": 19,
+      "cost": 887,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "NC": {
+      "prescriptions": 31,
+      "cost": 1105,
+      "prescribers": 2,
+      "beneficiaries": 13
+    },
+    "NE": {
+      "prescriptions": 18,
+      "cost": 489,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "WI": {
+      "prescriptions": 39,
+      "cost": 1914,
+      "prescribers": 2,
+      "beneficiaries": 30
+    },
+    "MO": {
+      "prescriptions": 12,
+      "cost": 361,
+      "prescribers": 1,
+      "beneficiaries": 11
+    },
+    "SD": {
+      "prescriptions": 18,
+      "cost": 554,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

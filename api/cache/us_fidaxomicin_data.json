@@ -1,0 +1,111 @@
+{
+  "drug_name": "Fidaxomicin",
+  "generated_at": "2026-02-06T16:38:37.613393",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 440,
+    "total_cost": 2414596,
+    "total_prescribers": 30,
+    "total_beneficiaries": 29
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 46,
+      "cost": 412838,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 62,
+      "cost": 276434,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CO": {
+      "prescriptions": 11,
+      "cost": 58401,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 72,
+      "cost": 366794,
+      "prescribers": 4,
+      "beneficiaries": 11
+    },
+    "CA": {
+      "prescriptions": 12,
+      "cost": 63183,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 74,
+      "cost": 320156,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 58232,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 44,
+      "cost": 332593,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 13,
+      "cost": 62085,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 11,
+      "cost": 64275,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 18,
+      "cost": 88613,
+      "prescribers": 1,
+      "beneficiaries": 18
+    },
+    "WI": {
+      "prescriptions": 12,
+      "cost": 59189,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MI": {
+      "prescriptions": 12,
+      "cost": 29446,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 13,
+      "cost": 46042,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 16,
+      "cost": 99521,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ME": {
+      "prescriptions": 12,
+      "cost": 76794,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

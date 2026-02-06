@@ -1,0 +1,99 @@
+{
+  "drug_name": "Rituximab-Pvvr",
+  "generated_at": "2026-02-06T16:38:37.889163",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 842,
+    "total_cost": 5459559,
+    "total_prescribers": 43,
+    "total_beneficiaries": 54
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 129,
+      "cost": 858890,
+      "prescribers": 1,
+      "beneficiaries": 37
+    },
+    "OH": {
+      "prescriptions": 19,
+      "cost": 117824,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 13,
+      "cost": 70504,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 183,
+      "cost": 1030440,
+      "prescribers": 12,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 126,
+      "cost": 1155927,
+      "prescribers": 6,
+      "beneficiaries": 17
+    },
+    "CA": {
+      "prescriptions": 154,
+      "cost": 1043922,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 59,
+      "cost": 313845,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 65,
+      "cost": 322056,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 12,
+      "cost": 85644,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 19,
+      "cost": 134533,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 15,
+      "cost": 78731,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 86147,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 21,
+      "cost": 122235,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 14,
+      "cost": 38861,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

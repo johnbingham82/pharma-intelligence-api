@@ -1,0 +1,21 @@
+{
+  "drug_name": "Avacincaptad Pegol Sodium/Pf",
+  "generated_at": "2026-02-06T16:38:37.408187",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 44,
+    "total_cost": 116251,
+    "total_prescribers": 2,
+    "total_beneficiaries": 11
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 44,
+      "cost": 116251,
+      "prescribers": 2,
+      "beneficiaries": 11
+    }
+  }
+}

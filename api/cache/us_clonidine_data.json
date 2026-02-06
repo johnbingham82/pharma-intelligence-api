@@ -1,6 +1,6 @@
 {
   "drug_name": "Clonidine",
-  "generated_at": "2026-02-06T16:18:00.205010",
+  "generated_at": "2026-02-06T16:38:37.481688",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 3738263,
       "prescribers": 1100,
       "beneficiaries": 1288
+    },
+    "NM": {
+      "prescriptions": 708,
+      "cost": 98417,
+      "prescribers": 41,
+      "beneficiaries": 11
     },
     "KY": {
       "prescriptions": 3995,
@@ -119,6 +125,12 @@
       "prescribers": 68,
       "beneficiaries": 22
     },
+    "ID": {
+      "prescriptions": 545,
+      "cost": 68408,
+      "prescribers": 35,
+      "beneficiaries": 11
+    },
     "WA": {
       "prescriptions": 2379,
       "cost": 360787,
@@ -155,6 +167,12 @@
       "prescribers": 490,
       "beneficiaries": 212
     },
+    "AZ": {
+      "prescriptions": 2867,
+      "cost": 451361,
+      "prescribers": 138,
+      "beneficiaries": 239
+    },
     "TN": {
       "prescriptions": 8225,
       "cost": 1267140,
@@ -178,12 +196,6 @@
       "cost": 70281,
       "prescribers": 37,
       "beneficiaries": 0
-    },
-    "AZ": {
-      "prescriptions": 2867,
-      "cost": 451361,
-      "prescribers": 138,
-      "beneficiaries": 239
     },
     "IL": {
       "prescriptions": 5608,
@@ -215,35 +227,23 @@
       "prescribers": 20,
       "beneficiaries": 24
     },
-    "LA": {
-      "prescriptions": 8059,
-      "cost": 1078701,
-      "prescribers": 350,
-      "beneficiaries": 406
-    },
     "RI": {
       "prescriptions": 163,
       "cost": 20109,
       "prescribers": 11,
       "beneficiaries": 0
     },
+    "LA": {
+      "prescriptions": 8059,
+      "cost": 1078701,
+      "prescribers": 350,
+      "beneficiaries": 406
+    },
     "WI": {
       "prescriptions": 2917,
       "cost": 505299,
       "prescribers": 155,
       "beneficiaries": 57
-    },
-    "ID": {
-      "prescriptions": 545,
-      "cost": 68408,
-      "prescribers": 35,
-      "beneficiaries": 11
-    },
-    "NM": {
-      "prescriptions": 708,
-      "cost": 98417,
-      "prescribers": 41,
-      "beneficiaries": 11
     },
     "KS": {
       "prescriptions": 2047,
@@ -256,6 +256,12 @@
       "cost": 1019155,
       "prescribers": 356,
       "beneficiaries": 156
+    },
+    "WV": {
+      "prescriptions": 1797,
+      "cost": 286871,
+      "prescribers": 94,
+      "beneficiaries": 48
     },
     "VT": {
       "prescriptions": 152,
@@ -281,29 +287,23 @@
       "prescribers": 209,
       "beneficiaries": 84
     },
+    "DE": {
+      "prescriptions": 653,
+      "cost": 129711,
+      "prescribers": 35,
+      "beneficiaries": 22
+    },
     "MT": {
       "prescriptions": 257,
       "cost": 30427,
       "prescribers": 18,
       "beneficiaries": 0
     },
-    "WV": {
-      "prescriptions": 1797,
-      "cost": 286871,
-      "prescribers": 94,
-      "beneficiaries": 48
-    },
     "ME": {
       "prescriptions": 388,
       "cost": 42888,
       "prescribers": 21,
       "beneficiaries": 0
-    },
-    "DE": {
-      "prescriptions": 653,
-      "cost": 129711,
-      "prescribers": 35,
-      "beneficiaries": 22
     },
     "AK": {
       "prescriptions": 405,
@@ -323,17 +323,17 @@
       "prescribers": 7,
       "beneficiaries": 0
     },
-    "AE": {
-      "prescriptions": 61,
-      "cost": 5051,
-      "prescribers": 1,
-      "beneficiaries": 25
-    },
     "VI": {
       "prescriptions": 126,
       "cost": 30169,
       "prescribers": 5,
       "beneficiaries": 14
+    },
+    "AE": {
+      "prescriptions": 61,
+      "cost": 5051,
+      "prescribers": 1,
+      "beneficiaries": 25
     }
   }
 }

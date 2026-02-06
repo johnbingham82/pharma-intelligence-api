@@ -1,0 +1,21 @@
+{
+  "drug_name": "Erythromycin Lactobionate",
+  "generated_at": "2026-02-06T16:38:37.585473",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 13,
+    "total_cost": 26574,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "TX": {
+      "prescriptions": 13,
+      "cost": 26574,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

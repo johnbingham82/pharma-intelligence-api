@@ -1,0 +1,63 @@
+{
+  "drug_name": "Granisetron Hcl/Pf",
+  "generated_at": "2026-02-06T16:38:37.646876",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1313,
+    "total_cost": 70837,
+    "total_prescribers": 26,
+    "total_beneficiaries": 178
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 53,
+      "cost": 597,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 302,
+      "cost": 8871,
+      "prescribers": 4,
+      "beneficiaries": 50
+    },
+    "CA": {
+      "prescriptions": 158,
+      "cost": 10457,
+      "prescribers": 7,
+      "beneficiaries": 19
+    },
+    "NY": {
+      "prescriptions": 294,
+      "cost": 9059,
+      "prescribers": 4,
+      "beneficiaries": 71
+    },
+    "NJ": {
+      "prescriptions": 69,
+      "cost": 1132,
+      "prescribers": 2,
+      "beneficiaries": 12
+    },
+    "MN": {
+      "prescriptions": 273,
+      "cost": 37529,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 48,
+      "cost": 759,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 116,
+      "cost": 2433,
+      "prescribers": 1,
+      "beneficiaries": 26
+    }
+  }
+}

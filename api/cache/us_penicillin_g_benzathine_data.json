@@ -1,0 +1,123 @@
+{
+  "drug_name": "Penicillin G Benzathine",
+  "generated_at": "2026-02-06T16:38:37.835685",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 580,
+    "total_cost": 290545,
+    "total_prescribers": 42,
+    "total_beneficiaries": 24
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 12,
+      "cost": 2807,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 100,
+      "cost": 53177,
+      "prescribers": 5,
+      "beneficiaries": 12
+    },
+    "TX": {
+      "prescriptions": 12,
+      "cost": 3097,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 11,
+      "cost": 6409,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 94,
+      "cost": 46482,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 23,
+      "cost": 12251,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 15,
+      "cost": 24715,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 14,
+      "cost": 3494,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "MN": {
+      "prescriptions": 12,
+      "cost": 3208,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 26,
+      "cost": 9922,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 12,
+      "cost": 3092,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 12,
+      "cost": 5282,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 23,
+      "cost": 11645,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "KS": {
+      "prescriptions": 12,
+      "cost": 3179,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 141,
+      "cost": 37096,
+      "prescribers": 11,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 38,
+      "cost": 33527,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "DE": {
+      "prescriptions": 12,
+      "cost": 3093,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "ME": {
+      "prescriptions": 11,
+      "cost": 28069,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

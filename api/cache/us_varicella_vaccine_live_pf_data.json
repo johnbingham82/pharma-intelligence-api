@@ -1,0 +1,129 @@
+{
+  "drug_name": "Varicella Vaccine Live/Pf",
+  "generated_at": "2026-02-06T16:38:37.984449",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1394,
+    "total_cost": 267880,
+    "total_prescribers": 31,
+    "total_beneficiaries": 1113
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 15,
+      "cost": 3058,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "NV": {
+      "prescriptions": 69,
+      "cost": 13540,
+      "prescribers": 1,
+      "beneficiaries": 56
+    },
+    "CO": {
+      "prescriptions": 21,
+      "cost": 4089,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "PA": {
+      "prescriptions": 28,
+      "cost": 5304,
+      "prescribers": 2,
+      "beneficiaries": 22
+    },
+    "FL": {
+      "prescriptions": 255,
+      "cost": 48505,
+      "prescribers": 3,
+      "beneficiaries": 194
+    },
+    "TX": {
+      "prescriptions": 370,
+      "cost": 71433,
+      "prescribers": 4,
+      "beneficiaries": 298
+    },
+    "KY": {
+      "prescriptions": 11,
+      "cost": 2133,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 12,
+      "cost": 2400,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 22,
+      "cost": 4342,
+      "prescribers": 1,
+      "beneficiaries": 19
+    },
+    "CA": {
+      "prescriptions": 252,
+      "cost": 48053,
+      "prescribers": 4,
+      "beneficiaries": 220
+    },
+    "NY": {
+      "prescriptions": 77,
+      "cost": 14404,
+      "prescribers": 3,
+      "beneficiaries": 67
+    },
+    "NJ": {
+      "prescriptions": 39,
+      "cost": 7620,
+      "prescribers": 1,
+      "beneficiaries": 28
+    },
+    "MA": {
+      "prescriptions": 63,
+      "cost": 11847,
+      "prescribers": 1,
+      "beneficiaries": 52
+    },
+    "MS": {
+      "prescriptions": 16,
+      "cost": 3088,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "VA": {
+      "prescriptions": 30,
+      "cost": 5874,
+      "prescribers": 1,
+      "beneficiaries": 26
+    },
+    "IL": {
+      "prescriptions": 50,
+      "cost": 9817,
+      "prescribers": 2,
+      "beneficiaries": 30
+    },
+    "AL": {
+      "prescriptions": 32,
+      "cost": 6115,
+      "prescribers": 1,
+      "beneficiaries": 28
+    },
+    "RI": {
+      "prescriptions": 13,
+      "cost": 2530,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "MI": {
+      "prescriptions": 19,
+      "cost": 3728,
+      "prescribers": 1,
+      "beneficiaries": 15
+    }
+  }
+}

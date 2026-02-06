@@ -1,0 +1,75 @@
+{
+  "drug_name": "Tepotinib Hcl",
+  "generated_at": "2026-02-06T16:38:37.941847",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 291,
+    "total_cost": 6282694,
+    "total_prescribers": 21,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 11,
+      "cost": 264346,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 22,
+      "cost": 540884,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 110,
+      "cost": 2477158,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 60,
+      "cost": 1307540,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 11,
+      "cost": 118525,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 12,
+      "cost": 288377,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 12,
+      "cost": 284211,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 15,
+      "cost": 88041,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 293357,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 26,
+      "cost": 620255,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

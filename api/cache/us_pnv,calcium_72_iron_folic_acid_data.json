@@ -1,0 +1,297 @@
+{
+  "drug_name": "Pnv,Calcium 72/Iron/Folic Acid",
+  "generated_at": "2026-02-06T16:38:37.852012",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 33994,
+    "total_cost": 381573,
+    "total_prescribers": 1463,
+    "total_beneficiaries": 1431
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 878,
+      "cost": 6886,
+      "prescribers": 22,
+      "beneficiaries": 15
+    },
+    "OH": {
+      "prescriptions": 1521,
+      "cost": 21388,
+      "prescribers": 83,
+      "beneficiaries": 99
+    },
+    "CO": {
+      "prescriptions": 92,
+      "cost": 1184,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 837,
+      "cost": 7663,
+      "prescribers": 40,
+      "beneficiaries": 15
+    },
+    "OK": {
+      "prescriptions": 584,
+      "cost": 4962,
+      "prescribers": 18,
+      "beneficiaries": 61
+    },
+    "FL": {
+      "prescriptions": 740,
+      "cost": 11588,
+      "prescribers": 28,
+      "beneficiaries": 47
+    },
+    "TX": {
+      "prescriptions": 954,
+      "cost": 9519,
+      "prescribers": 29,
+      "beneficiaries": 148
+    },
+    "NM": {
+      "prescriptions": 326,
+      "cost": 2970,
+      "prescribers": 17,
+      "beneficiaries": 24
+    },
+    "KY": {
+      "prescriptions": 670,
+      "cost": 6880,
+      "prescribers": 27,
+      "beneficiaries": 34
+    },
+    "SC": {
+      "prescriptions": 180,
+      "cost": 1447,
+      "prescribers": 12,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 13,
+      "cost": 40,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 111,
+      "cost": 1317,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 1159,
+      "cost": 12493,
+      "prescribers": 35,
+      "beneficiaries": 187
+    },
+    "NJ": {
+      "prescriptions": 248,
+      "cost": 5759,
+      "prescribers": 17,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 65,
+      "cost": 797,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 23,
+      "cost": 206,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 188,
+      "cost": 2808,
+      "prescribers": 12,
+      "beneficiaries": 0
+    },
+    "OR": {
+      "prescriptions": 666,
+      "cost": 6895,
+      "prescribers": 50,
+      "beneficiaries": 0
+    },
+    "ID": {
+      "prescriptions": 176,
+      "cost": 2564,
+      "prescribers": 13,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 1757,
+      "cost": 20633,
+      "prescribers": 116,
+      "beneficiaries": 24
+    },
+    "NH": {
+      "prescriptions": 11,
+      "cost": 107,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MN": {
+      "prescriptions": 752,
+      "cost": 6622,
+      "prescribers": 54,
+      "beneficiaries": 0
+    },
+    "DC": {
+      "prescriptions": 376,
+      "cost": 4383,
+      "prescribers": 21,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 179,
+      "cost": 1408,
+      "prescribers": 10,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 554,
+      "cost": 7327,
+      "prescribers": 31,
+      "beneficiaries": 50
+    },
+    "AZ": {
+      "prescriptions": 476,
+      "cost": 5248,
+      "prescribers": 29,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 298,
+      "cost": 4507,
+      "prescribers": 16,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 583,
+      "cost": 6658,
+      "prescribers": 27,
+      "beneficiaries": 62
+    },
+    "ND": {
+      "prescriptions": 98,
+      "cost": 977,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "NE": {
+      "prescriptions": 408,
+      "cost": 3400,
+      "prescribers": 27,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 367,
+      "cost": 4523,
+      "prescribers": 22,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 768,
+      "cost": 6400,
+      "prescribers": 27,
+      "beneficiaries": 13
+    },
+    "AL": {
+      "prescriptions": 146,
+      "cost": 1290,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "AR": {
+      "prescriptions": 332,
+      "cost": 4724,
+      "prescribers": 19,
+      "beneficiaries": 11
+    },
+    "LA": {
+      "prescriptions": 790,
+      "cost": 8236,
+      "prescribers": 28,
+      "beneficiaries": 37
+    },
+    "WI": {
+      "prescriptions": 1668,
+      "cost": 17965,
+      "prescribers": 83,
+      "beneficiaries": 55
+    },
+    "KS": {
+      "prescriptions": 481,
+      "cost": 7657,
+      "prescribers": 22,
+      "beneficiaries": 24
+    },
+    "MI": {
+      "prescriptions": 1800,
+      "cost": 24499,
+      "prescribers": 83,
+      "beneficiaries": 133
+    },
+    "WV": {
+      "prescriptions": 68,
+      "cost": 450,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "UT": {
+      "prescriptions": 206,
+      "cost": 2758,
+      "prescribers": 15,
+      "beneficiaries": 0
+    },
+    "PR": {
+      "prescriptions": 15,
+      "cost": 107,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 11316,
+      "cost": 124182,
+      "prescribers": 340,
+      "beneficiaries": 332
+    },
+    "DE": {
+      "prescriptions": 24,
+      "cost": 242,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MT": {
+      "prescriptions": 500,
+      "cost": 3621,
+      "prescribers": 23,
+      "beneficiaries": 33
+    },
+    "AK": {
+      "prescriptions": 96,
+      "cost": 929,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "SD": {
+      "prescriptions": 442,
+      "cost": 4907,
+      "prescribers": 16,
+      "beneficiaries": 27
+    },
+    "WY": {
+      "prescriptions": 52,
+      "cost": 447,
+      "prescribers": 4,
+      "beneficiaries": 0
+    }
+  }
+}

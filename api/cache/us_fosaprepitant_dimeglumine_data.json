@@ -1,0 +1,81 @@
+{
+  "drug_name": "Fosaprepitant Dimeglumine",
+  "generated_at": "2026-02-06T16:38:37.629108",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 1917,
+    "total_cost": 446115,
+    "total_prescribers": 68,
+    "total_beneficiaries": 235
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 119,
+      "cost": 8042,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 468,
+      "cost": 93060,
+      "prescribers": 26,
+      "beneficiaries": 14
+    },
+    "NY": {
+      "prescriptions": 156,
+      "cost": 50508,
+      "prescribers": 10,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 205,
+      "cost": 32818,
+      "prescribers": 10,
+      "beneficiaries": 22
+    },
+    "MN": {
+      "prescriptions": 43,
+      "cost": 89380,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 43,
+      "cost": 3718,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 31,
+      "cost": 6503,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 414,
+      "cost": 101841,
+      "prescribers": 7,
+      "beneficiaries": 105
+    },
+    "HI": {
+      "prescriptions": 164,
+      "cost": 22053,
+      "prescribers": 4,
+      "beneficiaries": 34
+    },
+    "LA": {
+      "prescriptions": 247,
+      "cost": 36611,
+      "prescribers": 2,
+      "beneficiaries": 60
+    },
+    "PR": {
+      "prescriptions": 27,
+      "cost": 1581,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

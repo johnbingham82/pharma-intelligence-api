@@ -1,0 +1,45 @@
+{
+  "drug_name": "Meropenem/Vaborbactam",
+  "generated_at": "2026-02-06T16:38:37.737420",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 162,
+    "total_cost": 282605,
+    "total_prescribers": 7,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 36,
+      "cost": 78267,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "OH": {
+      "prescriptions": 12,
+      "cost": 32465,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 75,
+      "cost": 126549,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 21,
+      "cost": 11233,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 18,
+      "cost": 34091,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

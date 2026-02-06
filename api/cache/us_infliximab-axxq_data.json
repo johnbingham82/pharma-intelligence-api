@@ -1,0 +1,69 @@
+{
+  "drug_name": "Infliximab-Axxq",
+  "generated_at": "2026-02-06T16:38:37.673524",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 182,
+    "total_cost": 550129,
+    "total_prescribers": 12,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 23,
+      "cost": 37531,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "NM": {
+      "prescriptions": 18,
+      "cost": 68367,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SC": {
+      "prescriptions": 13,
+      "cost": 28858,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 11,
+      "cost": 27013,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "MS": {
+      "prescriptions": 11,
+      "cost": 36036,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 29,
+      "cost": 87392,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 16,
+      "cost": 83612,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 49,
+      "cost": 135542,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "ME": {
+      "prescriptions": 12,
+      "cost": 45778,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

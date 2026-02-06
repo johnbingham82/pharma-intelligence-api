@@ -1,0 +1,123 @@
+{
+  "drug_name": "Olopatadine Hcl/Mometasone",
+  "generated_at": "2026-02-06T16:38:37.804794",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 768,
+    "total_cost": 219057,
+    "total_prescribers": 47,
+    "total_beneficiaries": 153
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 12,
+      "cost": 3175,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 52,
+      "cost": 13991,
+      "prescribers": 3,
+      "beneficiaries": 11
+    },
+    "FL": {
+      "prescriptions": 80,
+      "cost": 24857,
+      "prescribers": 5,
+      "beneficiaries": 21
+    },
+    "TX": {
+      "prescriptions": 62,
+      "cost": 16537,
+      "prescribers": 4,
+      "beneficiaries": 19
+    },
+    "KY": {
+      "prescriptions": 18,
+      "cost": 5229,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CT": {
+      "prescriptions": 16,
+      "cost": 4271,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 96,
+      "cost": 29167,
+      "prescribers": 5,
+      "beneficiaries": 14
+    },
+    "NY": {
+      "prescriptions": 231,
+      "cost": 65371,
+      "prescribers": 12,
+      "beneficiaries": 88
+    },
+    "NJ": {
+      "prescriptions": 11,
+      "cost": 2874,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 39,
+      "cost": 11116,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 28,
+      "cost": 7931,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "AZ": {
+      "prescriptions": 11,
+      "cost": 2964,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 16,
+      "cost": 4086,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 15,
+      "cost": 3798,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 11,
+      "cost": 3059,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 32,
+      "cost": 8413,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 24,
+      "cost": 8443,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "MO": {
+      "prescriptions": 14,
+      "cost": 3775,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

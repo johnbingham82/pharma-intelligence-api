@@ -1,0 +1,57 @@
+{
+  "drug_name": "Estrogens,Conj/Bazedoxifene",
+  "generated_at": "2026-02-06T16:38:37.592114",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 237,
+    "total_cost": 86286,
+    "total_prescribers": 11,
+    "total_beneficiaries": 50
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 38,
+      "cost": 11090,
+      "prescribers": 1,
+      "beneficiaries": 15
+    },
+    "FL": {
+      "prescriptions": 21,
+      "cost": 8938,
+      "prescribers": 1,
+      "beneficiaries": 12
+    },
+    "CT": {
+      "prescriptions": 13,
+      "cost": 8076,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 97,
+      "cost": 37619,
+      "prescribers": 3,
+      "beneficiaries": 23
+    },
+    "NY": {
+      "prescriptions": 45,
+      "cost": 14178,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "VA": {
+      "prescriptions": 11,
+      "cost": 3516,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 12,
+      "cost": 2869,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

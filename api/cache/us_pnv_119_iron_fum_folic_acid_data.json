@@ -1,0 +1,51 @@
+{
+  "drug_name": "Pnv 119/Iron Fum/Folic Acid",
+  "generated_at": "2026-02-06T16:38:37.850670",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 97,
+    "total_cost": 2027,
+    "total_prescribers": 6,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 11,
+      "cost": 229,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 278,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WA": {
+      "prescriptions": 12,
+      "cost": 259,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 32,
+      "cost": 683,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "WI": {
+      "prescriptions": 15,
+      "cost": 448,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "SD": {
+      "prescriptions": 16,
+      "cost": 130,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

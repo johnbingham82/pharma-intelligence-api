@@ -1,0 +1,45 @@
+{
+  "drug_name": "Mesalamine W/Cleansing Wipes",
+  "generated_at": "2026-02-06T16:38:37.737981",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 181,
+    "total_cost": 68608,
+    "total_prescribers": 12,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "CA": {
+      "prescriptions": 12,
+      "cost": 2044,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 76,
+      "cost": 35716,
+      "prescribers": 6,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 53,
+      "cost": 15554,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "IA": {
+      "prescriptions": 21,
+      "cost": 10251,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 19,
+      "cost": 5043,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

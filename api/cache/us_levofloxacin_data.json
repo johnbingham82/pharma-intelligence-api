@@ -1,6 +1,6 @@
 {
   "drug_name": "Levofloxacin",
-  "generated_at": "2026-02-06T16:18:00.195642",
+  "generated_at": "2026-02-06T16:38:37.709076",
   "source": "CMS Medicare Part D",
   "year": "2023",
   "data_type": "real_cms_data",
@@ -58,6 +58,12 @@
       "cost": 1139772,
       "prescribers": 5436,
       "beneficiaries": 114632
+    },
+    "NM": {
+      "prescriptions": 4200,
+      "cost": 31976,
+      "prescribers": 184,
+      "beneficiaries": 3168
     },
     "KY": {
       "prescriptions": 45585,
@@ -119,6 +125,12 @@
       "prescribers": 218,
       "beneficiaries": 3185
     },
+    "ID": {
+      "prescriptions": 3046,
+      "cost": 20954,
+      "prescribers": 148,
+      "beneficiaries": 2082
+    },
     "WA": {
       "prescriptions": 8481,
       "cost": 73433,
@@ -155,6 +167,12 @@
       "prescribers": 1728,
       "beneficiaries": 30937
     },
+    "AZ": {
+      "prescriptions": 21039,
+      "cost": 137738,
+      "prescribers": 852,
+      "beneficiaries": 15822
+    },
     "TN": {
       "prescriptions": 53338,
       "cost": 387078,
@@ -178,12 +196,6 @@
       "cost": 69991,
       "prescribers": 398,
       "beneficiaries": 5947
-    },
-    "AZ": {
-      "prescriptions": 21039,
-      "cost": 137738,
-      "prescribers": 852,
-      "beneficiaries": 15822
     },
     "IL": {
       "prescriptions": 44122,
@@ -215,35 +227,23 @@
       "prescribers": 104,
       "beneficiaries": 1694
     },
-    "LA": {
-      "prescriptions": 36494,
-      "cost": 245912,
-      "prescribers": 1333,
-      "beneficiaries": 27829
-    },
     "RI": {
       "prescriptions": 3252,
       "cost": 26282,
       "prescribers": 130,
       "beneficiaries": 2021
     },
+    "LA": {
+      "prescriptions": 36494,
+      "cost": 245912,
+      "prescribers": 1333,
+      "beneficiaries": 27829
+    },
     "WI": {
       "prescriptions": 9659,
       "cost": 87175,
       "prescribers": 447,
       "beneficiaries": 6429
-    },
-    "ID": {
-      "prescriptions": 3046,
-      "cost": 20954,
-      "prescribers": 148,
-      "beneficiaries": 2082
-    },
-    "NM": {
-      "prescriptions": 4200,
-      "cost": 31976,
-      "prescribers": 184,
-      "beneficiaries": 3168
     },
     "KS": {
       "prescriptions": 11848,
@@ -256,6 +256,12 @@
       "cost": 172591,
       "prescribers": 1083,
       "beneficiaries": 17834
+    },
+    "WV": {
+      "prescriptions": 12647,
+      "cost": 92087,
+      "prescribers": 515,
+      "beneficiaries": 8997
     },
     "VT": {
       "prescriptions": 977,
@@ -281,29 +287,23 @@
       "prescribers": 1345,
       "beneficiaries": 24054
     },
+    "DE": {
+      "prescriptions": 2853,
+      "cost": 22536,
+      "prescribers": 111,
+      "beneficiaries": 2135
+    },
     "MT": {
       "prescriptions": 1588,
       "cost": 13064,
       "prescribers": 74,
       "beneficiaries": 1083
     },
-    "WV": {
-      "prescriptions": 12647,
-      "cost": 92087,
-      "prescribers": 515,
-      "beneficiaries": 8997
-    },
     "ME": {
       "prescriptions": 2783,
       "cost": 24828,
       "prescribers": 134,
       "beneficiaries": 1962
-    },
-    "DE": {
-      "prescriptions": 2853,
-      "cost": 22536,
-      "prescribers": 111,
-      "beneficiaries": 2135
     },
     "AK": {
       "prescriptions": 533,
@@ -335,17 +335,17 @@
       "prescribers": 4,
       "beneficiaries": 70
     },
-    "AE": {
-      "prescriptions": 15,
-      "cost": 48,
-      "prescribers": 1,
-      "beneficiaries": 13
-    },
     "VI": {
       "prescriptions": 47,
       "cost": 664,
       "prescribers": 2,
       "beneficiaries": 38
+    },
+    "AE": {
+      "prescriptions": 15,
+      "cost": 48,
+      "prescribers": 1,
+      "beneficiaries": 13
     },
     "AP": {
       "prescriptions": 29,

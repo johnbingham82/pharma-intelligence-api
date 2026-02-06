@@ -1,0 +1,21 @@
+{
+  "drug_name": "Morphine Sulfate/Pf",
+  "generated_at": "2026-02-06T16:38:37.763013",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 15,
+    "total_cost": 2900,
+    "total_prescribers": 1,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "MO": {
+      "prescriptions": 15,
+      "cost": 2900,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

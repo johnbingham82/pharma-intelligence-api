@@ -1,0 +1,87 @@
+{
+  "drug_name": "Carfilzomib",
+  "generated_at": "2026-02-06T16:38:37.451609",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 920,
+    "total_cost": 7754290,
+    "total_prescribers": 38,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "OH": {
+      "prescriptions": 13,
+      "cost": 49146,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 33,
+      "cost": 206539,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "FL": {
+      "prescriptions": 75,
+      "cost": 703896,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "KY": {
+      "prescriptions": 48,
+      "cost": 165762,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 227,
+      "cost": 1705304,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "NY": {
+      "prescriptions": 185,
+      "cost": 2236692,
+      "prescribers": 9,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 107,
+      "cost": 593137,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "MA": {
+      "prescriptions": 80,
+      "cost": 271987,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TN": {
+      "prescriptions": 33,
+      "cost": 117246,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 67,
+      "cost": 526357,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "LA": {
+      "prescriptions": 28,
+      "cost": 719915,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "VI": {
+      "prescriptions": 24,
+      "cost": 458309,
+      "prescribers": 2,
+      "beneficiaries": 0
+    }
+  }
+}

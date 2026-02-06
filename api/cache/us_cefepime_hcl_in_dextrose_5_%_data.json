@@ -1,0 +1,69 @@
+{
+  "drug_name": "Cefepime Hcl In Dextrose 5 %",
+  "generated_at": "2026-02-06T16:38:37.457509",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 548,
+    "total_cost": 117405,
+    "total_prescribers": 32,
+    "total_beneficiaries": 31
+  },
+  "by_state": {
+    "PA": {
+      "prescriptions": 86,
+      "cost": 23375,
+      "prescribers": 4,
+      "beneficiaries": 16
+    },
+    "FL": {
+      "prescriptions": 54,
+      "cost": 11492,
+      "prescribers": 4,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 71,
+      "cost": 14853,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "GA": {
+      "prescriptions": 39,
+      "cost": 11193,
+      "prescribers": 3,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 27,
+      "cost": 7304,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 114,
+      "cost": 18532,
+      "prescribers": 7,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 118,
+      "cost": 24104,
+      "prescribers": 5,
+      "beneficiaries": 0
+    },
+    "AL": {
+      "prescriptions": 13,
+      "cost": 1571,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "HI": {
+      "prescriptions": 26,
+      "cost": 4981,
+      "prescribers": 1,
+      "beneficiaries": 15
+    }
+  }
+}

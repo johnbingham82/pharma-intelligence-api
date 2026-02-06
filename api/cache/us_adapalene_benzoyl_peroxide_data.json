@@ -1,0 +1,51 @@
+{
+  "drug_name": "Adapalene/Benzoyl Peroxide",
+  "generated_at": "2026-02-06T16:38:37.375853",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 179,
+    "total_cost": 25154,
+    "total_prescribers": 12,
+    "total_beneficiaries": 29
+  },
+  "by_state": {
+    "MD": {
+      "prescriptions": 11,
+      "cost": 5542,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "PA": {
+      "prescriptions": 23,
+      "cost": 9218,
+      "prescribers": 2,
+      "beneficiaries": 0
+    },
+    "CA": {
+      "prescriptions": 110,
+      "cost": 5038,
+      "prescribers": 6,
+      "beneficiaries": 29
+    },
+    "NY": {
+      "prescriptions": 11,
+      "cost": 782,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NC": {
+      "prescriptions": 11,
+      "cost": 1118,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IN": {
+      "prescriptions": 13,
+      "cost": 3456,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "drug_name": "Imipenem/Cilastatin/Relebactam",
+  "generated_at": "2026-02-06T16:38:37.666667",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 36,
+    "total_cost": 213583,
+    "total_prescribers": 3,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "FL": {
+      "prescriptions": 13,
+      "cost": 84926,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "TX": {
+      "prescriptions": 11,
+      "cost": 7047,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "IL": {
+      "prescriptions": 12,
+      "cost": 121610,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}

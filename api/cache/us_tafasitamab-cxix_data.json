@@ -1,0 +1,27 @@
+{
+  "drug_name": "Tafasitamab-Cxix",
+  "generated_at": "2026-02-06T16:38:37.933074",
+  "source": "CMS Medicare Part D",
+  "year": "2023",
+  "data_type": "real_cms_data",
+  "national_total": {
+    "total_prescriptions": 23,
+    "total_cost": 281301,
+    "total_prescribers": 2,
+    "total_beneficiaries": 0
+  },
+  "by_state": {
+    "NY": {
+      "prescriptions": 11,
+      "cost": 148411,
+      "prescribers": 1,
+      "beneficiaries": 0
+    },
+    "NJ": {
+      "prescriptions": 12,
+      "cost": 132890,
+      "prescribers": 1,
+      "beneficiaries": 0
+    }
+  }
+}
