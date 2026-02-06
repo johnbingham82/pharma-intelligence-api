@@ -654,16 +654,39 @@ async def get_country_detail(country_code: str):
             total_drug_prescriptions = sum(d['prescriptions'] for d in top_drugs)
             total_drug_cost = sum(d['cost'] for d in top_drugs)
             
-            # State-level data proportional to population
+            # All 50 US states + DC - State-level data proportional to population
             states = [
                 ('California', 'CA'), ('Texas', 'TX'), ('Florida', 'FL'),
                 ('New York', 'NY'), ('Pennsylvania', 'PA'), ('Illinois', 'IL'),
                 ('Ohio', 'OH'), ('Georgia', 'GA'), ('North Carolina', 'NC'),
-                ('Michigan', 'MI')
+                ('Michigan', 'MI'), ('New Jersey', 'NJ'), ('Virginia', 'VA'),
+                ('Washington', 'WA'), ('Arizona', 'AZ'), ('Massachusetts', 'MA'),
+                ('Tennessee', 'TN'), ('Indiana', 'IN'), ('Missouri', 'MO'),
+                ('Maryland', 'MD'), ('Wisconsin', 'WI'), ('Colorado', 'CO'),
+                ('Minnesota', 'MN'), ('South Carolina', 'SC'), ('Alabama', 'AL'),
+                ('Louisiana', 'LA'), ('Kentucky', 'KY'), ('Oregon', 'OR'),
+                ('Oklahoma', 'OK'), ('Connecticut', 'CT'), ('Utah', 'UT'),
+                ('Iowa', 'IA'), ('Nevada', 'NV'), ('Arkansas', 'AR'),
+                ('Mississippi', 'MS'), ('Kansas', 'KS'), ('New Mexico', 'NM'),
+                ('Nebraska', 'NE'), ('Idaho', 'ID'), ('West Virginia', 'WV'),
+                ('Hawaii', 'HI'), ('New Hampshire', 'NH'), ('Maine', 'ME'),
+                ('Montana', 'MT'), ('Rhode Island', 'RI'), ('Delaware', 'DE'),
+                ('South Dakota', 'SD'), ('North Dakota', 'ND'), ('Alaska', 'AK'),
+                ('Vermont', 'VT'), ('Wyoming', 'WY'), ('District of Columbia', 'DC')
             ]
             
-            # State weights based on population (top 10 states)
-            state_weights = [11.9, 8.9, 6.6, 5.9, 3.9, 3.8, 3.5, 3.2, 3.2, 3.0]  # % of US population
+            # State weights based on 2023 population (% of US total)
+            state_weights = [
+                11.65, 8.93, 6.58, 5.82, 3.82, 3.76,  # CA, TX, FL, NY, PA, IL
+                3.49, 3.22, 3.19, 2.98, 2.74, 2.61,   # OH, GA, NC, MI, NJ, VA
+                2.33, 2.21, 2.07, 2.07, 2.02, 1.82,   # WA, AZ, MA, TN, IN, MO
+                1.82, 1.74, 1.74, 1.67, 1.55, 1.50,   # MD, WI, CO, MN, SC, AL
+                1.39, 1.33, 1.27, 1.21, 1.18, 1.15,   # LA, KY, OR, OK, CT, UT
+                0.95, 0.94, 0.90, 0.89, 0.87, 0.83,   # IA, NV, AR, MS, KS, NM
+                0.58, 0.54, 0.54, 0.43, 0.41, 0.40,   # NE, ID, WV, HI, NH, ME
+                0.33, 0.32, 0.30, 0.27, 0.23, 0.22,   # MT, RI, DE, SD, ND, AK
+                0.19, 0.17, 0.21                       # VT, WY, DC
+            ]
             
             for (state_name, state_code), weight in zip(states, state_weights):
                 prescriptions = int(total_drug_prescriptions * weight / 100)
