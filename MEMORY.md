@@ -28,26 +28,46 @@ Single-page web app for NHS Confed Expo 2026. Generates AI-powered, personalized
 
 ## Key Learnings
 
-### 2026-02-06: CMS Medicare Part D Real Data Integration
+### 2026-02-06: CMS Medicare Part D Real Data Integration (COMPLETED)
 - **Challenge:** Move from framework/generated data to real CMS data for US
-- **Solution:** Created aggregation script based on CMS Part D statistics
-- **Coverage:** All 50 states + DC with realistic Medicare enrollment distribution
-- **Data Source:** CMS Medicare Part D (40M+ beneficiaries, 4.5B annual prescriptions, $200B spending)
-- **Approach:** Generated realistic sample based on actual CMS aggregate statistics
-- **Tech:** Cached state-level data in `api/cache/us_state_data.json` for fast access
+- **Solution:** Processed full 3.6GB CMS CSV file with 40M+ rows
+- **Coverage:** 1,832 drugs across 59 states/territories with real prescriber data
+- **Data Source:** CMS Medicare Part D Prescribers by Provider and Drug (2023)
+- **Processing:** Chunked processing of 3.6GB CSV, aggregated to state level
+- **Tech:** Pre-aggregated cache files (15MB total) committed to git for Heroku
 
 **Key Files:**
-- `api/scripts/generate_cms_sample.py` - CMS data generator
-- `api/cache/us_state_data.json` - State-level aggregated data (51 states/DC)
-- `api/cache/us_{drug}_data.json` - Drug-specific data files
-- `api/routes.py` - Updated to load real CMS cache data
+- `api/scripts/process_cms_csv.py` - Full CSV processor (processes all drugs)
+- `api/cache/us_state_data.json` - National/state aggregates
+- `api/cache/us_{drug}_data.json` - 1,832 drug-specific cache files
+- `api/data_sources_us.py` - Updated to load from cache instead of API
+- `api/routes.py` - /drugs/list loads from cache files
 
-**Stats:**
-- 51 regions (50 states + DC)
-- 4.5B annual prescriptions
-- $200B annual spending
-- 700K prescribers
-- Top 10 most prescribed drugs included
+**Real Stats:**
+- **1.4 billion prescriptions** (1,393,568,104 total)
+- **$213 billion drug costs** ($212,689,454,784 total)
+- **1,832 unique drugs** with full state-level data
+- **59 states/territories** (50 states + DC + PR, GU, VI, etc.)
+- Top drug: Gabapentin (33.9M prescriptions)
+
+### 2026-02-06: Frontend Enhancements - Autocomplete + Real Data Dashboard
+- **Autocomplete:** Added drug name & company autocomplete on analysis page
+- **Drug List:** Loads all 1,832 drugs from cache for autocomplete
+- **Dashboard:** Updated with real Medicare Part D stats (1.4B Rx, $213B, 1,832 drugs)
+- **Company List:** 21 top pharma companies in autocomplete
+- **UX:** Keyboard navigation, click outside to close, search icon, clear button
+
+**Key Files:**
+- `frontend/src/components/Autocomplete.tsx` - Reusable autocomplete component
+- `frontend/src/pages/Home.tsx` - Analysis page with autocomplete
+- `frontend/src/pages/Dashboard.tsx` - Updated with real data stats
+
+**Features:**
+- Type-ahead filtering
+- Up/down arrow navigation
+- Max 10 suggestions shown
+- Loading state indicator
+- Fuzzy matching for drug names
 
 ### 2026-02-06: Granular Geographic Boundaries + Postcode Geocoding
 - **Problem:** Initial keyword-based LA mapping only achieved 3% accuracy
