@@ -342,9 +342,13 @@ ${idx + 1}. ${p.name}
 ${userContext}`;
 
     if (structuredContext && structuredContext.challenge) {
+        const orgNameSection = structuredContext.organizationName 
+            ? `ORGANIZATION: ${structuredContext.organizationName}\n\n` 
+            : '';
+        
         contextSection = `DETAILED USER CONTEXT:
 
-PRIMARY CHALLENGE:
+${orgNameSection}PRIMARY CHALLENGE:
 ${structuredContext.challenge}
 
 SPECIFIC REQUIREMENTS & METRICS:
@@ -370,6 +374,7 @@ Focus solutions on COLLABORATIVE WORKING (deploying specialist roles, sharing ex
 NEVER mention funding, grants, or financial contributions - this is about partnership, not money.
 
 CRITICAL - PERSONALIZATION REQUIREMENTS:
+- **IF organization name is provided, USE IT throughout the proposal** (e.g., "Imagine this at [Trust Name]", "For [Trust Name], this means...")
 - Reference their SPECIFIC metrics, timeframes, and constraints mentioned
 - Address their EXACT challenges (not generic problems)
 - Tailor solutions to their stated requirements

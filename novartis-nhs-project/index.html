@@ -849,6 +849,112 @@ body {
                     .slice(0, 3);
             };
 
+            // ============================================
+            // ADAPTIVE CONVERSATION HELPERS
+            // ============================================
+            
+            const extractOrganizationInfo = (text) => {
+                const patterns = [
+                    /(?:at|from|with|for|work(?:ing)?\s+(?:at|with))\s+([A-Z][a-zA-Z\s&'-]+(?:NHS Trust|Trust|ICS|ICB|Hospital|Health Board|Healthcare|CCG))/gi,
+                    /([A-Z][a-zA-Z\s&'-]+(?:NHS Trust|Trust|ICS|ICB|Hospital|Health Board|Healthcare|CCG))/gi,
+                    /(?:we're|we are)\s+([A-Z][a-zA-Z\s&'-]+)/gi,
+                    /(?:I'm at|I work at)\s+([A-Z][a-zA-Z\s&'-]+)/gi
+                ];
+                
+                for (const pattern of patterns) {
+                    const matches = [...text.matchAll(pattern)];
+                    if (matches.length > 0) {
+                        return matches[0][1].trim();
+                    }
+                }
+                return null;
+            };
+
+            const analyzeProvidedInfo = (userMessages) => {
+                const fullText = userMessages.join(' ').toLowerCase();
+                
+                return {
+                    hasOrganization: extractOrganizationInfo(userMessages.join(' ')) !== null,
+                    hasMetrics: /\d+%|\d+ (patients?|hours?|days?|weeks?|months?)|\d+k|waiting time|capacity|throughput/i.test(fullText),
+                    hasTimeline: /month|year|quarter|week|urgent|asap|by \d+/i.test(fullText),
+                    hasConstraints: /budget|staff|resource|capacity|infrastructure|technology|limited|challenge/i.test(fullText),
+                    hasSpecificGoal: /reduce|increase|improve|achieve|target|goal|outcome/i.test(fullText),
+                    hasScope: /ward|department|trust-wide|system-wide|pathway|service|clinic/i.test(fullText),
+                    hasProblemArea: /waiting|backlog|capacity|outcome|readmission|discharge|access|quality/i.test(fullText)
+                };
+            };
+
+            const generateAdaptiveQuestion = (userMessages, messageCount) => {
+                const allText = userMessages.join('\n\n');
+                const orgName = extractOrganizationInfo(allText);
+                const provided = analyzeProvidedInfo(userMessages);
+                
+                if (messageCount === 1) {
+                    if (!provided.hasOrganization) {
+                        return "Thanks for sharing that. Before we dive into solutions, could you tell me which Trust or ICS you're working with? This will help me tailor the proposal specifically for your organization.";
+                    }
+                    
+                    let question = `Thanks for sharing that${orgName ? `, ${orgName}` : ''}. `;
+                    const missingElements = [];
+                    
+                    if (!provided.hasMetrics) {
+                        missingElements.push("• What are your current numbers? (e.g., waiting times, patient volumes, capacity)");
+                    }
+                    if (!provided.hasSpecificGoal) {
+                        missingElements.push("• What specific improvement would you like to achieve?");
+                    }
+                    if (!provided.hasTimeline) {
+                        missingElements.push("• What's your timeframe for seeing results?");
+                    }
+                    
+                    if (missingElements.length > 0) {
+                        question += "To create the most relevant solution, could you tell me:\n\n" + missingElements.join('\n');
+                    } else {
+                        question += "That's comprehensive. What are your main constraints or considerations? For example, workforce challenges, infrastructure needs, or operational factors.";
+                    }
+                    
+                    return question;
+                }
+                
+                if (messageCount === 2) {
+                    const stillMissing = [];
+                    
+                    if (!provided.hasConstraints) {
+                        stillMissing.push("• What constraints or challenges need to be considered?");
+                    }
+                    if (!provided.hasScope) {
+                        stillMissing.push("• What's the scope? (e.g., single department, trust-wide, pathway)");
+                    }
+                    if (!provided.hasMetrics && !provided.hasSpecificGoal) {
+                        stillMissing.push("• What does success look like in measurable terms?");
+                    }
+                    
+                    if (stillMissing.length > 0) {
+                        return `That's helpful${orgName ? `, ${orgName}` : ''}. A couple more things:\n\n` + stillMissing.join('\n');
+                    }
+                }
+                
+                return `Excellent${orgName ? `, ${orgName}` : ''}. I have a clear picture now. Let me create a highly personalised proposal that addresses your specific situation...`;
+            };
+
+            const buildStructuredContext = (userMessages) => {
+                const allText = userMessages.join('\n\n');
+                const orgName = extractOrganizationInfo(allText);
+                const provided = analyzeProvidedInfo(userMessages);
+                
+                return {
+                    organizationName: orgName,
+                    challenge: userMessages[0],
+                    specifics: userMessages[1] || '',
+                    constraints: userMessages[2] || '',
+                    fullContext: allText,
+                    hasMetrics: provided.hasMetrics,
+                    hasTimeline: provided.hasTimeline,
+                    hasConstraints: provided.hasConstraints,
+                    analyzedInfo: provided
+                };
+            };
+
             const handleSendMessage = async () => {
                 if (!userInput.trim() || isLoading) return;
 
@@ -859,38 +965,12 @@ body {
                 setIsLoading(true);
 
                 const messageCount = newMessages.filter(m => m.role === 'user').length;
+                const userMessages = newMessages.filter(m => m.role === 'user').map(m => m.content);
                 
-                // Enhanced multi-turn conversation for personalization
-                if (messageCount === 1) {
-                    // First message - identify the domain and ask for specifics
+                // Adaptive conversation based on what info is provided
+                if (messageCount < 3) {
                     setTimeout(() => {
-                        let followUp = "Thanks for sharing that. To create the most relevant solution, could you tell me:\n\n";
-                        
-                        const input = currentInput.toLowerCase();
-                        
-                        // Domain-specific questions
-                        if (input.includes('waiting') || input.includes('backlog') || input.includes('list')) {
-                            followUp += "• What are your current waiting times?\n• How many patients are affected?\n• What would be your target waiting time?";
-                        } else if (input.includes('capacity') || input.includes('staff') || input.includes('resource')) {
-                            followUp += "• What's your current capacity constraint?\n• How much additional capacity do you need?\n• What type of staff/resources are most critical?";
-                        } else if (input.includes('patient') || input.includes('outcome') || input.includes('care')) {
-                            followUp += "• What specific patient outcomes need improvement?\n• What barriers are patients facing?\n• What does success look like for your patients?";
-                        } else {
-                            followUp += "• What specific metrics or outcomes would you like to improve?\n• What constraints are you working within?\n• What does success look like in 12 months?";
-                        }
-                        
-                        setMessages(prev => [...prev, {
-                            role: 'assistant',
-                            content: followUp
-                        }]);
-                        setIsLoading(false);
-                    }, 1000);
-                    
-                } else if (messageCount === 2) {
-                    // Second message - ask about context and constraints
-                    setTimeout(() => {
-                        const followUp = "That's really helpful context. One more thing - what are your main constraints or considerations?\n\nFor example:\n• Workforce challenges\n• Infrastructure or technology requirements\n• Timeline pressures\n• Operational considerations\n• Any other key factors";
-                        
+                        const followUp = generateAdaptiveQuestion(userMessages, messageCount);
                         setMessages(prev => [...prev, {
                             role: 'assistant',
                             content: followUp
@@ -899,11 +979,12 @@ body {
                     }, 1000);
                     
                 } else {
-                    // Third message - generate personalized proposal
+                    // Generate proposal with full context
                     setTimeout(() => {
+                        const orgName = extractOrganizationInfo(userMessages.join(' '));
                         setMessages(prev => [...prev, {
                             role: 'assistant',
-                            content: 'Perfect! I have a clear picture now. Let me create a highly personalised proposal that addresses your specific situation...'
+                            content: `Perfect${orgName ? `, ${orgName}` : ''}! I have a clear picture now. Let me create a highly personalised proposal that addresses your specific situation...`
                         }]);
                     }, 500);
 
@@ -914,14 +995,8 @@ body {
                         await new Promise(resolve => setTimeout(resolve, 800));
                         setGenerationStep(1);
                         
-                        // Build comprehensive context from all messages
-                        const userMessages = newMessages.filter(m => m.role === 'user').map(m => m.content);
-                        const comprehensiveContext = {
-                            challenge: userMessages[0],
-                            specifics: userMessages[1],
-                            constraints: userMessages[2],
-                            fullContext: userMessages.join('\n\n')
-                        };
+                        // Build comprehensive context with org name
+                        const comprehensiveContext = buildStructuredContext(userMessages);
                         
                         // Search for relevant projects
                         const relevant = searchRelevantProjects(comprehensiveContext.fullContext);
@@ -931,7 +1006,7 @@ body {
                         setGenerationStep(2);
 
                         try {
-                            // Pass rich context to generation
+                            // Pass rich context including org name to generation
                             const generatedProposal = await generateProposal(comprehensiveContext.fullContext, relevant, comprehensiveContext);
                             const generatedScript = generateVideoScript(generatedProposal);
                             
@@ -958,7 +1033,7 @@ body {
             // BACKEND API INTEGRATION
             // ============================================
             
-            const generateProposalWithBackend = async (userContext, relevantProjects) => {
+            const generateProposalWithBackend = async (userContext, relevantProjects, structuredContext) => {
                 try {
                     const response = await fetch(`${CONFIG.BACKEND_API_URL}/generate-proposal`, {
                         method: 'POST',
@@ -1377,9 +1452,9 @@ Return ONLY valid JSON with no markdown formatting or code fences.`;
             const generateProposal = async (userContext, relevantProjects, structuredContext = null) => {
                 // Priority 1: Use secure backend API (RECOMMENDED)
                 if (CONFIG.USE_BACKEND) {
-                    console.log('Using secure backend API');
+                    console.log('Using secure backend API with structured context:', structuredContext);
                     try {
-                        return await generateProposalWithBackend(userContext, relevantProjects);
+                        return await generateProposalWithBackend(userContext, relevantProjects, structuredContext);
                     } catch (error) {
                         console.error('Backend failed, falling back to mock');
                         return generateProposalMock(userContext, relevantProjects);
