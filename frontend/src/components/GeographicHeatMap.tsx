@@ -480,7 +480,9 @@ export default function GeographicHeatMap({
           })
         },
         click: () => {
-          setSelectedRegion(regionData.region)
+          // Use local_authority for LA granularity, region for region granularity
+          const selectedName = regionData.local_authority || regionData.region
+          setSelectedRegion(selectedName)
         }
       })
       
@@ -496,8 +498,11 @@ export default function GeographicHeatMap({
         `${value.toFixed(1)}%` :
         value.toLocaleString()
       
+      // Use local_authority for LA granularity, region for region granularity
+      const displayName = regionData.local_authority || regionData.region
+      
       layer.bindTooltip(
-        `<strong>${regionData.region}</strong><br/>${formattedValue}`,
+        `<strong>${displayName}</strong><br/>${formattedValue}`,
         { sticky: true }
       )
     }
