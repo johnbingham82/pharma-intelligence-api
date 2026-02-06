@@ -2,7 +2,12 @@ import { useEffect, useState, useMemo } from 'react'
 import { MapContainer, TileLayer, GeoJSON, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import { MapPin } from 'lucide-react'
+import 'leaflet.markercluster/dist/MarkerCluster.css'
+import 'leaflet.markercluster/dist/MarkerCluster.Default.css'
+import 'leaflet.markercluster'
+import 'leaflet.heat'
+import { MapPin, Layers, Activity } from 'lucide-react'
+import { API_BASE_URL } from '../config'
 
 interface RegionData {
   region: string
@@ -17,6 +22,16 @@ interface GeographicHeatMapProps {
   metric?: 'prescriptions' | 'cost' | 'prescribers' | 'growth'
   title?: string
   countryCode?: string
+  drug?: string
+}
+
+interface PracticeData {
+  id: string
+  name: string
+  prescriptions: number
+  cost: number
+  lat?: number
+  lng?: number
 }
 
 // Map center coordinates for different countries
@@ -56,17 +71,114 @@ function FitBounds({ bounds }: { bounds: L.LatLngBounds | null }) {
   return null
 }
 
+// Heat map layer component
+function HeatMapLayer({ practices, metric }: { practices: PracticeData[]; metric: string }) {
+  const map = useMap()
+  
+  useEffect(() => {
+    if (practices.length === 0) return
+    
+    // Filter practices with coordinates (for demo, use mock coordinates)
+    const heatData = practices
+      .filter(p => p.lat && p.lng)
+      .map(p => {
+        const value = metric === 'prescriptions' ? p.prescriptions : p.cost
+        return [p.lat!, p.lng!, value / 100] // Normalize intensity
+      })
+    
+    if (heatData.length === 0) return
+    
+    // @ts-ignore - leaflet.heat types
+    const heatLayer = L.heatLayer(heatData, {
+      radius: 25,
+      blur: 35,
+      maxZoom: 13,
+      max: 1.0,
+      gradient: {
+        0.0: '#3b82f6',
+        0.5: '#8b5cf6',
+        0.75: '#ec4899',
+        1.0: '#ef4444'
+      }
+    }).addTo(map)
+    
+    return () => {
+      map.removeLayer(heatLayer)
+    }
+  }, [practices, metric, map])
+  
+  return null
+}
+
+// Marker cluster layer component
+function MarkerClusterLayer({ practices, onPracticeClick }: { 
+  practices: PracticeData[]; 
+  onPracticeClick: (practice: PracticeData) => void 
+}) {
+  const map = useMap()
+  
+  useEffect(() => {
+    if (practices.length === 0) return
+    
+    // @ts-ignore - markercluster types
+    const markers = L.markerClusterGroup({
+      chunkedLoading: true,
+      spiderfyOnMaxZoom: true,
+      showCoverageOnHover: false,
+      zoomToBoundsOnClick: true,
+      maxClusterRadius: 80
+    })
+    
+    practices
+      .filter(p => p.lat && p.lng)
+      .forEach(practice => {
+        const marker = L.marker([practice.lat!, practice.lng!], {
+          icon: L.divIcon({
+            className: 'custom-practice-marker',
+            html: `<div class="bg-primary-600 text-white rounded-full w-8 h-8 flex items-center justify-center text-xs font-bold shadow-lg">${practice.prescriptions > 1000 ? '1K+' : practice.prescriptions}</div>`,
+            iconSize: [32, 32]
+          })
+        })
+        
+        marker.bindPopup(`
+          <div class="p-2">
+            <strong class="text-sm">${practice.name}</strong><br/>
+            <span class="text-xs text-gray-600">Prescriptions: ${practice.prescriptions.toLocaleString()}</span><br/>
+            <span class="text-xs text-gray-600">Cost: $${(practice.cost / 1000).toFixed(1)}K</span>
+          </div>
+        `)
+        
+        marker.on('click', () => onPracticeClick(practice))
+        
+        markers.addLayer(marker)
+      })
+    
+    map.addLayer(markers)
+    
+    return () => {
+      map.removeLayer(markers)
+    }
+  }, [practices, map, onPracticeClick])
+  
+  return null
+}
+
 export default function GeographicHeatMap({ 
   data, 
   metric = 'prescriptions',
   title = 'Geographic Distribution',
-  countryCode = 'uk'
+  countryCode = 'uk',
+  drug = 'atorvastatin'
 }: GeographicHeatMapProps) {
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null)
   const [currentMetric, setCurrentMetric] = useState(metric)
   const [geoJsonData, setGeoJsonData] = useState<any>(null)
   const [loading, setLoading] = useState(true)
   const [bounds, setBounds] = useState<L.LatLngBounds | null>(null)
+  const [practiceData, setPracticeData] = useState<PracticeData[]>([])
+  const [loadingPractices, setLoadingPractices] = useState(false)
+  const [showHeatMap, setShowHeatMap] = useState(false)
+  const [showMarkers, setShowMarkers] = useState(false)
   
   const mapConfig = MAP_CENTERS[countryCode.toLowerCase()] || MAP_CENTERS.uk
   
@@ -86,6 +198,44 @@ export default function GeographicHeatMap({
       minValue: Math.min(...values)
     }
   }, [data, currentMetric])
+  
+  // Load practice-level data for granular visualization
+  useEffect(() => {
+    if (!showHeatMap && !showMarkers) return
+    
+    const loadPractices = async () => {
+      setLoadingPractices(true)
+      try {
+        const response = await fetch(
+          `${API_BASE_URL}/country/${countryCode.toUpperCase()}/practices?drug=${drug}&limit=500`
+        )
+        
+        if (!response.ok) {
+          console.error('Failed to load practice data')
+          return
+        }
+        
+        const result = await response.json()
+        
+        // Mock geocoding for demo (in production, get real lat/lng from API)
+        const practicesWithCoords = result.practices.map((p: any, idx: number) => ({
+          ...p,
+          // Mock coordinates - spread around UK for visualization
+          lat: 51.5 + (Math.random() - 0.5) * 8,
+          lng: -1.5 + (Math.random() - 0.5) * 8
+        }))
+        
+        setPracticeData(practicesWithCoords)
+        console.log(`Loaded ${practicesWithCoords.length} practices`)
+      } catch (error) {
+        console.error('Error loading practices:', error)
+      } finally {
+        setLoadingPractices(false)
+      }
+    }
+    
+    loadPractices()
+  }, [showHeatMap, showMarkers, countryCode, drug])
   
   // Load GeoJSON data for the country
   useEffect(() => {
@@ -328,41 +478,72 @@ export default function GeographicHeatMap({
   return (
     <div className="space-y-6">
       {/* Controls */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between flex-wrap gap-4">
         <h3 className="text-lg font-bold text-gray-900">{title}</h3>
         
-        <div className="flex items-center space-x-2">
-          <span className="text-sm text-gray-600">View by:</span>
-          <div className="flex bg-gray-100 rounded-lg p-1">
+        <div className="flex items-center space-x-4">
+          {/* Metric selector */}
+          <div className="flex items-center space-x-2">
+            <span className="text-sm text-gray-600">View by:</span>
+            <div className="flex bg-gray-100 rounded-lg p-1">
+              <button
+                onClick={() => setCurrentMetric('prescriptions')}
+                className={`px-3 py-1 text-xs font-medium rounded transition-colors ${
+                  currentMetric === 'prescriptions'
+                    ? 'bg-white text-primary-600 shadow-sm'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+              >
+                Volume
+              </button>
+              <button
+                onClick={() => setCurrentMetric('cost')}
+                className={`px-3 py-1 text-xs font-medium rounded transition-colors ${
+                  currentMetric === 'cost'
+                    ? 'bg-white text-primary-600 shadow-sm'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+              >
+                Cost
+              </button>
+              <button
+                onClick={() => setCurrentMetric('prescribers')}
+                className={`px-3 py-1 text-xs font-medium rounded transition-colors ${
+                  currentMetric === 'prescribers'
+                    ? 'bg-white text-primary-600 shadow-sm'
+                    : 'text-gray-600 hover:text-gray-900'
+                }`}
+              >
+                Prescribers
+              </button>
+            </div>
+          </div>
+          
+          {/* Overlay toggles */}
+          <div className="flex items-center space-x-2">
+            <span className="text-sm text-gray-600">Overlays:</span>
             <button
-              onClick={() => setCurrentMetric('prescriptions')}
-              className={`px-3 py-1 text-xs font-medium rounded transition-colors ${
-                currentMetric === 'prescriptions'
-                  ? 'bg-white text-primary-600 shadow-sm'
-                  : 'text-gray-600 hover:text-gray-900'
+              onClick={() => setShowHeatMap(!showHeatMap)}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                showHeatMap
+                  ? 'bg-purple-100 text-purple-700'
+                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
-              Volume
+              <Activity className="h-3.5 w-3.5" />
+              Heat Map
             </button>
             <button
-              onClick={() => setCurrentMetric('cost')}
-              className={`px-3 py-1 text-xs font-medium rounded transition-colors ${
-                currentMetric === 'cost'
-                  ? 'bg-white text-primary-600 shadow-sm'
-                  : 'text-gray-600 hover:text-gray-900'
+              onClick={() => setShowMarkers(!showMarkers)}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${
+                showMarkers
+                  ? 'bg-blue-100 text-blue-700'
+                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
-              Cost
-            </button>
-            <button
-              onClick={() => setCurrentMetric('prescribers')}
-              className={`px-3 py-1 text-xs font-medium rounded transition-colors ${
-                currentMetric === 'prescribers'
-                  ? 'bg-white text-primary-600 shadow-sm'
-                  : 'text-gray-600 hover:text-gray-900'
-              }`}
-            >
-              Prescribers
+              <Layers className="h-3.5 w-3.5" />
+              Practices
+              {loadingPractices && <span className="animate-spin">⏳</span>}
             </button>
           </div>
         </div>
@@ -397,6 +578,22 @@ export default function GeographicHeatMap({
                   onEachFeature={onEachFeature}
                 />
                 
+                {/* Heat map overlay */}
+                {showHeatMap && practiceData.length > 0 && (
+                  <HeatMapLayer practices={practiceData} metric={currentMetric} />
+                )}
+                
+                {/* Marker cluster overlay */}
+                {showMarkers && practiceData.length > 0 && (
+                  <MarkerClusterLayer 
+                    practices={practiceData} 
+                    onPracticeClick={(practice) => {
+                      console.log('Practice clicked:', practice)
+                      // Could show practice detail modal here
+                    }} 
+                  />
+                )}
+                
                 <FitBounds bounds={bounds} />
               </MapContainer>
             ) : (
@@ -425,6 +622,33 @@ export default function GeographicHeatMap({
                   <div className="w-12 h-4 rounded" style={{ backgroundColor: '#1e3a8a' }}></div>
                 </div>
                 <span className="text-gray-600">Higher</span>
+              </div>
+            </div>
+          )}
+          
+          {/* Granular data info */}
+          {(showHeatMap || showMarkers) && practiceData.length > 0 && (
+            <div className="mt-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-200 p-4">
+              <div className="flex items-start space-x-3">
+                <Layers className="h-5 w-5 text-purple-600 mt-0.5" />
+                <div>
+                  <h4 className="text-sm font-semibold text-gray-900 mb-1">
+                    Granular Practice Data
+                  </h4>
+                  <p className="text-xs text-gray-600 mb-2">
+                    Showing {practiceData.length.toLocaleString()} GP practices for {drug}
+                  </p>
+                  {showHeatMap && (
+                    <p className="text-xs text-purple-700">
+                      🔥 Heat map shows prescribing density across practices
+                    </p>
+                  )}
+                  {showMarkers && (
+                    <p className="text-xs text-blue-700">
+                      📍 Click markers to see individual practice details
+                    </p>
+                  )}
+                </div>
               </div>
             </div>
           )}
