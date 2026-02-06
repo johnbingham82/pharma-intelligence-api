@@ -1,0 +1,101 @@
+{
+  "country": "UK",
+  "last_updated": "2026-02-06T12:13:05.320977",
+  "period": "2025-10-01",
+  "regions": [
+    {
+      "region": "NHS England South East",
+      "prescriptions": 24223588,
+      "cost": 28851576,
+      "prescribers": 7271
+    },
+    {
+      "region": "NHS England East of England",
+      "prescriptions": 52990,
+      "cost": 67108,
+      "prescribers": 30
+    },
+    {
+      "region": "NHS England North East and Yorkshire",
+      "prescriptions": 75031,
+      "cost": 90420,
+      "prescribers": 40
+    },
+    {
+      "region": "NHS England Midlands",
+      "prescriptions": 112502,
+      "cost": 147722,
+      "prescribers": 56
+    },
+    {
+      "region": "NHS England London",
+      "prescriptions": 77581,
+      "cost": 91388,
+      "prescribers": 50
+    },
+    {
+      "region": "NHS England North West",
+      "prescriptions": 13326,
+      "cost": 16760,
+      "prescribers": 25
+    },
+    {
+      "region": "NHS England South West",
+      "prescriptions": 26901,
+      "cost": 36629,
+      "prescribers": 18
+    }
+  ],
+  "top_drugs": [
+    {
+      "name": "Atorvastatin",
+      "prescriptions": 6750037,
+      "cost": 5293024
+    },
+    {
+      "name": "Amlodipine",
+      "prescriptions": 3537668,
+      "cost": 2558232
+    },
+    {
+      "name": "Lansoprazole",
+      "prescriptions": 3278915,
+      "cost": 3066639
+    },
+    {
+      "name": "Ramipril",
+      "prescriptions": 3130916,
+      "cost": 2571505
+    },
+    {
+      "name": "Levothyroxine",
+      "prescriptions": 3015664,
+      "cost": 3084993
+    },
+    {
+      "name": "Metformin",
+      "prescriptions": 2366780,
+      "cost": 4981151
+    },
+    {
+      "name": "Paracetamol",
+      "prescriptions": 1367948,
+      "cost": 5612333
+    },
+    {
+      "name": "Simvastatin",
+      "prescriptions": 881079,
+      "cost": 770849
+    },
+    {
+      "name": "Omeprazole",
+      "prescriptions": 252912,
+      "cost": 1362877
+    }
+  ],
+  "monthly_data": null,
+  "metadata": {
+    "source": "NHS OpenPrescribing",
+    "update_frequency": "Daily"
+  }
+}

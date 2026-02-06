@@ -1,0 +1,112 @@
+{
+  "country": "AU",
+  "last_updated": "2026-02-06T11:07:17.886340",
+  "period": "2025-06",
+  "regions": [
+    {
+      "region": "State: New South Wales",
+      "prescriptions": 748881,
+      "cost": 24098615,
+      "prescribers": 3
+    },
+    {
+      "region": "State: Victoria",
+      "prescriptions": 589131,
+      "cost": 18957982,
+      "prescribers": 3
+    },
+    {
+      "region": "State: Queensland",
+      "prescriptions": 498144,
+      "cost": 16030049,
+      "prescribers": 3
+    },
+    {
+      "region": "State: Western Australia",
+      "prescriptions": 221289,
+      "cost": 7120984,
+      "prescribers": 3
+    },
+    {
+      "region": "State: South Australia",
+      "prescriptions": 167052,
+      "cost": 5375708,
+      "prescribers": 3
+    },
+    {
+      "region": "State: Tasmania",
+      "prescriptions": 54336,
+      "cost": 1748592,
+      "prescribers": 3
+    },
+    {
+      "region": "State: Australian Capital Territory",
+      "prescriptions": 31995,
+      "cost": 1029649,
+      "prescribers": 3
+    },
+    {
+      "region": "State: Northern Territory",
+      "prescriptions": 19335,
+      "cost": 622258,
+      "prescribers": 3
+    }
+  ],
+  "top_drugs": [
+    {
+      "name": "Metformin",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    },
+    {
+      "name": "Atorvastatin",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    },
+    {
+      "name": "Rosuvastatin",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    },
+    {
+      "name": "Amlodipine",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    },
+    {
+      "name": "Perindopril",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    },
+    {
+      "name": "Omeprazole",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    },
+    {
+      "name": "Salbutamol",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    },
+    {
+      "name": "Levothyroxine",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    },
+    {
+      "name": "Ramipril",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    },
+    {
+      "name": "Esomeprazole",
+      "prescriptions": 776721,
+      "cost": 24994613.52
+    }
+  ],
+  "monthly_data": null,
+  "metadata": {
+    "source": "PBS - AIHW Real Data",
+    "update_frequency": "Monthly"
+  }
+}
