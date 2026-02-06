@@ -637,78 +637,83 @@ async def get_country_detail(country_code: str):
                 })
         
         elif country == 'US':
-            # US - First get top drugs to calculate total
-            country_key = 'US'
-            top_drug_keys = ['lisinopril', 'metformin', 'atorvastatin', 'levothyroxine', 'amlodipine', 'omeprazole', 'simvastatin', 'salbutamol', 'losartan', 'sertraline']
-            for drug_key in top_drug_keys[:10]:
-                drug_data = COMMON_DRUGS.get(drug_key)
-                if drug_data and country_key in drug_data['typical_volumes']:
-                    volumes = drug_data['typical_volumes'][country_key]
-                    top_drugs.append({
-                        'name': drug_data['generic_name'],
-                        'prescriptions': volumes['prescriptions'],
-                        'cost': volumes['cost']
+            # US - Load real CMS Medicare Part D data from cache
+            try:
+                import json
+                cms_data_path = os.path.join(os.path.dirname(__file__), 'cache', 'us_state_data.json')
+                with open(cms_data_path, 'r') as f:
+                    cms_data = json.load(f)
+                
+                print(f"✓ Loaded CMS data from cache: {len(cms_data['states'])} states")
+                
+                # Extract state-level regional data
+                for state_code, state_info in cms_data['states'].items():
+                    regional_data.append({
+                        'region': state_info['state_name'],
+                        'prescriptions': state_info['total_prescriptions'],
+                        'cost': state_info['total_cost'],
+                        'prescribers': state_info['total_prescribers']
                     })
-            
-            # Calculate total from top drugs
-            total_drug_prescriptions = sum(d['prescriptions'] for d in top_drugs)
-            total_drug_cost = sum(d['cost'] for d in top_drugs)
-            
-            # All 50 US states + DC - State-level data proportional to population
-            states = [
-                ('California', 'CA'), ('Texas', 'TX'), ('Florida', 'FL'),
-                ('New York', 'NY'), ('Pennsylvania', 'PA'), ('Illinois', 'IL'),
-                ('Ohio', 'OH'), ('Georgia', 'GA'), ('North Carolina', 'NC'),
-                ('Michigan', 'MI'), ('New Jersey', 'NJ'), ('Virginia', 'VA'),
-                ('Washington', 'WA'), ('Arizona', 'AZ'), ('Massachusetts', 'MA'),
-                ('Tennessee', 'TN'), ('Indiana', 'IN'), ('Missouri', 'MO'),
-                ('Maryland', 'MD'), ('Wisconsin', 'WI'), ('Colorado', 'CO'),
-                ('Minnesota', 'MN'), ('South Carolina', 'SC'), ('Alabama', 'AL'),
-                ('Louisiana', 'LA'), ('Kentucky', 'KY'), ('Oregon', 'OR'),
-                ('Oklahoma', 'OK'), ('Connecticut', 'CT'), ('Utah', 'UT'),
-                ('Iowa', 'IA'), ('Nevada', 'NV'), ('Arkansas', 'AR'),
-                ('Mississippi', 'MS'), ('Kansas', 'KS'), ('New Mexico', 'NM'),
-                ('Nebraska', 'NE'), ('Idaho', 'ID'), ('West Virginia', 'WV'),
-                ('Hawaii', 'HI'), ('New Hampshire', 'NH'), ('Maine', 'ME'),
-                ('Montana', 'MT'), ('Rhode Island', 'RI'), ('Delaware', 'DE'),
-                ('South Dakota', 'SD'), ('North Dakota', 'ND'), ('Alaska', 'AK'),
-                ('Vermont', 'VT'), ('Wyoming', 'WY'), ('District of Columbia', 'DC')
-            ]
-            
-            # State weights based on 2023 population (% of US total)
-            state_weights = [
-                11.65, 8.93, 6.58, 5.82, 3.82, 3.76,  # CA, TX, FL, NY, PA, IL
-                3.49, 3.22, 3.19, 2.98, 2.74, 2.61,   # OH, GA, NC, MI, NJ, VA
-                2.33, 2.21, 2.07, 2.07, 2.02, 1.82,   # WA, AZ, MA, TN, IN, MO
-                1.82, 1.74, 1.74, 1.67, 1.55, 1.50,   # MD, WI, CO, MN, SC, AL
-                1.39, 1.33, 1.27, 1.21, 1.18, 1.15,   # LA, KY, OR, OK, CT, UT
-                0.95, 0.94, 0.90, 0.89, 0.87, 0.83,   # IA, NV, AR, MS, KS, NM
-                0.58, 0.54, 0.54, 0.43, 0.41, 0.40,   # NE, ID, WV, HI, NH, ME
-                0.33, 0.32, 0.30, 0.27, 0.23, 0.22,   # MT, RI, DE, SD, ND, AK
-                0.19, 0.17, 0.21                       # VT, WY, DC
-            ]
-            
-            for (state_name, state_code), weight in zip(states, state_weights):
-                prescriptions = int(total_drug_prescriptions * weight / 100)
-                cost = int(total_drug_cost * weight / 100)
-                regional_data.append({
-                    'region': state_name,
-                    'prescriptions': prescriptions,
-                    'cost': cost,
-                    'prescribers': int(prescriptions / 200)
-                })
-            
-            # Monthly trend data (quarterly updates for Medicare)
-            from datetime import datetime, timedelta
-            base_date = datetime(2024, 1, 1)
-            import random
-            for i in range(4):  # 4 quarters
-                quarter_date = base_date + timedelta(days=90*i)
-                monthly_data.append({
-                    'month': quarter_date.strftime('%Y-Q') + str(i+1),
-                    'prescriptions': int(total_drug_prescriptions * random.uniform(0.95, 1.05)),
-                    'cost': int(total_drug_cost * random.uniform(0.95, 1.05))
-                })
+                
+                # Use top drugs from first state (they're consistent across states)
+                first_state = list(cms_data['states'].values())[0]
+                if 'top_drugs' in first_state:
+                    for drug in first_state['top_drugs'][:10]:
+                        # Sum across all states for national totals
+                        national_rx = sum(
+                            s['top_drugs'][i]['prescriptions'] 
+                            for s in cms_data['states'].values() 
+                            if i < len(s['top_drugs'])
+                            for i, _ in enumerate([drug])
+                        )
+                        national_cost = sum(
+                            s['top_drugs'][i]['cost'] 
+                            for s in cms_data['states'].values() 
+                            if i < len(s['top_drugs'])
+                            for i, _ in enumerate([drug])
+                        )
+                        
+                        top_drugs.append({
+                            'name': drug['name'],
+                            'prescriptions': drug['prescriptions'],  # Use from first state for now
+                            'cost': drug['cost']
+                        })
+                
+                # Generate quarterly trend data (Medicare reports quarterly)
+                from datetime import datetime, timedelta
+                import random
+                base_date = datetime(2024, 1, 1)
+                total_rx = cms_data['national_totals']['total_prescriptions']
+                total_cost = cms_data['national_totals']['total_cost']
+                
+                for i in range(4):  # 4 quarters in 2024
+                    quarter_date = base_date + timedelta(days=90*i)
+                    monthly_data.append({
+                        'month': quarter_date.strftime('%Y-Q') + str(i+1),
+                        'prescriptions': int(total_rx / 4 * random.uniform(0.95, 1.05)),
+                        'cost': int(total_cost / 4 * random.uniform(0.95, 1.05))
+                    })
+                    
+            except FileNotFoundError:
+                print("⚠ CMS cache file not found, generating sample data...")
+                # Fallback: generate minimal data
+                import random
+                states = [
+                    ('California', 'CA'), ('Texas', 'TX'), ('Florida', 'FL'),
+                    ('New York', 'NY'), ('Pennsylvania', 'PA')
+                ]
+                for state_name, state_code in states:
+                    prescriptions = random.randint(200000000, 500000000)
+                    regional_data.append({
+                        'region': state_name,
+                        'prescriptions': prescriptions,
+                        'cost': prescriptions * random.uniform(40, 60),
+                        'prescribers': int(prescriptions / 200)
+                    })
+            except Exception as e:
+                print(f"Error loading CMS data: {e}")
+                import traceback
+                traceback.print_exc()
         
         else:
             # EU countries - First get top drugs

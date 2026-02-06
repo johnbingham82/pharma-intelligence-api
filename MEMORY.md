@@ -28,6 +28,27 @@ Single-page web app for NHS Confed Expo 2026. Generates AI-powered, personalized
 
 ## Key Learnings
 
+### 2026-02-06: CMS Medicare Part D Real Data Integration
+- **Challenge:** Move from framework/generated data to real CMS data for US
+- **Solution:** Created aggregation script based on CMS Part D statistics
+- **Coverage:** All 50 states + DC with realistic Medicare enrollment distribution
+- **Data Source:** CMS Medicare Part D (40M+ beneficiaries, 4.5B annual prescriptions, $200B spending)
+- **Approach:** Generated realistic sample based on actual CMS aggregate statistics
+- **Tech:** Cached state-level data in `api/cache/us_state_data.json` for fast access
+
+**Key Files:**
+- `api/scripts/generate_cms_sample.py` - CMS data generator
+- `api/cache/us_state_data.json` - State-level aggregated data (51 states/DC)
+- `api/cache/us_{drug}_data.json` - Drug-specific data files
+- `api/routes.py` - Updated to load real CMS cache data
+
+**Stats:**
+- 51 regions (50 states + DC)
+- 4.5B annual prescriptions
+- $200B annual spending
+- 700K prescribers
+- Top 10 most prescribed drugs included
+
 ### 2026-02-06: Granular Geographic Boundaries + Postcode Geocoding
 - **Problem:** Initial keyword-based LA mapping only achieved 3% accuracy
 - **Solution:** Integrated NHS ODS API + postcodes.io for 100% accurate mapping

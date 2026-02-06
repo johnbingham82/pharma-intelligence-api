@@ -1,0 +1,373 @@
+{
+  "drug_name": "Atorvastatin",
+  "generated_at": "2026-02-06T15:33:34.236757",
+  "source": "CMS Medicare Part D",
+  "year": "2022",
+  "data_type": "realistic_sample",
+  "national_total": {
+    "total_prescriptions": 108000000,
+    "total_cost": 1100000000,
+    "total_prescribers": 489999,
+    "total_beneficiaries": 36000000,
+    "avg_cost_per_rx": 10.185185185185185
+  },
+  "by_state": {
+    "CA": {
+      "state_name": "California",
+      "prescriptions": 11766609,
+      "cost": 119845100,
+      "prescribers": 53385,
+      "beneficiaries": 3922203
+    },
+    "TX": {
+      "state_name": "Texas",
+      "prescriptions": 8114903,
+      "cost": 82651793,
+      "prescribers": 36817,
+      "beneficiaries": 2704967
+    },
+    "FL": {
+      "state_name": "Florida",
+      "prescriptions": 9613039,
+      "cost": 97910585,
+      "prescribers": 43614,
+      "beneficiaries": 3204346
+    },
+    "NY": {
+      "state_name": "New York",
+      "prescriptions": 6289050,
+      "cost": 64055139,
+      "prescribers": 28533,
+      "beneficiaries": 2096350
+    },
+    "PA": {
+      "state_name": "Pennsylvania",
+      "prescriptions": 4794035,
+      "cost": 48828136,
+      "prescribers": 21750,
+      "beneficiaries": 1598011
+    },
+    "IL": {
+      "state_name": "Illinois",
+      "prescriptions": 3801520,
+      "cost": 38719186,
+      "prescribers": 17247,
+      "beneficiaries": 1267173
+    },
+    "OH": {
+      "state_name": "Ohio",
+      "prescriptions": 4016877,
+      "cost": 40912637,
+      "prescribers": 18224,
+      "beneficiaries": 1338959
+    },
+    "GA": {
+      "state_name": "Georgia",
+      "prescriptions": 3033725,
+      "cost": 30899054,
+      "prescribers": 13764,
+      "beneficiaries": 1011241
+    },
+    "NC": {
+      "state_name": "North Carolina",
+      "prescriptions": 3450914,
+      "cost": 35148204,
+      "prescribers": 15656,
+      "beneficiaries": 1150304
+    },
+    "MI": {
+      "state_name": "Michigan",
+      "prescriptions": 3537265,
+      "cost": 36027704,
+      "prescribers": 16048,
+      "beneficiaries": 1179088
+    },
+    "NJ": {
+      "state_name": "New Jersey",
+      "prescriptions": 2775713,
+      "cost": 28271151,
+      "prescribers": 12593,
+      "beneficiaries": 925237
+    },
+    "VA": {
+      "state_name": "Virginia",
+      "prescriptions": 2624859,
+      "cost": 26734676,
+      "prescribers": 11909,
+      "beneficiaries": 874953
+    },
+    "WA": {
+      "state_name": "Washington",
+      "prescriptions": 2272172,
+      "cost": 23142502,
+      "prescribers": 10308,
+      "beneficiaries": 757390
+    },
+    "AZ": {
+      "state_name": "Arizona",
+      "prescriptions": 2694564,
+      "cost": 27444633,
+      "prescribers": 12225,
+      "beneficiaries": 898188
+    },
+    "MA": {
+      "state_name": "Massachusetts",
+      "prescriptions": 2225356,
+      "cost": 22665664,
+      "prescribers": 10096,
+      "beneficiaries": 741785
+    },
+    "TN": {
+      "state_name": "Tennessee",
+      "prescriptions": 2368927,
+      "cost": 24127965,
+      "prescribers": 10747,
+      "beneficiaries": 789642
+    },
+    "IN": {
+      "state_name": "Indiana",
+      "prescriptions": 2193104,
+      "cost": 22337176,
+      "prescribers": 9950,
+      "beneficiaries": 731034
+    },
+    "MO": {
+      "state_name": "Missouri",
+      "prescriptions": 2157731,
+      "cost": 21976899,
+      "prescribers": 9789,
+      "beneficiaries": 719243
+    },
+    "MD": {
+      "state_name": "Maryland",
+      "prescriptions": 1713493,
+      "cost": 17452244,
+      "prescribers": 7774,
+      "beneficiaries": 571164
+    },
+    "WI": {
+      "state_name": "Wisconsin",
+      "prescriptions": 2025604,
+      "cost": 20631159,
+      "prescribers": 9190,
+      "beneficiaries": 675201
+    },
+    "CO": {
+      "state_name": "Colorado",
+      "prescriptions": 1568881,
+      "cost": 15979346,
+      "prescribers": 7118,
+      "beneficiaries": 522960
+    },
+    "MN": {
+      "state_name": "Minnesota",
+      "prescriptions": 1689564,
+      "cost": 17208527,
+      "prescribers": 7665,
+      "beneficiaries": 563188
+    },
+    "SC": {
+      "state_name": "South Carolina",
+      "prescriptions": 1839378,
+      "cost": 18734406,
+      "prescribers": 8345,
+      "beneficiaries": 613126
+    },
+    "AL": {
+      "state_name": "Alabama",
+      "prescriptions": 1820651,
+      "cost": 18543671,
+      "prescribers": 8260,
+      "beneficiaries": 606883
+    },
+    "LA": {
+      "state_name": "Louisiana",
+      "prescriptions": 1483570,
+      "cost": 15110443,
+      "prescribers": 6731,
+      "beneficiaries": 494523
+    },
+    "KY": {
+      "state_name": "Kentucky",
+      "prescriptions": 1638586,
+      "cost": 16689304,
+      "prescribers": 7434,
+      "beneficiaries": 546195
+    },
+    "OR": {
+      "state_name": "Oregon",
+      "prescriptions": 1441955,
+      "cost": 14686587,
+      "prescribers": 6542,
+      "beneficiaries": 480651
+    },
+    "OK": {
+      "state_name": "Oklahoma",
+      "prescriptions": 1331676,
+      "cost": 13563371,
+      "prescribers": 6041,
+      "beneficiaries": 443892
+    },
+    "CT": {
+      "state_name": "Connecticut",
+      "prescriptions": 1161055,
+      "cost": 11825564,
+      "prescribers": 5267,
+      "beneficiaries": 387018
+    },
+    "UT": {
+      "state_name": "Utah",
+      "prescriptions": 742825,
+      "cost": 7565817,
+      "prescribers": 3370,
+      "beneficiaries": 247608
+    },
+    "IA": {
+      "state_name": "Iowa",
+      "prescriptions": 1165216,
+      "cost": 11867949,
+      "prescribers": 5286,
+      "beneficiaries": 388405
+    },
+    "NV": {
+      "state_name": "Nevada",
+      "prescriptions": 935294,
+      "cost": 9526148,
+      "prescribers": 4243,
+      "beneficiaries": 311764
+    },
+    "AR": {
+      "state_name": "Arkansas",
+      "prescriptions": 1092390,
+      "cost": 11126202,
+      "prescribers": 4956,
+      "beneficiaries": 364130
+    },
+    "MS": {
+      "state_name": "Mississippi",
+      "prescriptions": 995636,
+      "cost": 10140739,
+      "prescribers": 4517,
+      "beneficiaries": 331878
+    },
+    "KS": {
+      "state_name": "Kansas",
+      "prescriptions": 935294,
+      "cost": 9526148,
+      "prescribers": 4243,
+      "beneficiaries": 311764
+    },
+    "NM": {
+      "state_name": "New Mexico",
+      "prescriptions": 720977,
+      "cost": 7343293,
+      "prescribers": 3271,
+      "beneficiaries": 240325
+    },
+    "NE": {
+      "state_name": "Nebraska",
+      "prescriptions": 612779,
+      "cost": 6241270,
+      "prescribers": 2780,
+      "beneficiaries": 204259
+    },
+    "ID": {
+      "state_name": "Idaho",
+      "prescriptions": 612779,
+      "cost": 6241270,
+      "prescribers": 2780,
+      "beneficiaries": 204259
+    },
+    "WV": {
+      "state_name": "West Virginia",
+      "prescriptions": 767794,
+      "cost": 7820131,
+      "prescribers": 3483,
+      "beneficiaries": 255931
+    },
+    "HI": {
+      "state_name": "Hawaii",
+      "prescriptions": 451521,
+      "cost": 4598830,
+      "prescribers": 2048,
+      "beneficiaries": 150507
+    },
+    "NH": {
+      "state_name": "New Hampshire",
+      "prescriptions": 509782,
+      "cost": 5192228,
+      "prescribers": 2312,
+      "beneficiaries": 169927
+    },
+    "ME": {
+      "state_name": "Maine",
+      "prescriptions": 568043,
+      "cost": 5785625,
+      "prescribers": 2577,
+      "beneficiaries": 189347
+    },
+    "MT": {
+      "state_name": "Montana",
+      "prescriptions": 400543,
+      "cost": 4079607,
+      "prescribers": 1817,
+      "beneficiaries": 133514
+    },
+    "RI": {
+      "state_name": "Rhode Island",
+      "prescriptions": 377655,
+      "cost": 3846487,
+      "prescribers": 1713,
+      "beneficiaries": 125885
+    },
+    "DE": {
+      "state_name": "Delaware",
+      "prescriptions": 364130,
+      "cost": 3708734,
+      "prescribers": 1652,
+      "beneficiaries": 121376
+    },
+    "SD": {
+      "state_name": "South Dakota",
+      "prescriptions": 308990,
+      "cost": 3147125,
+      "prescribers": 1401,
+      "beneficiaries": 102996
+    },
+    "ND": {
+      "state_name": "North Dakota",
+      "prescriptions": 241366,
+      "cost": 2458361,
+      "prescribers": 1095,
+      "beneficiaries": 80455
+    },
+    "AK": {
+      "state_name": "Alaska",
+      "prescriptions": 160217,
+      "cost": 1631843,
+      "prescribers": 726,
+      "beneficiaries": 53405
+    },
+    "VT": {
+      "state_name": "Vermont",
+      "prescriptions": 230962,
+      "cost": 2352397,
+      "prescribers": 1047,
+      "beneficiaries": 76987
+    },
+    "WY": {
+      "state_name": "Wyoming",
+      "prescriptions": 193509,
+      "cost": 1970927,
+      "prescribers": 877,
+      "beneficiaries": 64503
+    },
+    "DC": {
+      "state_name": "District of Columbia",
+      "prescriptions": 167499,
+      "cost": 1706017,
+      "prescribers": 759,
+      "beneficiaries": 55833
+    }
+  }
+}

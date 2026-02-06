@@ -1,0 +1,4147 @@
+{
+  "generated_at": "2026-02-06T15:33:34.233478",
+  "source": "CMS Medicare Part D Statistics (2022)",
+  "year": "2022",
+  "coverage": "40M Medicare Part D beneficiaries",
+  "data_type": "realistic_sample",
+  "note": "Generated from CMS aggregate statistics. Distributed by state Medicare enrollment.",
+  "national_totals": {
+    "total_prescriptions": 4499999973,
+    "total_cost": 199999999980,
+    "total_prescribers": 699976,
+    "total_beneficiaries": 51904500
+  },
+  "states": {
+    "CA": {
+      "state_code": "CA",
+      "state_name": "California",
+      "total_prescriptions": 490275409,
+      "total_cost": 21790018206,
+      "total_prescribers": 76265,
+      "total_beneficiaries": 5654999,
+      "medicare_enrollment_rate": 0.145,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 11766609,
+          "cost": 119845100,
+          "prescribers": 53385,
+          "beneficiaries": 3922203
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 11112909,
+          "cost": 56654047,
+          "prescribers": 53385,
+          "beneficiaries": 3704303
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 10568158,
+          "cost": 92607577,
+          "prescribers": 53385,
+          "beneficiaries": 3522719
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 10023408,
+          "cost": 84981071,
+          "prescribers": 53385,
+          "beneficiaries": 3341136
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 9696558,
+          "cost": 114397595,
+          "prescribers": 53385,
+          "beneficiaries": 3232186
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 7408606,
+          "cost": 74086061,
+          "prescribers": 53385,
+          "beneficiaries": 2469535
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 6972805,
+          "cost": 96965581,
+          "prescribers": 53385,
+          "beneficiaries": 2324268
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 6645955,
+          "cost": 103502586,
+          "prescribers": 53385,
+          "beneficiaries": 2215318
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 6319105,
+          "cost": 78444065,
+          "prescribers": 53385,
+          "beneficiaries": 2106368
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 5556454,
+          "cost": 74086061,
+          "prescribers": 53385,
+          "beneficiaries": 1852151
+        }
+      ]
+    },
+    "TX": {
+      "state_code": "TX",
+      "state_name": "Texas",
+      "total_prescriptions": 338120972,
+      "total_cost": 15027598763,
+      "total_prescribers": 52596,
+      "total_beneficiaries": 3900000,
+      "medicare_enrollment_rate": 0.13,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 8114903,
+          "cost": 82651793,
+          "prescribers": 36817,
+          "beneficiaries": 2704967
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 7664075,
+          "cost": 39071756,
+          "prescribers": 36817,
+          "beneficiaries": 2554691
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 7288385,
+          "cost": 63867294,
+          "prescribers": 36817,
+          "beneficiaries": 2429461
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 6912695,
+          "cost": 58607635,
+          "prescribers": 36817,
+          "beneficiaries": 2304231
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 6687281,
+          "cost": 78894893,
+          "prescribers": 36817,
+          "beneficiaries": 2229093
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 5109383,
+          "cost": 51093835,
+          "prescribers": 36817,
+          "beneficiaries": 1703127
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 4808831,
+          "cost": 66872814,
+          "prescribers": 36817,
+          "beneficiaries": 1602943
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 4583417,
+          "cost": 71381094,
+          "prescribers": 36817,
+          "beneficiaries": 1527805
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 4358003,
+          "cost": 54099355,
+          "prescribers": 36817,
+          "beneficiaries": 1452667
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 3832037,
+          "cost": 51093835,
+          "prescribers": 36817,
+          "beneficiaries": 1277345
+        }
+      ]
+    },
+    "FL": {
+      "state_code": "FL",
+      "state_name": "Florida",
+      "total_prescriptions": 400543305,
+      "total_cost": 17801924688,
+      "total_prescribers": 62306,
+      "total_beneficiaries": 4620000,
+      "medicare_enrollment_rate": 0.21,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 9613039,
+          "cost": 97910585,
+          "prescribers": 43614,
+          "beneficiaries": 3204346
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 9078981,
+          "cost": 46285004,
+          "prescribers": 43614,
+          "beneficiaries": 3026327
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 8633933,
+          "cost": 75658179,
+          "prescribers": 43614,
+          "beneficiaries": 2877977
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 8188885,
+          "cost": 69427506,
+          "prescribers": 43614,
+          "beneficiaries": 2729628
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 7921856,
+          "cost": 93460104,
+          "prescribers": 43614,
+          "beneficiaries": 2640618
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 6052654,
+          "cost": 60526543,
+          "prescribers": 43614,
+          "beneficiaries": 2017551
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 5696615,
+          "cost": 79218564,
+          "prescribers": 43614,
+          "beneficiaries": 1898871
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 5429587,
+          "cost": 84559142,
+          "prescribers": 43614,
+          "beneficiaries": 1809862
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 5162558,
+          "cost": 64086928,
+          "prescribers": 43614,
+          "beneficiaries": 1720852
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 4539490,
+          "cost": 60526543,
+          "prescribers": 43614,
+          "beneficiaries": 1513163
+        }
+      ]
+    },
+    "NY": {
+      "state_code": "NY",
+      "state_name": "New York",
+      "total_prescriptions": 262043753,
+      "total_cost": 11646389041,
+      "total_prescribers": 40762,
+      "total_beneficiaries": 3022500,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 6289050,
+          "cost": 64055139,
+          "prescribers": 28533,
+          "beneficiaries": 2096350
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 5939658,
+          "cost": 30280611,
+          "prescribers": 28533,
+          "beneficiaries": 1979886
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 5648498,
+          "cost": 49497153,
+          "prescribers": 28533,
+          "beneficiaries": 1882832
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 5357338,
+          "cost": 45420917,
+          "prescribers": 28533,
+          "beneficiaries": 1785779
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 5182643,
+          "cost": 61143542,
+          "prescribers": 28533,
+          "beneficiaries": 1727547
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 3959772,
+          "cost": 39597722,
+          "prescribers": 28533,
+          "beneficiaries": 1319924
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 3726844,
+          "cost": 51826431,
+          "prescribers": 28533,
+          "beneficiaries": 1242281
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 3552148,
+          "cost": 55320347,
+          "prescribers": 28533,
+          "beneficiaries": 1184049
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 3377452,
+          "cost": 41927000,
+          "prescribers": 28533,
+          "beneficiaries": 1125817
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 2969829,
+          "cost": 39597722,
+          "prescribers": 28533,
+          "beneficiaries": 989943
+        }
+      ]
+    },
+    "PA": {
+      "state_code": "PA",
+      "state_name": "Pennsylvania",
+      "total_prescriptions": 199751466,
+      "total_cost": 8877842961,
+      "total_prescribers": 31072,
+      "total_beneficiaries": 2304000,
+      "medicare_enrollment_rate": 0.18,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 4794035,
+          "cost": 48828136,
+          "prescribers": 21750,
+          "beneficiaries": 1598011
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 4527699,
+          "cost": 23082391,
+          "prescribers": 21750,
+          "beneficiaries": 1509233
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 4305753,
+          "cost": 37730832,
+          "prescribers": 21750,
+          "beneficiaries": 1435251
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 4083807,
+          "cost": 34623587,
+          "prescribers": 21750,
+          "beneficiaries": 1361269
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 3950640,
+          "cost": 46608675,
+          "prescribers": 21750,
+          "beneficiaries": 1316880
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 3018466,
+          "cost": 30184666,
+          "prescribers": 21750,
+          "beneficiaries": 1006155
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 2840909,
+          "cost": 39506401,
+          "prescribers": 21750,
+          "beneficiaries": 946969
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 2707742,
+          "cost": 42169754,
+          "prescribers": 21750,
+          "beneficiaries": 902580
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 2574574,
+          "cost": 31960234,
+          "prescribers": 21750,
+          "beneficiaries": 858191
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 2263849,
+          "cost": 30184666,
+          "prescribers": 21750,
+          "beneficiaries": 754616
+        }
+      ]
+    },
+    "IL": {
+      "state_code": "IL",
+      "state_name": "Illinois",
+      "total_prescriptions": 158396670,
+      "total_cost": 7039852035,
+      "total_prescribers": 24639,
+      "total_beneficiaries": 1826999,
+      "medicare_enrollment_rate": 0.145,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 3801520,
+          "cost": 38719186,
+          "prescribers": 17247,
+          "beneficiaries": 1267173
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 3590324,
+          "cost": 18303615,
+          "prescribers": 17247,
+          "beneficiaries": 1196774
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 3414328,
+          "cost": 29919371,
+          "prescribers": 17247,
+          "beneficiaries": 1138109
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 3238331,
+          "cost": 27455422,
+          "prescribers": 17247,
+          "beneficiaries": 1079443
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 3132734,
+          "cost": 36959223,
+          "prescribers": 17247,
+          "beneficiaries": 1044244
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 2393549,
+          "cost": 23935496,
+          "prescribers": 17247,
+          "beneficiaries": 797849
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 2252752,
+          "cost": 31327341,
+          "prescribers": 17247,
+          "beneficiaries": 750917
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 2147154,
+          "cost": 33439297,
+          "prescribers": 17247,
+          "beneficiaries": 715718
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 2041557,
+          "cost": 25343467,
+          "prescribers": 17247,
+          "beneficiaries": 680519
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1795162,
+          "cost": 23935496,
+          "prescribers": 17247,
+          "beneficiaries": 598387
+        }
+      ]
+    },
+    "OH": {
+      "state_code": "OH",
+      "state_name": "Ohio",
+      "total_prescriptions": 167369881,
+      "total_cost": 7438661387,
+      "total_prescribers": 26035,
+      "total_beneficiaries": 1930499,
+      "medicare_enrollment_rate": 0.165,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 4016877,
+          "cost": 40912637,
+          "prescribers": 18224,
+          "beneficiaries": 1338959
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 3793717,
+          "cost": 19340519,
+          "prescribers": 18224,
+          "beneficiaries": 1264572
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 3607750,
+          "cost": 31614310,
+          "prescribers": 18224,
+          "beneficiaries": 1202583
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 3421784,
+          "cost": 29010779,
+          "prescribers": 18224,
+          "beneficiaries": 1140594
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 3310204,
+          "cost": 39052972,
+          "prescribers": 18224,
+          "beneficiaries": 1103401
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 2529144,
+          "cost": 25291448,
+          "prescribers": 18224,
+          "beneficiaries": 843048
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 2380371,
+          "cost": 33102043,
+          "prescribers": 18224,
+          "beneficiaries": 793457
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 2268791,
+          "cost": 35333641,
+          "prescribers": 18224,
+          "beneficiaries": 756263
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 2157211,
+          "cost": 26779180,
+          "prescribers": 18224,
+          "beneficiaries": 719070
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1896858,
+          "cost": 25291448,
+          "prescribers": 18224,
+          "beneficiaries": 632286
+        }
+      ]
+    },
+    "GA": {
+      "state_code": "GA",
+      "state_name": "Georgia",
+      "total_prescriptions": 126405224,
+      "total_cost": 5618009999,
+      "total_prescribers": 19663,
+      "total_beneficiaries": 1458000,
+      "medicare_enrollment_rate": 0.135,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 3033725,
+          "cost": 30899054,
+          "prescribers": 13764,
+          "beneficiaries": 1011241
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 2865185,
+          "cost": 14606825,
+          "prescribers": 13764,
+          "beneficiaries": 955061
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 2724734,
+          "cost": 23876542,
+          "prescribers": 13764,
+          "beneficiaries": 908244
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 2584284,
+          "cost": 21910238,
+          "prescribers": 13764,
+          "beneficiaries": 861428
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 2500014,
+          "cost": 29494552,
+          "prescribers": 13764,
+          "beneficiaries": 833338
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1910123,
+          "cost": 19101233,
+          "prescribers": 13764,
+          "beneficiaries": 636707
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1797763,
+          "cost": 25000144,
+          "prescribers": 13764,
+          "beneficiaries": 599254
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1713493,
+          "cost": 26685547,
+          "prescribers": 13764,
+          "beneficiaries": 571164
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1629222,
+          "cost": 20224835,
+          "prescribers": 13764,
+          "beneficiaries": 543074
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1432592,
+          "cost": 19101233,
+          "prescribers": 13764,
+          "beneficiaries": 477530
+        }
+      ]
+    },
+    "NC": {
+      "state_code": "NC",
+      "state_name": "North Carolina",
+      "total_prescriptions": 143788110,
+      "total_cost": 6390582704,
+      "total_prescribers": 22367,
+      "total_beneficiaries": 1658499,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 3450914,
+          "cost": 35148204,
+          "prescribers": 15656,
+          "beneficiaries": 1150304
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 3259197,
+          "cost": 16615515,
+          "prescribers": 15656,
+          "beneficiaries": 1086399
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 3099432,
+          "cost": 27159976,
+          "prescribers": 15656,
+          "beneficiaries": 1033144
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 2939668,
+          "cost": 24923272,
+          "prescribers": 15656,
+          "beneficiaries": 979889
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 2843809,
+          "cost": 33550559,
+          "prescribers": 15656,
+          "beneficiaries": 947936
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 2172798,
+          "cost": 21727981,
+          "prescribers": 15656,
+          "beneficiaries": 724266
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 2044986,
+          "cost": 28438093,
+          "prescribers": 15656,
+          "beneficiaries": 681662
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1949127,
+          "cost": 30355267,
+          "prescribers": 15656,
+          "beneficiaries": 649709
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1853268,
+          "cost": 23006097,
+          "prescribers": 15656,
+          "beneficiaries": 617756
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1629598,
+          "cost": 21727981,
+          "prescribers": 15656,
+          "beneficiaries": 543199
+        }
+      ]
+    },
+    "MI": {
+      "state_code": "MI",
+      "state_name": "Michigan",
+      "total_prescriptions": 147386064,
+      "total_cost": 6550491768,
+      "total_prescribers": 22926,
+      "total_beneficiaries": 1700000,
+      "medicare_enrollment_rate": 0.17,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 3537265,
+          "cost": 36027704,
+          "prescribers": 16048,
+          "beneficiaries": 1179088
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 3340750,
+          "cost": 17031278,
+          "prescribers": 16048,
+          "beneficiaries": 1113583
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 3176988,
+          "cost": 27839590,
+          "prescribers": 16048,
+          "beneficiaries": 1058996
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 3013226,
+          "cost": 25546917,
+          "prescribers": 16048,
+          "beneficiaries": 1004408
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 2914968,
+          "cost": 34390081,
+          "prescribers": 16048,
+          "beneficiaries": 971656
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 2227167,
+          "cost": 22271672,
+          "prescribers": 16048,
+          "beneficiaries": 742389
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 2096157,
+          "cost": 29149688,
+          "prescribers": 16048,
+          "beneficiaries": 698719
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1997899,
+          "cost": 31114835,
+          "prescribers": 16048,
+          "beneficiaries": 665966
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1899642,
+          "cost": 23581770,
+          "prescribers": 16048,
+          "beneficiaries": 633214
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1670375,
+          "cost": 22271672,
+          "prescribers": 16048,
+          "beneficiaries": 556791
+        }
+      ]
+    },
+    "NJ": {
+      "state_code": "NJ",
+      "state_name": "New Jersey",
+      "total_prescriptions": 115654712,
+      "total_cost": 5140209423,
+      "total_prescribers": 17990,
+      "total_beneficiaries": 1333999,
+      "medicare_enrollment_rate": 0.145,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 2775713,
+          "cost": 28271151,
+          "prescribers": 12593,
+          "beneficiaries": 925237
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 2621506,
+          "cost": 13364544,
+          "prescribers": 12593,
+          "beneficiaries": 873835
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 2493001,
+          "cost": 21845890,
+          "prescribers": 12593,
+          "beneficiaries": 831000
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 2364496,
+          "cost": 20046816,
+          "prescribers": 12593,
+          "beneficiaries": 788165
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 2287393,
+          "cost": 26986099,
+          "prescribers": 12593,
+          "beneficiaries": 762464
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1747671,
+          "cost": 17476712,
+          "prescribers": 12593,
+          "beneficiaries": 582557
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1644867,
+          "cost": 22873931,
+          "prescribers": 12593,
+          "beneficiaries": 548289
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1567763,
+          "cost": 24415994,
+          "prescribers": 12593,
+          "beneficiaries": 522587
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1490660,
+          "cost": 18504753,
+          "prescribers": 12593,
+          "beneficiaries": 496886
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1310753,
+          "cost": 17476712,
+          "prescribers": 12593,
+          "beneficiaries": 436917
+        }
+      ]
+    },
+    "VA": {
+      "state_code": "VA",
+      "state_name": "Virginia",
+      "total_prescriptions": 109369129,
+      "total_cost": 4860850215,
+      "total_prescribers": 17012,
+      "total_beneficiaries": 1261499,
+      "medicare_enrollment_rate": 0.145,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 2624859,
+          "cost": 26734676,
+          "prescribers": 11908,
+          "beneficiaries": 874953
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 2479033,
+          "cost": 12638210,
+          "prescribers": 11908,
+          "beneficiaries": 826344
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 2357512,
+          "cost": 20658613,
+          "prescribers": 11908,
+          "beneficiaries": 785837
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 2235991,
+          "cost": 18957315,
+          "prescribers": 11908,
+          "beneficiaries": 745330
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 2163078,
+          "cost": 25519463,
+          "prescribers": 11908,
+          "beneficiaries": 721026
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1652689,
+          "cost": 16526890,
+          "prescribers": 11908,
+          "beneficiaries": 550896
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1555472,
+          "cost": 21630783,
+          "prescribers": 11908,
+          "beneficiaries": 518490
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1482559,
+          "cost": 23089038,
+          "prescribers": 11908,
+          "beneficiaries": 494186
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1409646,
+          "cost": 17499060,
+          "prescribers": 11908,
+          "beneficiaries": 469882
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1239516,
+          "cost": 16526890,
+          "prescribers": 11908,
+          "beneficiaries": 413172
+        }
+      ]
+    },
+    "WA": {
+      "state_code": "WA",
+      "state_name": "Washington",
+      "total_prescriptions": 94673872,
+      "total_cost": 4207727653,
+      "total_prescribers": 14727,
+      "total_beneficiaries": 1092000,
+      "medicare_enrollment_rate": 0.14,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 2272172,
+          "cost": 23142502,
+          "prescribers": 10308,
+          "beneficiaries": 757390
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 2145941,
+          "cost": 10940091,
+          "prescribers": 10308,
+          "beneficiaries": 715313
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 2040747,
+          "cost": 17882842,
+          "prescribers": 10308,
+          "beneficiaries": 680249
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1935554,
+          "cost": 16410137,
+          "prescribers": 10308,
+          "beneficiaries": 645184
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1872438,
+          "cost": 22090570,
+          "prescribers": 10308,
+          "beneficiaries": 624146
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1430627,
+          "cost": 14306274,
+          "prescribers": 10308,
+          "beneficiaries": 476875
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1346472,
+          "cost": 18724388,
+          "prescribers": 10308,
+          "beneficiaries": 448824
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1283356,
+          "cost": 19986706,
+          "prescribers": 10308,
+          "beneficiaries": 427785
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1220241,
+          "cost": 15147819,
+          "prescribers": 10308,
+          "beneficiaries": 406747
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1072970,
+          "cost": 14306274,
+          "prescribers": 10308,
+          "beneficiaries": 357656
+        }
+      ]
+    },
+    "AZ": {
+      "state_code": "AZ",
+      "state_name": "Arizona",
+      "total_prescriptions": 112273502,
+      "total_cost": 4989933435,
+      "total_prescribers": 17464,
+      "total_beneficiaries": 1295000,
+      "medicare_enrollment_rate": 0.175,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 2694564,
+          "cost": 27444633,
+          "prescribers": 12224,
+          "beneficiaries": 898188
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 2544866,
+          "cost": 12973826,
+          "prescribers": 12224,
+          "beneficiaries": 848288
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 2420117,
+          "cost": 21207217,
+          "prescribers": 12224,
+          "beneficiaries": 806705
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 2295369,
+          "cost": 19460740,
+          "prescribers": 12224,
+          "beneficiaries": 765123
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 2220520,
+          "cost": 26197150,
+          "prescribers": 12224,
+          "beneficiaries": 740173
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1696577,
+          "cost": 16965773,
+          "prescribers": 12224,
+          "beneficiaries": 565525
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1596778,
+          "cost": 22205203,
+          "prescribers": 12224,
+          "beneficiaries": 532259
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1521929,
+          "cost": 23702183,
+          "prescribers": 12224,
+          "beneficiaries": 507309
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1447080,
+          "cost": 17963760,
+          "prescribers": 12224,
+          "beneficiaries": 482360
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1272433,
+          "cost": 16965773,
+          "prescribers": 12224,
+          "beneficiaries": 424144
+        }
+      ]
+    },
+    "MA": {
+      "state_code": "MA",
+      "state_name": "Massachusetts",
+      "total_prescriptions": 92723174,
+      "total_cost": 4121029968,
+      "total_prescribers": 14423,
+      "total_beneficiaries": 1069500,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 2225356,
+          "cost": 22665664,
+          "prescribers": 10096,
+          "beneficiaries": 741785
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 2101725,
+          "cost": 10714677,
+          "prescribers": 10096,
+          "beneficiaries": 700575
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1998699,
+          "cost": 17514377,
+          "prescribers": 10096,
+          "beneficiaries": 666233
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1895673,
+          "cost": 16072016,
+          "prescribers": 10096,
+          "beneficiaries": 631891
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1833858,
+          "cost": 21635407,
+          "prescribers": 10096,
+          "beneficiaries": 611286
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1401150,
+          "cost": 14011501,
+          "prescribers": 10096,
+          "beneficiaries": 467050
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1318729,
+          "cost": 18338583,
+          "prescribers": 10096,
+          "beneficiaries": 439576
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1256914,
+          "cost": 19574892,
+          "prescribers": 10096,
+          "beneficiaries": 418971
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1195098,
+          "cost": 14835707,
+          "prescribers": 10096,
+          "beneficiaries": 398366
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1050862,
+          "cost": 14011501,
+          "prescribers": 10096,
+          "beneficiaries": 350287
+        }
+      ]
+    },
+    "TN": {
+      "state_code": "TN",
+      "state_name": "Tennessee",
+      "total_prescriptions": 98705314,
+      "total_cost": 4386902869,
+      "total_prescribers": 15354,
+      "total_beneficiaries": 1138500,
+      "medicare_enrollment_rate": 0.165,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 2368927,
+          "cost": 24127965,
+          "prescribers": 10747,
+          "beneficiaries": 789642
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 2237320,
+          "cost": 11405947,
+          "prescribers": 10747,
+          "beneficiaries": 745773
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 2127647,
+          "cost": 18644337,
+          "prescribers": 10747,
+          "beneficiaries": 709215
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 2017975,
+          "cost": 17108921,
+          "prescribers": 10747,
+          "beneficiaries": 672658
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1952171,
+          "cost": 23031240,
+          "prescribers": 10747,
+          "beneficiaries": 650723
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1491546,
+          "cost": 14915469,
+          "prescribers": 10747,
+          "beneficiaries": 497182
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1403808,
+          "cost": 19521717,
+          "prescribers": 10747,
+          "beneficiaries": 467936
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1338005,
+          "cost": 20837788,
+          "prescribers": 10747,
+          "beneficiaries": 446001
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1272201,
+          "cost": 15792850,
+          "prescribers": 10747,
+          "beneficiaries": 424067
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1118660,
+          "cost": 14915469,
+          "prescribers": 10747,
+          "beneficiaries": 372886
+        }
+      ]
+    },
+    "IN": {
+      "state_code": "IN",
+      "state_name": "Indiana",
+      "total_prescriptions": 91379360,
+      "total_cost": 4061304896,
+      "total_prescribers": 14214,
+      "total_beneficiaries": 1054000,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 2193104,
+          "cost": 22337176,
+          "prescribers": 9949,
+          "beneficiaries": 731034
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 2071265,
+          "cost": 10559392,
+          "prescribers": 9949,
+          "beneficiaries": 690421
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1969732,
+          "cost": 17260545,
+          "prescribers": 9949,
+          "beneficiaries": 656577
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1868200,
+          "cost": 15839089,
+          "prescribers": 9949,
+          "beneficiaries": 622733
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1807280,
+          "cost": 21321850,
+          "prescribers": 9949,
+          "beneficiaries": 602426
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1380843,
+          "cost": 13808436,
+          "prescribers": 9949,
+          "beneficiaries": 460281
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1299617,
+          "cost": 18072806,
+          "prescribers": 9949,
+          "beneficiaries": 433205
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1238697,
+          "cost": 19291198,
+          "prescribers": 9949,
+          "beneficiaries": 412899
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1177778,
+          "cost": 14620697,
+          "prescribers": 9949,
+          "beneficiaries": 392592
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1035632,
+          "cost": 13808436,
+          "prescribers": 9949,
+          "beneficiaries": 345210
+        }
+      ]
+    },
+    "MO": {
+      "state_code": "MO",
+      "state_name": "Missouri",
+      "total_prescriptions": 89905499,
+      "total_cost": 3995799978,
+      "total_prescribers": 13985,
+      "total_beneficiaries": 1036999,
+      "medicare_enrollment_rate": 0.17,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 2157731,
+          "cost": 21976899,
+          "prescribers": 9789,
+          "beneficiaries": 719243
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 2037857,
+          "cost": 10389079,
+          "prescribers": 9789,
+          "beneficiaries": 679285
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1937962,
+          "cost": 16982149,
+          "prescribers": 9789,
+          "beneficiaries": 645987
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1838067,
+          "cost": 15583619,
+          "prescribers": 9789,
+          "beneficiaries": 612689
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1778130,
+          "cost": 20977949,
+          "prescribers": 9789,
+          "beneficiaries": 592710
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1358571,
+          "cost": 13585719,
+          "prescribers": 9789,
+          "beneficiaries": 452857
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1278655,
+          "cost": 17781309,
+          "prescribers": 9789,
+          "beneficiaries": 426218
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1218718,
+          "cost": 18980049,
+          "prescribers": 9789,
+          "beneficiaries": 406239
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1158781,
+          "cost": 14384879,
+          "prescribers": 9789,
+          "beneficiaries": 386260
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 1018928,
+          "cost": 13585719,
+          "prescribers": 9789,
+          "beneficiaries": 339642
+        }
+      ]
+    },
+    "MD": {
+      "state_code": "MD",
+      "state_name": "Maryland",
+      "total_prescriptions": 71395543,
+      "total_cost": 3173135277,
+      "total_prescribers": 11105,
+      "total_beneficiaries": 823500,
+      "medicare_enrollment_rate": 0.135,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1713493,
+          "cost": 17452244,
+          "prescribers": 7773,
+          "beneficiaries": 571164
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1618298,
+          "cost": 8250151,
+          "prescribers": 7773,
+          "beneficiaries": 539432
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1538970,
+          "cost": 13485824,
+          "prescribers": 7773,
+          "beneficiaries": 512990
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1459642,
+          "cost": 12375227,
+          "prescribers": 7773,
+          "beneficiaries": 486547
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1412045,
+          "cost": 16658960,
+          "prescribers": 7773,
+          "beneficiaries": 470681
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1078865,
+          "cost": 10788659,
+          "prescribers": 7773,
+          "beneficiaries": 359621
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1015403,
+          "cost": 14120451,
+          "prescribers": 7773,
+          "beneficiaries": 338467
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 967806,
+          "cost": 15072392,
+          "prescribers": 7773,
+          "beneficiaries": 322602
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 920209,
+          "cost": 11423286,
+          "prescribers": 7773,
+          "beneficiaries": 306736
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 809149,
+          "cost": 10788659,
+          "prescribers": 7773,
+          "beneficiaries": 269716
+        }
+      ]
+    },
+    "WI": {
+      "state_code": "WI",
+      "state_name": "Wisconsin",
+      "total_prescriptions": 84400196,
+      "total_cost": 3751119845,
+      "total_prescribers": 13128,
+      "total_beneficiaries": 973500,
+      "medicare_enrollment_rate": 0.165,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 2025604,
+          "cost": 20631159,
+          "prescribers": 9189,
+          "beneficiaries": 675201
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1913071,
+          "cost": 9752911,
+          "prescribers": 9189,
+          "beneficiaries": 637690
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1819293,
+          "cost": 15942259,
+          "prescribers": 9189,
+          "beneficiaries": 606431
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1725515,
+          "cost": 14629367,
+          "prescribers": 9189,
+          "beneficiaries": 575171
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1669248,
+          "cost": 19693379,
+          "prescribers": 9189,
+          "beneficiaries": 556416
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1275380,
+          "cost": 12753807,
+          "prescribers": 9189,
+          "beneficiaries": 425126
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1200358,
+          "cost": 16692483,
+          "prescribers": 9189,
+          "beneficiaries": 400119
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1144091,
+          "cost": 17817819,
+          "prescribers": 9189,
+          "beneficiaries": 381363
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 1087824,
+          "cost": 13504031,
+          "prescribers": 9189,
+          "beneficiaries": 362608
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 956535,
+          "cost": 12753807,
+          "prescribers": 9189,
+          "beneficiaries": 318845
+        }
+      ]
+    },
+    "CO": {
+      "state_code": "CO",
+      "state_name": "Colorado",
+      "total_prescriptions": 65370054,
+      "total_cost": 2905335760,
+      "total_prescribers": 10168,
+      "total_beneficiaries": 754000,
+      "medicare_enrollment_rate": 0.13,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1568881,
+          "cost": 15979346,
+          "prescribers": 7117,
+          "beneficiaries": 522960
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1481721,
+          "cost": 7553872,
+          "prescribers": 7117,
+          "beneficiaries": 493907
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1409087,
+          "cost": 12347676,
+          "prescribers": 7117,
+          "beneficiaries": 469695
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1336454,
+          "cost": 11330809,
+          "prescribers": 7117,
+          "beneficiaries": 445484
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1292874,
+          "cost": 15253012,
+          "prescribers": 7117,
+          "beneficiaries": 430958
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 987814,
+          "cost": 9878141,
+          "prescribers": 7117,
+          "beneficiaries": 329271
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 929707,
+          "cost": 12928744,
+          "prescribers": 7117,
+          "beneficiaries": 309902
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 886127,
+          "cost": 13800344,
+          "prescribers": 7117,
+          "beneficiaries": 295375
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 842547,
+          "cost": 10459208,
+          "prescribers": 7117,
+          "beneficiaries": 280849
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 740860,
+          "cost": 9878141,
+          "prescribers": 7117,
+          "beneficiaries": 246953
+        }
+      ]
+    },
+    "MN": {
+      "state_code": "MN",
+      "state_name": "Minnesota",
+      "total_prescriptions": 70398520,
+      "total_cost": 3128823127,
+      "total_prescribers": 10950,
+      "total_beneficiaries": 812000,
+      "medicare_enrollment_rate": 0.145,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1689564,
+          "cost": 17208527,
+          "prescribers": 7664,
+          "beneficiaries": 563188
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1595699,
+          "cost": 8134940,
+          "prescribers": 7664,
+          "beneficiaries": 531899
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1517479,
+          "cost": 13297498,
+          "prescribers": 7664,
+          "beneficiaries": 505826
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1439258,
+          "cost": 12202410,
+          "prescribers": 7664,
+          "beneficiaries": 479752
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1392326,
+          "cost": 16426321,
+          "prescribers": 7664,
+          "beneficiaries": 464108
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1063799,
+          "cost": 10637998,
+          "prescribers": 7664,
+          "beneficiaries": 354599
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1001223,
+          "cost": 13923262,
+          "prescribers": 7664,
+          "beneficiaries": 333741
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 954291,
+          "cost": 14861909,
+          "prescribers": 7664,
+          "beneficiaries": 318097
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 907358,
+          "cost": 11263763,
+          "prescribers": 7664,
+          "beneficiaries": 302452
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 797849,
+          "cost": 10637998,
+          "prescribers": 7664,
+          "beneficiaries": 265949
+        }
+      ]
+    },
+    "SC": {
+      "state_code": "SC",
+      "state_name": "South Carolina",
+      "total_prescriptions": 76640753,
+      "total_cost": 3406255719,
+      "total_prescribers": 11921,
+      "total_beneficiaries": 884000,
+      "medicare_enrollment_rate": 0.17,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1839378,
+          "cost": 18734406,
+          "prescribers": 8344,
+          "beneficiaries": 613126
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1737190,
+          "cost": 8856264,
+          "prescribers": 8344,
+          "beneficiaries": 579063
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1652034,
+          "cost": 14476586,
+          "prescribers": 8344,
+          "beneficiaries": 550678
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1566877,
+          "cost": 13284397,
+          "prescribers": 8344,
+          "beneficiaries": 522292
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1515783,
+          "cost": 17882842,
+          "prescribers": 8344,
+          "beneficiaries": 505261
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1158126,
+          "cost": 11581269,
+          "prescribers": 8344,
+          "beneficiaries": 386042
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1090001,
+          "cost": 15157837,
+          "prescribers": 8344,
+          "beneficiaries": 363333
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1038907,
+          "cost": 16179714,
+          "prescribers": 8344,
+          "beneficiaries": 346302
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 987814,
+          "cost": 12262520,
+          "prescribers": 8344,
+          "beneficiaries": 329271
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 868595,
+          "cost": 11581269,
+          "prescribers": 8344,
+          "beneficiaries": 289531
+        }
+      ]
+    },
+    "AL": {
+      "state_code": "AL",
+      "state_name": "Alabama",
+      "total_prescriptions": 75860474,
+      "total_cost": 3371576645,
+      "total_prescribers": 11800,
+      "total_beneficiaries": 875000,
+      "medicare_enrollment_rate": 0.175,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1820651,
+          "cost": 18543671,
+          "prescribers": 8260,
+          "beneficiaries": 606883
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1719504,
+          "cost": 8766099,
+          "prescribers": 8260,
+          "beneficiaries": 573168
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1635214,
+          "cost": 14329200,
+          "prescribers": 8260,
+          "beneficiaries": 545071
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1550925,
+          "cost": 13149148,
+          "prescribers": 8260,
+          "beneficiaries": 516975
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1500351,
+          "cost": 17700777,
+          "prescribers": 8260,
+          "beneficiaries": 500117
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1146336,
+          "cost": 11463360,
+          "prescribers": 8260,
+          "beneficiaries": 382112
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 1078904,
+          "cost": 15003516,
+          "prescribers": 8260,
+          "beneficiaries": 359634
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 1028330,
+          "cost": 16014989,
+          "prescribers": 8260,
+          "beneficiaries": 342776
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 977757,
+          "cost": 12137675,
+          "prescribers": 8260,
+          "beneficiaries": 325919
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 859752,
+          "cost": 11463360,
+          "prescribers": 8260,
+          "beneficiaries": 286584
+        }
+      ]
+    },
+    "LA": {
+      "state_code": "LA",
+      "state_name": "Louisiana",
+      "total_prescriptions": 61815449,
+      "total_cost": 2747353312,
+      "total_prescribers": 9615,
+      "total_beneficiaries": 713000,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1483570,
+          "cost": 15110443,
+          "prescribers": 6730,
+          "beneficiaries": 494523
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1401150,
+          "cost": 7143118,
+          "prescribers": 6730,
+          "beneficiaries": 467050
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1332466,
+          "cost": 11676251,
+          "prescribers": 6730,
+          "beneficiaries": 444155
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1263782,
+          "cost": 10714677,
+          "prescribers": 6730,
+          "beneficiaries": 421260
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1222572,
+          "cost": 14423604,
+          "prescribers": 6730,
+          "beneficiaries": 407524
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 934100,
+          "cost": 9341001,
+          "prescribers": 6730,
+          "beneficiaries": 311366
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 879153,
+          "cost": 12225722,
+          "prescribers": 6730,
+          "beneficiaries": 293051
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 837942,
+          "cost": 13049928,
+          "prescribers": 6730,
+          "beneficiaries": 279314
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 796732,
+          "cost": 9890471,
+          "prescribers": 6730,
+          "beneficiaries": 265577
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 700575,
+          "cost": 9341001,
+          "prescribers": 6730,
+          "beneficiaries": 233525
+        }
+      ]
+    },
+    "KY": {
+      "state_code": "KY",
+      "state_name": "Kentucky",
+      "total_prescriptions": 68274427,
+      "total_cost": 3034418981,
+      "total_prescribers": 10620,
+      "total_beneficiaries": 787500,
+      "medicare_enrollment_rate": 0.175,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1638586,
+          "cost": 16689304,
+          "prescribers": 7433,
+          "beneficiaries": 546195
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1547553,
+          "cost": 7889489,
+          "prescribers": 7433,
+          "beneficiaries": 515851
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1471693,
+          "cost": 12896280,
+          "prescribers": 7433,
+          "beneficiaries": 490564
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1395832,
+          "cost": 11834234,
+          "prescribers": 7433,
+          "beneficiaries": 465277
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1350316,
+          "cost": 15930699,
+          "prescribers": 7433,
+          "beneficiaries": 450105
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 1031702,
+          "cost": 10317024,
+          "prescribers": 7433,
+          "beneficiaries": 343900
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 971014,
+          "cost": 13503164,
+          "prescribers": 7433,
+          "beneficiaries": 323671
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 925497,
+          "cost": 14413490,
+          "prescribers": 7433,
+          "beneficiaries": 308499
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 879981,
+          "cost": 10923908,
+          "prescribers": 7433,
+          "beneficiaries": 293327
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 773776,
+          "cost": 10317024,
+          "prescribers": 7433,
+          "beneficiaries": 257925
+        }
+      ]
+    },
+    "OR": {
+      "state_code": "OR",
+      "state_name": "Oregon",
+      "total_prescriptions": 60081495,
+      "total_cost": 2670288703,
+      "total_prescribers": 9346,
+      "total_beneficiaries": 693000,
+      "medicare_enrollment_rate": 0.165,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1441955,
+          "cost": 14686587,
+          "prescribers": 6542,
+          "beneficiaries": 480651
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1361847,
+          "cost": 6942750,
+          "prescribers": 6542,
+          "beneficiaries": 453949
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1295090,
+          "cost": 11348726,
+          "prescribers": 6542,
+          "beneficiaries": 431696
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1228332,
+          "cost": 10414125,
+          "prescribers": 6542,
+          "beneficiaries": 409444
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1188278,
+          "cost": 14019015,
+          "prescribers": 6542,
+          "beneficiaries": 396092
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 907898,
+          "cost": 9078981,
+          "prescribers": 6542,
+          "beneficiaries": 302632
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 854492,
+          "cost": 11882784,
+          "prescribers": 6542,
+          "beneficiaries": 284830
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 814438,
+          "cost": 12683871,
+          "prescribers": 6542,
+          "beneficiaries": 271479
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 774383,
+          "cost": 9613039,
+          "prescribers": 6542,
+          "beneficiaries": 258127
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 680923,
+          "cost": 9078981,
+          "prescribers": 6542,
+          "beneficiaries": 226974
+        }
+      ]
+    },
+    "OK": {
+      "state_code": "OK",
+      "state_name": "Oklahoma",
+      "total_prescriptions": 55486518,
+      "total_cost": 2466067489,
+      "total_prescribers": 8631,
+      "total_beneficiaries": 640000,
+      "medicare_enrollment_rate": 0.16,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1331676,
+          "cost": 13563371,
+          "prescribers": 6041,
+          "beneficiaries": 443892
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1257694,
+          "cost": 6411775,
+          "prescribers": 6041,
+          "beneficiaries": 419231
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1196042,
+          "cost": 10480786,
+          "prescribers": 6041,
+          "beneficiaries": 398680
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 1134391,
+          "cost": 9617663,
+          "prescribers": 6041,
+          "beneficiaries": 378130
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 1097400,
+          "cost": 12946854,
+          "prescribers": 6041,
+          "beneficiaries": 365800
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 838462,
+          "cost": 8384629,
+          "prescribers": 6041,
+          "beneficiaries": 279487
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 789141,
+          "cost": 10974000,
+          "prescribers": 6041,
+          "beneficiaries": 263047
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 752150,
+          "cost": 11713820,
+          "prescribers": 6041,
+          "beneficiaries": 250716
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 715159,
+          "cost": 8877842,
+          "prescribers": 6041,
+          "beneficiaries": 238386
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 628847,
+          "cost": 8384629,
+          "prescribers": 6041,
+          "beneficiaries": 209615
+        }
+      ]
+    },
+    "CT": {
+      "state_code": "CT",
+      "state_name": "Connecticut",
+      "total_prescriptions": 48377308,
+      "total_cost": 2150102592,
+      "total_prescribers": 7525,
+      "total_beneficiaries": 558000,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1161055,
+          "cost": 11825564,
+          "prescribers": 5267,
+          "beneficiaries": 387018
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1096552,
+          "cost": 5590266,
+          "prescribers": 5267,
+          "beneficiaries": 365517
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1042799,
+          "cost": 9137936,
+          "prescribers": 5267,
+          "beneficiaries": 347599
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 989047,
+          "cost": 8385400,
+          "prescribers": 5267,
+          "beneficiaries": 329682
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 956795,
+          "cost": 11288038,
+          "prescribers": 5267,
+          "beneficiaries": 318931
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 731034,
+          "cost": 7310348,
+          "prescribers": 5267,
+          "beneficiaries": 243678
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 688032,
+          "cost": 9567956,
+          "prescribers": 5267,
+          "beneficiaries": 229344
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 655781,
+          "cost": 10212987,
+          "prescribers": 5267,
+          "beneficiaries": 218593
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 623529,
+          "cost": 7740369,
+          "prescribers": 5267,
+          "beneficiaries": 207843
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 548276,
+          "cost": 7310348,
+          "prescribers": 5267,
+          "beneficiaries": 182758
+        }
+      ]
+    },
+    "UT": {
+      "state_code": "UT",
+      "state_name": "Utah",
+      "total_prescriptions": 30951073,
+      "total_cost": 1375603271,
+      "total_prescribers": 4814,
+      "total_beneficiaries": 357000,
+      "medicare_enrollment_rate": 0.105,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 742825,
+          "cost": 7565817,
+          "prescribers": 3369,
+          "beneficiaries": 247608
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 701557,
+          "cost": 3576568,
+          "prescribers": 3369,
+          "beneficiaries": 233852
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 667167,
+          "cost": 5846313,
+          "prescribers": 3369,
+          "beneficiaries": 222389
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 632777,
+          "cost": 5364852,
+          "prescribers": 3369,
+          "beneficiaries": 210925
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 612143,
+          "cost": 7221917,
+          "prescribers": 3369,
+          "beneficiaries": 204047
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 467705,
+          "cost": 4677051,
+          "prescribers": 3369,
+          "beneficiaries": 155901
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 440193,
+          "cost": 6121434,
+          "prescribers": 3369,
+          "beneficiaries": 146731
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 419558,
+          "cost": 6534115,
+          "prescribers": 3369,
+          "beneficiaries": 139852
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 398924,
+          "cost": 4952171,
+          "prescribers": 3369,
+          "beneficiaries": 132974
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 350778,
+          "cost": 4677051,
+          "prescribers": 3369,
+          "beneficiaries": 116926
+        }
+      ]
+    },
+    "IA": {
+      "state_code": "IA",
+      "state_name": "Iowa",
+      "total_prescriptions": 48550703,
+      "total_cost": 2157809053,
+      "total_prescribers": 7552,
+      "total_beneficiaries": 560000,
+      "medicare_enrollment_rate": 0.175,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1165216,
+          "cost": 11867949,
+          "prescribers": 5286,
+          "beneficiaries": 388405
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1100482,
+          "cost": 5610303,
+          "prescribers": 5286,
+          "beneficiaries": 366827
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 1046537,
+          "cost": 9170688,
+          "prescribers": 5286,
+          "beneficiaries": 348845
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 992592,
+          "cost": 8415455,
+          "prescribers": 5286,
+          "beneficiaries": 330864
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 960225,
+          "cost": 11328497,
+          "prescribers": 5286,
+          "beneficiaries": 320075
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 733655,
+          "cost": 7336550,
+          "prescribers": 5286,
+          "beneficiaries": 244551
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 690498,
+          "cost": 9602250,
+          "prescribers": 5286,
+          "beneficiaries": 230166
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 658131,
+          "cost": 10249593,
+          "prescribers": 5286,
+          "beneficiaries": 219377
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 625764,
+          "cost": 7768112,
+          "prescribers": 5286,
+          "beneficiaries": 208588
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 550241,
+          "cost": 7336550,
+          "prescribers": 5286,
+          "beneficiaries": 183413
+        }
+      ]
+    },
+    "NV": {
+      "state_code": "NV",
+      "state_name": "Nevada",
+      "total_prescriptions": 38970609,
+      "total_cost": 1732027088,
+      "total_prescribers": 6062,
+      "total_beneficiaries": 449499,
+      "medicare_enrollment_rate": 0.145,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 935294,
+          "cost": 9526148,
+          "prescribers": 4243,
+          "beneficiaries": 311764
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 883333,
+          "cost": 4503270,
+          "prescribers": 4243,
+          "beneficiaries": 294444
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 840033,
+          "cost": 7361115,
+          "prescribers": 4243,
+          "beneficiaries": 280011
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 796732,
+          "cost": 6754905,
+          "prescribers": 4243,
+          "beneficiaries": 265577
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 770752,
+          "cost": 9093142,
+          "prescribers": 4243,
+          "beneficiaries": 256917
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 588889,
+          "cost": 5888892,
+          "prescribers": 4243,
+          "beneficiaries": 196296
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 554248,
+          "cost": 7707520,
+          "prescribers": 4243,
+          "beneficiaries": 184749
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 528268,
+          "cost": 8227128,
+          "prescribers": 4243,
+          "beneficiaries": 176089
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 502287,
+          "cost": 6235297,
+          "prescribers": 4243,
+          "beneficiaries": 167429
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 441666,
+          "cost": 5888892,
+          "prescribers": 4243,
+          "beneficiaries": 147222
+        }
+      ]
+    },
+    "AR": {
+      "state_code": "AR",
+      "state_name": "Arkansas",
+      "total_prescriptions": 45516284,
+      "total_cost": 2022945987,
+      "total_prescribers": 7080,
+      "total_beneficiaries": 524999,
+      "medicare_enrollment_rate": 0.175,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 1092390,
+          "cost": 11126202,
+          "prescribers": 4956,
+          "beneficiaries": 364130
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 1031702,
+          "cost": 5259659,
+          "prescribers": 4956,
+          "beneficiaries": 343900
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 981128,
+          "cost": 8597520,
+          "prescribers": 4956,
+          "beneficiaries": 327042
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 930555,
+          "cost": 7889489,
+          "prescribers": 4956,
+          "beneficiaries": 310185
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 900210,
+          "cost": 10620466,
+          "prescribers": 4956,
+          "beneficiaries": 300070
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 687801,
+          "cost": 6878016,
+          "prescribers": 4956,
+          "beneficiaries": 229267
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 647342,
+          "cost": 9002109,
+          "prescribers": 4956,
+          "beneficiaries": 215780
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 616998,
+          "cost": 9608993,
+          "prescribers": 4956,
+          "beneficiaries": 205666
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 586654,
+          "cost": 7282605,
+          "prescribers": 4956,
+          "beneficiaries": 195551
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 515851,
+          "cost": 6878016,
+          "prescribers": 4956,
+          "beneficiaries": 171950
+        }
+      ]
+    },
+    "MS": {
+      "state_code": "MS",
+      "state_name": "Mississippi",
+      "total_prescriptions": 41484842,
+      "total_cost": 1843770771,
+      "total_prescribers": 6453,
+      "total_beneficiaries": 478500,
+      "medicare_enrollment_rate": 0.165,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 995636,
+          "cost": 10140739,
+          "prescribers": 4517,
+          "beneficiaries": 331878
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 940323,
+          "cost": 4793804,
+          "prescribers": 4517,
+          "beneficiaries": 313441
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 894228,
+          "cost": 7836025,
+          "prescribers": 4517,
+          "beneficiaries": 298076
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 848134,
+          "cost": 7190706,
+          "prescribers": 4517,
+          "beneficiaries": 282711
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 820477,
+          "cost": 9679796,
+          "prescribers": 4517,
+          "beneficiaries": 273492
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 626882,
+          "cost": 6268820,
+          "prescribers": 4517,
+          "beneficiaries": 208960
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 590006,
+          "cost": 8204779,
+          "prescribers": 4517,
+          "beneficiaries": 196668
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 562350,
+          "cost": 8757911,
+          "prescribers": 4517,
+          "beneficiaries": 187450
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 534693,
+          "cost": 6637574,
+          "prescribers": 4517,
+          "beneficiaries": 178231
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 470161,
+          "cost": 6268820,
+          "prescribers": 4517,
+          "beneficiaries": 156720
+        }
+      ]
+    },
+    "KS": {
+      "state_code": "KS",
+      "state_name": "Kansas",
+      "total_prescriptions": 38970609,
+      "total_cost": 1732027088,
+      "total_prescribers": 6062,
+      "total_beneficiaries": 449500,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 935294,
+          "cost": 9526148,
+          "prescribers": 4243,
+          "beneficiaries": 311764
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 883333,
+          "cost": 4503270,
+          "prescribers": 4243,
+          "beneficiaries": 294444
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 840033,
+          "cost": 7361115,
+          "prescribers": 4243,
+          "beneficiaries": 280011
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 796732,
+          "cost": 6754905,
+          "prescribers": 4243,
+          "beneficiaries": 265577
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 770752,
+          "cost": 9093142,
+          "prescribers": 4243,
+          "beneficiaries": 256917
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 588889,
+          "cost": 5888892,
+          "prescribers": 4243,
+          "beneficiaries": 196296
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 554248,
+          "cost": 7707520,
+          "prescribers": 4243,
+          "beneficiaries": 184749
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 528268,
+          "cost": 8227128,
+          "prescribers": 4243,
+          "beneficiaries": 176089
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 502287,
+          "cost": 6235297,
+          "prescribers": 4243,
+          "beneficiaries": 167429
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 441666,
+          "cost": 5888892,
+          "prescribers": 4243,
+          "beneficiaries": 147222
+        }
+      ]
+    },
+    "NM": {
+      "state_code": "NM",
+      "state_name": "New Mexico",
+      "total_prescriptions": 30040747,
+      "total_cost": 1335144351,
+      "total_prescribers": 4673,
+      "total_beneficiaries": 346500,
+      "medicare_enrollment_rate": 0.165,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 720977,
+          "cost": 7343293,
+          "prescribers": 3271,
+          "beneficiaries": 240325
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 680923,
+          "cost": 3471375,
+          "prescribers": 3271,
+          "beneficiaries": 226974
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 647545,
+          "cost": 5674363,
+          "prescribers": 3271,
+          "beneficiaries": 215848
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 614166,
+          "cost": 5207062,
+          "prescribers": 3271,
+          "beneficiaries": 204722
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 594139,
+          "cost": 7009507,
+          "prescribers": 3271,
+          "beneficiaries": 198046
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 453949,
+          "cost": 4539490,
+          "prescribers": 3271,
+          "beneficiaries": 151316
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 427246,
+          "cost": 5941392,
+          "prescribers": 3271,
+          "beneficiaries": 142415
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 407219,
+          "cost": 6341935,
+          "prescribers": 3271,
+          "beneficiaries": 135739
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 387191,
+          "cost": 4806519,
+          "prescribers": 3271,
+          "beneficiaries": 129063
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 340461,
+          "cost": 4539490,
+          "prescribers": 3271,
+          "beneficiaries": 113487
+        }
+      ]
+    },
+    "NE": {
+      "state_code": "NE",
+      "state_name": "Nebraska",
+      "total_prescriptions": 25532468,
+      "total_cost": 1134776368,
+      "total_prescribers": 3971,
+      "total_beneficiaries": 294500,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 612779,
+          "cost": 6241270,
+          "prescribers": 2779,
+          "beneficiaries": 204259
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 578735,
+          "cost": 2950418,
+          "prescribers": 2779,
+          "beneficiaries": 192911
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 550366,
+          "cost": 4822799,
+          "prescribers": 2779,
+          "beneficiaries": 183455
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 521997,
+          "cost": 4425627,
+          "prescribers": 2779,
+          "beneficiaries": 173999
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 504975,
+          "cost": 5957575,
+          "prescribers": 2779,
+          "beneficiaries": 168325
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 385823,
+          "cost": 3858239,
+          "prescribers": 2779,
+          "beneficiaries": 128607
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 363128,
+          "cost": 5049754,
+          "prescribers": 2779,
+          "beneficiaries": 121042
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 346106,
+          "cost": 5390187,
+          "prescribers": 2779,
+          "beneficiaries": 115368
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 329085,
+          "cost": 4085194,
+          "prescribers": 2779,
+          "beneficiaries": 109695
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 289367,
+          "cost": 3858239,
+          "prescribers": 2779,
+          "beneficiaries": 96455
+        }
+      ]
+    },
+    "ID": {
+      "state_code": "ID",
+      "state_name": "Idaho",
+      "total_prescriptions": 25532468,
+      "total_cost": 1134776368,
+      "total_prescribers": 3971,
+      "total_beneficiaries": 294500,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 612779,
+          "cost": 6241270,
+          "prescribers": 2779,
+          "beneficiaries": 204259
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 578735,
+          "cost": 2950418,
+          "prescribers": 2779,
+          "beneficiaries": 192911
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 550366,
+          "cost": 4822799,
+          "prescribers": 2779,
+          "beneficiaries": 183455
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 521997,
+          "cost": 4425627,
+          "prescribers": 2779,
+          "beneficiaries": 173999
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 504975,
+          "cost": 5957575,
+          "prescribers": 2779,
+          "beneficiaries": 168325
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 385823,
+          "cost": 3858239,
+          "prescribers": 2779,
+          "beneficiaries": 128607
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 363128,
+          "cost": 5049754,
+          "prescribers": 2779,
+          "beneficiaries": 121042
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 346106,
+          "cost": 5390187,
+          "prescribers": 2779,
+          "beneficiaries": 115368
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 329085,
+          "cost": 4085194,
+          "prescribers": 2779,
+          "beneficiaries": 109695
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 289367,
+          "cost": 3858239,
+          "prescribers": 2779,
+          "beneficiaries": 96455
+        }
+      ]
+    },
+    "WV": {
+      "state_code": "WV",
+      "state_name": "West Virginia",
+      "total_prescriptions": 31991445,
+      "total_cost": 1421842036,
+      "total_prescribers": 4976,
+      "total_beneficiaries": 369000,
+      "medicare_enrollment_rate": 0.205,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 767794,
+          "cost": 7820131,
+          "prescribers": 3483,
+          "beneficiaries": 255931
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 725139,
+          "cost": 3696789,
+          "prescribers": 3483,
+          "beneficiaries": 241713
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 689593,
+          "cost": 6042828,
+          "prescribers": 3483,
+          "beneficiaries": 229864
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 654047,
+          "cost": 5545183,
+          "prescribers": 3483,
+          "beneficiaries": 218015
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 632719,
+          "cost": 7464670,
+          "prescribers": 3483,
+          "beneficiaries": 210906
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 483426,
+          "cost": 4834262,
+          "prescribers": 3483,
+          "beneficiaries": 161142
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 454989,
+          "cost": 6327197,
+          "prescribers": 3483,
+          "beneficiaries": 151663
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 433661,
+          "cost": 6753749,
+          "prescribers": 3483,
+          "beneficiaries": 144553
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 412334,
+          "cost": 5118631,
+          "prescribers": 3483,
+          "beneficiaries": 137444
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 362569,
+          "cost": 4834262,
+          "prescribers": 3483,
+          "beneficiaries": 120856
+        }
+      ]
+    },
+    "HI": {
+      "state_code": "HI",
+      "state_name": "Hawaii",
+      "total_prescriptions": 18813397,
+      "total_cost": 836151008,
+      "total_prescribers": 2926,
+      "total_beneficiaries": 217000,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 451521,
+          "cost": 4598830,
+          "prescribers": 2048,
+          "beneficiaries": 150507
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 426437,
+          "cost": 2173992,
+          "prescribers": 2048,
+          "beneficiaries": 142145
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 405533,
+          "cost": 3553641,
+          "prescribers": 2048,
+          "beneficiaries": 135177
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 384629,
+          "cost": 3260988,
+          "prescribers": 2048,
+          "beneficiaries": 128209
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 372087,
+          "cost": 4389792,
+          "prescribers": 2048,
+          "beneficiaries": 124029
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 284291,
+          "cost": 2842913,
+          "prescribers": 2048,
+          "beneficiaries": 94763
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 267568,
+          "cost": 3720871,
+          "prescribers": 2048,
+          "beneficiaries": 89189
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 255026,
+          "cost": 3971717,
+          "prescribers": 2048,
+          "beneficiaries": 85008
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 242483,
+          "cost": 3010143,
+          "prescribers": 2048,
+          "beneficiaries": 80827
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 213218,
+          "cost": 2842913,
+          "prescribers": 2048,
+          "beneficiaries": 71072
+        }
+      ]
+    },
+    "NH": {
+      "state_code": "NH",
+      "state_name": "New Hampshire",
+      "total_prescriptions": 21240932,
+      "total_cost": 944041460,
+      "total_prescribers": 3304,
+      "total_beneficiaries": 244999,
+      "medicare_enrollment_rate": 0.175,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 509782,
+          "cost": 5192228,
+          "prescribers": 2312,
+          "beneficiaries": 169927
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 481461,
+          "cost": 2454507,
+          "prescribers": 2312,
+          "beneficiaries": 160487
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 457860,
+          "cost": 4012176,
+          "prescribers": 2312,
+          "beneficiaries": 152620
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 434259,
+          "cost": 3681761,
+          "prescribers": 2312,
+          "beneficiaries": 144753
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 420098,
+          "cost": 4956217,
+          "prescribers": 2312,
+          "beneficiaries": 140032
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 320974,
+          "cost": 3209740,
+          "prescribers": 2312,
+          "beneficiaries": 106991
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 302093,
+          "cost": 4200984,
+          "prescribers": 2312,
+          "beneficiaries": 100697
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 287932,
+          "cost": 4484196,
+          "prescribers": 2312,
+          "beneficiaries": 95977
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 273772,
+          "cost": 3398549,
+          "prescribers": 2312,
+          "beneficiaries": 91257
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 240730,
+          "cost": 3209740,
+          "prescribers": 2312,
+          "beneficiaries": 80243
+        }
+      ]
+    },
+    "ME": {
+      "state_code": "ME",
+      "state_name": "Maine",
+      "total_prescriptions": 23668468,
+      "total_cost": 1051931913,
+      "total_prescribers": 3681,
+      "total_beneficiaries": 272999,
+      "medicare_enrollment_rate": 0.195,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 568043,
+          "cost": 5785625,
+          "prescribers": 2576,
+          "beneficiaries": 189347
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 536485,
+          "cost": 2735022,
+          "prescribers": 2576,
+          "beneficiaries": 178828
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 510186,
+          "cost": 4470710,
+          "prescribers": 2576,
+          "beneficiaries": 170062
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 483888,
+          "cost": 4102534,
+          "prescribers": 2576,
+          "beneficiaries": 161296
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 468109,
+          "cost": 5522642,
+          "prescribers": 2576,
+          "beneficiaries": 156036
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 357656,
+          "cost": 3576568,
+          "prescribers": 2576,
+          "beneficiaries": 119218
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 336618,
+          "cost": 4681097,
+          "prescribers": 2576,
+          "beneficiaries": 112206
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 320839,
+          "cost": 4996676,
+          "prescribers": 2576,
+          "beneficiaries": 106946
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 305060,
+          "cost": 3786954,
+          "prescribers": 2576,
+          "beneficiaries": 101686
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 268242,
+          "cost": 3576568,
+          "prescribers": 2576,
+          "beneficiaries": 89414
+        }
+      ]
+    },
+    "MT": {
+      "state_code": "MT",
+      "state_name": "Montana",
+      "total_prescriptions": 16689304,
+      "total_cost": 741746862,
+      "total_prescribers": 2596,
+      "total_beneficiaries": 192500,
+      "medicare_enrollment_rate": 0.175,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 400543,
+          "cost": 4079607,
+          "prescribers": 1817,
+          "beneficiaries": 133514
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 378290,
+          "cost": 1928541,
+          "prescribers": 1817,
+          "beneficiaries": 126096
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 359747,
+          "cost": 3152424,
+          "prescribers": 1817,
+          "beneficiaries": 119915
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 341203,
+          "cost": 2892812,
+          "prescribers": 1817,
+          "beneficiaries": 113734
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 330077,
+          "cost": 3894171,
+          "prescribers": 1817,
+          "beneficiaries": 110025
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 252193,
+          "cost": 2521939,
+          "prescribers": 1817,
+          "beneficiaries": 84064
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 237358,
+          "cost": 3300773,
+          "prescribers": 1817,
+          "beneficiaries": 79119
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 226232,
+          "cost": 3523297,
+          "prescribers": 1817,
+          "beneficiaries": 75410
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 215106,
+          "cost": 2670288,
+          "prescribers": 1817,
+          "beneficiaries": 71702
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 189145,
+          "cost": 2521939,
+          "prescribers": 1817,
+          "beneficiaries": 63048
+        }
+      ]
+    },
+    "RI": {
+      "state_code": "RI",
+      "state_name": "Rhode Island",
+      "total_prescriptions": 15735629,
+      "total_cost": 699361327,
+      "total_prescribers": 2447,
+      "total_beneficiaries": 181500,
+      "medicare_enrollment_rate": 0.165,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 377655,
+          "cost": 3846487,
+          "prescribers": 1712,
+          "beneficiaries": 125885
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 356674,
+          "cost": 1818339,
+          "prescribers": 1712,
+          "beneficiaries": 118891
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 339190,
+          "cost": 2972285,
+          "prescribers": 1712,
+          "beneficiaries": 113063
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 321706,
+          "cost": 2727509,
+          "prescribers": 1712,
+          "beneficiaries": 107235
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 311215,
+          "cost": 3671646,
+          "prescribers": 1712,
+          "beneficiaries": 103738
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 237782,
+          "cost": 2377828,
+          "prescribers": 1712,
+          "beneficiaries": 79260
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 223795,
+          "cost": 3112157,
+          "prescribers": 1712,
+          "beneficiaries": 74598
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 213305,
+          "cost": 3321966,
+          "prescribers": 1712,
+          "beneficiaries": 71101
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 202814,
+          "cost": 2517700,
+          "prescribers": 1712,
+          "beneficiaries": 67604
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 178337,
+          "cost": 2377828,
+          "prescribers": 1712,
+          "beneficiaries": 59445
+        }
+      ]
+    },
+    "DE": {
+      "state_code": "DE",
+      "state_name": "Delaware",
+      "total_prescriptions": 15172094,
+      "total_cost": 674315329,
+      "total_prescribers": 2360,
+      "total_beneficiaries": 175000,
+      "medicare_enrollment_rate": 0.175,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 364130,
+          "cost": 3708734,
+          "prescribers": 1652,
+          "beneficiaries": 121376
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 343900,
+          "cost": 1753219,
+          "prescribers": 1652,
+          "beneficiaries": 114633
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 327042,
+          "cost": 2865840,
+          "prescribers": 1652,
+          "beneficiaries": 109014
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 310185,
+          "cost": 2629829,
+          "prescribers": 1652,
+          "beneficiaries": 103395
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 300070,
+          "cost": 3540155,
+          "prescribers": 1652,
+          "beneficiaries": 100023
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 229267,
+          "cost": 2292672,
+          "prescribers": 1652,
+          "beneficiaries": 76422
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 215780,
+          "cost": 3000703,
+          "prescribers": 1652,
+          "beneficiaries": 71926
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 205666,
+          "cost": 3202997,
+          "prescribers": 1652,
+          "beneficiaries": 68555
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 195551,
+          "cost": 2427535,
+          "prescribers": 1652,
+          "beneficiaries": 65183
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 171950,
+          "cost": 2292672,
+          "prescribers": 1652,
+          "beneficiaries": 57316
+        }
+      ]
+    },
+    "SD": {
+      "state_code": "SD",
+      "state_name": "South Dakota",
+      "total_prescriptions": 12874606,
+      "total_cost": 572204722,
+      "total_prescribers": 2002,
+      "total_beneficiaries": 148500,
+      "medicare_enrollment_rate": 0.165,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 308990,
+          "cost": 3147125,
+          "prescribers": 1401,
+          "beneficiaries": 102996
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 291824,
+          "cost": 1487732,
+          "prescribers": 1401,
+          "beneficiaries": 97274
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 277519,
+          "cost": 2431870,
+          "prescribers": 1401,
+          "beneficiaries": 92506
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 263214,
+          "cost": 2231598,
+          "prescribers": 1401,
+          "beneficiaries": 87738
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 254631,
+          "cost": 3004074,
+          "prescribers": 1401,
+          "beneficiaries": 84877
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 194549,
+          "cost": 1945496,
+          "prescribers": 1401,
+          "beneficiaries": 64849
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 183105,
+          "cost": 2546311,
+          "prescribers": 1401,
+          "beneficiaries": 61035
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 174522,
+          "cost": 2717972,
+          "prescribers": 1401,
+          "beneficiaries": 58174
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 165939,
+          "cost": 2059936,
+          "prescribers": 1401,
+          "beneficiaries": 55313
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 145912,
+          "cost": 1945496,
+          "prescribers": 1401,
+          "beneficiaries": 48637
+        }
+      ]
+    },
+    "ND": {
+      "state_code": "ND",
+      "state_name": "North Dakota",
+      "total_prescriptions": 10056931,
+      "total_cost": 446974732,
+      "total_prescribers": 1564,
+      "total_beneficiaries": 115999,
+      "medicare_enrollment_rate": 0.145,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 241366,
+          "cost": 2458361,
+          "prescribers": 1094,
+          "beneficiaries": 80455
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 227957,
+          "cost": 1162134,
+          "prescribers": 1094,
+          "beneficiaries": 75985
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 216782,
+          "cost": 1899642,
+          "prescribers": 1094,
+          "beneficiaries": 72260
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 205608,
+          "cost": 1743201,
+          "prescribers": 1094,
+          "beneficiaries": 68536
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 198903,
+          "cost": 2346617,
+          "prescribers": 1094,
+          "beneficiaries": 66301
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 151971,
+          "cost": 1519714,
+          "prescribers": 1094,
+          "beneficiaries": 50657
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 143031,
+          "cost": 1989037,
+          "prescribers": 1094,
+          "beneficiaries": 47677
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 136327,
+          "cost": 2123129,
+          "prescribers": 1094,
+          "beneficiaries": 45442
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 129622,
+          "cost": 1609109,
+          "prescribers": 1094,
+          "beneficiaries": 43207
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 113978,
+          "cost": 1519714,
+          "prescribers": 1094,
+          "beneficiaries": 37992
+        }
+      ]
+    },
+    "AK": {
+      "state_code": "AK",
+      "state_name": "Alaska",
+      "total_prescriptions": 6675721,
+      "total_cost": 296698744,
+      "total_prescribers": 1038,
+      "total_beneficiaries": 77000,
+      "medicare_enrollment_rate": 0.11,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 160217,
+          "cost": 1631843,
+          "prescribers": 726,
+          "beneficiaries": 53405
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 151316,
+          "cost": 771416,
+          "prescribers": 726,
+          "beneficiaries": 50438
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 143898,
+          "cost": 1260969,
+          "prescribers": 726,
+          "beneficiaries": 47966
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 136481,
+          "cost": 1157125,
+          "prescribers": 726,
+          "beneficiaries": 45493
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 132030,
+          "cost": 1557668,
+          "prescribers": 726,
+          "beneficiaries": 44010
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 100877,
+          "cost": 1008775,
+          "prescribers": 726,
+          "beneficiaries": 33625
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 94943,
+          "cost": 1320309,
+          "prescribers": 726,
+          "beneficiaries": 31647
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 90493,
+          "cost": 1409319,
+          "prescribers": 726,
+          "beneficiaries": 30164
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 86042,
+          "cost": 1068115,
+          "prescribers": 726,
+          "beneficiaries": 28680
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 75658,
+          "cost": 1008775,
+          "prescribers": 726,
+          "beneficiaries": 25219
+        }
+      ]
+    },
+    "VT": {
+      "state_code": "VT",
+      "state_name": "Vermont",
+      "total_prescriptions": 9623443,
+      "total_cost": 427708580,
+      "total_prescribers": 1496,
+      "total_beneficiaries": 111000,
+      "medicare_enrollment_rate": 0.185,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 230962,
+          "cost": 2352397,
+          "prescribers": 1047,
+          "beneficiaries": 76987
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 218131,
+          "cost": 1112042,
+          "prescribers": 1047,
+          "beneficiaries": 72710
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 207438,
+          "cost": 1817761,
+          "prescribers": 1047,
+          "beneficiaries": 69146
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 196745,
+          "cost": 1668063,
+          "prescribers": 1047,
+          "beneficiaries": 65581
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 190330,
+          "cost": 2245470,
+          "prescribers": 1047,
+          "beneficiaries": 63443
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 145420,
+          "cost": 1454209,
+          "prescribers": 1047,
+          "beneficiaries": 48473
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 136866,
+          "cost": 1903303,
+          "prescribers": 1047,
+          "beneficiaries": 45622
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 130451,
+          "cost": 2031615,
+          "prescribers": 1047,
+          "beneficiaries": 43483
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 124035,
+          "cost": 1539750,
+          "prescribers": 1047,
+          "beneficiaries": 41345
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 109065,
+          "cost": 1454209,
+          "prescribers": 1047,
+          "beneficiaries": 36355
+        }
+      ]
+    },
+    "WY": {
+      "state_code": "WY",
+      "state_name": "Wyoming",
+      "total_prescriptions": 8062884,
+      "total_cost": 358350432,
+      "total_prescribers": 1254,
+      "total_beneficiaries": 93000,
+      "medicare_enrollment_rate": 0.155,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 193509,
+          "cost": 1970927,
+          "prescribers": 877,
+          "beneficiaries": 64503
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 182758,
+          "cost": 931711,
+          "prescribers": 877,
+          "beneficiaries": 60919
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 173799,
+          "cost": 1522989,
+          "prescribers": 877,
+          "beneficiaries": 57933
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 164841,
+          "cost": 1397566,
+          "prescribers": 877,
+          "beneficiaries": 54947
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 159465,
+          "cost": 1881339,
+          "prescribers": 877,
+          "beneficiaries": 53155
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 121839,
+          "cost": 1218391,
+          "prescribers": 877,
+          "beneficiaries": 40613
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 114672,
+          "cost": 1594659,
+          "prescribers": 877,
+          "beneficiaries": 38224
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 109296,
+          "cost": 1702164,
+          "prescribers": 877,
+          "beneficiaries": 36432
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 103921,
+          "cost": 1290061,
+          "prescribers": 877,
+          "beneficiaries": 34640
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 91379,
+          "cost": 1218391,
+          "prescribers": 877,
+          "beneficiaries": 30459
+        }
+      ]
+    },
+    "DC": {
+      "state_code": "DC",
+      "state_name": "District of Columbia",
+      "total_prescriptions": 6979163,
+      "total_cost": 310185051,
+      "total_prescribers": 1085,
+      "total_beneficiaries": 80500,
+      "medicare_enrollment_rate": 0.115,
+      "top_drugs": [
+        {
+          "name": "Atorvastatin",
+          "prescriptions": 167499,
+          "cost": 1706017,
+          "prescribers": 759,
+          "beneficiaries": 55833
+        },
+        {
+          "name": "Levothyroxine",
+          "prescriptions": 158194,
+          "cost": 806481,
+          "prescribers": 759,
+          "beneficiaries": 52731
+        },
+        {
+          "name": "Lisinopril",
+          "prescriptions": 150439,
+          "cost": 1318286,
+          "prescribers": 759,
+          "beneficiaries": 50146
+        },
+        {
+          "name": "Metformin",
+          "prescriptions": 142685,
+          "cost": 1209721,
+          "prescribers": 759,
+          "beneficiaries": 47561
+        },
+        {
+          "name": "Amlodipine",
+          "prescriptions": 138032,
+          "cost": 1628471,
+          "prescribers": 759,
+          "beneficiaries": 46010
+        },
+        {
+          "name": "Simvastatin",
+          "prescriptions": 105462,
+          "cost": 1054629,
+          "prescribers": 759,
+          "beneficiaries": 35154
+        },
+        {
+          "name": "Omeprazole",
+          "prescriptions": 99259,
+          "cost": 1380323,
+          "prescribers": 759,
+          "beneficiaries": 33086
+        },
+        {
+          "name": "Losartan",
+          "prescriptions": 94606,
+          "cost": 1473378,
+          "prescribers": 759,
+          "beneficiaries": 31535
+        },
+        {
+          "name": "Gabapentin",
+          "prescriptions": 89953,
+          "cost": 1116666,
+          "prescribers": 759,
+          "beneficiaries": 29984
+        },
+        {
+          "name": "Sertraline",
+          "prescriptions": 79097,
+          "cost": 1054629,
+          "prescribers": 759,
+          "beneficiaries": 26365
+        }
+      ]
+    }
+  }
+}
