@@ -1,24 +1,19 @@
 {
   "version": 2,
-  "name": "novartis-nhs-project",
-  "builds": [
-    {
-      "src": "novartis-nhs-project/index.html",
-      "use": "@vercel/static"
-    },
-    {
-      "src": "novartis-nhs-project/server.js",
-      "use": "@vercel/node"
+  "functions": {
+    "api/server.js": {
+      "maxDuration": 60
     }
-  ],
-  "routes": [
+  },
+  "headers": [
     {
-      "src": "/api/(.*)",
-      "dest": "/novartis-nhs-project/server.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/novartis-nhs-project/index.html"
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
     }
   ]
 }
