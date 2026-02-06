@@ -646,38 +646,53 @@ async def get_country_detail(country_code: str):
                 
                 print(f"✓ Loaded CMS data from cache: {len(cms_data['states'])} states")
                 
+                # State code to full name mapping
+                state_names = {
+                    'AL': 'Alabama', 'AK': 'Alaska', 'AZ': 'Arizona', 'AR': 'Arkansas', 'CA': 'California',
+                    'CO': 'Colorado', 'CT': 'Connecticut', 'DE': 'Delaware', 'FL': 'Florida', 'GA': 'Georgia',
+                    'HI': 'Hawaii', 'ID': 'Idaho', 'IL': 'Illinois', 'IN': 'Indiana', 'IA': 'Iowa',
+                    'KS': 'Kansas', 'KY': 'Kentucky', 'LA': 'Louisiana', 'ME': 'Maine', 'MD': 'Maryland',
+                    'MA': 'Massachusetts', 'MI': 'Michigan', 'MN': 'Minnesota', 'MS': 'Mississippi', 'MO': 'Missouri',
+                    'MT': 'Montana', 'NE': 'Nebraska', 'NV': 'Nevada', 'NH': 'New Hampshire', 'NJ': 'New Jersey',
+                    'NM': 'New Mexico', 'NY': 'New York', 'NC': 'North Carolina', 'ND': 'North Dakota', 'OH': 'Ohio',
+                    'OK': 'Oklahoma', 'OR': 'Oregon', 'PA': 'Pennsylvania', 'RI': 'Rhode Island', 'SC': 'South Carolina',
+                    'SD': 'South Dakota', 'TN': 'Tennessee', 'TX': 'Texas', 'UT': 'Utah', 'VT': 'Vermont',
+                    'VA': 'Virginia', 'WA': 'Washington', 'WV': 'West Virginia', 'WI': 'Wisconsin', 'WY': 'Wyoming',
+                    'DC': 'District of Columbia', 'PR': 'Puerto Rico', 'GU': 'Guam', 'VI': 'Virgin Islands',
+                    'AS': 'American Samoa', 'MP': 'Northern Mariana Islands', 'XX': 'Unknown'
+                }
+                
                 # Extract state-level regional data
                 for state_code, state_info in cms_data['states'].items():
                     regional_data.append({
-                        'region': state_info['state_name'],
+                        'region': state_names.get(state_code, state_code),
                         'prescriptions': state_info['total_prescriptions'],
                         'cost': state_info['total_cost'],
                         'prescribers': state_info['total_prescribers']
                     })
                 
-                # Use top drugs from first state (they're consistent across states)
-                first_state = list(cms_data['states'].values())[0]
-                if 'top_drugs' in first_state:
-                    for drug in first_state['top_drugs'][:10]:
-                        # Sum across all states for national totals
-                        national_rx = sum(
-                            s['top_drugs'][i]['prescriptions'] 
-                            for s in cms_data['states'].values() 
-                            if i < len(s['top_drugs'])
-                            for i, _ in enumerate([drug])
-                        )
-                        national_cost = sum(
-                            s['top_drugs'][i]['cost'] 
-                            for s in cms_data['states'].values() 
-                            if i < len(s['top_drugs'])
-                            for i, _ in enumerate([drug])
-                        )
-                        
-                        top_drugs.append({
-                            'name': drug['name'],
-                            'prescriptions': drug['prescriptions'],  # Use from first state for now
-                            'cost': drug['cost']
+                # Load top drugs by aggregating across all drug cache files
+                # Each drug has its own cache file with national totals
+                cache_dir = os.path.join(os.path.dirname(__file__), 'cache')
+                drug_files = [f for f in os.listdir(cache_dir) if f.startswith('us_') and f.endswith('_data.json') and f != 'us_state_data.json']
+                
+                drug_totals = []
+                for drug_file in drug_files:
+                    try:
+                        with open(os.path.join(cache_dir, drug_file), 'r') as f:
+                            drug_data = json.load(f)
+                        drug_totals.append({
+                            'name': drug_data['drug_name'],
+                            'prescriptions': drug_data['national_total']['total_prescriptions'],
+                            'cost': drug_data['national_total']['total_cost']
                         })
+                    except Exception as e:
+                        print(f"Error loading {drug_file}: {e}")
+                        continue
+                
+                # Sort by prescriptions and take top 10
+                drug_totals.sort(key=lambda x: x['prescriptions'], reverse=True)
+                top_drugs = drug_totals[:10]
                 
                 # Generate quarterly trend data (Medicare reports quarterly)
                 from datetime import datetime, timedelta
