@@ -646,19 +646,13 @@ body {
         const { useState, useEffect, useRef } = React;
 
         // ============================================
-        // BUILD INFO
+        // BUILD INFO (Updated at deployment)
         // ============================================
         const BUILD_INFO = {
-            timestamp: new Date().toISOString(),
-            date: new Date().toLocaleString('en-GB', { 
-                day: '2-digit', 
-                month: 'short', 
-                year: 'numeric', 
-                hour: '2-digit', 
-                minute: '2-digit',
-                timeZone: 'Europe/London'
-            }),
-            version: '2.1.0' // Major.Minor.Patch
+            version: '2.1.1',
+            commit: '7488b68',
+            deployed: '06 Feb 2026, 09:41 GMT',
+            timestamp: '2026-02-06T09:41:52Z'
         };
 
         // ============================================
@@ -1931,16 +1925,21 @@ Return ONLY valid JSON with no markdown formatting or code fences.`;
                     <div className="version-footer">
                         <div className="version-details">
                             <div className="version-item">
-                                <span className="version-label">Version:</span>
-                                <span>{BUILD_INFO.version}</span>
+                                <span className="version-label">v{BUILD_INFO.version}</span>
+                            </div>
+                            <div className="version-item">
+                                <span>•</span>
                             </div>
                             <div className="version-item">
                                 <span className="version-label">Deployed:</span>
-                                <span>{BUILD_INFO.date} GMT</span>
+                                <span>{BUILD_INFO.deployed}</span>
+                            </div>
+                            <div className="version-item">
+                                <span>•</span>
                             </div>
                             <div className="version-item">
                                 <span className="version-label">Build:</span>
-                                <span>{BUILD_INFO.timestamp.substring(0, 19).replace('T', ' ')}</span>
+                                <span>{BUILD_INFO.commit}</span>
                             </div>
                         </div>
                     </div>
