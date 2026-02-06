@@ -317,6 +317,7 @@ export default function CountryDetail() {
               title=""
               granularity={granularity}
               onGranularityChange={setGranularity}
+              currency={countryInfo.currency}
             />
           )}
 

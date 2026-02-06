@@ -26,6 +26,7 @@ interface GeographicHeatMapProps {
   drug?: string
   granularity?: 'region' | 'local-authority'
   onGranularityChange?: (granularity: 'region' | 'local-authority') => void
+  currency?: string
 }
 
 interface PracticeData {
@@ -173,7 +174,8 @@ export default function GeographicHeatMap({
   countryCode = 'uk',
   drug = 'atorvastatin',
   granularity = 'region',
-  onGranularityChange
+  onGranularityChange,
+  currency = '£'
 }: GeographicHeatMapProps) {
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null)
   const [currentMetric, setCurrentMetric] = useState(metric)
@@ -461,59 +463,80 @@ export default function GeographicHeatMap({
   
   // Interaction handlers
   const onEachFeature = (feature: any, layer: L.Layer) => {
-    const regionData = getRegionDataForFeature(feature)
+    // Create tooltip once but we'll update its content dynamically
+    const tooltip = L.tooltip({ sticky: true })
+    layer.bindTooltip(tooltip)
     
-    if (regionData) {
-      layer.on({
-        mouseover: (e: L.LeafletMouseEvent) => {
-          const layer = e.target
-          layer.setStyle({
-            weight: 3,
-            fillOpacity: 0.9
-          })
-        },
-        mouseout: (e: L.LeafletMouseEvent) => {
-          const layer = e.target
-          layer.setStyle({
-            weight: 2,
-            fillOpacity: 0.7
-          })
-        },
-        click: () => {
+    layer.on({
+      mouseover: (e: L.LeafletMouseEvent) => {
+        const layer = e.target
+        layer.setStyle({
+          weight: 3,
+          fillOpacity: 0.9
+        })
+        
+        // Update tooltip content dynamically on hover
+        const regionData = getRegionDataForFeature(feature)
+        if (regionData) {
+          const value = currentMetric === 'prescriptions' ? regionData.prescriptions :
+                        currentMetric === 'cost' ? regionData.cost :
+                        currentMetric === 'prescribers' ? regionData.prescribers :
+                        regionData.growth || 0
+          
+          const formattedValue = currentMetric === 'cost' ? 
+            `${currency}${(value / 1000000).toFixed(1)}M` :
+            currentMetric === 'growth' ?
+            `${value.toFixed(1)}%` :
+            value.toLocaleString()
+          
           // Use local_authority for LA granularity, region for region granularity
+          const displayName = regionData.local_authority || regionData.region
+          
+          tooltip.setContent(`<strong>${displayName}</strong><br/>${formattedValue}`)
+        }
+      },
+      mouseout: (e: L.LeafletMouseEvent) => {
+        const layer = e.target
+        layer.setStyle({
+          weight: 2,
+          fillOpacity: 0.7
+        })
+      },
+      click: () => {
+        // Get fresh region data and update selected region
+        const regionData = getRegionDataForFeature(feature)
+        if (regionData) {
           const selectedName = regionData.local_authority || regionData.region
+          console.log('Clicked region:', selectedName, regionData)
           setSelectedRegion(selectedName)
         }
-      })
-      
-      // Tooltip
-      const value = currentMetric === 'prescriptions' ? regionData.prescriptions :
-                    currentMetric === 'cost' ? regionData.cost :
-                    currentMetric === 'prescribers' ? regionData.prescribers :
-                    regionData.growth || 0
-      
-      const formattedValue = currentMetric === 'cost' ? 
-        `$${(value / 1000000).toFixed(1)}M` :
-        currentMetric === 'growth' ?
-        `${value.toFixed(1)}%` :
-        value.toLocaleString()
-      
-      // Use local_authority for LA granularity, region for region granularity
-      const displayName = regionData.local_authority || regionData.region
-      
-      layer.bindTooltip(
-        `<strong>${displayName}</strong><br/>${formattedValue}`,
-        { sticky: true }
-      )
-    }
+      }
+    })
   }
   
+  // Find selected region data with robust matching
   const selectedData = selectedRegion 
-    ? data.find(d => d.region === selectedRegion || d.local_authority === selectedRegion) 
+    ? data.find(d => {
+        const regionMatch = d.region && d.region.trim() === selectedRegion.trim()
+        const laMatch = d.local_authority && d.local_authority.trim() === selectedRegion.trim()
+        const match = regionMatch || laMatch
+        if (match) {
+          console.log('Selected data found:', d)
+        }
+        return match
+      })
     : null
   
+  // Debug: Log when selection changes but no data found
+  React.useEffect(() => {
+    if (selectedRegion && !selectedData) {
+      console.warn('Selected region has no matching data:', selectedRegion)
+      console.log('Available regions:', data.map(d => d.local_authority || d.region))
+    }
+  }, [selectedRegion, selectedData, data])
+  
   const formatValue = (value: number, type: string) => {
-    if (type === 'cost') return `$${(value / 1000000).toFixed(1)}M`
+    if (type === 'cost') return `${currency}${(value / 1000000).toFixed(1)}M`
     if (type === 'growth') return `${value.toFixed(1)}%`
     return value.toLocaleString()
   }
@@ -755,7 +778,7 @@ export default function GeographicHeatMap({
                   <div className="flex justify-between items-center pb-3 border-b border-gray-200">
                     <span className="text-sm text-gray-600">Market Value</span>
                     <span className="text-lg font-bold text-gray-900">
-                      ${(selectedData.cost / 1000000).toFixed(2)}M
+                      {currency}{(selectedData.cost / 1000000).toFixed(2)}M
                     </span>
                   </div>
                   
