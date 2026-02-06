@@ -6,10 +6,12 @@ import PriceComparison from './pages/PriceComparison'
 import Dashboard from './pages/Dashboard'
 import Search from './pages/Search'
 import Header from './components/Header'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-1">

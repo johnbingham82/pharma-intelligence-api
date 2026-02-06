@@ -26,7 +26,7 @@ export default function Header() {
                   8 Countries
                 </span>
               </h1>
-              <p className="text-xs text-gray-500">Real Data from UK • US • Australia</p>
+              <p className="text-xs text-gray-500">5 Real Data Sources • 3 Framework Ready</p>
             </div>
           </Link>
           

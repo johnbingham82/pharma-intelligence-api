@@ -8,6 +8,7 @@ from datetime import datetime
 from typing import Optional
 import sys
 import os
+import json
 
 # Add parent directory to path to import engine
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
@@ -354,6 +355,8 @@ async def get_country_detail(country_code: str):
     - Monthly trends (where available)
     - Top prescribed drugs
     - Market metadata
+    
+    Data is served from pre-aggregated cache files (updated periodically)
     """
     country = country_code.upper()
     
@@ -364,6 +367,130 @@ async def get_country_detail(country_code: str):
                 status_code=404,
                 detail=f"Country '{country}' not supported"
             )
+        
+        # Try to load from cache first
+        cache_path = os.path.join(os.path.dirname(__file__), 'cache', f'{country.lower()}_country_data.json')
+        
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, 'r') as f:
+                    cached_data = json.load(f)
+                
+                # Extract data from cache
+                regional_data = cached_data.get('regions', [])
+                monthly_data = cached_data.get('monthly_data')
+                top_drugs = cached_data.get('top_drugs', [])
+                
+                print(f"✓ Loaded {country} data from cache (updated: {cached_data.get('last_updated')})")
+                
+                # Country metadata
+                country_info = {
+                    'UK': {
+                        'name': 'United Kingdom',
+                        'population': '67M',
+                        'market_value': '£20B',
+                        'has_real_data': True,
+                        'data_source': cached_data.get('metadata', {}).get('source', 'NHS OpenPrescribing'),
+                        'update_frequency': cached_data.get('metadata', {}).get('update_frequency', 'Daily'),
+                        'currency': 'GBP'
+                    },
+                    'US': {
+                        'name': 'United States',
+                        'population': '335M',
+                        'market_value': '$370B',
+                        'has_real_data': True,
+                        'data_source': cached_data.get('metadata', {}).get('source', 'CMS Medicare Part D'),
+                        'update_frequency': cached_data.get('metadata', {}).get('update_frequency', 'Quarterly'),
+                        'currency': 'USD'
+                    },
+                    'AU': {
+                        'name': 'Australia',
+                        'population': '26M',
+                        'market_value': 'A$16B',
+                        'has_real_data': True,
+                        'data_source': cached_data.get('metadata', {}).get('source', 'PBS - AIHW Monthly Data'),
+                        'update_frequency': cached_data.get('metadata', {}).get('update_frequency', 'Monthly'),
+                        'currency': 'AUD'
+                    },
+                    'FR': {
+                        'name': 'France',
+                        'population': '67M',
+                        'market_value': '€28.5B',
+                        'has_real_data': True,
+                        'data_source': cached_data.get('metadata', {}).get('source', 'Open Medic / SNDS'),
+                        'update_frequency': cached_data.get('metadata', {}).get('update_frequency', 'Annual'),
+                        'currency': 'EUR'
+                    },
+                    'JP': {
+                        'name': 'Japan',
+                        'population': '125M',
+                        'market_value': '¥9.4T',
+                        'has_real_data': True,
+                        'data_source': cached_data.get('metadata', {}).get('source', 'NDB Open Data'),
+                        'update_frequency': cached_data.get('metadata', {}).get('update_frequency', 'Annual'),
+                        'currency': 'JPY'
+                    },
+                    'DE': {
+                        'name': 'Germany',
+                        'population': '83M',
+                        'market_value': '€48B',
+                        'has_real_data': False,
+                        'data_source': 'Framework (GKV Reports planned)',
+                        'update_frequency': 'Annual',
+                        'currency': 'EUR'
+                    },
+                    'IT': {
+                        'name': 'Italy',
+                        'population': '60M',
+                        'market_value': '€30B',
+                        'has_real_data': False,
+                        'data_source': 'Framework (AIFA Open Data planned)',
+                        'update_frequency': 'Annual',
+                        'currency': 'EUR'
+                    },
+                    'ES': {
+                        'name': 'Spain',
+                        'population': '47M',
+                        'market_value': '€23B',
+                        'has_real_data': False,
+                        'data_source': 'Framework (BIFAP planned)',
+                        'update_frequency': 'Annual',
+                        'currency': 'EUR'
+                    },
+                    'NL': {
+                        'name': 'Netherlands',
+                        'population': '17.5M',
+                        'market_value': '€6.5B',
+                        'has_real_data': False,
+                        'data_source': 'Framework (GIP Databank planned)',
+                        'update_frequency': 'Annual',
+                        'currency': 'EUR'
+                    }
+                }
+                
+                info = country_info.get(country, {})
+                
+                return {
+                    'code': country,
+                    'name': info.get('name', country),
+                    'population': info.get('population', 'Unknown'),
+                    'market_value': info.get('market_value', 'Unknown'),
+                    'has_real_data': info.get('has_real_data', False),
+                    'data_source': info.get('data_source'),
+                    'update_frequency': info.get('update_frequency'),
+                    'currency': info.get('currency', 'USD'),
+                    'regions': regional_data,
+                    'monthly_data': monthly_data if monthly_data else None,
+                    'top_drugs': top_drugs if top_drugs else None,
+                    'cache_updated': cached_data.get('last_updated')
+                }
+                
+            except Exception as e:
+                print(f"⚠️  Error reading cache for {country}: {e}")
+                # Fall through to generation code below
+        
+        # FALLBACK: Generate data (for countries without cache)
+        print(f"⚠️  No cache found for {country}, generating fallback data...")
         
         # Initialize data containers
         regional_data = []
@@ -455,38 +582,7 @@ async def get_country_detail(country_code: str):
                         })
         
         elif country == 'UK':
-            # UK - Generate sample regional data (NHS regions)
-            regions = [
-                'NHS England North East and Yorkshire',
-                'NHS England North West',
-                'NHS England Midlands',
-                'NHS England East of England',
-                'NHS England London',
-                'NHS England South East',
-                'NHS England South West'
-            ]
-            import random
-            for region in regions:
-                prescriptions = random.randint(100000, 500000)
-                regional_data.append({
-                    'region': region,
-                    'prescriptions': prescriptions,
-                    'cost': prescriptions * random.uniform(8, 25),
-                    'prescribers': int(prescriptions / 150)
-                })
-            
-            # Monthly trend data
-            from datetime import datetime, timedelta
-            base_date = datetime(2024, 7, 1)
-            for i in range(12):
-                month_date = base_date + timedelta(days=30*i)
-                monthly_data.append({
-                    'month': month_date.strftime('%Y-%m'),
-                    'prescriptions': random.randint(1800000, 2500000),
-                    'cost': random.randint(40000000, 60000000)
-                })
-            
-            # Top drugs - get from common drugs database
+            # UK - First get top drugs to calculate total
             country_key = 'UK'
             top_drug_keys = ['atorvastatin', 'metformin', 'amlodipine', 'omeprazole', 'simvastatin', 'ramipril', 'levothyroxine', 'salbutamol', 'lansoprazole', 'paracetamol']
             for drug_key in top_drug_keys[:10]:
@@ -498,37 +594,50 @@ async def get_country_detail(country_code: str):
                         'prescriptions': volumes['prescriptions'],
                         'cost': volumes['cost']
                     })
+            
+            # Calculate total from top drugs
+            total_drug_prescriptions = sum(d['prescriptions'] for d in top_drugs)
+            total_drug_cost = sum(d['cost'] for d in top_drugs)
+            
+            # Generate regional data proportional to total
+            regions = [
+                'NHS England North East and Yorkshire',
+                'NHS England North West',
+                'NHS England Midlands',
+                'NHS England East of England',
+                'NHS England London',
+                'NHS England South East',
+                'NHS England South West'
+            ]
+            
+            # Realistic regional distribution percentages (based on population)
+            region_weights = [11.5, 14.8, 18.2, 12.1, 15.3, 18.5, 9.6]  # % of total
+            
+            for region, weight in zip(regions, region_weights):
+                prescriptions = int(total_drug_prescriptions * weight / 100)
+                cost = int(total_drug_cost * weight / 100)
+                regional_data.append({
+                    'region': region,
+                    'prescriptions': prescriptions,
+                    'cost': cost,
+                    'prescribers': int(prescriptions / 150)
+                })
+            
+            # Monthly trend data
+            from datetime import datetime, timedelta
+            base_date = datetime(2024, 7, 1)
+            for i in range(12):
+                month_date = base_date + timedelta(days=30*i)
+                # Use total as baseline with some variation
+                import random
+                monthly_data.append({
+                    'month': month_date.strftime('%Y-%m'),
+                    'prescriptions': int(total_drug_prescriptions * random.uniform(0.95, 1.05)),
+                    'cost': int(total_drug_cost * random.uniform(0.95, 1.05))
+                })
         
         elif country == 'US':
-            # US - State-level data
-            states = [
-                ('California', 'CA'), ('Texas', 'TX'), ('Florida', 'FL'),
-                ('New York', 'NY'), ('Pennsylvania', 'PA'), ('Illinois', 'IL'),
-                ('Ohio', 'OH'), ('Georgia', 'GA'), ('North Carolina', 'NC'),
-                ('Michigan', 'MI')
-            ]
-            import random
-            for state_name, state_code in states:
-                prescriptions = random.randint(200000, 800000)
-                regional_data.append({
-                    'region': state_name,
-                    'prescriptions': prescriptions,
-                    'cost': prescriptions * random.uniform(50, 150),
-                    'prescribers': int(prescriptions / 200)
-                })
-            
-            # Monthly trend data (quarterly updates for Medicare)
-            from datetime import datetime, timedelta
-            base_date = datetime(2024, 1, 1)
-            for i in range(4):  # 4 quarters
-                quarter_date = base_date + timedelta(days=90*i)
-                monthly_data.append({
-                    'month': quarter_date.strftime('%Y-Q') + str(i+1),
-                    'prescriptions': random.randint(18000000, 25000000),
-                    'cost': random.randint(1800000000, 2500000000)
-                })
-            
-            # Top drugs - get from common drugs database
+            # US - First get top drugs to calculate total
             country_key = 'US'
             top_drug_keys = ['lisinopril', 'metformin', 'atorvastatin', 'levothyroxine', 'amlodipine', 'omeprazole', 'simvastatin', 'salbutamol', 'losartan', 'sertraline']
             for drug_key in top_drug_keys[:10]:
@@ -540,34 +649,46 @@ async def get_country_detail(country_code: str):
                         'prescriptions': volumes['prescriptions'],
                         'cost': volumes['cost']
                     })
+            
+            # Calculate total from top drugs
+            total_drug_prescriptions = sum(d['prescriptions'] for d in top_drugs)
+            total_drug_cost = sum(d['cost'] for d in top_drugs)
+            
+            # State-level data proportional to population
+            states = [
+                ('California', 'CA'), ('Texas', 'TX'), ('Florida', 'FL'),
+                ('New York', 'NY'), ('Pennsylvania', 'PA'), ('Illinois', 'IL'),
+                ('Ohio', 'OH'), ('Georgia', 'GA'), ('North Carolina', 'NC'),
+                ('Michigan', 'MI')
+            ]
+            
+            # State weights based on population (top 10 states)
+            state_weights = [11.9, 8.9, 6.6, 5.9, 3.9, 3.8, 3.5, 3.2, 3.2, 3.0]  # % of US population
+            
+            for (state_name, state_code), weight in zip(states, state_weights):
+                prescriptions = int(total_drug_prescriptions * weight / 100)
+                cost = int(total_drug_cost * weight / 100)
+                regional_data.append({
+                    'region': state_name,
+                    'prescriptions': prescriptions,
+                    'cost': cost,
+                    'prescribers': int(prescriptions / 200)
+                })
+            
+            # Monthly trend data (quarterly updates for Medicare)
+            from datetime import datetime, timedelta
+            base_date = datetime(2024, 1, 1)
+            import random
+            for i in range(4):  # 4 quarters
+                quarter_date = base_date + timedelta(days=90*i)
+                monthly_data.append({
+                    'month': quarter_date.strftime('%Y-Q') + str(i+1),
+                    'prescriptions': int(total_drug_prescriptions * random.uniform(0.95, 1.05)),
+                    'cost': int(total_drug_cost * random.uniform(0.95, 1.05))
+                })
         
         else:
-            # EU countries - Generate sample regional data
-            region_count = {'FR': 13, 'DE': 16, 'IT': 20, 'ES': 17, 'NL': 12}
-            num_regions = region_count.get(country, 10)
-            import random
-            
-            for i in range(num_regions):
-                prescriptions = random.randint(30000, 150000)
-                regional_data.append({
-                    'region': f'Region {i+1}',
-                    'prescriptions': prescriptions,
-                    'cost': prescriptions * random.uniform(20, 60),
-                    'prescribers': int(prescriptions / 100)
-                })
-            
-            # Monthly trend data
-            from datetime import datetime, timedelta
-            base_date = datetime(2024, 7, 1)
-            for i in range(12):
-                month_date = base_date + timedelta(days=30*i)
-                monthly_data.append({
-                    'month': month_date.strftime('%Y-%m'),
-                    'prescriptions': random.randint(800000, 1500000),
-                    'cost': random.randint(15000000, 30000000)
-                })
-            
-            # Top drugs - get from common drugs database
+            # EU countries - First get top drugs
             country_map = {'FR': 'FR', 'DE': 'DE', 'IT': 'IT', 'ES': 'ES', 'NL': 'NL'}
             country_key = country_map.get(country, 'FR')
             top_drug_keys = ['metformin', 'atorvastatin', 'amlodipine', 'omeprazole', 'simvastatin', 'ramipril', 'levothyroxine', 'salbutamol', 'lansoprazole', 'rosuvastatin']
@@ -580,6 +701,41 @@ async def get_country_detail(country_code: str):
                         'prescriptions': volumes['prescriptions'],
                         'cost': volumes['cost']
                     })
+            
+            # Calculate total from top drugs
+            total_drug_prescriptions = sum(d['prescriptions'] for d in top_drugs)
+            total_drug_cost = sum(d['cost'] for d in top_drugs)
+            
+            # Generate regional data proportional to total
+            region_count = {'FR': 13, 'DE': 16, 'IT': 20, 'ES': 17, 'NL': 12}
+            num_regions = region_count.get(country, 10)
+            import random
+            
+            # Generate random weights that sum to 100
+            weights = [random.uniform(1, 10) for _ in range(num_regions)]
+            total_weight = sum(weights)
+            weights = [w / total_weight * 100 for w in weights]
+            
+            for i, weight in enumerate(weights):
+                prescriptions = int(total_drug_prescriptions * weight / 100)
+                cost = int(total_drug_cost * weight / 100)
+                regional_data.append({
+                    'region': f'Region {i+1}',
+                    'prescriptions': prescriptions,
+                    'cost': cost,
+                    'prescribers': int(prescriptions / 100)
+                })
+            
+            # Monthly trend data
+            from datetime import datetime, timedelta
+            base_date = datetime(2024, 7, 1)
+            for i in range(12):
+                month_date = base_date + timedelta(days=30*i)
+                monthly_data.append({
+                    'month': month_date.strftime('%Y-%m'),
+                    'prescriptions': int(total_drug_prescriptions * random.uniform(0.95, 1.05)),
+                    'cost': int(total_drug_cost * random.uniform(0.95, 1.05))
+                })
         
         # Country metadata
         country_info = {
